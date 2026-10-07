@@ -1,0 +1,2667 @@
+[
+  {
+    "id": "dee77c40-1c93-55ce-aa05-a52b2c9940cb",
+    "level": "n4",
+    "code": "g101",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 1,
+    "curriculum_code": "g101",
+    "pattern": "〜で",
+    "reading": "de",
+    "formula": "N(place)+で+V",
+    "note": "Marks where an action is done. Do not confuse with に for destination, existence, or fixed verb partner.",
+    "example": "図書館で勉強します。",
+    "difficulty": "easy",
+    "meaning_en": "At/in ~; place where an action happens",
+    "meaning_id": "Di ~; tempat terjadinya aksi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "997afb45-0e8e-5df9-8904-f469ae6e4785",
+    "level": "n4",
+    "code": "g102",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 2,
+    "curriculum_code": "g102",
+    "pattern": "〜に勤める",
+    "reading": "ni tsutomeru",
+    "formula": "N(company/place)+に勤める",
+    "note": "Use に with 勤める. More formal and employment-focused than 働く.",
+    "example": "父は銀行に勤めています。",
+    "difficulty": "easy",
+    "meaning_en": "Work at/for ~",
+    "meaning_id": "Bekerja di/untuk ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7ef8d6cb-4026-5952-b3d9-4c0386fae433",
+    "level": "n4",
+    "code": "g103",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 3,
+    "curriculum_code": "g103",
+    "pattern": "〜から",
+    "reading": "kara",
+    "formula": "N+から+作る",
+    "note": "Used when the original material is transformed and not visually obvious.",
+    "example": "ワインはぶどうから作ります。",
+    "difficulty": "easy",
+    "meaning_en": "Made from ~; source material",
+    "meaning_id": "Terbuat dari ~; bahan asal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c5599061-5008-5472-95a1-cbf028ccd396",
+    "level": "n4",
+    "code": "g104",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 4,
+    "curriculum_code": "g104",
+    "pattern": "〜に",
+    "reading": "ni",
+    "formula": "Time span+に+number/counter",
+    "note": "一日に二回 means “twice a day.”",
+    "example": "一日に二回、歯をみがきます。",
+    "difficulty": "easy",
+    "meaning_en": "Per ~; frequency within a time span",
+    "meaning_id": "Per ~; frekuensi dalam rentang waktu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "43ecea71-1512-59ea-b60a-428887d92ff6",
+    "level": "n4",
+    "code": "g105",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 5,
+    "curriculum_code": "g105",
+    "pattern": "〜も",
+    "reading": "mo",
+    "formula": "N/quantity+も",
+    "note": "Emphasizes an extreme, surprising, or large amount.",
+    "example": "ビールを三本も飲みました。",
+    "difficulty": "easy",
+    "meaning_en": "Even ~; as many/much as ~",
+    "meaning_id": "Bahkan ~; sebanyak ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ae6b3074-f475-5dae-b345-3d99a2afc005",
+    "level": "n4",
+    "code": "g106",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 6,
+    "curriculum_code": "g106",
+    "pattern": "〜ずつ",
+    "reading": "zutsu",
+    "formula": "Counter+ずつ",
+    "note": "Shows equal distribution or repeated equal amount.",
+    "example": "一人に二つずつ配ります。",
+    "difficulty": "easy",
+    "meaning_en": "Each; at a time; by equal amount",
+    "meaning_id": "Masing-masing; tiap kali; jumlah yang sama",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "61692fd8-dbfa-52ad-9e91-958aa9e6022e",
+    "level": "n4",
+    "code": "g107",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 7,
+    "curriculum_code": "g107",
+    "pattern": "〜ほど〜ない",
+    "reading": "hodo~nai",
+    "formula": "N1はN2ほど+Adj(neg)",
+    "note": "Requires a negative ending. Often implies N2 is more ~ than N1.",
+    "example": "日本はインドネシアほど暑くないです。",
+    "difficulty": "medium",
+    "meaning_en": "Not as ~ as ~",
+    "meaning_id": "Tidak se~ seperti ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c2820231-7b61-5eff-bb80-282cbb5a9b1c",
+    "level": "n4",
+    "code": "g108",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 8,
+    "curriculum_code": "g108",
+    "pattern": "〜では・〜には・〜からも",
+    "reading": "de wa / ni wa / kara mo",
+    "formula": "Particle+は／も",
+    "note": "は adds contrast. も adds “also/even” after another particle.",
+    "example": "ここではたばこを吸わないでください。",
+    "difficulty": "medium",
+    "meaning_en": "Particle + は/も for contrast or emphasis",
+    "meaning_id": "Partikel + は/も untuk kontras atau penekanan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4d70e0ba-cd75-5b05-a27f-29c2dd8d6fae",
+    "level": "n4",
+    "code": "g109",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 9,
+    "curriculum_code": "g109",
+    "pattern": "名詞修飾",
+    "reading": "meishi shuushoku",
+    "formula": "Modifier+N",
+    "note": "Put the full description before the noun.",
+    "example": "姉にもらったバッグを使っています。",
+    "difficulty": "medium",
+    "meaning_en": "Noun modification; describe a noun before it",
+    "meaning_id": "Modifikasi kata benda; penjelas sebelum nomina",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "62cacc53-dbf2-58be-b062-13e1527271c2",
+    "level": "n4",
+    "code": "g110",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 1,
+    "curriculum_code": "g110",
+    "pattern": "〜でも",
+    "reading": "demo",
+    "formula": "N+でも",
+    "note": "Can mark an extreme example or give a soft suggestion/example.",
+    "example": "お茶でも飲みませんか。",
+    "difficulty": "easy",
+    "meaning_en": "Even ~; something like ~; example",
+    "meaning_id": "Bahkan ~; seperti ~; contoh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d1a6a21a-7fce-51dd-b240-ff2dc742ec1b",
+    "level": "n4",
+    "code": "g111",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 2,
+    "curriculum_code": "g111",
+    "pattern": "〜で",
+    "reading": "de",
+    "formula": "N+で",
+    "note": "Covers tool, means, range, reason, or material depending on context.",
+    "example": "はしで食べます。",
+    "difficulty": "medium",
+    "meaning_en": "By/with/in ~; method, range, reason, material",
+    "meaning_id": "Dengan/di/karena/dari ~; cara, cakupan, alasan, bahan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "1d024815-23bb-5fb7-995d-d2d84865fdc2",
+    "level": "n4",
+    "code": "g112",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 3,
+    "curriculum_code": "g112",
+    "pattern": "〜も",
+    "reading": "mo",
+    "formula": "Quantity/time+も",
+    "note": "Shows something feels many, much, or long.",
+    "example": "三時間も待ちました。",
+    "difficulty": "easy",
+    "meaning_en": "As much/many as ~; emphasizes large amount",
+    "meaning_id": "Sampai/sebanyak ~; menekankan jumlah besar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5123215c-58f3-5c69-b8b5-94ccb0b0a1a1",
+    "level": "n4",
+    "code": "g113",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 4,
+    "curriculum_code": "g113",
+    "pattern": "〜も〜ない",
+    "reading": "mo~nai",
+    "formula": "Counter+も+V(neg)",
+    "note": "In negative sentences, shows zero or scarcity.",
+    "example": "一つもありません。",
+    "difficulty": "medium",
+    "meaning_en": "Not even one; not at all",
+    "meaning_id": "Satu pun tidak; sama sekali tidak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e521b642-21db-5cb7-b20c-4d0fa9d48775",
+    "level": "n4",
+    "code": "g114",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 5,
+    "curriculum_code": "g114",
+    "pattern": "〜とか〜とか",
+    "reading": "toka~toka",
+    "formula": "N1とかN2とか",
+    "note": "Casual listing of examples. Similar to や, but more conversational.",
+    "example": "週末は掃除とか洗濯とかをします。",
+    "difficulty": "easy",
+    "meaning_en": "Things like ~ and ~; examples",
+    "meaning_id": "Seperti ~ dan ~; memberi contoh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eae24ca2-210f-594a-b19a-f055ebeeeba1",
+    "level": "n4",
+    "code": "g115",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 6,
+    "curriculum_code": "g115",
+    "pattern": "〜しか〜ない",
+    "reading": "shika~nai",
+    "formula": "N+しか+V(neg)",
+    "note": "Must be used with a negative predicate. Often sounds limited or insufficient.",
+    "example": "漢字は少ししか書けません。",
+    "difficulty": "medium",
+    "meaning_en": "Only; nothing but ~",
+    "meaning_id": "Hanya; tidak ada selain ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "a99f53b7-7f20-56a4-995f-3d31dc1e8823",
+    "level": "n4",
+    "code": "g116",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 1,
+    "curriculum_code": "g116",
+    "pattern": "〜まで",
+    "reading": "made",
+    "formula": "N/V(dict)+まで",
+    "note": "Shows the action or state continues until that point.",
+    "example": "5時まで勉強します。",
+    "difficulty": "easy",
+    "meaning_en": "Until ~",
+    "meaning_id": "Sampai ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c608a17a-86a8-5269-a330-0190a3456f30",
+    "level": "n4",
+    "code": "g117",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 2,
+    "curriculum_code": "g117",
+    "pattern": "〜までに",
+    "reading": "made ni",
+    "formula": "N/V(dict)+までに",
+    "note": "Deadline marker. Do not confuse with まで = until.",
+    "example": "9時までに来てください。",
+    "difficulty": "easy",
+    "meaning_en": "By ~; before a deadline",
+    "meaning_id": "Paling lambat ~; sebelum tenggat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "690c7d53-6f30-55ed-8322-fddb89bf6a03",
+    "level": "n4",
+    "code": "g118",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 3,
+    "curriculum_code": "g118",
+    "pattern": "〜たり〜たりする",
+    "reading": "tari~tari suru",
+    "formula": "V(た)+り+V(た)+りする",
+    "note": "Lists example actions or repeated alternating actions.",
+    "example": "休みの日は買い物に行ったり映画を見たりします。",
+    "difficulty": "easy",
+    "meaning_en": "Do things such as ~ and ~",
+    "meaning_id": "Melakukan hal seperti ~ dan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "575a2340-76a1-59fd-b595-1c0ca8bef757",
+    "level": "n4",
+    "code": "g119",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 4,
+    "curriculum_code": "g119",
+    "pattern": "〜し〜し",
+    "reading": "shi~shi",
+    "formula": "Clause+し+Clause+し",
+    "note": "Often lists multiple reasons, qualities, or repeated things.",
+    "example": "この店は安いし、おいしいです。",
+    "difficulty": "medium",
+    "meaning_en": "And; what’s more; listing reasons or qualities",
+    "meaning_id": "Dan juga; selain itu; menyebutkan alasan/sifat",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "cb09dd22-f6ec-5d08-b21b-0d74670d0284",
+    "level": "n4",
+    "code": "g120",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 5,
+    "curriculum_code": "g120",
+    "pattern": "〜ばかり",
+    "reading": "bakari",
+    "formula": "N+ばかり / V(て)+ばかりいる",
+    "note": "Often has a negative nuance when it means doing only one thing too much.",
+    "example": "甘いものばかり食べています。",
+    "difficulty": "medium",
+    "meaning_en": "Only; nothing but; a lot of ~",
+    "meaning_id": "Hanya; melulu; banyak sekali ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f8353c05-4d15-5212-9b0c-5d943c62d4c8",
+    "level": "n4",
+    "code": "g121",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 1,
+    "curriculum_code": "g121",
+    "pattern": "〜ところ",
+    "reading": "tokoro",
+    "formula": "V(dict)+ところ",
+    "note": "The action is just about to start.",
+    "example": "今から出かけるところです。",
+    "difficulty": "medium",
+    "meaning_en": "About to do ~",
+    "meaning_id": "Baru akan melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ce4b7f6a-41bd-58ad-b877-01dd817d7261",
+    "level": "n4",
+    "code": "g122",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 2,
+    "curriculum_code": "g122",
+    "pattern": "〜ているところ",
+    "reading": "te iru tokoro",
+    "formula": "V(ている)+ところ",
+    "note": "The action is happening right now.",
+    "example": "今、勉強しているところです。",
+    "difficulty": "easy",
+    "meaning_en": "In the middle of doing ~",
+    "meaning_id": "Sedang melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "b47b5fbe-3f4e-54ab-93be-87826b13ca90",
+    "level": "n4",
+    "code": "g123",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 3,
+    "curriculum_code": "g123",
+    "pattern": "〜たところ",
+    "reading": "ta tokoro",
+    "formula": "V(た)+ところ",
+    "note": "The action has just ended.",
+    "example": "今、昼ご飯を食べたところです。",
+    "difficulty": "medium",
+    "meaning_en": "Just finished doing ~",
+    "meaning_id": "Baru saja selesai melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "e8f28599-545f-5683-966e-977096e68f07",
+    "level": "n4",
+    "code": "g124",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 4,
+    "curriculum_code": "g124",
+    "pattern": "〜間に",
+    "reading": "aida ni",
+    "formula": "N+の間に / V(ている)+間に",
+    "note": "Something happens during that time period.",
+    "example": "留守の間に、友達が来ました。",
+    "difficulty": "medium",
+    "meaning_en": "While; during the time that ~",
+    "meaning_id": "Selama; ketika ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "466cc55c-c76c-5d07-8b37-a5a2efa55425",
+    "level": "n4",
+    "code": "g125",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 5,
+    "curriculum_code": "g125",
+    "pattern": "〜とき（に）",
+    "reading": "toki ni",
+    "formula": "V(dict/た)+とき（に）",
+    "note": "Vるとき often means before/during. Vたとき often means after.",
+    "example": "子どものとき、よく川で泳ぎました。",
+    "difficulty": "easy",
+    "meaning_en": "When ~; at the time of ~",
+    "meaning_id": "Ketika ~; saat ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c01c3da9-df16-5a5b-82c6-8637160aa991",
+    "level": "n4",
+    "code": "g126",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 6,
+    "curriculum_code": "g126",
+    "pattern": "〜中",
+    "reading": "chuu",
+    "formula": "N+中",
+    "note": "Often read ちゅう. Watch fixed readings like 午前中 and 今日中.",
+    "example": "会議中です。",
+    "difficulty": "easy",
+    "meaning_en": "In the middle of ~; during ~",
+    "meaning_id": "Sedang ~; selama ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c82e90aa-9b57-51ce-ae3b-d481fc0a7002",
+    "level": "n4",
+    "code": "g127",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 1,
+    "curriculum_code": "g127",
+    "pattern": "〜て・〜で（原因）",
+    "reading": "te / de",
+    "formula": "V(て) / Adj(くて) / N+で",
+    "note": "Used for natural cause/result. Avoid before requests, commands, or wishes.",
+    "example": "かぜをひいて、学校を休みました。",
+    "difficulty": "medium",
+    "meaning_en": "Because of ~; cause or reason",
+    "meaning_id": "Karena ~; sebab atau alasan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "026d18fc-2b89-5eab-a4c3-e7e41a4ce0cb",
+    "level": "n4",
+    "code": "g128",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 2,
+    "curriculum_code": "g128",
+    "pattern": "〜て・〜ないで（方法）",
+    "reading": "te / naide",
+    "formula": "V(て) / V(ないで)",
+    "note": "Shows condition, method, manner, or procedure.",
+    "example": "辞書を使って調べました。",
+    "difficulty": "medium",
+    "meaning_en": "By doing ~; without doing ~",
+    "meaning_id": "Dengan melakukan ~; tanpa melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "c655a041-45ca-57be-a5b0-b94f2fab0296",
+    "level": "n4",
+    "code": "g129",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 3,
+    "curriculum_code": "g129",
+    "pattern": "〜まま",
+    "reading": "mama",
+    "formula": "V(た)+まま / N+のまま",
+    "note": "The original state remains unchanged.",
+    "example": "窓を開けたまま寝ました。",
+    "difficulty": "medium",
+    "meaning_en": "While still ~; leaving a state unchanged",
+    "meaning_id": "Tetap dalam keadaan ~; keadaan tidak berubah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7e55480f-56b5-5f03-a214-01edf5fbc2e0",
+    "level": "n4",
+    "code": "g130",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 4,
+    "curriculum_code": "g130",
+    "pattern": "〜ながら",
+    "reading": "nagara",
+    "formula": "V(stem)+ながら",
+    "note": "Usually the same subject does both actions at the same time.",
+    "example": "音楽を聞きながら勉強しています。",
+    "difficulty": "easy",
+    "meaning_en": "While doing ~",
+    "meaning_id": "Sambil melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "4dffd1d1-d5ec-5d7a-96bc-61c96489e746",
+    "level": "n4",
+    "code": "g131",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 1,
+    "curriculum_code": "g131",
+    "pattern": "〜たことがある・ない",
+    "reading": "ta koto ga aru / nai",
+    "formula": "V(た)+ことがある／ない",
+    "note": "Expresses past experience, not a recent completed action.",
+    "example": "富士山に登ったことがあります。",
+    "difficulty": "easy",
+    "meaning_en": "Have / have never done ~",
+    "meaning_id": "Pernah / tidak pernah melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eef8ca6e-fe85-5e3b-85da-372e82e8176f",
+    "level": "n4",
+    "code": "g132",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 2,
+    "curriculum_code": "g132",
+    "pattern": "〜ことがある",
+    "reading": "koto ga aru",
+    "formula": "V(dict/nai)+ことがある",
+    "note": "Different from Vたことがある. This means “sometimes.”",
+    "example": "休みの日に料理することがあります。",
+    "difficulty": "medium",
+    "meaning_en": "Sometimes ~ happens; occasionally do ~",
+    "meaning_id": "Kadang-kadang ~ terjadi; kadang melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4a1ad44e-2ffb-533b-9c5e-cdcdd427141f",
+    "level": "n4",
+    "code": "g133",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 3,
+    "curriculum_code": "g133",
+    "pattern": "〜にする",
+    "reading": "ni suru",
+    "formula": "N+にする",
+    "note": "Used when choosing from options, such as food, drinks, or plans.",
+    "example": "コーヒーにします。",
+    "difficulty": "easy",
+    "meaning_en": "Decide on ~; choose ~",
+    "meaning_id": "Memilih ~; memutuskan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8aa9b9b6-6b0f-5e88-a371-b1305da58be1",
+    "level": "n4",
+    "code": "g134",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 4,
+    "curriculum_code": "g134",
+    "pattern": "〜ことにする",
+    "reading": "koto ni suru",
+    "formula": "V(dict/nai)+ことにする",
+    "note": "The speaker or subject decides intentionally.",
+    "example": "毎日勉強することにしました。",
+    "difficulty": "medium",
+    "meaning_en": "Decide to do / not do ~",
+    "meaning_id": "Memutuskan untuk melakukan / tidak melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "929a518f-ba85-56d9-8384-8f1656ce878b",
+    "level": "n4",
+    "code": "g135",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 5,
+    "curriculum_code": "g135",
+    "pattern": "〜ことにしている",
+    "reading": "koto ni shite iru",
+    "formula": "V(dict/nai)+ことにしている",
+    "note": "Shows a personal habit, rule, or routine.",
+    "example": "夜は甘いものを食べないことにしています。",
+    "difficulty": "medium",
+    "meaning_en": "Make it a habit/rule to ~",
+    "meaning_id": "Membiasakan / membuat aturan pribadi untuk ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "40af48ae-938f-5972-9801-f8f861c39fbd",
+    "level": "n4",
+    "code": "g136",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 6,
+    "curriculum_code": "g136",
+    "pattern": "〜になる",
+    "reading": "ni naru",
+    "formula": "N+になる",
+    "note": "Shows change or result decided naturally/by situation.",
+    "example": "来年、中学生になります。",
+    "difficulty": "easy",
+    "meaning_en": "Become ~; be decided as ~",
+    "meaning_id": "Menjadi ~; diputuskan menjadi ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "59bf825b-658f-5a58-8d1c-21a74be8fed1",
+    "level": "n4",
+    "code": "g137",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 7,
+    "curriculum_code": "g137",
+    "pattern": "〜ことになる",
+    "reading": "koto ni naru",
+    "formula": "V(dict/nai)+ことになる",
+    "note": "The decision is made by others, rules, or circumstances.",
+    "example": "学校で来月、動物園へ行くことになりました。",
+    "difficulty": "medium",
+    "meaning_en": "It has been decided that ~",
+    "meaning_id": "Diputuskan bahwa ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "386c5136-2b44-5f3d-a902-c73e472c337f",
+    "level": "n4",
+    "code": "g138",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 8,
+    "curriculum_code": "g138",
+    "pattern": "〜くする・〜にする",
+    "reading": "ku suru / ni suru",
+    "formula": "いAdj-くする / なAdj+にする",
+    "note": "する shows intentional change by someone.",
+    "example": "部屋を明るくしました。",
+    "difficulty": "medium",
+    "meaning_en": "Make something ~",
+    "meaning_id": "Membuat sesuatu menjadi ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "11948a5e-8b44-5535-89b6-101022712247",
+    "level": "n4",
+    "code": "g139",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 9,
+    "curriculum_code": "g139",
+    "pattern": "〜くなる・〜になる",
+    "reading": "ku naru / ni naru",
+    "formula": "いAdj-くなる / なAdj+になる",
+    "note": "なる shows natural change or resulting state.",
+    "example": "日本語が上手になりました。",
+    "difficulty": "easy",
+    "meaning_en": "Become ~",
+    "meaning_id": "Menjadi ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "feb1bbb0-ac68-56f0-8f96-bb5ae8994c61",
+    "level": "n4",
+    "code": "g201",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 1,
+    "curriculum_code": "g201",
+    "pattern": "〜なければならない",
+    "reading": "nakereba naranai",
+    "formula": "Vない-stem+なければならない",
+    "note": "Formal/common obligation. Used when something must be done.",
+    "example": "明日は早く起きなければなりません。",
+    "difficulty": "medium",
+    "meaning_en": "Must; have to",
+    "meaning_id": "Harus; wajib",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9c7c632a-2632-5beb-9b88-7d89e588bbdf",
+    "level": "n4",
+    "code": "g202",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 2,
+    "curriculum_code": "g202",
+    "pattern": "〜なくてはいけない",
+    "reading": "nakute wa ikenai",
+    "formula": "Vない+なくてはいけない",
+    "note": "Common spoken obligation. Similar to 〜なければならない.",
+    "example": "今週は日曜日も会社に行かなくてはいけません。",
+    "difficulty": "medium",
+    "meaning_en": "Must; have to",
+    "meaning_id": "Harus; wajib",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "514631eb-4da7-54a5-99f6-ca53104f38e5",
+    "level": "n4",
+    "code": "g203",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 3,
+    "curriculum_code": "g203",
+    "pattern": "〜ないといけない",
+    "reading": "nai to ikenai",
+    "formula": "Vない+といけない",
+    "note": "Conversational obligation. Often used in daily speech.",
+    "example": "食後に薬を飲まないといけません。",
+    "difficulty": "easy",
+    "meaning_en": "Must; have to",
+    "meaning_id": "Harus; wajib",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "62e94226-375f-56ed-91fb-3c2648b2f5ae",
+    "level": "n4",
+    "code": "g204",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 4,
+    "curriculum_code": "g204",
+    "pattern": "〜なきゃ・〜なくちゃ・〜ないと",
+    "reading": "nakya / nakucha / nai to",
+    "formula": "Vない-stem+なきゃ／なくちゃ / Vない+と",
+    "note": "Casual forms. いけない is often omitted.",
+    "example": "洗濯しなきゃ。",
+    "difficulty": "easy",
+    "meaning_en": "Casual “must” expressions",
+    "meaning_id": "Bentuk kasual “harus”",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e2b3a0e4-dbc6-5f0a-8d58-e60b092f91b9",
+    "level": "n4",
+    "code": "g205",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 5,
+    "curriculum_code": "g205",
+    "pattern": "〜てもいい",
+    "reading": "te mo ii",
+    "formula": "Vて+もいい",
+    "note": "Used to ask for or give permission.",
+    "example": "これ、捨ててもいいですか。",
+    "difficulty": "easy",
+    "meaning_en": "May; it is okay to do ~",
+    "meaning_id": "Boleh melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0effd092-162f-5998-a12a-985e24725666",
+    "level": "n4",
+    "code": "g206",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 6,
+    "curriculum_code": "g206",
+    "pattern": "〜なくてもいい",
+    "reading": "nakute mo ii",
+    "formula": "Vない+なくてもいい",
+    "note": "Means an action is not necessary.",
+    "example": "明日、来なくてもいいです。",
+    "difficulty": "easy",
+    "meaning_en": "Do not have to ~",
+    "meaning_id": "Tidak perlu melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "80dcf869-5766-5a72-a140-944e57396cf3",
+    "level": "n4",
+    "code": "g207",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 7,
+    "curriculum_code": "g207",
+    "pattern": "〜てはいけない",
+    "reading": "te wa ikenai",
+    "formula": "Vて+はいけない",
+    "note": "Prohibition. Used for rules and warnings.",
+    "example": "テストのとき、ペンを使ってはいけません。",
+    "difficulty": "easy",
+    "meaning_en": "Must not; should not",
+    "meaning_id": "Tidak boleh; jangan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "01ada4de-69e7-52b2-8258-309870c86acc",
+    "level": "n4",
+    "code": "g208",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 8,
+    "curriculum_code": "g208",
+    "pattern": "〜といい・〜たらいい・〜ばいい",
+    "reading": "to ii / tara ii / ba ii",
+    "formula": "V辞書形+といい / Vたら+いい / Vば+いい",
+    "note": "Used for advice, suggestion, or hope.",
+    "example": "頭が痛いとき、この薬を飲むといいです。",
+    "difficulty": "medium",
+    "meaning_en": "It is good to; should; hope ~",
+    "meaning_id": "Sebaiknya ~; bagus kalau ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "dedbe18a-d303-554e-a5f2-fe113c79407f",
+    "level": "n4",
+    "code": "g209",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 1,
+    "curriculum_code": "g209",
+    "pattern": "〜ておく",
+    "reading": "te oku",
+    "formula": "Vて+おく",
+    "note": "Used for preparation or keeping a state. Casual form: 〜とく／〜どく.",
+    "example": "お客さんが来る前に、そうじしておきます。",
+    "difficulty": "easy",
+    "meaning_en": "Do in advance; leave as is",
+    "meaning_id": "Melakukan sebagai persiapan; membiarkan tetap begitu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "fd89a200-30f8-5ae9-9897-a9d81d00be8a",
+    "level": "n4",
+    "code": "g210",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 2,
+    "curriculum_code": "g210",
+    "pattern": "〜てしまう",
+    "reading": "te shimau",
+    "formula": "Vて+しまう",
+    "note": "Shows completion, regret, accident, or unexpected result. Casual form: 〜ちゃう／〜じゃう.",
+    "example": "電車の中にかさを忘れてしまいました。",
+    "difficulty": "medium",
+    "meaning_en": "Finish completely; unfortunately do ~",
+    "meaning_id": "Selesai sepenuhnya; terlanjur / tidak sengaja ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "6b29875d-fc92-5751-8533-726909716b0f",
+    "level": "n4",
+    "code": "g211",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 3,
+    "curriculum_code": "g211",
+    "pattern": "〜てみる",
+    "reading": "te miru",
+    "formula": "Vて+みる",
+    "note": "Used when trying an action to see the result or experience it.",
+    "example": "これ、おいしいですよ。食べてみてください。",
+    "difficulty": "easy",
+    "meaning_en": "Try doing ~",
+    "meaning_id": "Mencoba melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "5176697d-8a25-5722-b065-d3b0e3e70d7e",
+    "level": "n4",
+    "code": "g212",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 1,
+    "curriculum_code": "g212",
+    "pattern": "〜をあげる・〜をくれる・〜をもらう",
+    "reading": "wo ageru / kureru / morau",
+    "formula": "Nをあげる／くれる／もらう",
+    "note": "あげる moves away from speaker side. くれる moves toward speaker side. もらう focuses on receiving.",
+    "example": "田中さんが私にセーターをくれました。",
+    "difficulty": "easy",
+    "meaning_en": "Give / receive things",
+    "meaning_id": "Memberi / menerima barang",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "40931699-e4bb-5e0f-9369-717be89980df",
+    "level": "n4",
+    "code": "g213",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 2,
+    "curriculum_code": "g213",
+    "pattern": "〜てあげる",
+    "reading": "te ageru",
+    "formula": "Vて+あげる",
+    "note": "The speaker or subject does a helpful action for another person.",
+    "example": "友だちの引っこしを手伝ってあげました。",
+    "difficulty": "medium",
+    "meaning_en": "Do something for someone",
+    "meaning_id": "Melakukan sesuatu untuk orang lain",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "9478a4e7-2ab4-56bb-823a-c59d6a890208",
+    "level": "n4",
+    "code": "g214",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 3,
+    "curriculum_code": "g214",
+    "pattern": "〜てくれる",
+    "reading": "te kureru",
+    "formula": "Vて+くれる",
+    "note": "Shows that someone does an action for the speaker’s side. Often shows gratitude.",
+    "example": "田中さんは私に地図をかいてくれました。",
+    "difficulty": "medium",
+    "meaning_en": "Someone does something for me/us",
+    "meaning_id": "Seseorang melakukan sesuatu untuk saya/kita",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "9d4c7c8f-c598-53e6-b7ee-1e539ad26118",
+    "level": "n4",
+    "code": "g215",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 4,
+    "curriculum_code": "g215",
+    "pattern": "〜てもらう",
+    "reading": "te morau",
+    "formula": "Vて+もらう",
+    "note": "Focuses on receiving help or benefit from another person.",
+    "example": "田中さんに地図をかいてもらいました。",
+    "difficulty": "medium",
+    "meaning_en": "Have/get someone to do ~",
+    "meaning_id": "Mendapat bantuan / meminta seseorang melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d604492e-6dcf-50b5-86cb-103d3e1d3c68",
+    "level": "n4",
+    "code": "g216",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 5,
+    "curriculum_code": "g216",
+    "pattern": "〜さしあげる・〜くださる・〜いただく",
+    "reading": "sashiageru / kudasaru / itadaku",
+    "formula": "Nをさしあげる／くださる／いただく",
+    "note": "Polite giving-receiving verbs used with seniors or outside people.",
+    "example": "先生が本をくださいました。",
+    "difficulty": "hard",
+    "meaning_en": "Polite giving and receiving verbs",
+    "meaning_id": "Kata kerja sopan untuk memberi dan menerima",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "beceaa26-bf34-5b1a-8d0e-57bd0e50d9d1",
+    "level": "n4",
+    "code": "g217",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 6,
+    "curriculum_code": "g217",
+    "pattern": "〜てさしあげる・〜てくださる・〜ていただく",
+    "reading": "te sashiageru / te kudasaru / te itadaku",
+    "formula": "Vて+さしあげる／くださる／いただく",
+    "note": "Polite version of 〜てあげる／〜てくれる／〜てもらう.",
+    "example": "先生に地図をかいていただきました。",
+    "difficulty": "hard",
+    "meaning_en": "Polite action giving and receiving",
+    "meaning_id": "Bentuk sopan untuk memberi/menerima bantuan tindakan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "171bb8ed-b7b1-5e9c-85f0-e0eeef4d9713",
+    "level": "n4",
+    "code": "g218",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 1,
+    "curriculum_code": "g218",
+    "pattern": "〜ために",
+    "reading": "tame ni",
+    "formula": "V辞書形+ために / N+のために",
+    "note": "Used with intentional actions and clear goals.",
+    "example": "会議に出席するために、東京へ行きました。",
+    "difficulty": "medium",
+    "meaning_en": "In order to; for the purpose of ~",
+    "meaning_id": "Untuk; demi tujuan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ea1dc406-3a1d-5338-8f7f-4fd2d5d3e9f5",
+    "level": "n4",
+    "code": "g219",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 2,
+    "curriculum_code": "g219",
+    "pattern": "〜ため（に）",
+    "reading": "tame ni",
+    "formula": "V普通形+ために / N+のために",
+    "note": "Cause/reason usage. Often more formal than から or ので.",
+    "example": "台風のため、飛行機が遅れました。",
+    "difficulty": "medium",
+    "meaning_en": "Because of; due to ~",
+    "meaning_id": "Karena; disebabkan oleh ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "e1f99c4c-f47e-5ba8-b63a-d91cc0bae5f5",
+    "level": "n4",
+    "code": "g220",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 3,
+    "curriculum_code": "g220",
+    "pattern": "〜ように",
+    "reading": "you ni",
+    "formula": "V辞書形 / Vない / V可能形 + ように",
+    "note": "Used for a target state, ability, or prevention.",
+    "example": "習ったことを忘れないように、復習しましょう。",
+    "difficulty": "medium",
+    "meaning_en": "So that; in order that ~",
+    "meaning_id": "Agar; supaya ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "79d2148d-0423-5798-a79b-c8496f087688",
+    "level": "n4",
+    "code": "g221",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 4,
+    "curriculum_code": "g221",
+    "pattern": "〜ようになる",
+    "reading": "you ni naru",
+    "formula": "V辞書形 / Vない / V可能形 + ようになる",
+    "note": "Shows change into a new ability, habit, or state.",
+    "example": "日本語が上手に話せるようになりたいです。",
+    "difficulty": "medium",
+    "meaning_en": "Become able to; come to ~",
+    "meaning_id": "Menjadi bisa; mulai menjadi ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3a704da9-f4d3-5dc7-a6dc-0447cb4716f6",
+    "level": "n4",
+    "code": "g222",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 5,
+    "curriculum_code": "g222",
+    "pattern": "〜ようにする",
+    "reading": "you ni suru",
+    "formula": "V辞書形 / Vない + ようにする",
+    "note": "Shows conscious effort, personal rule, or habit.",
+    "example": "毎食後、歯をみがくようにしています。",
+    "difficulty": "medium",
+    "meaning_en": "Make sure to; try to ~",
+    "meaning_id": "Berusaha agar; membiasakan untuk ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3068d7ef-795b-5588-80c1-6ca59b283b54",
+    "level": "n4",
+    "code": "g223",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 6,
+    "curriculum_code": "g223",
+    "pattern": "〜ように言う",
+    "reading": "you ni iu",
+    "formula": "V辞書形 / Vない + ように言う",
+    "note": "Indirect command or instruction.",
+    "example": "父にお酒を飲まないように言っています。",
+    "difficulty": "medium",
+    "meaning_en": "Tell someone to do ~",
+    "meaning_id": "Menyuruh / mengatakan agar seseorang ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "fd81bc5c-7e72-5592-af49-14a8f8edea3b",
+    "level": "n4",
+    "code": "g224",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 7,
+    "curriculum_code": "g224",
+    "pattern": "〜ように言われる",
+    "reading": "you ni iwareru",
+    "formula": "V辞書形 / Vない + ように言われる",
+    "note": "Passive form of being instructed or told.",
+    "example": "母から今日は早く帰るように言われました。",
+    "difficulty": "medium",
+    "meaning_en": "Be told to do ~",
+    "meaning_id": "Diberitahu / disuruh untuk ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "6d60cce1-ad15-576f-8fff-ca931e7b89ff",
+    "level": "n4",
+    "code": "g225",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 1,
+    "curriculum_code": "g225",
+    "pattern": "こんな・そんな・あんな・どんな + N",
+    "reading": "konna / sonna / anna / donna",
+    "formula": "こんな／そんな／あんな／どんな+N",
+    "note": "Used before nouns. Shows type or kind.",
+    "example": "私もこんな家に住みたいです。",
+    "difficulty": "easy",
+    "meaning_en": "This/that/what kind of ~",
+    "meaning_id": "~ seperti ini/itu/apa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "17ebce79-eec1-51ad-98fc-f9e426230c3d",
+    "level": "n4",
+    "code": "g226",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 2,
+    "curriculum_code": "g226",
+    "pattern": "こんなに・そんなに・あんなに・どんなに",
+    "reading": "konna ni / sonna ni / anna ni / donna ni",
+    "formula": "こんなに／そんなに／あんなに／どんなに+Adj/V",
+    "note": "Used before adjectives or verbs to show degree.",
+    "example": "そんなにむずかしかったんですか。",
+    "difficulty": "easy",
+    "meaning_en": "This/that/how much; this/that/how ~",
+    "meaning_id": "Sebegini/sebegitu/seberapa ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1ab59e07-f21c-5b34-9c4b-9f3adff6d155",
+    "level": "n4",
+    "code": "g227",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 3,
+    "curriculum_code": "g227",
+    "pattern": "こう・そう・ああ・どう",
+    "reading": "kou / sou / aa / dou",
+    "formula": "こう／そう／ああ／どう+V",
+    "note": "Used with actions, ways, methods, or manner.",
+    "example": "これは漢字でこう書きます。",
+    "difficulty": "easy",
+    "meaning_en": "Like this; like that; how",
+    "meaning_id": "Begini; begitu; bagaimana",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6dcf1784-0570-536f-a018-b3e89ceafeb8",
+    "level": "n4",
+    "code": "g228",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 4,
+    "curriculum_code": "g228",
+    "pattern": "〜というN・〜っていうN",
+    "reading": "to iu N / tte iu N",
+    "formula": "Phrase+というN / っていうN",
+    "note": "Used to name, quote, or identify something. っていう is more casual.",
+    "example": "目黒というところに住んでいます。",
+    "difficulty": "medium",
+    "meaning_en": "Called ~; named ~",
+    "meaning_id": "Yang disebut ~; bernama ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "396822ac-b6fd-510e-92bc-a588624ff646",
+    "level": "n4",
+    "code": "g229",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 5,
+    "curriculum_code": "g229",
+    "pattern": "どういうN",
+    "reading": "dou iu N",
+    "formula": "どういう+N",
+    "note": "Used to ask type, meaning, or explanation.",
+    "example": "それはどういう意味ですか。",
+    "difficulty": "easy",
+    "meaning_en": "What kind of ~; what meaning ~",
+    "meaning_id": "Jenis apa; arti apa",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "98804437-80bd-5845-bb4c-10797a516a0b",
+    "level": "n4",
+    "code": "g230",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 1,
+    "curriculum_code": "g230",
+    "pattern": "〜たほうがいい",
+    "reading": "ta hou ga ii",
+    "formula": "Vた+ほうがいい",
+    "note": "Advice. Stronger and more direct than 〜といい.",
+    "example": "わからないところは先生に聞いたほうがいいです。",
+    "difficulty": "easy",
+    "meaning_en": "It is better to do ~; should do ~",
+    "meaning_id": "Sebaiknya melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3ae947a4-1d4b-5a12-bd5b-371dc27d265f",
+    "level": "n4",
+    "code": "g231",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 2,
+    "curriculum_code": "g231",
+    "pattern": "〜ないほうがいい",
+    "reading": "nai hou ga ii",
+    "formula": "Vない+ほうがいい",
+    "note": "Advice against doing something.",
+    "example": "その川では泳がないほうがいいでしょう。",
+    "difficulty": "easy",
+    "meaning_en": "It is better not to do ~",
+    "meaning_id": "Sebaiknya tidak melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "8df90f2b-e2ff-547a-93fa-cb3800bd3843",
+    "level": "n4",
+    "code": "g232",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 3,
+    "curriculum_code": "g232",
+    "pattern": "命令形",
+    "reading": "meireikei",
+    "formula": "V imperative form",
+    "note": "Strong command. Used in direct orders, signs, cheers, or quoted speech.",
+    "example": "時間がないから、早くしろ。",
+    "difficulty": "hard",
+    "meaning_en": "Imperative command form",
+    "meaning_id": "Bentuk perintah langsung",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "69f0e488-3004-5e0b-95eb-cf5a1bb39a5b",
+    "level": "n4",
+    "code": "g233",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 4,
+    "curriculum_code": "g233",
+    "pattern": "禁止形・〜るな",
+    "reading": "kinshikei / ru na",
+    "formula": "V辞書形+な",
+    "note": "Strong “don’t do ~.” Used in warnings, orders, signs, and quoted speech.",
+    "example": "スピードを出すな。",
+    "difficulty": "medium",
+    "meaning_en": "Prohibitive form; do not ~",
+    "meaning_id": "Bentuk larangan; jangan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "c1abde35-47fe-55d9-98de-0f8b4895b739",
+    "level": "n4",
+    "code": "g234",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 5,
+    "curriculum_code": "g234",
+    "pattern": "〜なさい",
+    "reading": "nasai",
+    "formula": "Vます-stem+なさい",
+    "note": "Often used by parents or teachers toward children/students. Softer than 命令形 but still firm.",
+    "example": "早く起きなさい。",
+    "difficulty": "medium",
+    "meaning_en": "Do ~; firm instruction",
+    "meaning_id": "Lakukan ~; perintah sopan/tegas",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "356b7533-ee22-5964-b8be-57cb3f064dca",
+    "level": "n4",
+    "code": "g301",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 1,
+    "curriculum_code": "g301",
+    "pattern": "〜かどうか",
+    "reading": "ka dou ka",
+    "formula": "Plain clause + かどうか",
+    "note": "Used for yes/no embedded questions.",
+    "example": "明日テストがあるかどうか、聞いてみます。",
+    "difficulty": "medium",
+    "meaning_en": "Whether ~ or not",
+    "meaning_id": "Apakah ~ atau tidak",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "1e0bdc8a-ac83-5ccc-9323-b9872e56b7e6",
+    "level": "n4",
+    "code": "g302",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 2,
+    "curriculum_code": "g302",
+    "pattern": "疑問詞〜か",
+    "reading": "question word + ka",
+    "formula": "疑問詞 + plain clause + か",
+    "note": "Used when a question becomes part of a sentence.",
+    "example": "田中さんがどこに住んでいるか知っていますか。",
+    "difficulty": "medium",
+    "meaning_en": "Embedded question with who, where, what, etc.",
+    "meaning_id": "Pertanyaan tidak langsung dengan siapa, di mana, apa, dll.",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "37f4906f-7e45-5ef5-aa8a-a8f0658a1cc7",
+    "level": "n4",
+    "code": "g303",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 3,
+    "curriculum_code": "g303",
+    "pattern": "〜の（名詞化）",
+    "reading": "no",
+    "formula": "Plain clause + の",
+    "note": "Turns a sentence into a noun phrase. Often used with は, が, を.",
+    "example": "漢字を覚えるのは大変です。",
+    "difficulty": "medium",
+    "meaning_en": "Nominalizer; the act or fact of ~",
+    "meaning_id": "Nominalisasi; hal melakukan / fakta bahwa ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "fd39fa62-df43-5a60-9d76-bb70bcae3de1",
+    "level": "n4",
+    "code": "g304",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 4,
+    "curriculum_code": "g304",
+    "pattern": "〜のに（用途・目的）",
+    "reading": "no ni",
+    "formula": "V辞書形 + のに",
+    "note": "Shows use, purpose, cost, or time needed for doing something.",
+    "example": "このペンは漢字を書くのに便利です。",
+    "difficulty": "medium",
+    "meaning_en": "For; useful for; in order to do ~",
+    "meaning_id": "Untuk; berguna untuk melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "8c54157c-b6ba-5abc-a5c3-55fc6ef8b493",
+    "level": "n4",
+    "code": "g305",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 1,
+    "curriculum_code": "g305",
+    "pattern": "可能形",
+    "reading": "kanoukei",
+    "formula": "V potential form",
+    "note": "Shows ability or possibility. Object often uses が.",
+    "example": "私は日本語が少し話せます。",
+    "difficulty": "hard",
+    "meaning_en": "Potential form; can do ~",
+    "meaning_id": "Bentuk potensial; bisa melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "71922c17-77ac-5853-8d30-32562fcec911",
+    "level": "n4",
+    "code": "g306",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 2,
+    "curriculum_code": "g306",
+    "pattern": "聞こえる・聞ける",
+    "reading": "kikoeru / kikeru",
+    "formula": "Nが聞こえる / Nを聞ける",
+    "note": "聞こえる is natural sound reaching you. 聞ける is ability or opportunity to listen.",
+    "example": "隣の部屋から音が聞こえます。",
+    "difficulty": "medium",
+    "meaning_en": "Be audible / be able to listen",
+    "meaning_id": "Terdengar / bisa mendengar atau mendengarkan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3415db73-7e02-5b08-a538-f7a82eccf9d2",
+    "level": "n4",
+    "code": "g307",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 3,
+    "curriculum_code": "g307",
+    "pattern": "見える・見られる",
+    "reading": "mieru / mirareru",
+    "formula": "Nが見える / Nを見られる",
+    "note": "見える is naturally visible. 見られる is ability or opportunity to see.",
+    "example": "ここから海が見えます。",
+    "difficulty": "medium",
+    "meaning_en": "Be visible / be able to see",
+    "meaning_id": "Terlihat / bisa melihat atau menonton",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "5c81f602-0ef8-52df-b75d-1aff1bdbe76a",
+    "level": "n4",
+    "code": "g308",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 4,
+    "curriculum_code": "g308",
+    "pattern": "〜のが見える・〜のが聞こえる",
+    "reading": "no ga mieru / kikoeru",
+    "formula": "Vている + のが見える／聞こえる",
+    "note": "Describes natural perception of an action or event.",
+    "example": "公園で子どもが遊んでいるのが見えます。",
+    "difficulty": "hard",
+    "meaning_en": "Can see/hear that ~ is happening",
+    "meaning_id": "Terlihat/terdengar bahwa sesuatu sedang terjadi",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3ee38f8d-2d27-54a3-a9d5-987e2729889e",
+    "level": "n4",
+    "code": "g309",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 5,
+    "curriculum_code": "g309",
+    "pattern": "〜のを見る・〜のを聞く",
+    "reading": "no o miru / kiku",
+    "formula": "Vている + のを見る／聞く",
+    "note": "Used when the speaker intentionally watches or listens.",
+    "example": "鳥が飛んでいるのを見ました。",
+    "difficulty": "medium",
+    "meaning_en": "See/hear someone doing ~ intentionally",
+    "meaning_id": "Melihat/mendengar seseorang melakukan ~ dengan sengaja",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d1d58a97-3c20-5ee5-9267-56820c17a186",
+    "level": "n4",
+    "code": "g310",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 1,
+    "curriculum_code": "g310",
+    "pattern": "〜ので",
+    "reading": "node",
+    "formula": "V/いAdj plain + ので / N・なAdj + なので",
+    "note": "Softer and more polite than から. Gives a reason.",
+    "example": "雨が降っているので、出かけません。",
+    "difficulty": "easy",
+    "meaning_en": "Because; since",
+    "meaning_id": "Karena; sebab",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "81641afd-8801-5a29-997e-17c45f1bfb6e",
+    "level": "n4",
+    "code": "g311",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 2,
+    "curriculum_code": "g311",
+    "pattern": "〜のに（逆接）",
+    "reading": "no ni",
+    "formula": "Plain clause + のに / N・なAdj + なのに",
+    "note": "Shows surprise, regret, or disappointment.",
+    "example": "たくさん勉強したのに、忘れました。",
+    "difficulty": "medium",
+    "meaning_en": "Even though; despite; and yet",
+    "meaning_id": "Padahal; meskipun begitu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "c449607a-9c1e-5574-a564-d8c0be7b1deb",
+    "level": "n4",
+    "code": "g312",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 3,
+    "curriculum_code": "g312",
+    "pattern": "〜ても・〜でも",
+    "reading": "te mo / de mo",
+    "formula": "Vて + も / いAdjくても / N・なAdjでも",
+    "note": "The result stays the same despite the condition.",
+    "example": "雨でも行きます。",
+    "difficulty": "easy",
+    "meaning_en": "Even if; even though",
+    "meaning_id": "Meskipun; walaupun",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "36c27a78-4242-5c50-9703-d6869a7450f9",
+    "level": "n4",
+    "code": "g313",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 4,
+    "curriculum_code": "g313",
+    "pattern": "疑問詞〜ても・〜でも",
+    "reading": "question word + te mo / de mo",
+    "formula": "疑問詞 + Vても／Adjても／Nでも",
+    "note": "Expresses “no matter who/what/when/how.”",
+    "example": "いつ行っても、この店は込んでいます。",
+    "difficulty": "medium",
+    "meaning_en": "No matter ~",
+    "meaning_id": "Bagaimanapun; kapan pun; siapa pun",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "a805f04a-4147-56c8-be86-1e15a9575aae",
+    "level": "n4",
+    "code": "g314",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 1,
+    "curriculum_code": "g314",
+    "pattern": "それに・そのうえ",
+    "reading": "sore ni / sono ue",
+    "formula": "Sentence A。それに／そのうえ + Sentence B",
+    "note": "Adds another similar point. そのうえ sounds a little more formal.",
+    "example": "この店は安いです。それに、おいしいです。",
+    "difficulty": "easy",
+    "meaning_en": "What’s more; moreover",
+    "meaning_id": "Selain itu; terlebih lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9753dcc8-906f-58a6-8f47-22370dbc4707",
+    "level": "n4",
+    "code": "g315",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 2,
+    "curriculum_code": "g315",
+    "pattern": "それで・だから",
+    "reading": "sore de / dakara",
+    "formula": "Reason。 それで／だから + result",
+    "note": "Connects reason and result. だから is more direct.",
+    "example": "電車で事故がありました。それで、遅れました。",
+    "difficulty": "easy",
+    "meaning_en": "Therefore; that’s why",
+    "meaning_id": "Karena itu; jadi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5c31d814-1848-5dd3-a788-0fca8ddfeb13",
+    "level": "n4",
+    "code": "g316",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 3,
+    "curriculum_code": "g316",
+    "pattern": "ところが",
+    "reading": "tokoro ga",
+    "formula": "Expectation。ところが + unexpected result",
+    "note": "Used when the result is different from expectation.",
+    "example": "昨日は試験の日でした。ところが、病気で受けられませんでした。",
+    "difficulty": "medium",
+    "meaning_en": "However; unexpectedly",
+    "meaning_id": "Namun; ternyata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a84b75b0-57fb-5231-85df-16ecf5276ca9",
+    "level": "n4",
+    "code": "g317",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 4,
+    "curriculum_code": "g317",
+    "pattern": "〜さ",
+    "reading": "sa",
+    "formula": "いAdj stem + さ / なAdj + さ",
+    "note": "Turns an adjective into a noun showing degree or measurement.",
+    "example": "あの山の高さを知っていますか。",
+    "difficulty": "medium",
+    "meaning_en": "-ness; degree of quality",
+    "meaning_id": "Tingkat / ukuran sifat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b9486dc4-da33-5bdc-81b1-a2f1da100243",
+    "level": "n4",
+    "code": "g318",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 5,
+    "curriculum_code": "g318",
+    "pattern": "V方",
+    "reading": "V-kata",
+    "formula": "Vます-stem + 方",
+    "note": "Makes a noun meaning “how to do V.”",
+    "example": "この漢字の読み方を教えてください。",
+    "difficulty": "easy",
+    "meaning_en": "Way of doing ~; how to ~",
+    "meaning_id": "Cara melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2b3709f1-8daa-5a42-be5e-0886f9d62513",
+    "level": "n4",
+    "code": "g319",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 1,
+    "curriculum_code": "g319",
+    "pattern": "〜てくれませんか",
+    "reading": "te kuremasen ka",
+    "formula": "Vて + くれませんか",
+    "note": "Polite request, but still fairly direct.",
+    "example": "ちょっと手伝ってくれませんか。",
+    "difficulty": "easy",
+    "meaning_en": "Could you do ~ for me?",
+    "meaning_id": "Bisakah melakukan ~ untuk saya?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "379b8732-ac55-50c6-8ff6-953f747eae4b",
+    "level": "n4",
+    "code": "g320",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 2,
+    "curriculum_code": "g320",
+    "pattern": "〜てもらえませんか",
+    "reading": "te moraemasen ka",
+    "formula": "Vて + もらえませんか",
+    "note": "Softer request focusing on receiving help.",
+    "example": "静かにしてもらえませんか。",
+    "difficulty": "medium",
+    "meaning_en": "Could I get you to do ~?",
+    "meaning_id": "Bisakah saya meminta Anda melakukan ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "434c56eb-8f50-516a-b380-2648037f0ff5",
+    "level": "n4",
+    "code": "g321",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 3,
+    "curriculum_code": "g321",
+    "pattern": "〜てくださいませんか",
+    "reading": "te kudasaimasen ka",
+    "formula": "Vて + くださいませんか",
+    "note": "More polite than 〜てくれませんか.",
+    "example": "もう一度言ってくださいませんか。",
+    "difficulty": "medium",
+    "meaning_en": "Would you please do ~?",
+    "meaning_id": "Bisakah Anda melakukan ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "9619de5a-d0d3-50ce-9668-dcc7b2c24300",
+    "level": "n4",
+    "code": "g322",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 4,
+    "curriculum_code": "g322",
+    "pattern": "〜ていただけませんか",
+    "reading": "te itadakemasen ka",
+    "formula": "Vて + いただけませんか",
+    "note": "Very polite request. Useful for teachers, staff, and formal situations.",
+    "example": "この文章を見ていただけませんか。",
+    "difficulty": "hard",
+    "meaning_en": "Could you kindly do ~?",
+    "meaning_id": "Bisakah Anda berkenan melakukan ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "b5f28dc9-22e9-5668-bcd5-01517e9270e9",
+    "level": "n4",
+    "code": "g323",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 5,
+    "curriculum_code": "g323",
+    "pattern": "〜てほしい",
+    "reading": "te hoshii",
+    "formula": "Person に + Vて + ほしい",
+    "note": "Directly states what you want someone to do.",
+    "example": "父に早く元気になってほしいです。",
+    "difficulty": "easy",
+    "meaning_en": "Want someone to do ~",
+    "meaning_id": "Ingin seseorang melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "71faee10-833a-50e9-9408-dc5ce369b0e4",
+    "level": "n4",
+    "code": "g324",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 6,
+    "curriculum_code": "g324",
+    "pattern": "〜てもらいたい",
+    "reading": "te moraitai",
+    "formula": "Person に + Vて + もらいたい",
+    "note": "Softer than 〜てほしい; focuses on receiving help.",
+    "example": "友達に手伝ってもらいたいです。",
+    "difficulty": "medium",
+    "meaning_en": "Want to have someone do ~",
+    "meaning_id": "Ingin meminta seseorang melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "47a66fad-c7cc-5b3a-8650-f436a5f3c5bb",
+    "level": "n4",
+    "code": "g325",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 7,
+    "curriculum_code": "g325",
+    "pattern": "〜ていただきたい",
+    "reading": "te itadakitai",
+    "formula": "Person に + Vて + いただきたい",
+    "note": "Polite version of wanting someone to do something.",
+    "example": "先生に作文をチェックしていただきたいです。",
+    "difficulty": "hard",
+    "meaning_en": "Would like someone to do ~ politely",
+    "meaning_id": "Ingin seseorang melakukan ~ secara sopan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b85cf8a6-c2ba-5e85-93da-0e5fa63bcd3f",
+    "level": "n4",
+    "code": "g326",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 8,
+    "curriculum_code": "g326",
+    "pattern": "〜たらどうですか",
+    "reading": "tara dou desu ka",
+    "formula": "Vたら + どうですか／いかがですか",
+    "note": "Gives advice or a suggestion. いかがですか is more polite.",
+    "example": "少し休んだらどうですか。",
+    "difficulty": "easy",
+    "meaning_en": "Why don’t you ~?; how about ~?",
+    "meaning_id": "Bagaimana kalau ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3e7b918b-c0a5-5116-9978-c06e8dd9009d",
+    "level": "n4",
+    "code": "g327",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 9,
+    "curriculum_code": "g327",
+    "pattern": "〜が・〜けど…",
+    "reading": "ga / kedo",
+    "formula": "Clause + が／けど…",
+    "note": "Softens a request or topic introduction. けど is more casual.",
+    "example": "すみませんが、駅はどこですか。",
+    "difficulty": "medium",
+    "meaning_en": "Preface before asking or saying something",
+    "meaning_id": "Pembuka sebelum bertanya atau menyampaikan sesuatu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "8e049e33-4cd5-5d48-b344-60f8afa08140",
+    "level": "n4",
+    "code": "g328",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 1,
+    "curriculum_code": "g328",
+    "pattern": "〜と言う・〜って言う",
+    "reading": "to iu / tte iu",
+    "formula": "Clause + と言う／って言う",
+    "note": "って is casual spoken style.",
+    "example": "田中さんは明日は来ないと言っていました。",
+    "difficulty": "easy",
+    "meaning_en": "Say that ~; spoken quote",
+    "meaning_id": "Mengatakan bahwa ~; kutipan lisan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d7956ad3-9b7c-5a54-b13e-95311bd1f610",
+    "level": "n4",
+    "code": "g329",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 2,
+    "curriculum_code": "g329",
+    "pattern": "〜と言われる",
+    "reading": "to iwareru",
+    "formula": "Quote / clause + と言われる",
+    "note": "Used for reported speech or being told something.",
+    "example": "医者にお酒を飲むなと言われました。",
+    "difficulty": "medium",
+    "meaning_en": "Be told that ~; it is said that ~",
+    "meaning_id": "Diberi tahu bahwa ~; dikatakan bahwa ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "080b6ffd-e25f-5e39-80b7-6b8e33e68993",
+    "level": "n4",
+    "code": "g330",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 3,
+    "curriculum_code": "g330",
+    "pattern": "〜と思う",
+    "reading": "to omou",
+    "formula": "Plain clause + と思う",
+    "note": "Expresses the speaker’s thought or opinion.",
+    "example": "明日は雨だと思います。",
+    "difficulty": "easy",
+    "meaning_en": "I think that ~",
+    "meaning_id": "Saya pikir bahwa ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "0edc681c-8ef8-597f-b5b0-a0ff3df7b662",
+    "level": "n4",
+    "code": "g331",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 4,
+    "curriculum_code": "g331",
+    "pattern": "Vよう",
+    "reading": "V-you",
+    "formula": "V volitional form",
+    "note": "Casual form of 〜ましょう; also used before と思う.",
+    "example": "飲みに行こう。",
+    "difficulty": "medium",
+    "meaning_en": "Let’s do ~; volitional form",
+    "meaning_id": "Ayo ~; bentuk kemauan/ajakan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "cecd791e-5ff6-5866-9eb3-e5a98cabd12a",
+    "level": "n4",
+    "code": "g332",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 5,
+    "curriculum_code": "g332",
+    "pattern": "〜ようと思う",
+    "reading": "you to omou",
+    "formula": "V volitional + と思う",
+    "note": "Shows intention, usually speaker’s own plan.",
+    "example": "明日買い物に行こうと思っています。",
+    "difficulty": "medium",
+    "meaning_en": "I think I will ~; intend to ~",
+    "meaning_id": "Saya berniat / berpikir akan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "24e14aab-02f1-5bce-aedf-16d9b3cfb561",
+    "level": "n4",
+    "code": "g333",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 6,
+    "curriculum_code": "g333",
+    "pattern": "〜つもり",
+    "reading": "tsumori",
+    "formula": "V辞書形／Vない + つもり",
+    "note": "Stronger and clearer plan than 〜ようと思う.",
+    "example": "来年日本に留学するつもりです。",
+    "difficulty": "medium",
+    "meaning_en": "Plan to ~; intend to ~",
+    "meaning_id": "Berencana / berniat untuk ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "7f859eaf-263e-5d3f-be52-e765a50e2309",
+    "level": "n4",
+    "code": "g401",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 1,
+    "curriculum_code": "g401",
+    "pattern": "〜たら",
+    "reading": "tara",
+    "formula": "V(た)+ら / いAdj-かったら / なAdj・N+だったら",
+    "note": "Flexible condition. Often used for one-time future situations or “after ~ happens.”",
+    "example": "雨が降ったら、試合は中止です。",
+    "difficulty": "easy",
+    "meaning_en": "If/when ~; after ~ happens",
+    "meaning_id": "Kalau/ketika ~; setelah ~ terjadi",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f7d7ba33-ce0f-507d-8bfc-7b669309031c",
+    "level": "n4",
+    "code": "g402",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 2,
+    "curriculum_code": "g402",
+    "pattern": "〜ば",
+    "reading": "ba",
+    "formula": "Vば / いAdj-ければ",
+    "note": "Often used for general condition, advice, or necessary condition.",
+    "example": "安ければ、買います。",
+    "difficulty": "medium",
+    "meaning_en": "If ~; conditional",
+    "meaning_id": "Jika ~; kalau ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f39bc78f-a7c5-5215-bf01-d532a3eed036",
+    "level": "n4",
+    "code": "g403",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 3,
+    "curriculum_code": "g403",
+    "pattern": "〜なら",
+    "reading": "nara",
+    "formula": "N・plain form+なら",
+    "note": "Used when responding to a topic or giving advice based on what was said.",
+    "example": "東京駅に行くなら、地下鉄が便利です。",
+    "difficulty": "medium",
+    "meaning_en": "If it is about ~; if that is the case",
+    "meaning_id": "Kalau soal ~; kalau begitu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d0379bb9-5b40-529e-a0a3-facb0cfedf69",
+    "level": "n4",
+    "code": "g404",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 4,
+    "curriculum_code": "g404",
+    "pattern": "〜と",
+    "reading": "to",
+    "formula": "V(dict)+と",
+    "note": "Used for natural results, machine operation, directions, or repeated facts. Not for personal will.",
+    "example": "このボタンを押すと、ドアが開きます。",
+    "difficulty": "medium",
+    "meaning_en": "When/if ~, then naturally/automatically ~",
+    "meaning_id": "Kalau ~, maka secara alami/otomatis ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bdfe1e88-039c-5df9-ad0b-8791b244b285",
+    "level": "n4",
+    "code": "g405",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 1,
+    "curriculum_code": "g405",
+    "pattern": "〜ようだ",
+    "reading": "you da",
+    "formula": "Plain form+ようだ / N+のようだ / なAdj+なようだ",
+    "note": "Guess based on evidence. Slightly more formal than 〜みたいだ.",
+    "example": "主人は疲れているようです。",
+    "difficulty": "medium",
+    "meaning_en": "It seems/looks like ~",
+    "meaning_id": "Sepertinya ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "a91e1e13-c1d9-535d-a5da-8c6f8bd3822a",
+    "level": "n4",
+    "code": "g406",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 2,
+    "curriculum_code": "g406",
+    "pattern": "〜みたいだ",
+    "reading": "mitai da",
+    "formula": "Plain form+みたいだ / N+みたいだ",
+    "note": "Conversational version of 〜ようだ. Common in daily speech.",
+    "example": "このパソコンはこわれているみたいです。",
+    "difficulty": "easy",
+    "meaning_en": "It seems/looks like ~; like ~",
+    "meaning_id": "Sepertinya ~; seperti ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f8f3a597-1a2c-547c-9036-fad04ffcb1b3",
+    "level": "n4",
+    "code": "g407",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 3,
+    "curriculum_code": "g407",
+    "pattern": "〜そうだ（様態）",
+    "reading": "sou da",
+    "formula": "いAdj-stem+そうだ / なAdj+そうだ / V(stem)+そうだ",
+    "note": "Used when judging from what you see or feel. いい→よさそう, ない→なさそう.",
+    "example": "雨が降りそうです。",
+    "difficulty": "medium",
+    "meaning_en": "Looks/seems ~ from appearance",
+    "meaning_id": "Terlihat/sepertinya ~ dari tampilan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "75e28035-9cc5-53e0-9029-99168d6c51ff",
+    "level": "n4",
+    "code": "g408",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 4,
+    "curriculum_code": "g408",
+    "pattern": "〜そうだ（伝聞）",
+    "reading": "sou da",
+    "formula": "Plain form+そうだ",
+    "note": "Used for hearsay from weather reports, news, people, etc.",
+    "example": "天気予報によると、午後から雨が降るそうです。",
+    "difficulty": "medium",
+    "meaning_en": "I heard that ~; apparently ~",
+    "meaning_id": "Katanya ~; menurut informasi ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "6133009d-331f-54f2-acf6-9b23213568a0",
+    "level": "n4",
+    "code": "g409",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 5,
+    "curriculum_code": "g409",
+    "pattern": "〜でしょう・〜だろう",
+    "reading": "deshou / darou",
+    "formula": "Plain form+でしょう／だろう",
+    "note": "Shows the speaker's guess. でしょう is polite/neutral, だろう is plainer.",
+    "example": "今日は午後から雨が降るでしょう。",
+    "difficulty": "easy",
+    "meaning_en": "Probably ~; I suppose ~",
+    "meaning_id": "Mungkin/barangkali ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "4ee6dbaf-47dd-59a1-beee-411377295c3d",
+    "level": "n4",
+    "code": "g410",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 6,
+    "curriculum_code": "g410",
+    "pattern": "〜かもしれない",
+    "reading": "kamoshirenai",
+    "formula": "Plain form+かもしれない",
+    "note": "Weaker certainty than 〜でしょう. Means the possibility exists.",
+    "example": "今夜、雪が降るかもしれません。",
+    "difficulty": "easy",
+    "meaning_en": "Might; may; possibly ~",
+    "meaning_id": "Mungkin saja ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "e7b43c58-292f-5582-ad29-50ecff3d9c77",
+    "level": "n4",
+    "code": "g411",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 1,
+    "curriculum_code": "g411",
+    "pattern": "〜すぎる",
+    "reading": "sugiru",
+    "formula": "V(stem)+すぎる / いAdj-stem+すぎる / なAdj+すぎる",
+    "note": "Shows an excessive degree and often means not appropriate.",
+    "example": "この帽子は小さすぎます。",
+    "difficulty": "easy",
+    "meaning_en": "Too much; too ~",
+    "meaning_id": "Terlalu ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "14620511-5aa1-58ed-ba64-f604980e6822",
+    "level": "n4",
+    "code": "g412",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 2,
+    "curriculum_code": "g412",
+    "pattern": "〜やすい",
+    "reading": "yasui",
+    "formula": "V(stem)+やすい",
+    "note": "Shows that an action is easy to do or something happens easily.",
+    "example": "このペンは書きやすいです。",
+    "difficulty": "easy",
+    "meaning_en": "Easy to do ~; likely to ~",
+    "meaning_id": "Mudah untuk ~; cenderung ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f0ce9df1-2a91-54b6-92d4-c0c5b5e10505",
+    "level": "n4",
+    "code": "g413",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 3,
+    "curriculum_code": "g413",
+    "pattern": "〜にくい",
+    "reading": "nikui",
+    "formula": "V(stem)+にくい",
+    "note": "Opposite of 〜やすい. Shows difficulty or resistance.",
+    "example": "この地図はわかりにくいです。",
+    "difficulty": "easy",
+    "meaning_en": "Hard to do ~; difficult to ~",
+    "meaning_id": "Sulit untuk ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "7305209b-4009-548b-872d-fa0b054eda17",
+    "level": "n4",
+    "code": "g414",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 4,
+    "curriculum_code": "g414",
+    "pattern": "〜出す",
+    "reading": "dasu",
+    "formula": "V(stem)+出す",
+    "note": "Often used when something starts suddenly or unexpectedly.",
+    "example": "赤ちゃんが急に泣き出しました。",
+    "difficulty": "medium",
+    "meaning_en": "Start doing ~ suddenly",
+    "meaning_id": "Mulai ~ secara tiba-tiba",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b32aa6a0-00a1-54e2-950e-44c6a2ce483c",
+    "level": "n4",
+    "code": "g415",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 5,
+    "curriculum_code": "g415",
+    "pattern": "〜終わる",
+    "reading": "owaru",
+    "formula": "V(stem)+終わる",
+    "note": "Shows completion of an action from start to end.",
+    "example": "ご飯を食べ終わりました。",
+    "difficulty": "easy",
+    "meaning_en": "Finish doing ~",
+    "meaning_id": "Selesai melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "11ec8dba-347f-5aa8-8991-2025f587a0fb",
+    "level": "n4",
+    "code": "g416",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 6,
+    "curriculum_code": "g416",
+    "pattern": "〜続ける",
+    "reading": "tsuzukeru",
+    "formula": "V(stem)+続ける",
+    "note": "Shows continuous action over time.",
+    "example": "一週間、この薬を飲み続けてください。",
+    "difficulty": "easy",
+    "meaning_en": "Continue doing ~",
+    "meaning_id": "Terus melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "83606952-5769-5f8d-99e0-87a012652155",
+    "level": "n4",
+    "code": "g417",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 1,
+    "curriculum_code": "g417",
+    "pattern": "受身形",
+    "reading": "ukemikei",
+    "formula": "V passive form",
+    "note": "Used when the subject receives an action, or when the doer is unknown/unimportant.",
+    "example": "外国人に道を聞かれました。",
+    "difficulty": "hard",
+    "meaning_en": "Passive form; be done by someone",
+    "meaning_id": "Bentuk pasif; dikenai tindakan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "66679c7b-a73d-5952-bf47-bfebd9b3f2bd",
+    "level": "n4",
+    "code": "g418",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 2,
+    "curriculum_code": "g418",
+    "pattern": "〜させる",
+    "reading": "saseru",
+    "formula": "V causative form",
+    "note": "Used when someone makes, lets, or allows another person to do something.",
+    "example": "母は子どもに野菜を食べさせました。",
+    "difficulty": "hard",
+    "meaning_en": "Make/let someone do ~",
+    "meaning_id": "Menyuruh/membiarkan seseorang melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ca91ac9f-23b5-5491-a621-3c95b310fd5b",
+    "level": "n4",
+    "code": "g419",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 3,
+    "curriculum_code": "g419",
+    "pattern": "〜させられる",
+    "reading": "saserareru",
+    "formula": "V causative-passive form",
+    "note": "Used when the subject is forced to do something. Often has a negative feeling.",
+    "example": "子どものころ、野菜を食べさせられました。",
+    "difficulty": "hard",
+    "meaning_en": "Be made/forced to do ~",
+    "meaning_id": "Dipaksa/disuruh melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "add9f49c-a668-5444-a51c-f1583b22a9ef",
+    "level": "n4",
+    "code": "g420",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 4,
+    "curriculum_code": "g420",
+    "pattern": "〜させてください",
+    "reading": "sasete kudasai",
+    "formula": "V causative te-form+ください",
+    "note": "Used to ask permission to do the speaker's own action.",
+    "example": "ノートをコピーさせてください。",
+    "difficulty": "medium",
+    "meaning_en": "Please let me do ~",
+    "meaning_id": "Izinkan saya melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "009f7efd-c4e3-5a5e-aae5-46465f213c03",
+    "level": "n4",
+    "code": "g421",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 1,
+    "curriculum_code": "g421",
+    "pattern": "自動詞・他動詞",
+    "reading": "jidoushi / tadoushi",
+    "formula": "Nが+自動詞 / Nを+他動詞",
+    "note": "自動詞 focuses on what happens. 他動詞 focuses on someone doing something to an object.",
+    "example": "ドアが閉まります。／ドアを閉めます。",
+    "difficulty": "hard",
+    "meaning_en": "Intransitive and transitive verbs",
+    "meaning_id": "Kata kerja intransitif dan transitif",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "9ebeb6e4-ab44-5612-9014-c530a3099579",
+    "level": "n4",
+    "code": "g422",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 2,
+    "curriculum_code": "g422",
+    "pattern": "〜ている（結果の状態）",
+    "reading": "te iru",
+    "formula": "自動詞V(て)+いる",
+    "note": "Shows the remaining state after a change. Not only “currently doing.”",
+    "example": "窓が閉まっています。",
+    "difficulty": "medium",
+    "meaning_en": "Resulting state; something is/has been ~",
+    "meaning_id": "Keadaan hasil; sesuatu dalam kondisi sudah ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "08649dc7-698d-59ee-a500-0dd40a861df5",
+    "level": "n4",
+    "code": "g423",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 3,
+    "curriculum_code": "g423",
+    "pattern": "〜てある",
+    "reading": "te aru",
+    "formula": "他動詞V(て)+ある",
+    "note": "Shows that someone intentionally did something and the result remains.",
+    "example": "テーブルの上に花がかざってあります。",
+    "difficulty": "medium",
+    "meaning_en": "Result of intentional preparation/action",
+    "meaning_id": "Keadaan hasil dari tindakan yang sengaja dilakukan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "bb94e038-842d-561e-be1b-c07a83fa22d0",
+    "level": "n4",
+    "code": "g424",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 4,
+    "curriculum_code": "g424",
+    "pattern": "〜てくる",
+    "reading": "te kuru",
+    "formula": "V(て)+くる",
+    "note": "Shows movement toward here/now, or change up to the present.",
+    "example": "雨が降ってきました。",
+    "difficulty": "medium",
+    "meaning_en": "Come to do ~; become/get ~ toward current point",
+    "meaning_id": "Datang melakukan ~; mulai menjadi ~ mendekati titik sekarang",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "0f42beda-d879-5c9e-8dc2-3cddc0ff0dd5",
+    "level": "n4",
+    "code": "g425",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 5,
+    "curriculum_code": "g425",
+    "pattern": "〜ていく",
+    "reading": "te iku",
+    "formula": "V(て)+いく",
+    "note": "Shows movement away from here/now, or change continuing into the future.",
+    "example": "これからもっと寒くなっていくでしょう。",
+    "difficulty": "medium",
+    "meaning_en": "Go to do ~; continue/become ~ from now on",
+    "meaning_id": "Pergi melakukan ~; terus menjadi ~ ke depannya",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "2fd80a73-46cb-555c-8414-4676dbefac97",
+    "level": "n4",
+    "code": "g426",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 1,
+    "curriculum_code": "g426",
+    "pattern": "〜んです・〜のです",
+    "reading": "n desu / no desu",
+    "formula": "Plain form+んです／のです",
+    "note": "Used when asking for or giving background, reason, or explanation. 〜んです is common in conversation.",
+    "example": "どうしてパーティーに行かないんですか。",
+    "difficulty": "medium",
+    "meaning_en": "Explanation/reason; asking for explanation",
+    "meaning_id": "Penjelasan/alasan; meminta penjelasan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "e22ee3ac-f519-5257-8749-786c05d5171f",
+    "level": "n4",
+    "code": "g427",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 2,
+    "curriculum_code": "g427",
+    "pattern": "〜なあ",
+    "reading": "naa",
+    "formula": "Plain form+なあ / N・なAdj+だなあ",
+    "note": "Shows the speaker's feeling, surprise, admiration, or self-talk.",
+    "example": "試験、むずかしかったなあ。",
+    "difficulty": "easy",
+    "meaning_en": "Emotion, surprise, admiration",
+    "meaning_id": "Perasaan, kekaguman, keterkejutan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1981bbe6-a93f-59fb-9340-c74f13804f03",
+    "level": "n4",
+    "code": "g428",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 3,
+    "curriculum_code": "g428",
+    "pattern": "〜ね",
+    "reading": "ne",
+    "formula": "Sentence+ね",
+    "note": "Used when expecting agreement, checking shared feeling, or softening a statement.",
+    "example": "いい天気ですね。",
+    "difficulty": "easy",
+    "meaning_en": "Confirmation/agreement",
+    "meaning_id": "Konfirmasi/persetujuan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1debd92a-4add-5638-b200-b3b7f786b298",
+    "level": "n4",
+    "code": "g429",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 4,
+    "curriculum_code": "g429",
+    "pattern": "〜よ",
+    "reading": "yo",
+    "formula": "Sentence+よ",
+    "note": "Used when giving new information, emphasis, reminder, or warning.",
+    "example": "雨が降っていますよ。",
+    "difficulty": "easy",
+    "meaning_en": "Emphasis, reminder, warning",
+    "meaning_id": "Penekanan, pengingat, peringatan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "816b99c9-9917-5715-9cf9-ae48849d28bd",
+    "level": "n4",
+    "code": "g430",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 5,
+    "curriculum_code": "g430",
+    "pattern": "〜かな・〜かしら",
+    "reading": "kana / kashira",
+    "formula": "Plain form+かな／かしら",
+    "note": "かな is common self-talk. かしら sounds softer and is often described as feminine in textbooks.",
+    "example": "明日、雨が降るかしら。",
+    "difficulty": "medium",
+    "meaning_en": "I wonder ~; hope/wish ~",
+    "meaning_id": "Kira-kira ~; semoga/harap ~",
+    "sources": [
+      "soumatome"
+    ]
+  }
+]

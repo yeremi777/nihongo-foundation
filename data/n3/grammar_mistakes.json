@@ -1,0 +1,2777 @@
+[
+  {
+    "id": "5ff76e1d-c75c-5d8a-bc0c-239d5c3788c0",
+    "lesson_id": "cc71a7e6-7c0a-50cb-bfe3-e3d8132e608e",
+    "sequence": 1,
+    "point": "Asking permission to do something",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "手を洗ってください。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "手を洗わせてください。"
+      }
+    ],
+    "meaning_en": "Please let me wash my hands.",
+    "meaning_id": "Tolong izinkan saya mencuci tangan."
+  },
+  {
+    "id": "a9ef9241-ee6d-5834-ac2c-b2429a6f2c76",
+    "lesson_id": "cc71a7e6-7c0a-50cb-bfe3-e3d8132e608e",
+    "sequence": 2,
+    "point": "Suffering passive marker",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "赤ちゃんを泣かれました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "赤ちゃんに泣かれました。"
+      }
+    ],
+    "meaning_en": "I was troubled because the baby cried.",
+    "meaning_id": "Saya merasa kesusahan karena bayinya menangis."
+  },
+  {
+    "id": "5f5f7a33-54e4-538c-878b-4730f5f47e3a",
+    "lesson_id": "cc71a7e6-7c0a-50cb-bfe3-e3d8132e608e",
+    "sequence": 3,
+    "point": "Permission request with causative form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "早く帰られてください。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "早く帰らせてください。"
+      }
+    ],
+    "meaning_en": "Please let me go home early.",
+    "meaning_id": "Tolong izinkan saya pulang lebih awal."
+  },
+  {
+    "id": "9e6f439d-62e3-58b8-9b99-d22dc33caaf1",
+    "lesson_id": "3c6aa1b5-6dd4-5e3a-8db0-de060708ab15",
+    "sequence": 1,
+    "point": "Casual obligation uses negative form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "明日は早いから、もう寝ると。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "明日は早いから、もう寝ないと。"
+      }
+    ],
+    "meaning_en": "I have to sleep now because tomorrow is early.",
+    "meaning_id": "Saya harus tidur sekarang karena besok pagi-pagi."
+  },
+  {
+    "id": "87516e66-869d-5d3b-9f45-303e4e6337f4",
+    "lesson_id": "3c6aa1b5-6dd4-5e3a-8db0-de060708ab15",
+    "sequence": 2,
+    "point": "Preparation vs accidental completion",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "テストで間違えたところを、ノートに書いちゃおう。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "テストで間違えたところを、ノートに書いとこう。"
+      }
+    ],
+    "meaning_en": "I will write down the mistakes in my notebook for later.",
+    "meaning_id": "Saya akan mencatat bagian yang salah di buku catatan untuk nanti."
+  },
+  {
+    "id": "decfffff-b7ad-5d4c-b760-c9fcb9421123",
+    "lesson_id": "3c6aa1b5-6dd4-5e3a-8db0-de060708ab15",
+    "sequence": 3,
+    "point": "Doing something in advance",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "トイレットペーパーがなくなるから、買ってしまわないと。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "トイレットペーパーがなくなるから、買っとかないと。"
+      }
+    ],
+    "meaning_en": "We are running out of toilet paper, so we have to buy some in advance.",
+    "meaning_id": "Tisu toilet hampir habis, jadi kita harus membeli dulu untuk persiapan."
+  },
+  {
+    "id": "87bebeea-5eba-5e10-9c96-c6dbc9a19d89",
+    "lesson_id": "0fa61660-1328-51ce-a157-8117a18b41b4",
+    "sequence": 1,
+    "point": "Typical seasonal quality",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "今日は春みたいらしい日でした。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "今日は春らしい日でした。"
+      }
+    ],
+    "meaning_en": "Today was a spring-like day.",
+    "meaning_id": "Hari ini terasa seperti hari musim semi yang khas."
+  },
+  {
+    "id": "258e0c96-db28-5a92-8ab7-0c9226d6ac41",
+    "lesson_id": "0fa61660-1328-51ce-a157-8117a18b41b4",
+    "sequence": 2,
+    "point": "Texture or impression with 〜っぽい",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "この料理は油みたいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "この料理は油っぽいです。"
+      }
+    ],
+    "meaning_en": "This dish is oily/greasy.",
+    "meaning_id": "Masakan ini berminyak."
+  },
+  {
+    "id": "8f1bd004-74cf-5a15-887a-c494b6a16044",
+    "lesson_id": "0fa61660-1328-51ce-a157-8117a18b41b4",
+    "sequence": 3,
+    "point": "〜みたいに before a verb/adjective phrase",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "リンさんみたいだ日本語がうまくなりたい。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "リンさんみたいに日本語がうまくなりたい。"
+      }
+    ],
+    "meaning_en": "I want to become good at Japanese like Lin-san.",
+    "meaning_id": "Saya ingin menjadi mahir bahasa Jepang seperti Lin-san."
+  },
+  {
+    "id": "1ab1549a-33f6-54f1-be7b-82da9307c62e",
+    "lesson_id": "16bd85a0-eaba-5e4e-a577-fb5f188fa6fb",
+    "sequence": 1,
+    "point": "Goal is ability/state, not direct action",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "日本語を話すために、毎日練習しています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "日本語が話せるように、毎日練習しています。"
+      }
+    ],
+    "meaning_en": "I practice every day so that I can speak Japanese.",
+    "meaning_id": "Saya berlatih setiap hari supaya bisa berbicara bahasa Jepang."
+  },
+  {
+    "id": "f457db23-d593-5f8e-989e-b0ce677560eb",
+    "lesson_id": "16bd85a0-eaba-5e4e-a577-fb5f188fa6fb",
+    "sequence": 2,
+    "point": "Habit/effort vs change of state",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "健康のために、野菜を食べるようになっています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "健康のために、野菜を食べるようにしています。"
+      }
+    ],
+    "meaning_en": "I try to eat vegetables for my health.",
+    "meaning_id": "Saya berusaha membiasakan makan sayur demi kesehatan."
+  },
+  {
+    "id": "bf50e65b-17e4-5cd6-97c3-fb3b9446d346",
+    "lesson_id": "16bd85a0-eaba-5e4e-a577-fb5f188fa6fb",
+    "sequence": 3,
+    "point": "Direct purpose with 〜ために",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "家を買うように、貯金しています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "家を買うために、貯金しています。"
+      }
+    ],
+    "meaning_en": "I am saving money in order to buy a house.",
+    "meaning_id": "Saya menabung untuk membeli rumah."
+  },
+  {
+    "id": "955301de-1cf7-5df1-8a58-e81ddcd77f24",
+    "lesson_id": "735ab4f5-4168-52f7-b938-6a943f8cd72c",
+    "sequence": 1,
+    "point": "“As you know” uses 〜ように",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "ご存じのために、試験の内容が変わります。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "ご存じのように、試験の内容が変わります。"
+      }
+    ],
+    "meaning_en": "As you know, the exam content will change.",
+    "meaning_id": "Seperti yang Anda ketahui, isi ujian akan berubah."
+  },
+  {
+    "id": "1c5d751a-127b-5a4d-a119-2e25442ff7b5",
+    "lesson_id": "735ab4f5-4168-52f7-b938-6a943f8cd72c",
+    "sequence": 2,
+    "point": "Hope or prayer with 〜ますように",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "合格したいように。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "合格しますように。"
+      }
+    ],
+    "meaning_en": "I hope I pass.",
+    "meaning_id": "Semoga saya lulus."
+  },
+  {
+    "id": "648c27c1-b256-565d-b93a-b82ccb8aa5d7",
+    "lesson_id": "735ab4f5-4168-52f7-b938-6a943f8cd72c",
+    "sequence": 3,
+    "point": "Light instruction with 〜ように",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "ここで、たばこを吸わないために。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "ここで、たばこを吸わないように。"
+      }
+    ],
+    "meaning_en": "Please do not smoke here.",
+    "meaning_id": "Harap jangan merokok di sini."
+  },
+  {
+    "id": "918383cd-8c68-50d4-807e-ac7ec5fc4cd2",
+    "lesson_id": "0f30a71c-e2f2-5746-aa40-748944cda002",
+    "sequence": 1,
+    "point": "Intention or plan uses 〜ようと思う",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "会社をやめようとしています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "会社をやめようと思っています。"
+      }
+    ],
+    "meaning_en": "I am thinking of quitting my job.",
+    "meaning_id": "Saya sedang berpikir untuk berhenti dari pekerjaan."
+  },
+  {
+    "id": "b55c52f7-024e-5b01-839a-93739849fa03",
+    "lesson_id": "0f30a71c-e2f2-5746-aa40-748944cda002",
+    "sequence": 2,
+    "point": "“Just as I was about to” uses 〜ようとしたときに",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "電車に乗ろうと思ったときに、ドアが閉まりました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "電車に乗ろうとしたときに、ドアが閉まりました。"
+      }
+    ],
+    "meaning_en": "The door closed just as I was about to get on the train.",
+    "meaning_id": "Pintu tertutup tepat saat saya hendak naik kereta."
+  },
+  {
+    "id": "cd7777f1-7855-5080-b6a4-2439c9b35411",
+    "lesson_id": "0f30a71c-e2f2-5746-aa40-748944cda002",
+    "sequence": 3,
+    "point": "Refusal or lack of effort uses 〜ようとしない",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "父は私の話を聞かないとしません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "父は私の話を聞こうとしません。"
+      }
+    ],
+    "meaning_en": "My father does not even try to listen to me.",
+    "meaning_id": "Ayah saya bahkan tidak mau berusaha mendengarkan saya."
+  },
+  {
+    "id": "6f6907e4-c214-5c52-8130-dd5a7e67e421",
+    "lesson_id": "58294900-67b6-5115-b3e3-b605af2dd711",
+    "sequence": 1,
+    "point": "しか must use a negative predicate",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "このコンサートは会員だけしか入れます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "このコンサートは会員だけしか入れません。"
+      }
+    ],
+    "meaning_en": "Only members can enter this concert.",
+    "meaning_id": "Hanya anggota yang bisa masuk ke konser ini."
+  },
+  {
+    "id": "b8039d40-ec69-56af-9d62-6785cfe5f9f7",
+    "lesson_id": "58294900-67b6-5115-b3e3-b605af2dd711",
+    "sequence": 2,
+    "point": "Repeated behavior uses Vて+ばかりいる",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "弟はテレビを見るばかりいます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "弟はテレビを見てばかりいます。"
+      }
+    ],
+    "meaning_en": "My younger brother does nothing but watch TV.",
+    "meaning_id": "Adik laki-laki saya hanya menonton TV terus."
+  },
+  {
+    "id": "ea350e68-e613-525b-a1c9-fa40f3f0bc4f",
+    "lesson_id": "58294900-67b6-5115-b3e3-b605af2dd711",
+    "sequence": 3,
+    "point": "こそ comes after the emphasized word",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "明日がこそ勉強するぞ。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "明日こそ勉強するぞ。"
+      }
+    ],
+    "meaning_en": "Tomorrow is definitely the day I will study.",
+    "meaning_id": "Besoklah saya pasti akan belajar."
+  },
+  {
+    "id": "96142c67-72d4-567b-be29-2f0584345531",
+    "lesson_id": "58294900-67b6-5115-b3e3-b605af2dd711",
+    "sequence": 4,
+    "point": "Minimum condition uses さえ〜ば",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "君だけいれば、何もいりません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "君さえいれば、何もいりません。"
+      }
+    ],
+    "meaning_en": "As long as you are here, I do not need anything else.",
+    "meaning_id": "Asalkan kamu ada, saya tidak membutuhkan apa pun lagi."
+  },
+  {
+    "id": "1ec571da-bc36-5b13-9cf3-9ead93bbbbf4",
+    "lesson_id": "57a28a48-9a3a-5362-83d6-a7da0a6418e1",
+    "sequence": 1,
+    "point": "Citing information source uses 〜によると／によれば",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "天気予報によって、明日は晴れるそうです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "天気予報によれば、明日は晴れるそうです。"
+      }
+    ],
+    "meaning_en": "According to the weather forecast, it seems tomorrow will be sunny.",
+    "meaning_id": "Menurut prakiraan cuaca, besok sepertinya akan cerah."
+  },
+  {
+    "id": "52cf008a-7d7a-5491-b62f-0110ce563039",
+    "lesson_id": "57a28a48-9a3a-5362-83d6-a7da0a6418e1",
+    "sequence": 2,
+    "point": "Topic “about” uses 〜について",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "日本文化によって勉強します。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "日本文化について勉強します。"
+      }
+    ],
+    "meaning_en": "I study about Japanese culture.",
+    "meaning_id": "Saya belajar tentang budaya Jepang."
+  },
+  {
+    "id": "0f5f7b61-c815-51f7-acc0-abf724ca3974",
+    "lesson_id": "57a28a48-9a3a-5362-83d6-a7da0a6418e1",
+    "sequence": 3,
+    "point": "Cause before a noun uses 〜によるN",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "事故などによって渋滞はありません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "事故などによる渋滞はありません。"
+      }
+    ],
+    "meaning_en": "There is no traffic jam caused by accidents or similar conditions.",
+    "meaning_id": "Tidak ada kemacetan yang disebabkan oleh kecelakaan dan sejenisnya."
+  },
+  {
+    "id": "59f68864-cfa4-5161-9356-6ab972eee216",
+    "lesson_id": "57a28a48-9a3a-5362-83d6-a7da0a6418e1",
+    "sequence": 4,
+    "point": "“Depending on the person” uses 〜によって",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "人に関して考え方が違います。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "人によって考え方が違います。"
+      }
+    ],
+    "meaning_en": "Opinions differ depending on the person.",
+    "meaning_id": "Cara berpikir berbeda tergantung orangnya."
+  },
+  {
+    "id": "2cd39289-78b2-5844-b49b-5a26c905e4d4",
+    "lesson_id": "817295ff-684c-570b-8d3e-4b847c888f9b",
+    "sequence": 1,
+    "point": "Objective degree uses 〜さ, not 〜み",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "命の大切みを教えなければなりません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "命の大切さを教えなければなりません。"
+      }
+    ],
+    "meaning_en": "We must teach the importance of life.",
+    "meaning_id": "Kita harus mengajarkan pentingnya nyawa/kehidupan."
+  },
+  {
+    "id": "83a0c8d6-70f4-532a-b012-5d296f6baed2",
+    "lesson_id": "817295ff-684c-570b-8d3e-4b847c888f9b",
+    "sequence": 2,
+    "point": "Nominalized action needs の or こと",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "電話するを忘れていました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "電話するのを忘れていました。"
+      }
+    ],
+    "meaning_en": "I forgot to make the phone call.",
+    "meaning_id": "Saya lupa menelepon."
+  },
+  {
+    "id": "3f0355ee-8683-5734-a7b8-c43c7a4dd27f",
+    "lesson_id": "817295ff-684c-570b-8d3e-4b847c888f9b",
+    "sequence": 3,
+    "point": "A fact after a full sentence needs こと",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "田中さんが入院したを知っていますか。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "田中さんが入院したことを知っていますか。"
+      }
+    ],
+    "meaning_en": "Do you know that Tanaka-san has been hospitalized?",
+    "meaning_id": "Apakah kamu tahu bahwa Tanaka-san dirawat di rumah sakit?"
+  },
+  {
+    "id": "2c2697c0-7464-5a01-a3a5-47a123bec17b",
+    "lesson_id": "817295ff-684c-570b-8d3e-4b847c888f9b",
+    "sequence": 4,
+    "point": "Preference about an action often uses の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "日曜日に混んだところへ行くは好きではありません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "日曜日に混んだところへ行くのは好きではありません。"
+      }
+    ],
+    "meaning_en": "I do not like going to crowded places on Sundays.",
+    "meaning_id": "Saya tidak terlalu suka pergi ke tempat ramai pada hari Minggu."
+  },
+  {
+    "id": "50bc18ab-ebd1-5d49-b1fd-f45167541b59",
+    "lesson_id": "f2b65411-5856-59c7-833e-af470cdbb731",
+    "sequence": 1,
+    "point": "Naming a person uses 〜という人",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "木村さんの人から電話がありました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "木村さんという人から電話がありました。"
+      }
+    ],
+    "meaning_en": "There was a call from a person called Kimura-san.",
+    "meaning_id": "Ada telepon dari seseorang yang bernama Kimura-san."
+  },
+  {
+    "id": "4ca64eb1-c971-56a0-b065-3d4830a47865",
+    "lesson_id": "f2b65411-5856-59c7-833e-af470cdbb731",
+    "sequence": 2,
+    "point": "Definition uses 〜というのは",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "「デジカメ」というは、デジタルカメラを短くした言い方です。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "「デジカメ」というのは、デジタルカメラを短くした言い方です。"
+      }
+    ],
+    "meaning_en": "“Dejikame” is a shortened way of saying digital camera.",
+    "meaning_id": "“Dejikame” adalah cara singkat untuk mengatakan kamera digital."
+  },
+  {
+    "id": "db010ea0-296b-5e95-accb-b29cfecd0267",
+    "lesson_id": "f2b65411-5856-59c7-833e-af470cdbb731",
+    "sequence": 3,
+    "point": "Whole sentence content uses 〜ということ",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "リンさんが帰国することを聞いて驚きました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "リンさんが帰国するということを聞いて驚きました。"
+      }
+    ],
+    "meaning_en": "I was surprised to hear that Lin-san was going back to her home country.",
+    "meaning_id": "Saya terkejut mendengar bahwa Lin-san akan pulang ke negaranya."
+  },
+  {
+    "id": "a0d61e6a-b41d-5f1f-9b14-cf61213ce211",
+    "lesson_id": "f2b65411-5856-59c7-833e-af470cdbb731",
+    "sequence": 4,
+    "point": "Examples use 〜といったN",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "テニス、サッカー、野球というスポーツが盛んです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "テニス、サッカー、野球といったスポーツが盛んです。"
+      }
+    ],
+    "meaning_en": "Sports such as tennis, soccer, and baseball are popular.",
+    "meaning_id": "Olahraga seperti tenis, sepak bola, dan bisbol populer."
+  },
+  {
+    "id": "9ad60197-47d7-5518-8955-a8c18055b72d",
+    "lesson_id": "c16bb93b-0eae-51e2-92fc-24118fd5465b",
+    "sequence": 1,
+    "point": "Correcting a description uses 〜というより",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "女優といっても、美人よりかわいい人です。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "女優といっても、美人というよりかわいい人です。"
+      }
+    ],
+    "meaning_en": "Even though she is an actress, rather than beautiful, she is cute.",
+    "meaning_id": "Walaupun dia aktris, lebih tepatnya dia imut daripada cantik."
+  },
+  {
+    "id": "2aeb52a0-1cef-5372-b6b8-ffd3f7bd94b2",
+    "lesson_id": "c16bb93b-0eae-51e2-92fc-24118fd5465b",
+    "sequence": 2,
+    "point": "Strong topic association uses 〜といえば／といったら",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "日本の食べ物について、おすしが有名です。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "日本の食べ物といえば、おすしが有名です。"
+      }
+    ],
+    "meaning_en": "Speaking of Japanese food, sushi is famous.",
+    "meaning_id": "Kalau bicara tentang makanan Jepang, sushi itu terkenal."
+  },
+  {
+    "id": "0d650336-4719-550e-86dd-d8dbd55d3416",
+    "lesson_id": "c16bb93b-0eae-51e2-92fc-24118fd5465b",
+    "sequence": 3,
+    "point": "Reality is less than the label suggests",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "旅行というより、近くの温泉に行っただけです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "旅行といっても、近くの温泉に行っただけです。"
+      }
+    ],
+    "meaning_en": "I say it was a trip, but I only went to a nearby hot spring.",
+    "meaning_id": "Dibilang perjalanan juga, sebenarnya hanya pergi ke onsen dekat sini."
+  },
+  {
+    "id": "7b8eb3dc-5a3a-55de-9d28-11fd37767400",
+    "lesson_id": "c16bb93b-0eae-51e2-92fc-24118fd5465b",
+    "sequence": 4,
+    "point": "“If you hear summer fruit” uses 〜といったら",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "夏の果物について、やっぱりスイカですね。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "夏の果物といったら、やっぱりスイカですね。"
+      }
+    ],
+    "meaning_en": "When it comes to summer fruits, it has to be watermelon.",
+    "meaning_id": "Kalau bicara buah musim panas, tentu saja semangka."
+  },
+  {
+    "id": "449764ed-051c-531b-92b9-719643fb1bdb",
+    "lesson_id": "59d00273-4235-516e-90b7-3167e4f688f4",
+    "sequence": 1,
+    "point": "ごらん attaches to Vて-form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "わからなかったら、先生に聞くごらん。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "わからなかったら、先生に聞いてごらん。"
+      }
+    ],
+    "meaning_en": "If you do not understand, try asking your teacher.",
+    "meaning_id": "Kalau tidak mengerti, coba tanyakan kepada guru."
+  },
+  {
+    "id": "256844a1-86a0-54ca-bd3c-4e58299c19f3",
+    "lesson_id": "59d00273-4235-516e-90b7-3167e4f688f4",
+    "sequence": 2,
+    "point": "Indirect instruction uses dictionary or negative form before ように",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "田中さんに、私の部屋に来てように言ってください。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "田中さんに、私の部屋に来るように言ってください。"
+      }
+    ],
+    "meaning_en": "Please tell Tanaka-san to come to my room.",
+    "meaning_id": "Tolong beri tahu Tanaka-san agar datang ke kamar saya."
+  },
+  {
+    "id": "84809fe9-c7b4-53d5-bfaf-70e4eeacde9c",
+    "lesson_id": "59d00273-4235-516e-90b7-3167e4f688f4",
+    "sequence": 3,
+    "point": "Direct prohibition uses V辞書形+な",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "医者に酒を飲まないなと言われました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "医者に酒を飲むなと言われました。"
+      }
+    ],
+    "meaning_en": "The doctor told me not to drink alcohol.",
+    "meaning_id": "Dokter melarang saya minum alkohol."
+  },
+  {
+    "id": "4b12d2da-29ea-5da4-a951-5c4fe4941a77",
+    "lesson_id": "59d00273-4235-516e-90b7-3167e4f688f4",
+    "sequence": 4,
+    "point": "Reported request with くれ uses Vて+くれ",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "友達に電話番号を教えるくれと頼まれました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "友達に電話番号を教えてくれと頼まれました。"
+      }
+    ],
+    "meaning_en": "My friend asked me to tell them the phone number.",
+    "meaning_id": "Teman saya meminta saya memberi tahu nomor teleponnya."
+  },
+  {
+    "id": "aabf369c-e9a7-58b4-a2d6-afd55fbb9dcb",
+    "lesson_id": "88642603-f688-59a9-8118-f4d69defb0e2",
+    "sequence": 1,
+    "point": "な-adjective and noun use でも, not くても",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "静かくても、眠れません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "静かでも、眠れません。"
+      }
+    ],
+    "meaning_en": "Even if it is quiet, I cannot sleep.",
+    "meaning_id": "Meskipun tenang, saya tidak bisa tidur."
+  },
+  {
+    "id": "26e15d36-94e8-5f3f-98fc-7684cafa3cee",
+    "lesson_id": "88642603-f688-59a9-8118-f4d69defb0e2",
+    "sequence": 2,
+    "point": "する becomes せずに",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "宿題をしずに寝ました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "宿題をせずに寝ました。"
+      }
+    ],
+    "meaning_en": "I slept without doing my homework.",
+    "meaning_id": "Saya tidur tanpa mengerjakan PR."
+  },
+  {
+    "id": "e2c130bb-01cc-5219-b7fb-c4d39da75001",
+    "lesson_id": "88642603-f688-59a9-8118-f4d69defb0e2",
+    "sequence": 3,
+    "point": "Do not add で after 〜ずに",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "辞書を使わずにで書きました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "辞書を使わずに書きました。"
+      }
+    ],
+    "meaning_en": "I wrote it without using a dictionary.",
+    "meaning_id": "Saya menulisnya tanpa memakai kamus."
+  },
+  {
+    "id": "375c1dbe-136f-55e1-af29-b009cfdc5316",
+    "lesson_id": "88642603-f688-59a9-8118-f4d69defb0e2",
+    "sequence": 4,
+    "point": "どんなに〜ても needs a concession ending",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "どんなに練習して、うまくなりません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "どんなに練習しても、うまくなりません。"
+      }
+    ],
+    "meaning_en": "No matter how much I practice, I do not improve.",
+    "meaning_id": "Seberapa pun saya berlatih, saya tidak menjadi lebih baik."
+  },
+  {
+    "id": "5c5e2f46-fdb4-5cbf-9d55-065cf5a6650d",
+    "lesson_id": "debe319f-0ef8-5ffd-933e-6af728ff6005",
+    "sequence": 1,
+    "point": "Role uses 〜として",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "彼は日本代表にしては試合に出ます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "彼は日本代表として試合に出ます。"
+      }
+    ],
+    "meaning_en": "He participates in the game as a representative of Japan.",
+    "meaning_id": "Dia ikut pertandingan sebagai wakil Jepang."
+  },
+  {
+    "id": "dd6c21dc-086e-5f9b-9b7e-a419ae439307",
+    "lesson_id": "debe319f-0ef8-5ffd-933e-6af728ff6005",
+    "sequence": 2,
+    "point": "Unexpected evaluation uses 〜にしては",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "外国人としては日本語が上手です。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "外国人にしては日本語が上手です。"
+      }
+    ],
+    "meaning_en": "For a foreigner, his Japanese is very good.",
+    "meaning_id": "Untuk ukuran orang asing, bahasa Jepangnya sangat bagus."
+  },
+  {
+    "id": "972d6bb5-c31f-581d-a9a2-6194a46120c2",
+    "lesson_id": "debe319f-0ef8-5ffd-933e-6af728ff6005",
+    "sequence": 3,
+    "point": "Noun before としたら needs だ",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "その話が本当としたら、うれしいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "その話が本当だとしたら、うれしいです。"
+      }
+    ],
+    "meaning_en": "If that story is true, I am happy.",
+    "meaning_id": "Kalau cerita itu benar, saya senang."
+  },
+  {
+    "id": "a69afc0c-b211-5c8b-9629-811a66f0526a",
+    "lesson_id": "debe319f-0ef8-5ffd-933e-6af728ff6005",
+    "sequence": 4,
+    "point": "それにしても is used after accepting the previous situation",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "それにしては田中さん、遅いね。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "それにしても田中さん、遅いね。"
+      }
+    ],
+    "meaning_en": "Even so, Tanaka-san is really late.",
+    "meaning_id": "Walaupun begitu, Tanaka-san tetap sangat terlambat."
+  },
+  {
+    "id": "78e28998-0fa3-5d0b-9202-5223b86e5c42",
+    "lesson_id": "bb60d3c7-21cd-5567-84e6-577751c11939",
+    "sequence": 1,
+    "point": "はずだ is logical expectation, not advice",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "明日はテストだから、勉強するはずです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "明日はテストだから、勉強するべきです。"
+      }
+    ],
+    "meaning_en": "Since there is a test tomorrow, you should study.",
+    "meaning_id": "Karena besok ada ujian, seharusnya kamu belajar."
+  },
+  {
+    "id": "b8b078c8-0667-5352-837e-9554408c0fae",
+    "lesson_id": "bb60d3c7-21cd-5567-84e6-577751c11939",
+    "sequence": 2,
+    "point": "Noun before はずだ uses の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "田中さんは旅行中はずです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "田中さんは旅行中のはずです。"
+      }
+    ],
+    "meaning_en": "Tanaka-san should be travelling now.",
+    "meaning_id": "Tanaka-san seharusnya sedang bepergian sekarang."
+  },
+  {
+    "id": "2e09e959-be65-5f99-800c-71906123bf25",
+    "lesson_id": "bb60d3c7-21cd-5567-84e6-577751c11939",
+    "sequence": 3,
+    "point": "な-adjective before はずだ uses な",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "この部屋は静かのはずです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "この部屋は静かなはずです。"
+      }
+    ],
+    "meaning_en": "This room should be quiet.",
+    "meaning_id": "Kamar ini seharusnya tenang."
+  },
+  {
+    "id": "606d4782-50ac-575b-a548-5457e3c619c3",
+    "lesson_id": "bb60d3c7-21cd-5567-84e6-577751c11939",
+    "sequence": 4,
+    "point": "べきだ usually attaches to dictionary form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "約束は守りますべきです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "約束は守るべきです。"
+      }
+    ],
+    "meaning_en": "Promises should be kept.",
+    "meaning_id": "Janji seharusnya ditepati."
+  },
+  {
+    "id": "55e64594-b1ed-5a81-b4ca-3a9039bbff47",
+    "lesson_id": "bb60d3c7-21cd-5567-84e6-577751c11939",
+    "sequence": 5,
+    "point": "For する, both するべき and すべき are possible",
+    "lines": [
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "勉強するべきです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "勉強すべきです。"
+      }
+    ],
+    "meaning_en": "You should study.",
+    "meaning_id": "Kamu seharusnya belajar."
+  },
+  {
+    "id": "90ec0e22-79d6-5c81-a7ff-3fa87c60132e",
+    "lesson_id": "ebb8ee3e-ff2d-5b4f-9a39-8215af9c070c",
+    "sequence": 1,
+    "point": "ついでに needs a main action or opportunity",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "ついでに銀行へ行きました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "買い物のついでに銀行へ行きました。"
+      }
+    ],
+    "meaning_en": "I went to the bank while I was out shopping.",
+    "meaning_id": "Saya sekalian pergi ke bank saat belanja."
+  },
+  {
+    "id": "814c4678-c634-534f-896b-c5fb7fa01b6e",
+    "lesson_id": "ebb8ee3e-ff2d-5b4f-9a39-8215af9c070c",
+    "sequence": 2,
+    "point": "Do not use 〜たびには",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "この曲を聞くたびには、ふるさとを思い出します。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "この曲を聞くたびに、ふるさとを思い出します。"
+      }
+    ],
+    "meaning_en": "Every time I hear this song, I remember my hometown.",
+    "meaning_id": "Setiap kali mendengar lagu ini, saya teringat kampung halaman."
+  },
+  {
+    "id": "d0491437-92a7-56b5-8204-fd8b06598b7b",
+    "lesson_id": "ebb8ee3e-ff2d-5b4f-9a39-8215af9c070c",
+    "sequence": 3,
+    "point": "とたんに is not for planned future actions",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "駅に着いたとたんに、電話します。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "駅に着いたら、電話します。"
+      }
+    ],
+    "meaning_en": "When I arrive at the station, I will call you.",
+    "meaning_id": "Setelah sampai di stasiun, saya akan menelepon."
+  },
+  {
+    "id": "dcaae4f1-18bd-5de9-baeb-1a72db0ccaaa",
+    "lesson_id": "ebb8ee3e-ff2d-5b4f-9a39-8215af9c070c",
+    "sequence": 4,
+    "point": "Noun before 最中 uses の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "食事最中に、お客さんが来ました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "食事の最中に、お客さんが来ました。"
+      }
+    ],
+    "meaning_en": "A visitor came right in the middle of the meal.",
+    "meaning_id": "Tamu datang tepat di tengah waktu makan."
+  },
+  {
+    "id": "3424c787-61a0-57e1-b441-645aceafcc92",
+    "lesson_id": "0c81415e-56a8-5b56-8742-38c9c4bbda10",
+    "sequence": 1,
+    "point": "Noun can use Nのとおり or Nどおり",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "予報とおり、雪が降りました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "予報どおり、雪が降りました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "予報のとおり、雪が降りました。"
+      }
+    ],
+    "meaning_en": "As forecast, it snowed.",
+    "meaning_id": "Sesuai ramalan cuaca, salju turun."
+  },
+  {
+    "id": "375c9c55-8a90-5081-8326-e3a779139eb3",
+    "lesson_id": "0c81415e-56a8-5b56-8742-38c9c4bbda10",
+    "sequence": 2,
+    "point": "っぱなし attaches to the masu-stem",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "窓を開けたっぱなしで出てきました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "窓を開けっぱなしで出てきました。"
+      }
+    ],
+    "meaning_en": "I left home with the window open.",
+    "meaning_id": "Saya keluar rumah dengan jendela dibiarkan terbuka."
+  },
+  {
+    "id": "a0cdd6ad-ae1b-51a9-9ce1-f85dd7eaffd2",
+    "lesson_id": "0c81415e-56a8-5b56-8742-38c9c4bbda10",
+    "sequence": 3,
+    "point": "まま is Vた+まま, but っぱなし is Vますstem+っぱなし",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "テレビをつけっぱなしまま寝ました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "テレビをつけたまま寝ました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "テレビをつけっぱなしで寝ました。"
+      }
+    ],
+    "meaning_en": "I slept with the TV on.",
+    "meaning_id": "Saya tidur dengan TV tetap menyala."
+  },
+  {
+    "id": "9dcc181b-4483-52f5-9e1a-24a7fad7f661",
+    "lesson_id": "0c81415e-56a8-5b56-8742-38c9c4bbda10",
+    "sequence": 4,
+    "point": "二人きり means only two people",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "二人きり人で話したいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "二人きりで話したいです。"
+      }
+    ],
+    "meaning_en": "I want to talk with you privately, just the two of us.",
+    "meaning_id": "Saya ingin bicara hanya berdua."
+  },
+  {
+    "id": "fd0f31ac-9c5d-5fe4-a7bc-6e685f5032fe",
+    "lesson_id": "c989565a-ae98-5306-8b03-e40661484c4d",
+    "sequence": 1,
+    "point": "Do not usually use 〜がる for your own direct feeling",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "私は暑がっています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "私は暑いです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "子どもが暑がっています。"
+      }
+    ],
+    "meaning_en": "I feel hot. / The child looks hot.",
+    "meaning_id": "Saya merasa panas. / Anak itu terlihat kepanasan."
+  },
+  {
+    "id": "c41baf00-bb94-5659-9d73-07680f48f02b",
+    "lesson_id": "c989565a-ae98-5306-8b03-e40661484c4d",
+    "sequence": 2,
+    "point": "Speaker’s own desire uses 〜たい, not 〜たがる",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "私は帰りたがっています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "私は帰りたいです。"
+      }
+    ],
+    "meaning_en": "I want to go home.",
+    "meaning_id": "Saya ingin pulang."
+  },
+  {
+    "id": "39601bd8-71a5-5e88-a696-ebcaf3abbec6",
+    "lesson_id": "c989565a-ae98-5306-8b03-e40661484c4d",
+    "sequence": 3,
+    "point": "ほしい attaches to Vて-form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "教科書を見せるほしいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "教科書を見せてほしいです。"
+      }
+    ],
+    "meaning_en": "I want you to show me your textbook.",
+    "meaning_id": "Saya ingin kamu memperlihatkan buku pelajaranmu."
+  },
+  {
+    "id": "f6ac9af2-6973-57df-a9dd-19ac1464c96f",
+    "lesson_id": "c989565a-ae98-5306-8b03-e40661484c4d",
+    "sequence": 4,
+    "point": "Noun before ふりをする uses の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "田中さんは独身ふりをしています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "田中さんは独身のふりをしています。"
+      }
+    ],
+    "meaning_en": "Tanaka-san pretends to be single.",
+    "meaning_id": "Tanaka-san berpura-pura masih lajang."
+  },
+  {
+    "id": "405f8738-daf6-502d-8770-520f86929bf3",
+    "lesson_id": "c989565a-ae98-5306-8b03-e40661484c4d",
+    "sequence": 5,
+    "point": "な-adjective before ふりをする uses な",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "彼は元気のふりをしています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "彼は元気なふりをしています。"
+      }
+    ],
+    "meaning_en": "He is pretending to be fine.",
+    "meaning_id": "Dia berpura-pura baik-baik saja."
+  },
+  {
+    "id": "046e1463-d413-5759-8fab-47f45fef819d",
+    "lesson_id": "3f983698-bf17-50e3-8f2e-5b88e3c61f43",
+    "sequence": 1,
+    "point": "にとって is for standpoint, not action target",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "先生にとって質問しました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "先生に質問しました。"
+      }
+    ],
+    "meaning_en": "I asked the teacher a question.",
+    "meaning_id": "Saya bertanya kepada guru."
+  },
+  {
+    "id": "ed5e491c-4111-5375-aa44-66e3411eecb4",
+    "lesson_id": "3f983698-bf17-50e3-8f2e-5b88e3c61f43",
+    "sequence": 2,
+    "point": "Noun before わりに uses の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "年わりに若く見えます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "年のわりに若く見えます。"
+      }
+    ],
+    "meaning_en": "He looks young for his age.",
+    "meaning_id": "Dia terlihat muda untuk usianya."
+  },
+  {
+    "id": "8885d0cd-a84d-5519-9963-e1ef3ddbdbca",
+    "lesson_id": "3f983698-bf17-50e3-8f2e-5b88e3c61f43",
+    "sequence": 3,
+    "point": "くせに sounds critical",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "友達のくせに、親切です。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "友達なのに、親切です。"
+      }
+    ],
+    "meaning_en": "Even though he is just a friend, he is kind.",
+    "meaning_id": "Walaupun hanya teman, dia baik."
+  },
+  {
+    "id": "f20cba12-7f91-50f6-acc2-149b0b1f2073",
+    "lesson_id": "3f983698-bf17-50e3-8f2e-5b88e3c61f43",
+    "sequence": 4,
+    "point": "なんか is casual and emotional",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "面接で「日本語なんかできます」と言いました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "面接で「日本語ができます」と言いました。"
+      }
+    ],
+    "meaning_en": "I said in the interview, “I can speak Japanese.”",
+    "meaning_id": "Saya berkata saat wawancara, “Saya bisa bahasa Jepang.”"
+  },
+  {
+    "id": "2486a764-08bb-5790-b328-faaf071db2b1",
+    "lesson_id": "9c61c122-7e35-5507-8a80-8083d07593b1",
+    "sequence": 1,
+    "point": "おかげで is normally for good results",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "雨のおかげで、ピクニックが中止になりました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "雨のせいで、ピクニックが中止になりました。"
+      }
+    ],
+    "meaning_en": "Because of the rain, the picnic was cancelled.",
+    "meaning_id": "Gara-gara hujan, piknik dibatalkan."
+  },
+  {
+    "id": "fd917447-17d4-56c1-b3cf-92cdebbfdfe7",
+    "lesson_id": "9c61c122-7e35-5507-8a80-8083d07593b1",
+    "sequence": 2,
+    "point": "せいで sounds like blame",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "先生のせいで、合格できました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "先生のおかげで、合格できました。"
+      }
+    ],
+    "meaning_en": "Thanks to my teacher, I passed.",
+    "meaning_id": "Berkat guru saya, saya lulus."
+  },
+  {
+    "id": "9fd7bcce-d9fe-5da7-98c2-6b1442ff4b29",
+    "lesson_id": "9c61c122-7e35-5507-8a80-8083d07593b1",
+    "sequence": 3,
+    "point": "Role replacement often uses にかわって",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "部長のかわりに、私がごあいさつします。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "部長にかわって、私がごあいさつします。"
+      }
+    ],
+    "meaning_en": "I will give a greeting on behalf of the manager.",
+    "meaning_id": "Saya akan memberi sambutan mewakili kepala bagian."
+  },
+  {
+    "id": "6b480b4f-c582-5d51-ad36-1608e0329c9d",
+    "lesson_id": "9c61c122-7e35-5507-8a80-8083d07593b1",
+    "sequence": 4,
+    "point": "Noun before おかげで and せいで uses の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "先生おかげで合格しました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "先生のおかげで合格しました。"
+      }
+    ],
+    "meaning_en": "I passed thanks to my teacher.",
+    "meaning_id": "Saya lulus berkat guru saya."
+  },
+  {
+    "id": "255d98c5-ff30-57d5-864b-5f7212ca564d",
+    "lesson_id": "53c46315-75f3-5ccc-8356-f410f238ebae",
+    "sequence": 1,
+    "point": "〜ば〜ほど repeats the same word pattern",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "見るほど見れば、美しいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "見れば見るほど、美しいです。"
+      }
+    ],
+    "meaning_en": "The more I look at it, the more beautiful it is.",
+    "meaning_id": "Semakin saya melihatnya, semakin indah."
+  },
+  {
+    "id": "7c73a084-f085-5dcd-bbd6-1b901fda77a9",
+    "lesson_id": "53c46315-75f3-5ccc-8356-f410f238ebae",
+    "sequence": 2,
+    "point": "Superlative 〜ほど〜はない needs a negative ending",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "彼女ほど親切な人はいます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "彼女ほど親切な人はいません。"
+      }
+    ],
+    "meaning_en": "There is no one as kind as her.",
+    "meaning_id": "Tidak ada orang yang sebaik dia."
+  },
+  {
+    "id": "85c351de-a3d2-56e3-8a0e-9389d3809027",
+    "lesson_id": "53c46315-75f3-5ccc-8356-f410f238ebae",
+    "sequence": 3,
+    "point": "な-adjective in 〜ば〜ほど uses ならば／なら",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "静かければ静かなほどいいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "静かなら静かなほどいいです。"
+      }
+    ],
+    "meaning_en": "The quieter it is, the better.",
+    "meaning_id": "Semakin tenang, semakin baik."
+  },
+  {
+    "id": "5c7eae6f-faab-5dc8-bc10-2d72729314c9",
+    "lesson_id": "53c46315-75f3-5ccc-8356-f410f238ebae",
+    "sequence": 4,
+    "point": "くらい and ほど can show degree, not only quantity",
+    "lines": [
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "泣きたいくらい忙しいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "泣きたいほど忙しいです。"
+      }
+    ],
+    "meaning_en": "I am so busy that I want to cry.",
+    "meaning_id": "Saya sangat sibuk sampai ingin menangis."
+  },
+  {
+    "id": "78ed96d9-d2bd-5fbc-9546-f4680149287b",
+    "lesson_id": "9635a972-9ee5-5e99-b4f5-97d4851dceb0",
+    "sequence": 1,
+    "point": "ことはない means “no need,” not advice",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "疲れているなら、休むことはありません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "疲れているなら、休むことです。"
+      }
+    ],
+    "meaning_en": "If you are tired, you should rest.",
+    "meaning_id": "Kalau lelah, sebaiknya istirahat."
+  },
+  {
+    "id": "2568a4f2-cb3d-57cc-b3e1-5e5238a65548",
+    "lesson_id": "9635a972-9ee5-5e99-b4f5-97d4851dceb0",
+    "sequence": 2,
+    "point": "ことだ uses dictionary or nai-form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "無理をしないですことだ。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "無理をしないことだ。"
+      }
+    ],
+    "meaning_en": "You should not push yourself too hard.",
+    "meaning_id": "Sebaiknya jangan memaksakan diri."
+  },
+  {
+    "id": "8541aba4-3839-59fd-9afc-c0da637d0cdc",
+    "lesson_id": "9635a972-9ee5-5e99-b4f5-97d4851dceb0",
+    "sequence": 3,
+    "point": "Use ということだ for meaning or report",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "田中さんは少し遅れることだ。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "田中さんは少し遅れるということです。"
+      }
+    ],
+    "meaning_en": "It means Tanaka-san will be a little late.",
+    "meaning_id": "Artinya, Tanaka-san akan sedikit terlambat."
+  },
+  {
+    "id": "4f6a2528-8560-5b7e-992b-2af35dd9ce66",
+    "lesson_id": "9635a972-9ee5-5e99-b4f5-97d4851dceb0",
+    "sequence": 4,
+    "point": "ことか usually appears with words like どんなに or 何度",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "うれしいことか。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "どんなにうれしいことか。"
+      }
+    ],
+    "meaning_en": "How happy I would be!",
+    "meaning_id": "Betapa senangnya!"
+  },
+  {
+    "id": "b67238fd-c393-5fd0-9d0a-b9c0245dea74",
+    "lesson_id": "884d3b1c-eef4-599d-8005-3e25acba5668",
+    "sequence": 1,
+    "point": "っけ often attaches to past-style forms",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "来週だっけ？"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "来週だったっけ？"
+      }
+    ],
+    "meaning_en": "It was next week, wasn’t it?",
+    "meaning_id": "Minggu depan, ya?"
+  },
+  {
+    "id": "7a630e7b-b9f1-5c52-9d15-ffd7ab99bc72",
+    "lesson_id": "884d3b1c-eef4-599d-8005-3e25acba5668",
+    "sequence": 2,
+    "point": "しかない already contains a negative form",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "やるしかありませんない。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "やるしかありません。"
+      }
+    ],
+    "meaning_en": "I have no choice but to do it.",
+    "meaning_id": "Tidak ada pilihan selain melakukannya."
+  },
+  {
+    "id": "7197f938-e470-5105-8b0c-4c7f3c4c5a91",
+    "lesson_id": "884d3b1c-eef4-599d-8005-3e25acba5668",
+    "sequence": 3,
+    "point": "Noun and な-adjective before んだって use なん",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "田中さんは学生んだって。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "田中さんは学生なんだって。"
+      }
+    ],
+    "meaning_en": "I heard Tanaka-san is a student.",
+    "meaning_id": "Katanya Tanaka-san adalah pelajar."
+  },
+  {
+    "id": "670413f1-3ae2-597e-b731-12c788571cdd",
+    "lesson_id": "884d3b1c-eef4-599d-8005-3e25acba5668",
+    "sequence": 4,
+    "point": "もん is too casual for formal explanation",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "会議で「できません。忙しいんだもん」と言いました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "会議で「できません。忙しいからです」と言いました。"
+      }
+    ],
+    "meaning_en": "I said in the meeting, “I cannot do it because I am busy.”",
+    "meaning_id": "Saya berkata di rapat, “Saya tidak bisa karena sibuk.”"
+  },
+  {
+    "id": "352e4fbc-5483-5b97-a257-809d2150700c",
+    "lesson_id": "f13000e3-4e3c-5b73-a797-a15b6d193465",
+    "sequence": 1,
+    "point": "つまり rephrases; it does not show cause",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "事故がありました。つまり、電車が遅れています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "事故がありました。そのため、電車が遅れています。"
+      }
+    ],
+    "meaning_en": "There was an accident. Because of that, the train is delayed.",
+    "meaning_id": "Ada kecelakaan. Karena itu, kereta terlambat."
+  },
+  {
+    "id": "eb55cfa8-1dc4-5e10-842f-4cc9efc6b550",
+    "lesson_id": "f13000e3-4e3c-5b73-a797-a15b6d193465",
+    "sequence": 2,
+    "point": "その結果 fits the result of effort or process",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "３か月ダイエットしました。そのため、５キロやせました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "３か月ダイエットしました。その結果、５キロやせました。"
+      }
+    ],
+    "meaning_en": "I dieted for three months. As a result, I lost five kilos.",
+    "meaning_id": "Saya diet selama tiga bulan. Hasilnya, saya turun lima kilo."
+  },
+  {
+    "id": "75f56bfa-1154-553e-8e51-51ad7434a857",
+    "lesson_id": "f13000e3-4e3c-5b73-a797-a15b6d193465",
+    "sequence": 3,
+    "point": "なぜなら usually explains the reason after the conclusion",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "なぜなら、結婚式に出席するから、国に帰ります。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "国に帰ります。なぜなら、結婚式に出席するからです。"
+      }
+    ],
+    "meaning_en": "I will go home. The reason is that I will attend a wedding.",
+    "meaning_id": "Saya akan pulang. Alasannya karena saya akan menghadiri pernikahan."
+  },
+  {
+    "id": "6a99b157-2cc9-5aa5-a86a-8f47d4dd63e9",
+    "lesson_id": "f13000e3-4e3c-5b73-a797-a15b6d193465",
+    "sequence": 4,
+    "point": "なぜなら needs からだ／からです at the end",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "帰国します。なぜなら結婚式に出席します。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "帰国します。なぜなら結婚式に出席するからです。"
+      }
+    ],
+    "meaning_en": "I will return home. The reason is that I will attend a wedding.",
+    "meaning_id": "Saya akan pulang ke negara saya. Alasannya karena saya akan menghadiri pernikahan."
+  },
+  {
+    "id": "1cf09e8d-8121-5fda-bf24-beb57c6f4d6d",
+    "lesson_id": "a0a1dfd9-ba9f-5243-b849-0d00dbef0601",
+    "sequence": 1,
+    "point": "〜はもちろん needs an added point",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "彼は勉強はもちろん。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "彼は勉強はもちろん、スポーツもよくできる。"
+      }
+    ],
+    "meaning_en": "He is not only good at studying, but also good at sports.",
+    "meaning_id": "Dia bukan hanya pandai belajar, tetapi juga pandai olahraga."
+  },
+  {
+    "id": "e97f79d4-7557-5e4f-a7c6-539cb88d0622",
+    "lesson_id": "a0a1dfd9-ba9f-5243-b849-0d00dbef0601",
+    "sequence": 2,
+    "point": "Clause before はもちろん needs の",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "炒めて食べるはもちろん、生で食べてもおいしい。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "炒めて食べるのはもちろん、生で食べてもおいしい。"
+      }
+    ],
+    "meaning_en": "It is good not only sautéed, but also eaten raw.",
+    "meaning_id": "Enak bukan hanya ditumis, tetapi juga dimakan mentah."
+  },
+  {
+    "id": "2d3afe6e-4d32-5751-9820-92323c00501e",
+    "lesson_id": "a0a1dfd9-ba9f-5243-b849-0d00dbef0601",
+    "sequence": 3,
+    "point": "〜ばかりか often adds a stronger second point",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Weak",
+        "sentence": "あの店は味が悪いばかりか、駅から近い。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "あの店は味が悪いばかりか、店員の態度もひどい。"
+      }
+    ],
+    "meaning_en": "That restaurant’s food is bad, and on top of that, the staff’s attitude is terrible.",
+    "meaning_id": "Makanan restoran itu tidak enak, dan lebih parah lagi, sikap pegawainya juga buruk."
+  },
+  {
+    "id": "044de6cc-23e6-5d02-a18d-0997526c2012",
+    "lesson_id": "a0a1dfd9-ba9f-5243-b849-0d00dbef0601",
+    "sequence": 4,
+    "point": "Use に対して for attitude toward someone, not に比べて",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "先生は生徒に比べて厳しい。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "先生は生徒に対して厳しい。"
+      }
+    ],
+    "meaning_en": "The teacher is strict toward the students.",
+    "meaning_id": "Guru itu bersikap keras terhadap murid-murid."
+  },
+  {
+    "id": "e2b50d5e-53ba-5b69-ab19-5f0899ad2dad",
+    "lesson_id": "38176a75-e61c-5b45-a518-9538bede52fe",
+    "sequence": 1,
+    "point": "Use 上げる when someone finishes something",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "レポートが書き上げた。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "レポートを書き上げた。"
+      }
+    ],
+    "meaning_en": "I finished writing the report.",
+    "meaning_id": "Saya akhirnya selesai menulis laporan."
+  },
+  {
+    "id": "d3088ee1-b3de-551e-bfcc-541429900469",
+    "lesson_id": "38176a75-e61c-5b45-a518-9538bede52fe",
+    "sequence": 2,
+    "point": "Use 上がる when something is finished",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "ケーキを焼き上がりました。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "ケーキが焼き上がりました。"
+      }
+    ],
+    "meaning_en": "The cake has finished baking.",
+    "meaning_id": "Kuenya sudah selesai dipanggang."
+  },
+  {
+    "id": "1a7d54f5-dc10-5330-993b-1de774056ffb",
+    "lesson_id": "38176a75-e61c-5b45-a518-9538bede52fe",
+    "sequence": 3,
+    "point": "〜切れない means “cannot finish completely,” not simply “cannot eat”",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Less precise",
+        "sentence": "ご飯が多くて、食べられない。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "ご飯が多くて、食べ切れない。"
+      }
+    ],
+    "meaning_en": "There is so much rice that I cannot finish it all.",
+    "meaning_id": "Nasinya terlalu banyak, jadi saya tidak bisa menghabiskannya."
+  },
+  {
+    "id": "e85e3134-f1b2-559d-96c2-dd7de7e9865b",
+    "lesson_id": "38176a75-e61c-5b45-a518-9538bede52fe",
+    "sequence": 4,
+    "point": "〜たて is not the same as 〜ている",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "焼いているのパン。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "焼きたてのパン。"
+      }
+    ],
+    "meaning_en": "Freshly baked bread.",
+    "meaning_id": "Roti yang baru dipanggang."
+  },
+  {
+    "id": "add1594a-ae02-52ea-abd3-91673d5e5df8",
+    "lesson_id": "44f4a2dd-db4c-5e88-a81c-bade5f25ed91",
+    "sequence": 1,
+    "point": "Past regret uses 〜ばよかった, not 〜ばいいなあ",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "もっと早く家を出ればいいなあ。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "もっと早く家を出ればよかった。"
+      }
+    ],
+    "meaning_en": "I should have left home earlier.",
+    "meaning_id": "Seharusnya saya berangkat dari rumah lebih awal."
+  },
+  {
+    "id": "c9c304ee-5753-5080-8494-f67478d4851e",
+    "lesson_id": "44f4a2dd-db4c-5e88-a81c-bade5f25ed91",
+    "sequence": 2,
+    "point": "Use 〜たらいいなあ for a future/uncertain wish",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "日本語がうまく話せたらよかった。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "日本語がうまく話せたらいいなあ。"
+      }
+    ],
+    "meaning_en": "I wish I could speak Japanese well.",
+    "meaning_id": "Andai saya bisa berbicara bahasa Jepang dengan lancar."
+  },
+  {
+    "id": "39c65a2f-7c39-52c0-8c72-accbca9bec7d",
+    "lesson_id": "44f4a2dd-db4c-5e88-a81c-bade5f25ed91",
+    "sequence": 3,
+    "point": "〜ないかなあ often means hope, not normal negative",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "バス、早く来ないかなあ。= The bus will not come soon."
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "I hope the bus comes soon."
+      }
+    ],
+    "meaning_en": null,
+    "meaning_id": "Semoga busnya cepat datang."
+  },
+  {
+    "id": "1e502fed-def6-5bc6-a09d-f625c059cc27",
+    "lesson_id": "44f4a2dd-db4c-5e88-a81c-bade5f25ed91",
+    "sequence": 4,
+    "point": "のに adds regret or disappointment",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too flat",
+        "sentence": "君も行けばよかった。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "君も行けばよかったのに。"
+      }
+    ],
+    "meaning_en": "You should have come too.",
+    "meaning_id": "Sayang sekali, kamu juga seharusnya ikut."
+  },
+  {
+    "id": "b38d57bd-1a4c-5ed1-b94c-492c9b068e7f",
+    "lesson_id": "f23c5aaa-dfa1-52a1-ad81-0ed81ebc9f84",
+    "sequence": 1,
+    "point": "まで and までに are different",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "連絡があるまでに待っています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "連絡があるまで待っています。"
+      }
+    ],
+    "meaning_en": "I will wait until I hear from you.",
+    "meaning_id": "Saya akan menunggu sampai ada kabar."
+  },
+  {
+    "id": "25f737eb-8e6b-5baf-a1aa-ca6746b894f6",
+    "lesson_id": "f23c5aaa-dfa1-52a1-ad81-0ed81ebc9f84",
+    "sequence": 2,
+    "point": "にかけて is for a broad range, not always a sharp endpoint",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too rigid",
+        "sentence": "今晩から明日の朝まで雪が降るでしょう。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "今晩から明日の朝にかけて雪が降るでしょう。"
+      }
+    ],
+    "meaning_en": "It will snow from tonight through tomorrow morning.",
+    "meaning_id": "Salju kemungkinan turun dari malam ini sampai besok pagi."
+  },
+  {
+    "id": "d8b63598-e4e9-542a-a763-aca11470cbe9",
+    "lesson_id": "f23c5aaa-dfa1-52a1-ad81-0ed81ebc9f84",
+    "sequence": 3,
+    "point": "において is formal; do not overuse it in casual speech",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too stiff",
+        "sentence": "家においてテレビを見ます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "家でテレビを見ます。"
+      }
+    ],
+    "meaning_en": "I watch TV at home.",
+    "meaning_id": "Saya menonton TV di rumah."
+  },
+  {
+    "id": "e85e71ca-5d54-5836-a8b9-f7aeab0d3d12",
+    "lesson_id": "9a7d4179-bcda-55b9-b6cc-25c4a1df1e89",
+    "sequence": 1,
+    "point": "たとえ must pair with ても／でも",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "たとえ反対される、留学します。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "たとえ反対されても、留学します。"
+      }
+    ],
+    "meaning_en": "Even if I am opposed, I will study abroad.",
+    "meaning_id": "Walaupun ditentang, saya akan tetap belajar ke luar negeri."
+  },
+  {
+    "id": "10cff2ee-dc98-58ee-a8a2-efb9483f2d01",
+    "lesson_id": "9a7d4179-bcda-55b9-b6cc-25c4a1df1e89",
+    "sequence": 2,
+    "point": "かもしれない needs plain form before it",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "彼の話はうそですかもしれない。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "彼の話はうそかもしれない。"
+      }
+    ],
+    "meaning_en": "His story might be a lie.",
+    "meaning_id": "Ceritanya mungkin saja bohong."
+  },
+  {
+    "id": "e843598c-4edf-5764-8185-03224caa52e8",
+    "lesson_id": "9a7d4179-bcda-55b9-b6cc-25c4a1df1e89",
+    "sequence": 3,
+    "point": "必ずしも〜とは限らない means “not necessarily,” not “never”",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "お金持ちは幸福ではない。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "お金持ちが必ずしも幸福だとは限らない。"
+      }
+    ],
+    "meaning_en": "Being rich does not necessarily mean being happy.",
+    "meaning_id": "Orang kaya belum tentu bahagia."
+  },
+  {
+    "id": "863ad36c-75f4-586d-85fd-3e92c2b39b8c",
+    "lesson_id": "9a7d4179-bcda-55b9-b6cc-25c4a1df1e89",
+    "sequence": 4,
+    "point": "まるで〜ようだ needs ようだ／みたいだ for comparison",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "まるで夢だ。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "まるで夢のようだ。"
+      }
+    ],
+    "meaning_en": "It is just like a dream.",
+    "meaning_id": "Rasanya seperti mimpi."
+  },
+  {
+    "id": "8711b99d-4f57-5975-9925-8486ab6e8530",
+    "lesson_id": "ae5551e9-04c1-5b72-b6d4-2f2e22931f94",
+    "sequence": 1,
+    "point": "ところが is not for normal topic change",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "明日は試験だ。ところが、来週は空いてる？"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "明日は試験だ。ところで、来週は空いてる？"
+      }
+    ],
+    "meaning_en": "The exam is tomorrow. By the way, are you free next week?",
+    "meaning_id": "Besok ujian. Ngomong-ngomong, minggu depan kamu kosong?"
+  },
+  {
+    "id": "b953451a-9659-545d-a113-018af5c90e2e",
+    "lesson_id": "ae5551e9-04c1-5b72-b6d4-2f2e22931f94",
+    "sequence": 2,
+    "point": "ところで changes the topic, not the result",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "行く予定だった。ところで、病気で行けなくなった。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "行く予定だった。ところが、病気で行けなくなった。"
+      }
+    ],
+    "meaning_en": "I was planning to go, but unexpectedly I became sick and could not go.",
+    "meaning_id": "Saya tadinya berencana pergi, tetapi ternyata sakit dan tidak bisa pergi."
+  },
+  {
+    "id": "427a9eba-d2b6-501e-8ece-247e853105a0",
+    "lesson_id": "ae5551e9-04c1-5b72-b6d4-2f2e22931f94",
+    "sequence": 3,
+    "point": "ですから connects reason to result",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "傘がいります。ですから、雨です。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "雨です。ですから、傘がいります。"
+      }
+    ],
+    "meaning_en": "It is raining. Therefore, I need an umbrella.",
+    "meaning_id": "Sedang hujan. Jadi, saya perlu payung."
+  },
+  {
+    "id": "850b271d-0db2-54c8-b2ec-606666583988",
+    "lesson_id": "ae5551e9-04c1-5b72-b6d4-2f2e22931f94",
+    "sequence": 4,
+    "point": "だけど is casual",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too casual for formal writing",
+        "sentence": "行きたい。だけど、行けない。"
+      },
+      {
+        "verdict": "correct",
+        "label": "More formal",
+        "sentence": "行きたい。しかし、行けない。"
+      }
+    ],
+    "meaning_en": "I want to go. However, I cannot.",
+    "meaning_id": "Saya ingin pergi. Namun, saya tidak bisa."
+  },
+  {
+    "id": "75d655f7-fb9e-57bc-a2db-191485ceb769",
+    "lesson_id": "b88eb8fe-12ff-5633-9958-bc5871f05f8d",
+    "sequence": 1,
+    "point": "Counterfactual past needs past condition",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "もし試験を受けるなら、合格していたと思う。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "もし試験を受けていたなら、合格していたと思う。"
+      }
+    ],
+    "meaning_en": "If I had taken the exam, I think I would have passed.",
+    "meaning_id": "Kalau saja saya mengikuti ujian itu, saya rasa saya akan lulus."
+  },
+  {
+    "id": "079e9002-bef6-5c3f-88f4-dbcd4357998b",
+    "lesson_id": "b88eb8fe-12ff-5633-9958-bc5871f05f8d",
+    "sequence": 2,
+    "point": "〜としても means the result does not change",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Weak",
+        "sentence": "もし休みが取れたら、旅行には行かないつもりです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "もし休みが取れたとしても、旅行には行かないつもりです。"
+      }
+    ],
+    "meaning_en": "Even if I get time off, I do not plan to travel.",
+    "meaning_id": "Walaupun saya bisa mendapat cuti, saya tidak berniat bepergian."
+  },
+  {
+    "id": "17d2d8ce-f29b-5ff7-81fb-5bfbebc0db6d",
+    "lesson_id": "b88eb8fe-12ff-5633-9958-bc5871f05f8d",
+    "sequence": 3,
+    "point": "もしも emphasizes the hypothetical feeling",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too flat",
+        "sentence": "生まれ変われるなら、男になりたい。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "もしも生まれ変われるなら、男になりたい。"
+      }
+    ],
+    "meaning_en": "If I were born again, I would like to be a boy.",
+    "meaning_id": "Seandainya saya terlahir kembali, saya ingin menjadi laki-laki."
+  },
+  {
+    "id": "5ae0268f-1a36-508e-a2db-2336d7d4429c",
+    "lesson_id": "231dbfa1-d0bf-5501-96d4-532de9ca3129",
+    "sequence": 1,
+    "point": "Do not use ことにしている for rules decided by others",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "明日、会議が行われることにしています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "明日、会議が行われることになっています。"
+      }
+    ],
+    "meaning_en": "A meeting is scheduled to be held tomorrow.",
+    "meaning_id": "Rapat sudah dijadwalkan akan diadakan besok."
+  },
+  {
+    "id": "afcd3652-0405-5d87-9d64-c7ddb318beab",
+    "lesson_id": "231dbfa1-d0bf-5501-96d4-532de9ca3129",
+    "sequence": 2,
+    "point": "Personal decision uses ことにする",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "毎朝ジョギングすることになっています。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "毎朝ジョギングすることにしています。"
+      }
+    ],
+    "meaning_en": "I make it a rule to jog every morning.",
+    "meaning_id": "Saya membiasakan diri jogging setiap pagi."
+  },
+  {
+    "id": "3c45f432-2b0d-58f3-a38a-e74b063f7634",
+    "lesson_id": "231dbfa1-d0bf-5501-96d4-532de9ca3129",
+    "sequence": 3,
+    "point": "〜ことは〜が needs the repeated predicate",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "ピアノは弾けることはが、うまくありません。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "ピアノは弾けることは弾けますが、うまくありません。"
+      }
+    ],
+    "meaning_en": "I can play the piano, but not well.",
+    "meaning_id": "Saya bisa bermain piano, tetapi tidak mahir."
+  },
+  {
+    "id": "158a08bb-c50e-5e9f-ac73-4b37db57a232",
+    "lesson_id": "231dbfa1-d0bf-5501-96d4-532de9ca3129",
+    "sequence": 4,
+    "point": "〜ないことはない is a weak yes",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "食べないことはない = I do not eat it."
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "It is not that I do not eat it."
+      }
+    ],
+    "meaning_en": null,
+    "meaning_id": "Bukan berarti saya tidak memakannya."
+  },
+  {
+    "id": "7bb4f77a-b455-5869-b4da-4a3a59c0946f",
+    "lesson_id": "bba7ce5a-424f-50e2-81b3-5550c714a816",
+    "sequence": 1,
+    "point": "〜たところ in this page shows result after checking/trying",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "先生に聞いたところだ、10課までだと言われた。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "先生に聞いたところ、10課までだと言われた。"
+      }
+    ],
+    "meaning_en": "When I asked the teacher, I was told it would cover up to Chapter 10.",
+    "meaning_id": "Setelah saya bertanya kepada guru, saya diberi tahu bahwa materinya sampai bab 10."
+  },
+  {
+    "id": "5499fc7b-d28c-5906-a1bd-db3b0c968db2",
+    "lesson_id": "bba7ce5a-424f-50e2-81b3-5550c714a816",
+    "sequence": 2,
+    "point": "“Almost did” uses dictionary form before ところだった",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "もう少しで遅刻したところだった。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "もう少しで遅刻するところだった。"
+      }
+    ],
+    "meaning_en": "I was almost late.",
+    "meaning_id": "Saya hampir terlambat."
+  },
+  {
+    "id": "3ad01ae7-3f3e-5b95-bb32-52b70cc99e6f",
+    "lesson_id": "bba7ce5a-424f-50e2-81b3-5550c714a816",
+    "sequence": 3,
+    "point": "〜てはじめて is not just “after”",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too simple",
+        "sentence": "先生に注意されてから、間違いに気が付いた。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Stronger",
+        "sentence": "先生に注意されてはじめて、間違いに気が付いた。"
+      }
+    ],
+    "meaning_en": "Only after the teacher pointed it out did I notice the mistake.",
+    "meaning_id": "Baru setelah guru menegur, saya menyadari kesalahan itu."
+  },
+  {
+    "id": "5f3223b7-2d87-554b-bf90-650f89fd5362",
+    "lesson_id": "bba7ce5a-424f-50e2-81b3-5550c714a816",
+    "sequence": 4,
+    "point": "〜うちに means “while the chance still exists”",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Weak",
+        "sentence": "明るい時に帰ってきなさい。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "明るいうちに帰ってきなさい。"
+      }
+    ],
+    "meaning_en": "Come home before it gets dark.",
+    "meaning_id": "Pulanglah selagi masih terang."
+  },
+  {
+    "id": "510099c7-4dff-5b0f-b46f-33bce0580a0e",
+    "lesson_id": "3b5e103a-6d9b-59c5-bc1c-678c1430d2b5",
+    "sequence": 1,
+    "point": "〜わけだ needs a reason or logical background",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Unclear",
+        "sentence": "暑いわけだ。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Natural",
+        "sentence": "気温が36度もある。暑いわけだ。"
+      }
+    ],
+    "meaning_en": "It is 36°C. No wonder it feels hot.",
+    "meaning_id": "Suhunya sampai 36°C. Pantas saja terasa panas."
+  },
+  {
+    "id": "6c7dc861-da69-5c1a-9726-b995982b0ba1",
+    "lesson_id": "3b5e103a-6d9b-59c5-bc1c-678c1430d2b5",
+    "sequence": 2,
+    "point": "〜わけではない is partial negation",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Too strong",
+        "sentence": "肉はきらいです。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Softer",
+        "sentence": "きらいなわけではないが、肉はあまり食べない。"
+      }
+    ],
+    "meaning_en": "It is not that I hate meat, but I do not eat it much.",
+    "meaning_id": "Bukan berarti saya benci daging, tetapi saya jarang memakannya."
+  },
+  {
+    "id": "2beff883-9e1c-5146-8cac-ec2bfac9af33",
+    "lesson_id": "3b5e103a-6d9b-59c5-bc1c-678c1430d2b5",
+    "sequence": 3,
+    "point": "〜わけがない is not the same as 〜わけにはいかない",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "大事な会議があるから、休むわけがない。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "大事な会議があるから、休むわけにはいかない。"
+      }
+    ],
+    "meaning_en": "I cannot afford to be absent because I have an important meeting.",
+    "meaning_id": "Saya tidak bisa izin/absen karena ada rapat penting."
+  },
+  {
+    "id": "38fde1c4-7f6b-5ce9-b8cb-d4ef5d1d9b82",
+    "lesson_id": "3b5e103a-6d9b-59c5-bc1c-678c1430d2b5",
+    "sequence": 4,
+    "point": "〜ないわけにはいかない means “must”",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "従わないわけにはいかない = I cannot obey."
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "I cannot avoid obeying."
+      }
+    ],
+    "meaning_en": null,
+    "meaning_id": "Mau tidak mau harus patuh."
+  },
+  {
+    "id": "5e20c2d6-6370-5c49-b157-0d2e06246e7f",
+    "lesson_id": "a6a4bb7a-7115-5991-9f1c-cbb75917d7f4",
+    "sequence": 1,
+    "point": "決して needs a negative ending",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "私は決して夢をあきらめます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "私は決して夢をあきらめません。"
+      }
+    ],
+    "meaning_en": "I will never give up my dream.",
+    "meaning_id": "Saya tidak akan pernah menyerah pada impian saya."
+  },
+  {
+    "id": "94a8ecb8-cce1-5353-930c-982741029b6e",
+    "lesson_id": "a6a4bb7a-7115-5991-9f1c-cbb75917d7f4",
+    "sequence": 2,
+    "point": "めったに〜ない means low frequency, not zero",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "めったに行かない = never go."
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "rarely go."
+      }
+    ],
+    "meaning_en": null,
+    "meaning_id": "Jarang pergi, bukan benar-benar tidak pernah."
+  },
+  {
+    "id": "a4042610-9115-5307-9e5a-9e058eb012f3",
+    "lesson_id": "a6a4bb7a-7115-5991-9f1c-cbb75917d7f4",
+    "sequence": 3,
+    "point": "少しも〜ない and 少ししか〜ない are different",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "日本語は少しも話せます。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "日本語は少ししか話せません。"
+      }
+    ],
+    "meaning_en": "I can speak only a little Japanese.",
+    "meaning_id": "Saya hanya bisa berbicara bahasa Jepang sedikit."
+  },
+  {
+    "id": "7828a309-85a3-5735-8cd1-65c4bb01159e",
+    "lesson_id": "a6a4bb7a-7115-5991-9f1c-cbb75917d7f4",
+    "sequence": 4,
+    "point": "まったく can be positive or negative depending on the sentence",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "まったく新しい = not new at all."
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "completely new."
+      }
+    ],
+    "meaning_en": null,
+    "meaning_id": "Benar-benar baru."
+  },
+  {
+    "id": "b66a8f82-824e-56a9-a9b7-069cec5a6382",
+    "lesson_id": "ad594e0d-ccbd-5d5c-b4d5-da2a4fb69ddc",
+    "sequence": 1,
+    "point": "Do not use それとも for simple addition",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "トマト3個。それともピーマンもください。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "トマト3個。それとピーマンもください。"
+      }
+    ],
+    "meaning_en": "Three tomatoes. And also green peppers, please.",
+    "meaning_id": "Tiga tomat. Dan paprika hijaunya juga, tolong."
+  },
+  {
+    "id": "4eb20b41-39e8-53d0-a232-daf9cd87d95a",
+    "lesson_id": "ad594e0d-ccbd-5d5c-b4d5-da2a4fb69ddc",
+    "sequence": 2,
+    "point": "それとも connects alternatives",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Incorrect",
+        "sentence": "コーヒーにしますか。それと紅茶にしますか。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct",
+        "sentence": "コーヒーにしますか。それとも紅茶にしますか。"
+      }
+    ],
+    "meaning_en": "Would you like coffee or tea?",
+    "meaning_id": "Mau kopi atau teh?"
+  },
+  {
+    "id": "84414c3f-f9a5-562d-9fd3-f15663b84a8d",
+    "lesson_id": "ad594e0d-ccbd-5d5c-b4d5-da2a4fb69ddc",
+    "sequence": 3,
+    "point": "その上 adds a supporting extra point",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Weak",
+        "sentence": "この店の料理はおいしい。それと値段も安い。"
+      },
+      {
+        "verdict": "correct",
+        "label": "Better",
+        "sentence": "この店の料理はおいしい。その上値段も安い。"
+      }
+    ],
+    "meaning_en": "The food at this restaurant is good. On top of that, it is cheap.",
+    "meaning_id": "Makanan di restoran ini enak. Selain itu, harganya juga murah."
+  },
+  {
+    "id": "731d374e-34c6-573f-af92-606f55fd9bb6",
+    "lesson_id": "ad594e0d-ccbd-5d5c-b4d5-da2a4fb69ddc",
+    "sequence": 4,
+    "point": "あと can mean “another / remaining” with numbers",
+    "lines": [
+      {
+        "verdict": "incorrect",
+        "label": "Misread",
+        "sentence": "あと3個 = and three pieces."
+      },
+      {
+        "verdict": "correct",
+        "label": "Correct meaning",
+        "sentence": "another three / three more pieces."
+      }
+    ],
+    "meaning_en": null,
+    "meaning_id": "Tiga lagi / sisa tiga lagi, tergantung konteks."
+  }
+]

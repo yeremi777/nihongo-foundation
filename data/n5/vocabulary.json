@@ -1,0 +1,4258 @@
+[
+  {
+    "id": "3f054fa2-c4b5-5c73-b889-58bd7c1078c1",
+    "level": "n5",
+    "code": "v101-001",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 1,
+    "word": "あまい",
+    "reading": "あまい",
+    "part_of_speech": "い-adjective",
+    "note": "さとうはあまいです。",
+    "meaning_en": "sweet",
+    "meaning_id": "manis",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2eee8e6a-2aeb-55e3-82ef-82b205a34595",
+    "level": "n5",
+    "code": "v101-002",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 2,
+    "word": "からい",
+    "reading": "からい",
+    "part_of_speech": "い-adjective",
+    "note": "Context decides spicy or salty. Opposite pair with あまい on the page.",
+    "meaning_en": "spicy / salty",
+    "meaning_id": "pedas / asin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "55db1de1-4467-5bbf-99ce-16493b2bca84",
+    "level": "n5",
+    "code": "v101-003",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 3,
+    "word": "にがい",
+    "reading": "にがい",
+    "part_of_speech": "い-adjective",
+    "note": "にがいくすり = bitter medicine.",
+    "meaning_en": "bitter",
+    "meaning_id": "pahit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "11c67b44-965b-5e67-923a-3f599c75b1c5",
+    "level": "n5",
+    "code": "v101-004",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 4,
+    "word": "おもい",
+    "reading": "おもい",
+    "part_of_speech": "い-adjective",
+    "note": "おもいかばん = heavy bag.",
+    "meaning_en": "heavy",
+    "meaning_id": "berat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7030f9c6-454b-5110-a4fc-658a7cd5aed9",
+    "level": "n5",
+    "code": "v101-005",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 5,
+    "word": "かるい",
+    "reading": "かるい",
+    "part_of_speech": "い-adjective",
+    "note": "Opposite of おもい.",
+    "meaning_en": "light",
+    "meaning_id": "ringan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1db6068d-227c-5e90-b8e6-4ec443c9a65f",
+    "level": "n5",
+    "code": "v101-006",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 6,
+    "word": "あつい",
+    "reading": "あつい",
+    "part_of_speech": "い-adjective",
+    "note": "暑い = hot weather; 熱い = hot object or drink.",
+    "meaning_en": "hot",
+    "meaning_id": "panas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "35477998-8a3c-5457-b8fb-51a7cda9aac4",
+    "level": "n5",
+    "code": "v101-007",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 7,
+    "word": "つめたい",
+    "reading": "つめたい",
+    "part_of_speech": "い-adjective",
+    "note": "Usually for objects, drinks, or touch.",
+    "meaning_en": "cold",
+    "meaning_id": "dingin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bca27684-09a5-54ca-9308-f6fdb4e28016",
+    "level": "n5",
+    "code": "v101-008",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 8,
+    "word": "さむい",
+    "reading": "さむい",
+    "part_of_speech": "い-adjective",
+    "note": "Usually for weather or air temperature.",
+    "meaning_en": "cold",
+    "meaning_id": "dingin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "26244b14-5906-568a-9048-de18851efac8",
+    "level": "n5",
+    "code": "v101-009",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 9,
+    "word": "あたたかい",
+    "reading": "あたたかい",
+    "part_of_speech": "い-adjective",
+    "note": "今日はあたたかいです。",
+    "meaning_en": "warm",
+    "meaning_id": "hangat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "63cd720a-babf-5671-bae3-ffd92f958a9f",
+    "level": "n5",
+    "code": "v101-010",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 10,
+    "word": "すずしい",
+    "reading": "すずしい",
+    "part_of_speech": "い-adjective",
+    "note": "Comfortably cool; not freezing cold.",
+    "meaning_en": "cool",
+    "meaning_id": "sejuk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2c6742cd-50e8-5cad-b3c3-394de1d34556",
+    "level": "n5",
+    "code": "v101-011",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 11,
+    "word": "おもしろい",
+    "reading": "おもしろい",
+    "part_of_speech": "い-adjective",
+    "note": "おもしろい本 = interesting book.",
+    "meaning_en": "interesting / fun",
+    "meaning_id": "menarik / seru",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "15848dfc-4136-5957-bfe5-0d1cf3465418",
+    "level": "n5",
+    "code": "v101-012",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 12,
+    "word": "つまらない",
+    "reading": "つまらない",
+    "part_of_speech": "い-adjective",
+    "note": "Opposite of おもしろい.",
+    "meaning_en": "boring",
+    "meaning_id": "membosankan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cc300e4e-fba1-5778-ba61-40a2f1081587",
+    "level": "n5",
+    "code": "v101-013",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 13,
+    "word": "せまい",
+    "reading": "せまい",
+    "part_of_speech": "い-adjective",
+    "note": "せまい道; せまいへや.",
+    "meaning_en": "narrow / small",
+    "meaning_id": "sempit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "baf6190c-ff54-55a9-b09d-a6765de2d3c3",
+    "level": "n5",
+    "code": "v101-014",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 14,
+    "word": "ひろい",
+    "reading": "ひろい",
+    "part_of_speech": "い-adjective",
+    "note": "Opposite of せまい.",
+    "meaning_en": "wide / spacious",
+    "meaning_id": "luas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ca65ad61-5eaf-5664-bea6-fe95deeb80fb",
+    "level": "n5",
+    "code": "v101-015",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 15,
+    "word": "とおい",
+    "reading": "とおい",
+    "part_of_speech": "い-adjective",
+    "note": "とおい国 = far country.",
+    "meaning_en": "far",
+    "meaning_id": "jauh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a2fd8642-f072-5744-a33f-8e8cb2f6b65f",
+    "level": "n5",
+    "code": "v101-016",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 16,
+    "word": "ちかい",
+    "reading": "ちかい",
+    "part_of_speech": "い-adjective",
+    "note": "Opposite of とおい.",
+    "meaning_en": "close / near",
+    "meaning_id": "dekat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "97144834-a759-5558-90c1-72bb53087508",
+    "level": "n5",
+    "code": "v101-017",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 17,
+    "word": "やさしい",
+    "reading": "やさしい",
+    "part_of_speech": "い-adjective",
+    "note": "In this page: easy, as in やさしいしけん.",
+    "meaning_en": "easy / kind",
+    "meaning_id": "mudah / baik hati",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3b661a13-84e5-57c5-b989-bd943947296f",
+    "level": "n5",
+    "code": "v101-018",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 18,
+    "word": "むずかしい",
+    "reading": "むずかしい",
+    "part_of_speech": "い-adjective",
+    "note": "Opposite of やさしい.",
+    "meaning_en": "difficult",
+    "meaning_id": "sulit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2ba79afd-4847-5785-aa43-9f8214fc451e",
+    "level": "n5",
+    "code": "v101-019",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 19,
+    "word": "いそがしい",
+    "reading": "いそがしい",
+    "part_of_speech": "い-adjective",
+    "note": "いそがしい日 = busy day.",
+    "meaning_en": "busy",
+    "meaning_id": "sibuk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "49fed6b4-4fa0-517a-8458-2ab1fb998897",
+    "level": "n5",
+    "code": "v101-020",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 20,
+    "word": "ひまな",
+    "reading": "ひまな",
+    "part_of_speech": "な-adjective",
+    "note": "Na-adjective: ひまな日.",
+    "meaning_en": "free / not busy",
+    "meaning_id": "senggang / tidak sibuk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "085a803c-c0be-5542-9899-b25ac80590ac",
+    "level": "n5",
+    "code": "v101-021",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 21,
+    "word": "きらいな",
+    "reading": "きらいな",
+    "part_of_speech": "な-adjective",
+    "note": "Use な before nouns: きらいな食べもの.",
+    "meaning_en": "disliked / not favorite",
+    "meaning_id": "tidak suka / benci",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "42ac2573-356f-534f-b74b-2a36af5abe15",
+    "level": "n5",
+    "code": "v101-022",
+    "lesson_id": "2dbc570d-8da3-542a-8f3b-84a477692e1e",
+    "sequence": 22,
+    "word": "すきな",
+    "reading": "すきな",
+    "part_of_speech": "な-adjective",
+    "note": "Use な before nouns: すきな食べもの.",
+    "meaning_en": "favorite / liked",
+    "meaning_id": "suka / favorit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1aff8576-e84a-5e5b-a12c-2ff55ce694da",
+    "level": "n5",
+    "code": "v102-001",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 1,
+    "word": "すむ",
+    "reading": "すむ",
+    "part_of_speech": "verb · 自動詞",
+    "note": "日本にすんでいる. Use に for residence.",
+    "meaning_en": "live / reside",
+    "meaning_id": "tinggal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9d415a2a-3c67-5c91-9ec8-cea7405a391d",
+    "level": "n5",
+    "code": "v102-002",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 2,
+    "word": "つとめる",
+    "reading": "つとめる",
+    "part_of_speech": "verb · 自動詞",
+    "note": "会社につとめている. Employment-focused.",
+    "meaning_en": "work for / be employed at",
+    "meaning_id": "bekerja di perusahaan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5eb54ccf-2ecb-5b2e-9503-0c3ff455a910",
+    "level": "n5",
+    "code": "v102-003",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 3,
+    "word": "はたらく",
+    "reading": "はたらく",
+    "part_of_speech": "verb · 自動詞",
+    "note": "工場ではたらいている. Use で for workplace.",
+    "meaning_en": "work",
+    "meaning_id": "bekerja",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2b74add6-b0bd-5c38-b9bd-2646d336007b",
+    "level": "n5",
+    "code": "v102-004",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 4,
+    "word": "つくる",
+    "reading": "つくる",
+    "part_of_speech": "verb · 他動詞",
+    "note": "車をつくる; 料理をつくる.",
+    "meaning_en": "make / create / cook",
+    "meaning_id": "membuat / memasak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "747260d9-e207-5894-961f-278d8c416c57",
+    "level": "n5",
+    "code": "v102-005",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 5,
+    "word": "うる",
+    "reading": "うる",
+    "part_of_speech": "verb · 他動詞",
+    "note": "食べものや飲みものをうる.",
+    "meaning_en": "sell",
+    "meaning_id": "menjual",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "25286db4-1485-547c-a747-0dea94dd15c7",
+    "level": "n5",
+    "code": "v102-006",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 6,
+    "word": "しる",
+    "reading": "しる",
+    "part_of_speech": "verb · 他動詞",
+    "note": "この人をしっています; あの人をしりません.",
+    "meaning_en": "know",
+    "meaning_id": "tahu / mengenal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a1b71ceb-05fe-5a8b-845b-7a9e47fb7852",
+    "level": "n5",
+    "code": "v102-007",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 7,
+    "word": "けっこんする",
+    "reading": "けっこんする",
+    "part_of_speech": "する-verb",
+    "note": "けっこんしている = be married.",
+    "meaning_en": "marry / be married",
+    "meaning_id": "menikah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a4da0897-395b-5b6a-9304-07265d2ff73a",
+    "level": "n5",
+    "code": "v102-008",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 8,
+    "word": "タバコをすう",
+    "reading": "タバコをすう",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "タバコをすいません = I do not smoke.",
+    "meaning_en": "smoke",
+    "meaning_id": "merokok",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3b380a8d-295b-5a6b-a279-faef260fa24c",
+    "level": "n5",
+    "code": "v102-009",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 9,
+    "word": "おきる",
+    "reading": "おきる",
+    "part_of_speech": "verb · 自動詞",
+    "note": "あさ早くおきる.",
+    "meaning_en": "get up / wake up",
+    "meaning_id": "bangun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "94e0199e-b1ec-5c47-b9f6-93f5aa3d9f21",
+    "level": "n5",
+    "code": "v102-010",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 10,
+    "word": "ねる",
+    "reading": "ねる",
+    "part_of_speech": "verb · 自動詞",
+    "note": "11時にねます.",
+    "meaning_en": "go to bed / sleep",
+    "meaning_id": "tidur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "90d92f59-cdee-5775-82f3-563ae741b068",
+    "level": "n5",
+    "code": "v102-011",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 11,
+    "word": "かえる",
+    "reading": "かえる",
+    "part_of_speech": "verb · 自動詞",
+    "note": "おそくかえる = go home late.",
+    "meaning_en": "return / go home",
+    "meaning_id": "pulang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2a1062a3-10b2-5239-a4ea-b302785cdf3c",
+    "level": "n5",
+    "code": "v102-012",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 12,
+    "word": "おく",
+    "reading": "おく",
+    "part_of_speech": "verb · 他動詞",
+    "note": "かぎをつくえの上におく.",
+    "meaning_en": "put / place",
+    "meaning_id": "meletakkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e88e9b06-8856-56ef-8c5a-894fb4fc87db",
+    "level": "n5",
+    "code": "v102-013",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 13,
+    "word": "あそぶ",
+    "reading": "あそぶ",
+    "part_of_speech": "verb · 自動詞",
+    "note": "子どもたちがあそんでいます.",
+    "meaning_en": "play",
+    "meaning_id": "bermain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7315a612-b277-5871-bad6-93aaa034194d",
+    "level": "n5",
+    "code": "v102-014",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 14,
+    "word": "シャワーをあびる",
+    "reading": "シャワーをあびる",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "まいあさシャワーをあびます.",
+    "meaning_en": "take a shower",
+    "meaning_id": "mandi shower",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "37d94841-3c81-5f8c-b3c2-12df7a41f9b2",
+    "level": "n5",
+    "code": "v102-015",
+    "lesson_id": "660aaec0-1cf3-586f-a41d-087b7f208228",
+    "sequence": 15,
+    "word": "つかう",
+    "reading": "つかう",
+    "part_of_speech": "verb · 他動詞",
+    "note": "辞書をつかう. Do not confuse with つくる.",
+    "meaning_en": "use",
+    "meaning_id": "menggunakan / memakai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5d991693-82eb-5827-b029-ac430e65c251",
+    "level": "n5",
+    "code": "v103-001",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 1,
+    "word": "かかる",
+    "reading": "かかる",
+    "part_of_speech": "verb · 自動詞",
+    "note": "10時間かかる; 5万円かかる.",
+    "meaning_en": "take time / cost money",
+    "meaning_id": "memakan waktu / biaya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1a994e90-24d9-5779-a82d-0e5d7acc6c97",
+    "level": "n5",
+    "code": "v103-002",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 2,
+    "word": "あける",
+    "reading": "あける",
+    "part_of_speech": "verb · 他動詞",
+    "note": "ドアをあける. Transitive pair with あく.",
+    "meaning_en": "open something",
+    "meaning_id": "membuka sesuatu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a38dc98f-9158-5e97-b1e7-06d81373522c",
+    "level": "n5",
+    "code": "v103-003",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 3,
+    "word": "しめる",
+    "reading": "しめる",
+    "part_of_speech": "verb · 他動詞",
+    "note": "まどをしめる. Transitive pair with しまる.",
+    "meaning_en": "close something",
+    "meaning_id": "menutup sesuatu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6681b95c-f761-525f-9379-e7b43086c8b7",
+    "level": "n5",
+    "code": "v103-004",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 4,
+    "word": "つける",
+    "reading": "つける",
+    "part_of_speech": "verb · 他動詞",
+    "note": "電気をつける.",
+    "meaning_en": "turn on",
+    "meaning_id": "menyalakan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2262b6b9-b243-5345-86c4-748616b1005f",
+    "level": "n5",
+    "code": "v103-005",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 5,
+    "word": "けす",
+    "reading": "けす",
+    "part_of_speech": "verb · 他動詞",
+    "note": "ガスをけす; 字をけす; 火をけす.",
+    "meaning_en": "turn off / erase / extinguish",
+    "meaning_id": "mematikan / menghapus / memadamkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4d79e80-abb6-53d1-bb7f-c28365d0e605",
+    "level": "n5",
+    "code": "v103-006",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 6,
+    "word": "メガネをかける",
+    "reading": "メガネをかける",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "かける has different meanings depending on the object.",
+    "meaning_en": "put on glasses / wear glasses",
+    "meaning_id": "memakai kacamata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b3a436c9-c00f-5cb9-92f4-74d57b28f733",
+    "level": "n5",
+    "code": "v103-007",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 7,
+    "word": "かぎをかける",
+    "reading": "かぎをかける",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "かぎをかける = lock a door, window, bicycle, etc.",
+    "meaning_en": "lock",
+    "meaning_id": "mengunci",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e365a84a-768b-5019-88a3-fa1ba9fe0220",
+    "level": "n5",
+    "code": "v103-008",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 8,
+    "word": "電話をかける",
+    "reading": "でんわをかける",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "電話をする is also common.",
+    "meaning_en": "make a phone call",
+    "meaning_id": "menelepon",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "857e1773-fe21-5d1a-8a9b-7c7edd260aaa",
+    "level": "n5",
+    "code": "v103-009",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 9,
+    "word": "あく",
+    "reading": "あく",
+    "part_of_speech": "verb · 自動詞",
+    "note": "ドアがあく. Intransitive pair with あける.",
+    "meaning_en": "open / be open",
+    "meaning_id": "terbuka",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a2f56067-ddb0-59a3-844f-5d08c8600e14",
+    "level": "n5",
+    "code": "v103-010",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 10,
+    "word": "しまる",
+    "reading": "しまる",
+    "part_of_speech": "verb · 自動詞",
+    "note": "ドアがしまる. In train announcements: ドアがしまります。",
+    "meaning_en": "close / be closed",
+    "meaning_id": "tertutup",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "be38e529-5182-54eb-b23b-2cefd415f68c",
+    "level": "n5",
+    "code": "v103-011",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 11,
+    "word": "いそぐ",
+    "reading": "いそぐ",
+    "part_of_speech": "verb · 自動詞",
+    "note": "いそいでください = Please hurry.",
+    "meaning_en": "hurry / rush",
+    "meaning_id": "bergegas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "04e0777c-595b-5320-abe1-2123690661d3",
+    "level": "n5",
+    "code": "v103-012",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 12,
+    "word": "のどがかわく",
+    "reading": "のどがかわく",
+    "part_of_speech": "phrase",
+    "note": "のどがかわきました = I’m thirsty.",
+    "meaning_en": "get thirsty",
+    "meaning_id": "haus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4e674844-dfcb-52b2-bd08-0ddb4cd8d303",
+    "level": "n5",
+    "code": "v103-013",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 13,
+    "word": "おなかがすく",
+    "reading": "おなかがすく",
+    "part_of_speech": "phrase",
+    "note": "おなかがすきました = I’m hungry.",
+    "meaning_en": "get hungry",
+    "meaning_id": "lapar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "03ec5454-3085-57c3-92be-735a6798559f",
+    "level": "n5",
+    "code": "v103-014",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 14,
+    "word": "かわく",
+    "reading": "かわく",
+    "part_of_speech": "verb · 自動詞",
+    "note": "シャツがかわきました = the shirt is dry.",
+    "meaning_en": "dry",
+    "meaning_id": "kering",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c734ff85-5127-50d5-a397-8fd2bbfd2303",
+    "level": "n5",
+    "code": "v103-015",
+    "lesson_id": "c568f4ee-700b-55e1-b9df-f2ef6f73a9b9",
+    "sequence": 15,
+    "word": "すいている",
+    "reading": "すいている",
+    "part_of_speech": "expression",
+    "note": "電車や店がすいています.",
+    "meaning_en": "be empty / uncrowded",
+    "meaning_id": "kosong / sepi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "012c150f-a357-58c2-8b5a-65db7fdf8c73",
+    "level": "n5",
+    "code": "v104-001",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 1,
+    "word": "いつも",
+    "reading": "いつも",
+    "part_of_speech": "adverb",
+    "note": "いつも元気です.",
+    "meaning_en": "always",
+    "meaning_id": "selalu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fce619e8-bd87-5a8e-9516-d08d731e9b0c",
+    "level": "n5",
+    "code": "v104-002",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 2,
+    "word": "たいてい",
+    "reading": "たいてい",
+    "part_of_speech": "adverb",
+    "note": "たいていこの店で買います.",
+    "meaning_en": "usually",
+    "meaning_id": "biasanya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e4441e97-880f-5891-b4d7-8b61139992cb",
+    "level": "n5",
+    "code": "v104-003",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 3,
+    "word": "ときどき",
+    "reading": "ときどき",
+    "part_of_speech": "adverb",
+    "note": "ときどきあの店で買います.",
+    "meaning_en": "sometimes",
+    "meaning_id": "kadang-kadang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "92dfa39a-dad9-5bf4-98be-b63bbd4b10b6",
+    "level": "n5",
+    "code": "v104-004",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 4,
+    "word": "あまり",
+    "reading": "あまり",
+    "part_of_speech": "adverb",
+    "note": "Usually with negative: あまりよくない.",
+    "meaning_en": "not very",
+    "meaning_id": "tidak terlalu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f2235f0e-3312-5752-ba6f-329d4823f29c",
+    "level": "n5",
+    "code": "v104-005",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 5,
+    "word": "ぜんぜん",
+    "reading": "ぜんぜん",
+    "part_of_speech": "adverb",
+    "note": "Usually with negative: ぜんぜんよくない.",
+    "meaning_en": "not at all",
+    "meaning_id": "sama sekali tidak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c10feeb4-e43f-54fc-9a5f-919663587a9a",
+    "level": "n5",
+    "code": "v104-006",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 6,
+    "word": "よく",
+    "reading": "よく",
+    "part_of_speech": "adverb",
+    "note": "よくしっている; よく行く.",
+    "meaning_en": "well / often",
+    "meaning_id": "dengan baik / sering",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "af2c3c9d-7f94-5971-8622-87274149e245",
+    "level": "n5",
+    "code": "v104-007",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 7,
+    "word": "とても",
+    "reading": "とても",
+    "part_of_speech": "adverb",
+    "note": "とてもすてき = very nice.",
+    "meaning_en": "very",
+    "meaning_id": "sangat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "51d18261-13d0-52ec-b1a0-890292e03001",
+    "level": "n5",
+    "code": "v104-008",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 8,
+    "word": "だいたい",
+    "reading": "だいたい",
+    "part_of_speech": "adverb",
+    "note": "だいたいおわった = mostly done.",
+    "meaning_en": "mostly / roughly",
+    "meaning_id": "sebagian besar / kira-kira",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b1531b0b-732d-56fe-8dda-84c6813c27a6",
+    "level": "n5",
+    "code": "v104-009",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 9,
+    "word": "もっと",
+    "reading": "もっと",
+    "part_of_speech": "adverb",
+    "note": "もっとべんきょうしましょう.",
+    "meaning_en": "more",
+    "meaning_id": "lebih / lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9997f49d-878a-5a4a-8dbc-23dd110efeeb",
+    "level": "n5",
+    "code": "v104-010",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 10,
+    "word": "もう",
+    "reading": "もう",
+    "part_of_speech": "adverb",
+    "note": "もうしました = already done; もう〜 = one more / more.",
+    "meaning_en": "already / more",
+    "meaning_id": "sudah / lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bb611fae-32ce-5a6d-a868-f42ea9c618cd",
+    "level": "n5",
+    "code": "v104-011",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 11,
+    "word": "まだ",
+    "reading": "まだ",
+    "part_of_speech": "adverb",
+    "note": "まだです = not yet.",
+    "meaning_en": "not yet / still",
+    "meaning_id": "belum / masih",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "35136f24-fd71-5319-8449-fed28defdd68",
+    "level": "n5",
+    "code": "v104-012",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 12,
+    "word": "もう一つ",
+    "reading": "もうひとつ",
+    "part_of_speech": "expression",
+    "note": "もう一つください.",
+    "meaning_en": "one more",
+    "meaning_id": "satu lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cc1f6fec-3207-56c3-8937-1bd35f3ade50",
+    "level": "n5",
+    "code": "v104-013",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 13,
+    "word": "もう一度",
+    "reading": "もういちど",
+    "part_of_speech": "expression",
+    "note": "もう一度言ってください.",
+    "meaning_en": "once more / again",
+    "meaning_id": "sekali lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "906b7b3c-fcde-5896-a93d-229c7b56a906",
+    "level": "n5",
+    "code": "v104-014",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 14,
+    "word": "もう少し",
+    "reading": "もうすこし",
+    "part_of_speech": "expression",
+    "note": "もう少しください.",
+    "meaning_en": "a little more",
+    "meaning_id": "sedikit lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "48c00e54-c2fe-5122-b843-a72bd1187994",
+    "level": "n5",
+    "code": "v104-015",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 15,
+    "word": "ゆっくり",
+    "reading": "ゆっくり",
+    "part_of_speech": "adverb",
+    "note": "ゆっくり話す = speak slowly.",
+    "meaning_en": "slowly / leisurely",
+    "meaning_id": "pelan-pelan / santai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4c74bd6f-12a4-5fbc-a6ff-0291c9271eef",
+    "level": "n5",
+    "code": "v104-016",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 16,
+    "word": "たくさん",
+    "reading": "たくさん",
+    "part_of_speech": "adverb / noun",
+    "note": "たくさんある = there is a lot.",
+    "meaning_en": "a lot / many",
+    "meaning_id": "banyak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8eb1b199-965d-541c-97a6-4594d803cf2f",
+    "level": "n5",
+    "code": "v104-017",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 17,
+    "word": "すこし",
+    "reading": "すこし",
+    "part_of_speech": "adverb / noun",
+    "note": "少し can also be written with kanji.",
+    "meaning_en": "a little",
+    "meaning_id": "sedikit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9b77ace5-13a8-564b-abf8-4281df65e036",
+    "level": "n5",
+    "code": "v104-018",
+    "lesson_id": "0902517a-8c24-5b9c-b973-f93e81bf630f",
+    "sequence": 18,
+    "word": "ちょっと",
+    "reading": "ちょっと",
+    "part_of_speech": "adverb / expression",
+    "note": "ちょっとまって; あのう、ちょっとすみません.",
+    "meaning_en": "a little / just a moment / excuse me",
+    "meaning_id": "sedikit / sebentar / permisi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "52e59d10-1fea-5c75-917c-491e6ebafc0d",
+    "level": "n5",
+    "code": "v105-001",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 1,
+    "word": "わたしの",
+    "reading": "わたしの",
+    "part_of_speech": "expression",
+    "note": "Used for one’s own family or things.",
+    "meaning_en": "my",
+    "meaning_id": "milik saya / saya punya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "895ee07c-2ef7-56f4-862a-dd36654f24d0",
+    "level": "n5",
+    "code": "v105-002",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 2,
+    "word": "あなたの",
+    "reading": "あなたの",
+    "part_of_speech": "expression",
+    "note": "Used for the listener’s family or things.",
+    "meaning_en": "your",
+    "meaning_id": "milik kamu/Anda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e5d08a00-e1ad-50cc-b406-798fe54e1207",
+    "level": "n5",
+    "code": "v105-003",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 3,
+    "word": "あの人の",
+    "reading": "あのひとの",
+    "part_of_speech": "expression",
+    "note": "Used for another person’s family or things.",
+    "meaning_en": "his / her / that person’s",
+    "meaning_id": "milik orang itu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0182f02e-b01b-50ef-a126-99db585c8535",
+    "level": "n5",
+    "code": "v105-004",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 4,
+    "word": "そふ",
+    "reading": "そふ",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my grandfather",
+    "meaning_id": "kakek saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "27933d4f-e0a1-5797-9465-78fd13d71548",
+    "level": "n5",
+    "code": "v105-005",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 5,
+    "word": "おじいさん",
+    "reading": "おじいさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or polite term.",
+    "meaning_en": "someone’s grandfather / elderly man",
+    "meaning_id": "kakek orang lain / pria tua",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0bfb10cd-6a71-5c44-a188-4f10357ebbbd",
+    "level": "n5",
+    "code": "v105-006",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 6,
+    "word": "そぼ",
+    "reading": "そぼ",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my grandmother",
+    "meaning_id": "nenek saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a0106b24-6fe5-5118-82b8-9197d0b06be4",
+    "level": "n5",
+    "code": "v105-007",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 7,
+    "word": "おばあさん",
+    "reading": "おばあさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or polite term.",
+    "meaning_en": "someone’s grandmother / elderly woman",
+    "meaning_id": "nenek orang lain / wanita tua",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d9276199-6d75-5693-8eb4-832dfffd4482",
+    "level": "n5",
+    "code": "v105-008",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 8,
+    "word": "りょうしん",
+    "reading": "りょうしん",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my parents",
+    "meaning_id": "orang tua saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c29c3cb1-ea3c-5ade-a1c9-321bc2ddd300",
+    "level": "n5",
+    "code": "v105-009",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 9,
+    "word": "ごりょうしん",
+    "reading": "ごりょうしん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s parents",
+    "meaning_id": "orang tua orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "67741a13-24e6-5bfa-8923-f9b131cd61a4",
+    "level": "n5",
+    "code": "v105-010",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 10,
+    "word": "ちち（父）",
+    "reading": "ちち",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my father",
+    "meaning_id": "ayah saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "efda777d-c77e-5b7d-a790-628f8fa80b11",
+    "level": "n5",
+    "code": "v105-011",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 11,
+    "word": "おとうさん（お父さん）",
+    "reading": "おとうさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or familiar/polite term.",
+    "meaning_en": "someone’s father / dad",
+    "meaning_id": "ayah orang lain / ayah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1fdf3a48-b473-5856-9ccf-56bdb4f33d6f",
+    "level": "n5",
+    "code": "v105-012",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 12,
+    "word": "はは（母）",
+    "reading": "はは",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my mother",
+    "meaning_id": "ibu saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "94572365-793a-5086-8b9f-c64243260eff",
+    "level": "n5",
+    "code": "v105-013",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 13,
+    "word": "おかあさん（お母さん）",
+    "reading": "おかあさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or familiar/polite term.",
+    "meaning_en": "someone’s mother / mom",
+    "meaning_id": "ibu orang lain / ibu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "94505af8-a39f-5387-9e03-ef0f53773e4b",
+    "level": "n5",
+    "code": "v105-014",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 14,
+    "word": "きょうだい",
+    "reading": "きょうだい",
+    "part_of_speech": "noun",
+    "note": "Can include brothers and sisters.",
+    "meaning_en": "siblings",
+    "meaning_id": "saudara kandung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0864f2aa-a175-5349-8227-36dd18398668",
+    "level": "n5",
+    "code": "v105-015",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 15,
+    "word": "ごきょうだい",
+    "reading": "ごきょうだい",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s siblings",
+    "meaning_id": "saudara kandung orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "937362e6-3fbb-505f-9162-e309fcb08a3a",
+    "level": "n5",
+    "code": "v105-016",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 16,
+    "word": "あに",
+    "reading": "あに",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my elder brother",
+    "meaning_id": "kakak laki-laki saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "43f84ac0-5f91-5bb1-b24e-dd2ad13c6746",
+    "level": "n5",
+    "code": "v105-017",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 17,
+    "word": "おにいさん",
+    "reading": "おにいさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or polite term.",
+    "meaning_en": "someone’s elder brother / young man",
+    "meaning_id": "kakak laki-laki orang lain / laki-laki muda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1c98248d-e072-522c-9bb0-24f9a4b4189e",
+    "level": "n5",
+    "code": "v105-018",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 18,
+    "word": "あね",
+    "reading": "あね",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my elder sister",
+    "meaning_id": "kakak perempuan saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d5c0edc9-737e-572e-bf9f-86c054701f62",
+    "level": "n5",
+    "code": "v105-019",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 19,
+    "word": "おねえさん",
+    "reading": "おねえさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or polite term.",
+    "meaning_en": "someone’s elder sister / young woman",
+    "meaning_id": "kakak perempuan orang lain / perempuan muda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "93b162ef-69d6-5f2e-89aa-4adabf06b1b0",
+    "level": "n5",
+    "code": "v105-020",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 20,
+    "word": "おとうと",
+    "reading": "おとうと",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my younger brother",
+    "meaning_id": "adik laki-laki saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "08908bc1-8df5-503e-b6ee-a7cc44547ed6",
+    "level": "n5",
+    "code": "v105-021",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 21,
+    "word": "おとうとさん",
+    "reading": "おとうとさん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s younger brother",
+    "meaning_id": "adik laki-laki orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "de21967e-65a5-5d34-ad8d-cd0e74fd6a14",
+    "level": "n5",
+    "code": "v105-022",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 22,
+    "word": "いもうと",
+    "reading": "いもうと",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my younger sister",
+    "meaning_id": "adik perempuan saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c194d183-3913-559d-b870-b5458c26550d",
+    "level": "n5",
+    "code": "v105-023",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 23,
+    "word": "いもうとさん",
+    "reading": "いもうとさん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s younger sister",
+    "meaning_id": "adik perempuan orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ef881e08-5509-53ab-b1e8-c8223cd4a8a9",
+    "level": "n5",
+    "code": "v105-024",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 24,
+    "word": "おじ",
+    "reading": "おじ",
+    "part_of_speech": "noun",
+    "note": "Do not confuse with おじいさん.",
+    "meaning_en": "my uncle",
+    "meaning_id": "paman saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "40003f8b-5eb5-52e3-80cc-c99eaede8968",
+    "level": "n5",
+    "code": "v105-025",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 25,
+    "word": "おじさん",
+    "reading": "おじさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or polite term.",
+    "meaning_en": "someone’s uncle / middle-aged man",
+    "meaning_id": "paman orang lain / pria paruh baya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "25b77c11-6ca3-58ad-be69-3196584c4e4d",
+    "level": "n5",
+    "code": "v105-026",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 26,
+    "word": "おば",
+    "reading": "おば",
+    "part_of_speech": "noun",
+    "note": "Do not confuse with おばあさん.",
+    "meaning_en": "my aunt",
+    "meaning_id": "bibi/tante saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8f9ad48a-d03b-5be5-ab62-a86555434fe6",
+    "level": "n5",
+    "code": "v105-027",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 27,
+    "word": "おばさん",
+    "reading": "おばさん",
+    "part_of_speech": "noun",
+    "note": "Other-family or polite term.",
+    "meaning_en": "someone’s aunt / middle-aged woman",
+    "meaning_id": "bibi/tante orang lain / wanita paruh baya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "21b4174d-e6ee-5779-89bb-3c2f6084d3c3",
+    "level": "n5",
+    "code": "v105-028",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 28,
+    "word": "むすこ",
+    "reading": "むすこ",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my son",
+    "meaning_id": "anak laki-laki saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e64cbd76-be7c-5a39-9a51-f8ac710eb52b",
+    "level": "n5",
+    "code": "v105-029",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 29,
+    "word": "むすこさん",
+    "reading": "むすこさん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s son",
+    "meaning_id": "anak laki-laki orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "92de2d94-04f0-5db5-ad4f-c79ff530090f",
+    "level": "n5",
+    "code": "v105-030",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 30,
+    "word": "むすめ",
+    "reading": "むすめ",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my daughter",
+    "meaning_id": "anak perempuan saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "74fa72b9-450f-5e90-af89-ecf6cdec43e6",
+    "level": "n5",
+    "code": "v105-031",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 31,
+    "word": "むすめさん",
+    "reading": "むすめさん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s daughter",
+    "meaning_id": "anak perempuan orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fd911405-85e2-5eb2-ba3e-4768d780999d",
+    "level": "n5",
+    "code": "v105-032",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 32,
+    "word": "まご",
+    "reading": "まご",
+    "part_of_speech": "noun",
+    "note": "Own-family term.",
+    "meaning_en": "my grandchild",
+    "meaning_id": "cucu saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fe860614-b4c2-5e72-8476-1c412ab110d9",
+    "level": "n5",
+    "code": "v105-033",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 33,
+    "word": "おまごさん",
+    "reading": "おまごさん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s grandchild",
+    "meaning_id": "cucu orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "32382872-608d-5718-b1ed-afcdf5a706d0",
+    "level": "n5",
+    "code": "v105-034",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 34,
+    "word": "つま／かない",
+    "reading": "つま／かない",
+    "part_of_speech": "noun",
+    "note": "Own-family term. おくさん is used for someone else’s wife.",
+    "meaning_en": "my wife",
+    "meaning_id": "istri saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a8c87ade-4228-5f72-84dc-5c06a7f9af1a",
+    "level": "n5",
+    "code": "v105-035",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 35,
+    "word": "おくさん",
+    "reading": "おくさん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s wife",
+    "meaning_id": "istri orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "484a26d3-ecf7-5608-bbd2-eaa9e81d86e4",
+    "level": "n5",
+    "code": "v105-036",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 36,
+    "word": "おっと／しゅじん",
+    "reading": "おっと／しゅじん",
+    "part_of_speech": "noun",
+    "note": "Own-family term. ごしゅじん is used for someone else’s husband.",
+    "meaning_en": "my husband",
+    "meaning_id": "suami saya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f7efdb53-6301-5559-8d2f-adb83b0b4d5f",
+    "level": "n5",
+    "code": "v105-037",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 37,
+    "word": "ごしゅじん",
+    "reading": "ごしゅじん",
+    "part_of_speech": "noun",
+    "note": "Polite other-family term.",
+    "meaning_en": "someone’s husband",
+    "meaning_id": "suami orang lain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "64cfc3af-c959-5a23-8254-988c0cd9988a",
+    "level": "n5",
+    "code": "v105-038",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 38,
+    "word": "おい",
+    "reading": "おい",
+    "part_of_speech": "noun",
+    "note": "Child of one’s sibling.",
+    "meaning_en": "nephew",
+    "meaning_id": "keponakan laki-laki",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "89aac9fa-af8d-5b7b-a7da-99a517b062bf",
+    "level": "n5",
+    "code": "v105-039",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 39,
+    "word": "めい",
+    "reading": "めい",
+    "part_of_speech": "noun",
+    "note": "Child of one’s sibling.",
+    "meaning_en": "niece",
+    "meaning_id": "keponakan perempuan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "47477048-3cf8-57f6-8072-9483562bfe0c",
+    "level": "n5",
+    "code": "v105-040",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 40,
+    "word": "いとこ",
+    "reading": "いとこ",
+    "part_of_speech": "noun",
+    "note": "Same word for male or female cousin.",
+    "meaning_en": "cousin",
+    "meaning_id": "sepupu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "048b18fd-9e04-5f70-ae83-6456db0ccbda",
+    "level": "n5",
+    "code": "v105-041",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 41,
+    "word": "いらっしゃいますか",
+    "reading": "いらっしゃいますか",
+    "part_of_speech": "expression",
+    "note": "Polite version of いますか for people.",
+    "meaning_en": "is/are there? / do you have?",
+    "meaning_id": "apakah ada?",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "42ac3cfb-7e81-5115-a2ad-0077cef1e917",
+    "level": "n5",
+    "code": "v105-042",
+    "lesson_id": "d1bf5ff6-b2ef-5d4b-9217-b4ef68a7f096",
+    "sequence": 42,
+    "word": "おいくつですか",
+    "reading": "おいくつですか",
+    "part_of_speech": "expression",
+    "note": "Polite version of なんさいですか.",
+    "meaning_en": "how old are you?",
+    "meaning_id": "umur berapa?",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7c598454-d1e7-5d8c-9877-0b570ee5c971",
+    "level": "n5",
+    "code": "v106-001",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 1,
+    "word": "きせつ",
+    "reading": "きせつ",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "season",
+    "meaning_id": "musim",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8e35f760-0b8a-5397-843d-86a3b668332b",
+    "level": "n5",
+    "code": "v106-002",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 2,
+    "word": "はる",
+    "reading": "はる",
+    "part_of_speech": "noun",
+    "note": "Season.",
+    "meaning_en": "spring",
+    "meaning_id": "musim semi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "db77de13-da91-56ee-8429-523bb98c315c",
+    "level": "n5",
+    "code": "v106-003",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 3,
+    "word": "なつ",
+    "reading": "なつ",
+    "part_of_speech": "noun",
+    "note": "Season.",
+    "meaning_en": "summer",
+    "meaning_id": "musim panas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "35e5a654-d90f-55c0-8ff2-f6b68beb40fa",
+    "level": "n5",
+    "code": "v106-004",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 4,
+    "word": "あき",
+    "reading": "あき",
+    "part_of_speech": "noun",
+    "note": "Season.",
+    "meaning_en": "autumn / fall",
+    "meaning_id": "musim gugur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1160bef5-4703-51bd-a283-42f1c753700b",
+    "level": "n5",
+    "code": "v106-005",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 5,
+    "word": "ふゆ",
+    "reading": "ふゆ",
+    "part_of_speech": "noun",
+    "note": "Season.",
+    "meaning_en": "winter",
+    "meaning_id": "musim dingin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4ce4504b-8056-5e1f-8fc8-3fbb0acfc028",
+    "level": "n5",
+    "code": "v106-006",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 6,
+    "word": "いろ",
+    "reading": "いろ",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "color",
+    "meaning_id": "warna",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fef52583-15bc-55de-993e-d31c2b1389d3",
+    "level": "n5",
+    "code": "v106-007",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 7,
+    "word": "あか",
+    "reading": "あか",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "red",
+    "meaning_id": "merah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "65de5045-c96e-519a-b08e-efc0d9a9acd6",
+    "level": "n5",
+    "code": "v106-008",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 8,
+    "word": "しろ（白）",
+    "reading": "しろ",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "white",
+    "meaning_id": "putih",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6f19bbc1-7c61-5563-8d49-c94331e86c19",
+    "level": "n5",
+    "code": "v106-009",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 9,
+    "word": "あお",
+    "reading": "あお",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "blue",
+    "meaning_id": "biru",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "df09fcc1-7786-5d6e-a7fe-2161bb6642d1",
+    "level": "n5",
+    "code": "v106-010",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 10,
+    "word": "きいろ",
+    "reading": "きいろ",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "yellow",
+    "meaning_id": "kuning",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ccf9b260-1f6b-5275-befc-990a2dfb44cf",
+    "level": "n5",
+    "code": "v106-011",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 11,
+    "word": "くろ",
+    "reading": "くろ",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "black",
+    "meaning_id": "hitam",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "44f436eb-2127-53ce-b898-a316ca939eeb",
+    "level": "n5",
+    "code": "v106-012",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 12,
+    "word": "みどり",
+    "reading": "みどり",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "green",
+    "meaning_id": "hijau",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c2db7bc5-2407-5f37-a567-281a08bb3383",
+    "level": "n5",
+    "code": "v106-013",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 13,
+    "word": "ちゃいろ",
+    "reading": "ちゃいろ",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "brown",
+    "meaning_id": "cokelat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e079f8ba-28d6-5c25-af45-1ff1cae2cf19",
+    "level": "n5",
+    "code": "v106-014",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 14,
+    "word": "ピンク",
+    "reading": "ピンク",
+    "part_of_speech": "noun",
+    "note": "Color.",
+    "meaning_en": "pink",
+    "meaning_id": "merah muda / pink",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c94fc4e1-9b00-5782-bd74-2961115fa4b4",
+    "level": "n5",
+    "code": "v106-015",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 15,
+    "word": "ところ",
+    "reading": "ところ",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "place",
+    "meaning_id": "tempat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7ecf98a6-3735-5994-aecc-b00484a78d7c",
+    "level": "n5",
+    "code": "v106-016",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 16,
+    "word": "こうえん",
+    "reading": "こうえん",
+    "part_of_speech": "noun",
+    "note": "Place.",
+    "meaning_en": "park",
+    "meaning_id": "taman",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e12adce0-a7b9-5065-93a9-8e99e03c425c",
+    "level": "n5",
+    "code": "v106-017",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 17,
+    "word": "どうぶつえん",
+    "reading": "どうぶつえん",
+    "part_of_speech": "noun",
+    "note": "Place.",
+    "meaning_en": "zoo",
+    "meaning_id": "kebun binatang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "08d78a59-c2c4-5d87-8b46-d22122f3bda0",
+    "level": "n5",
+    "code": "v106-018",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 18,
+    "word": "うみ",
+    "reading": "うみ",
+    "part_of_speech": "noun",
+    "note": "Place/nature word.",
+    "meaning_en": "sea",
+    "meaning_id": "laut",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "41f32deb-8a34-5052-a4ee-b51fb48fb219",
+    "level": "n5",
+    "code": "v106-019",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 19,
+    "word": "ゆうえんち",
+    "reading": "ゆうえんち",
+    "part_of_speech": "noun",
+    "note": "Place.",
+    "meaning_en": "amusement park",
+    "meaning_id": "taman hiburan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0140dfde-f1df-5809-87a3-7c41d34e9ded",
+    "level": "n5",
+    "code": "v106-020",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 20,
+    "word": "スポーツ",
+    "reading": "スポーツ",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "sport / sports",
+    "meaning_id": "olahraga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "41586217-8bc2-5e59-b8bc-9b20f15e8095",
+    "level": "n5",
+    "code": "v106-021",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 21,
+    "word": "やきゅう",
+    "reading": "やきゅう",
+    "part_of_speech": "noun",
+    "note": "Sport.",
+    "meaning_en": "baseball",
+    "meaning_id": "bisbol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7ac7cb2e-d938-5bda-b325-cd8c0989d80c",
+    "level": "n5",
+    "code": "v106-022",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 22,
+    "word": "バスケットボール",
+    "reading": "バスケットボール",
+    "part_of_speech": "noun",
+    "note": "Sport.",
+    "meaning_en": "basketball",
+    "meaning_id": "bola basket",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4220e123-8b4a-5af6-8986-013a31fb62ce",
+    "level": "n5",
+    "code": "v106-023",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 23,
+    "word": "テニス",
+    "reading": "テニス",
+    "part_of_speech": "noun",
+    "note": "Sport.",
+    "meaning_en": "tennis",
+    "meaning_id": "tenis",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e5c537a1-b39e-5229-9d11-ffe115cff836",
+    "level": "n5",
+    "code": "v106-024",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 24,
+    "word": "すいえい",
+    "reading": "すいえい",
+    "part_of_speech": "noun",
+    "note": "Sport.",
+    "meaning_en": "swimming",
+    "meaning_id": "renang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "991211e8-bf6c-5351-8569-af663cca4ffc",
+    "level": "n5",
+    "code": "v106-025",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 25,
+    "word": "サッカー",
+    "reading": "サッカー",
+    "part_of_speech": "noun",
+    "note": "Sport.",
+    "meaning_en": "soccer / football",
+    "meaning_id": "sepak bola",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "83a6430e-feb2-5095-9ff3-0d13df6b6ce4",
+    "level": "n5",
+    "code": "v106-026",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 26,
+    "word": "おんがく",
+    "reading": "おんがく",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "music",
+    "meaning_id": "musik",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "89acd7ad-8b66-5073-9394-638c3d20fb6f",
+    "level": "n5",
+    "code": "v106-027",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 27,
+    "word": "クラシック",
+    "reading": "クラシック",
+    "part_of_speech": "noun",
+    "note": "Music genre.",
+    "meaning_en": "classical music",
+    "meaning_id": "musik klasik",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "137aa64e-0756-5a7b-a7bb-6e31642882db",
+    "level": "n5",
+    "code": "v106-028",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 28,
+    "word": "ジャズ",
+    "reading": "ジャズ",
+    "part_of_speech": "noun",
+    "note": "Music genre.",
+    "meaning_en": "jazz",
+    "meaning_id": "jazz",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "62cd4c69-0161-56e8-bc82-6030494ba8fe",
+    "level": "n5",
+    "code": "v106-029",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 29,
+    "word": "ロック",
+    "reading": "ロック",
+    "part_of_speech": "noun",
+    "note": "Music genre.",
+    "meaning_en": "rock music",
+    "meaning_id": "musik rock",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "035b47ce-67be-5240-a4cb-5d26a05f7e27",
+    "level": "n5",
+    "code": "v106-030",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 30,
+    "word": "ポップス",
+    "reading": "ポップス",
+    "part_of_speech": "noun",
+    "note": "Music genre.",
+    "meaning_en": "pop music",
+    "meaning_id": "musik pop",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "dadea246-4454-50e6-a514-d3950131dae3",
+    "level": "n5",
+    "code": "v106-031",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 31,
+    "word": "くだもの",
+    "reading": "くだもの",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "fruit",
+    "meaning_id": "buah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c224ef69-f064-5486-9336-e5dabf74e10c",
+    "level": "n5",
+    "code": "v106-032",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 32,
+    "word": "りんご",
+    "reading": "りんご",
+    "part_of_speech": "noun",
+    "note": "Fruit.",
+    "meaning_en": "apple",
+    "meaning_id": "apel",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4bbb1bc3-e6e1-5388-804f-84514c860fb4",
+    "level": "n5",
+    "code": "v106-033",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 33,
+    "word": "みかん",
+    "reading": "みかん",
+    "part_of_speech": "noun",
+    "note": "Fruit.",
+    "meaning_en": "mandarin orange / tangerine",
+    "meaning_id": "jeruk mandarin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f901487f-605f-5fb6-90f8-30823d2d351c",
+    "level": "n5",
+    "code": "v106-034",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 34,
+    "word": "いちご",
+    "reading": "いちご",
+    "part_of_speech": "noun",
+    "note": "Fruit.",
+    "meaning_en": "strawberry",
+    "meaning_id": "stroberi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eb4fb1b5-4ccb-586a-a013-bff21930a673",
+    "level": "n5",
+    "code": "v106-035",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 35,
+    "word": "ぶどう",
+    "reading": "ぶどう",
+    "part_of_speech": "noun",
+    "note": "Fruit.",
+    "meaning_en": "grape",
+    "meaning_id": "anggur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d3aa498d-2e79-5a28-94c7-4227970b32b9",
+    "level": "n5",
+    "code": "v106-036",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 36,
+    "word": "のりもの",
+    "reading": "のりもの",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "vehicle / transportation",
+    "meaning_id": "kendaraan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d1553921-47c1-551c-8c65-2afea3279f9f",
+    "level": "n5",
+    "code": "v106-037",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 37,
+    "word": "くるま（車）",
+    "reading": "くるま",
+    "part_of_speech": "noun",
+    "note": "Vehicle.",
+    "meaning_en": "car",
+    "meaning_id": "mobil",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8083c958-2b86-540a-8d66-ca82c2871a3a",
+    "level": "n5",
+    "code": "v106-038",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 38,
+    "word": "でんしゃ（電車）",
+    "reading": "でんしゃ",
+    "part_of_speech": "noun",
+    "note": "Vehicle.",
+    "meaning_en": "train",
+    "meaning_id": "kereta",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fc81046b-57d1-5988-9a61-b52e05de8627",
+    "level": "n5",
+    "code": "v106-039",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 39,
+    "word": "じてんしゃ",
+    "reading": "じてんしゃ",
+    "part_of_speech": "noun",
+    "note": "Vehicle.",
+    "meaning_en": "bicycle",
+    "meaning_id": "sepeda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4d6680b-fe86-5b3c-9f90-242c5f710844",
+    "level": "n5",
+    "code": "v106-040",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 40,
+    "word": "オートバイ",
+    "reading": "オートバイ",
+    "part_of_speech": "noun",
+    "note": "Vehicle.",
+    "meaning_en": "motorcycle",
+    "meaning_id": "sepeda motor",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8c2a09e9-3ca0-5baf-8fb5-b1df067dbfb2",
+    "level": "n5",
+    "code": "v106-041",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 41,
+    "word": "ひこうき",
+    "reading": "ひこうき",
+    "part_of_speech": "noun",
+    "note": "Vehicle.",
+    "meaning_en": "airplane",
+    "meaning_id": "pesawat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e3250fad-e1bd-5269-867d-6525d7eb8b34",
+    "level": "n5",
+    "code": "v106-042",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 42,
+    "word": "ふね",
+    "reading": "ふね",
+    "part_of_speech": "noun",
+    "note": "Vehicle.",
+    "meaning_en": "ship / boat",
+    "meaning_id": "kapal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "db0e1d92-4350-5823-9067-9974176acba4",
+    "level": "n5",
+    "code": "v106-043",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 43,
+    "word": "てんき",
+    "reading": "てんき",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "weather",
+    "meaning_id": "cuaca",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "40639568-ee0d-52fe-8e04-a6ac4523545e",
+    "level": "n5",
+    "code": "v106-044",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 44,
+    "word": "はれ",
+    "reading": "はれ",
+    "part_of_speech": "noun",
+    "note": "Weather.",
+    "meaning_en": "clear weather",
+    "meaning_id": "cerah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "38ce0cf5-6754-5f8d-8e2e-f5aab34716d5",
+    "level": "n5",
+    "code": "v106-045",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 45,
+    "word": "くもり",
+    "reading": "くもり",
+    "part_of_speech": "noun",
+    "note": "Weather.",
+    "meaning_en": "cloudy weather",
+    "meaning_id": "mendung / berawan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9da7b6a1-9f79-5589-ab86-5f9b5c79dbab",
+    "level": "n5",
+    "code": "v106-046",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 46,
+    "word": "あめ（雨）",
+    "reading": "あめ",
+    "part_of_speech": "noun",
+    "note": "Weather.",
+    "meaning_en": "rain",
+    "meaning_id": "hujan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7bb1abc9-23f8-5f21-8a63-f55d702c3eb5",
+    "level": "n5",
+    "code": "v106-047",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 47,
+    "word": "ゆき",
+    "reading": "ゆき",
+    "part_of_speech": "noun",
+    "note": "Weather.",
+    "meaning_en": "snow",
+    "meaning_id": "salju",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3df5286f-5c03-56a7-a404-75859aaa9bb9",
+    "level": "n5",
+    "code": "v106-048",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 48,
+    "word": "たいふう",
+    "reading": "たいふう",
+    "part_of_speech": "noun",
+    "note": "Weather.",
+    "meaning_en": "typhoon",
+    "meaning_id": "topan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "31e3b63b-f00c-5109-ac34-e8a98469fedd",
+    "level": "n5",
+    "code": "v106-049",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 49,
+    "word": "しょっき",
+    "reading": "しょっき",
+    "part_of_speech": "noun",
+    "note": "Normalized as 食器（しょっき）.",
+    "meaning_en": "tableware",
+    "meaning_id": "peralatan makan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ecfa4f63-dce8-5be1-98d9-5cadecfaafe0",
+    "level": "n5",
+    "code": "v106-050",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 50,
+    "word": "ちゃわん",
+    "reading": "ちゃわん",
+    "part_of_speech": "noun",
+    "note": "Tableware.",
+    "meaning_en": "rice bowl / tea bowl",
+    "meaning_id": "mangkuk nasi / mangkuk teh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7e1e6986-cc70-536f-8f21-6f80237c9961",
+    "level": "n5",
+    "code": "v106-051",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 51,
+    "word": "（お）さら",
+    "reading": "（お）さら",
+    "part_of_speech": "noun",
+    "note": "お adds politeness/familiarity.",
+    "meaning_en": "dish / plate",
+    "meaning_id": "piring",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7b5cae08-cd73-5be0-9e64-07ab0f0e8369",
+    "level": "n5",
+    "code": "v106-052",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 52,
+    "word": "はし",
+    "reading": "はし",
+    "part_of_speech": "noun",
+    "note": "Tableware.",
+    "meaning_en": "chopsticks",
+    "meaning_id": "sumpit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "453bf653-8c88-536f-a126-eff6e96f0038",
+    "level": "n5",
+    "code": "v106-053",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 53,
+    "word": "カップ",
+    "reading": "カップ",
+    "part_of_speech": "noun",
+    "note": "Usually cup with handle or measuring cup depending on context.",
+    "meaning_en": "cup",
+    "meaning_id": "cangkir / cup",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "81c81f97-abdc-5812-9143-2c81ddd56e05",
+    "level": "n5",
+    "code": "v106-054",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 54,
+    "word": "コップ",
+    "reading": "コップ",
+    "part_of_speech": "noun",
+    "note": "Often a drinking glass without handle.",
+    "meaning_en": "glass / tumbler",
+    "meaning_id": "gelas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "22eded74-cc5a-576f-8fc6-8a0478441089",
+    "level": "n5",
+    "code": "v106-055",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 55,
+    "word": "かぐ",
+    "reading": "かぐ",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "furniture",
+    "meaning_id": "perabot",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bbb6efbe-a6f7-5285-a269-0beee3c25e0e",
+    "level": "n5",
+    "code": "v106-056",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 56,
+    "word": "ベッド",
+    "reading": "ベッド",
+    "part_of_speech": "noun",
+    "note": "Furniture.",
+    "meaning_en": "bed",
+    "meaning_id": "tempat tidur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "463833fa-11ce-584a-92e0-efcb33a9385d",
+    "level": "n5",
+    "code": "v106-057",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 57,
+    "word": "つくえ",
+    "reading": "つくえ",
+    "part_of_speech": "noun",
+    "note": "Furniture.",
+    "meaning_en": "desk",
+    "meaning_id": "meja belajar/kerja",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4b8fec14-51de-54a6-b651-2d650e0b4be2",
+    "level": "n5",
+    "code": "v106-058",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 58,
+    "word": "いす",
+    "reading": "いす",
+    "part_of_speech": "noun",
+    "note": "Furniture.",
+    "meaning_en": "chair",
+    "meaning_id": "kursi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7a32a764-3aff-53b2-af50-2a5157c4c947",
+    "level": "n5",
+    "code": "v106-059",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 59,
+    "word": "本だな",
+    "reading": "ほんだな",
+    "part_of_speech": "noun",
+    "note": "Furniture.",
+    "meaning_en": "bookshelf",
+    "meaning_id": "rak buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eba794da-e1d7-5c12-8963-8b96bb14b61a",
+    "level": "n5",
+    "code": "v106-060",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 60,
+    "word": "テレビ",
+    "reading": "テレビ",
+    "part_of_speech": "noun",
+    "note": "Appliance/electronics; not かぐ.",
+    "meaning_en": "television",
+    "meaning_id": "televisi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eca5d616-2c4e-5bb6-8aa3-342240c17448",
+    "level": "n5",
+    "code": "v106-061",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 61,
+    "word": "エアコン",
+    "reading": "エアコン",
+    "part_of_speech": "noun",
+    "note": "Appliance; not かぐ.",
+    "meaning_en": "air conditioner",
+    "meaning_id": "AC / pendingin ruangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "62510191-3be5-5f39-9818-bd924e6c831c",
+    "level": "n5",
+    "code": "v106-062",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 62,
+    "word": "れいぞうこ",
+    "reading": "れいぞうこ",
+    "part_of_speech": "noun",
+    "note": "Appliance; not かぐ.",
+    "meaning_en": "refrigerator",
+    "meaning_id": "kulkas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7ffefd78-c266-523f-a786-0fd1dab9ea5f",
+    "level": "n5",
+    "code": "v106-063",
+    "lesson_id": "6ee28d5b-7d54-59b3-98a1-a9821680339a",
+    "sequence": 63,
+    "word": "でんしレンジ",
+    "reading": "でんしレンジ",
+    "part_of_speech": "noun",
+    "note": "Appliance; not かぐ.",
+    "meaning_en": "microwave oven",
+    "meaning_id": "microwave",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a1d943f6-19d6-5a29-8618-37b1c5b40527",
+    "level": "n5",
+    "code": "v107-001",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 1,
+    "word": "からだ",
+    "reading": "からだ",
+    "part_of_speech": "noun",
+    "note": "Body-part category.",
+    "meaning_en": "body",
+    "meaning_id": "tubuh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fc976f83-e60c-57f7-8e40-ac12e30ed803",
+    "level": "n5",
+    "code": "v107-002",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 2,
+    "word": "かお",
+    "reading": "かお",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "face",
+    "meaning_id": "wajah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "62fb7737-d753-5604-bc55-b559ec7bbb66",
+    "level": "n5",
+    "code": "v107-003",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 3,
+    "word": "あたま",
+    "reading": "あたま",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "head",
+    "meaning_id": "kepala",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "80d0ec54-680f-592a-b7b0-e15c9436fa35",
+    "level": "n5",
+    "code": "v107-004",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 4,
+    "word": "くび",
+    "reading": "くび",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "neck",
+    "meaning_id": "leher",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5744f9b4-a560-5eda-96a6-b90e49d7be70",
+    "level": "n5",
+    "code": "v107-005",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 5,
+    "word": "て（手）",
+    "reading": "て",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "hand",
+    "meaning_id": "tangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2ebbe964-eedf-5118-8ef4-720567119d4d",
+    "level": "n5",
+    "code": "v107-006",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 6,
+    "word": "あし（足）",
+    "reading": "あし",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "foot / leg",
+    "meaning_id": "kaki",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d577ac08-f265-508a-8375-b4a89482a6ac",
+    "level": "n5",
+    "code": "v107-007",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 7,
+    "word": "みみ（耳）",
+    "reading": "みみ",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "ear",
+    "meaning_id": "telinga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "375c0562-9fbf-581b-917e-0096bab2ab0a",
+    "level": "n5",
+    "code": "v107-008",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 8,
+    "word": "め（目）",
+    "reading": "め",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "eye",
+    "meaning_id": "mata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "adcaa80b-9250-5dc5-9bd5-0b7a941e372b",
+    "level": "n5",
+    "code": "v107-009",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 9,
+    "word": "はな",
+    "reading": "はな",
+    "part_of_speech": "noun",
+    "note": "Body part. Also 花 means flower with same reading.",
+    "meaning_en": "nose",
+    "meaning_id": "hidung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "33a7cbb5-41b2-5bf2-9072-e46a6ec9c682",
+    "level": "n5",
+    "code": "v107-010",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 10,
+    "word": "は（歯）",
+    "reading": "は",
+    "part_of_speech": "noun",
+    "note": "In this list, は = 歯, not the topic particle は.",
+    "meaning_en": "tooth",
+    "meaning_id": "gigi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "12dec00f-5177-5336-9f27-be7875ea47d4",
+    "level": "n5",
+    "code": "v107-011",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 11,
+    "word": "くち（口）",
+    "reading": "くち",
+    "part_of_speech": "noun",
+    "note": "Body part.",
+    "meaning_en": "mouth",
+    "meaning_id": "mulut",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6a5299c8-7e4e-54da-b9e9-e59cb549a414",
+    "level": "n5",
+    "code": "v107-012",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 12,
+    "word": "ふく",
+    "reading": "ふく",
+    "part_of_speech": "noun",
+    "note": "Category word.",
+    "meaning_en": "clothes / clothing",
+    "meaning_id": "pakaian",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "82cb8c1e-60dc-5f75-b8c5-020f5a22a157",
+    "level": "n5",
+    "code": "v107-013",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 13,
+    "word": "ネクタイをする",
+    "reading": "ネクタイをする",
+    "part_of_speech": "phrase",
+    "note": "する is used for some accessories.",
+    "meaning_en": "wear a necktie",
+    "meaning_id": "memakai dasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f5018f6b-3034-52e8-b8a8-30df4599de5b",
+    "level": "n5",
+    "code": "v107-014",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 14,
+    "word": "とけいをする",
+    "reading": "とけいをする",
+    "part_of_speech": "phrase",
+    "note": "する is used for some accessories.",
+    "meaning_en": "wear a watch",
+    "meaning_id": "memakai jam tangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c143e9d8-2fc4-57c5-a2d3-7fc4e809248b",
+    "level": "n5",
+    "code": "v107-015",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 15,
+    "word": "シャツをきる",
+    "reading": "シャツをきる",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "きる is used for upper-body clothing.",
+    "meaning_en": "wear / put on a shirt",
+    "meaning_id": "memakai kemeja",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a065f94d-fd8d-5a5a-b9cb-872673f579de",
+    "level": "n5",
+    "code": "v107-016",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 16,
+    "word": "ベルトをする",
+    "reading": "ベルトをする",
+    "part_of_speech": "phrase",
+    "note": "する is used for some accessories.",
+    "meaning_en": "wear a belt",
+    "meaning_id": "memakai ikat pinggang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bb0d3856-798e-5f1e-974b-3497d43f1b99",
+    "level": "n5",
+    "code": "v107-017",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 17,
+    "word": "ポケット",
+    "reading": "ポケット",
+    "part_of_speech": "noun",
+    "note": "Clothing part.",
+    "meaning_en": "pocket",
+    "meaning_id": "saku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4e4a832-0e6d-5e7c-a514-6b1e8597113b",
+    "level": "n5",
+    "code": "v107-018",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 18,
+    "word": "ズボンをはく",
+    "reading": "ズボンをはく",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "はく is used for lower-body clothing.",
+    "meaning_en": "wear / put on pants",
+    "meaning_id": "memakai celana",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a2890112-8a14-5328-b2f3-da2536a7bba9",
+    "level": "n5",
+    "code": "v107-019",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 19,
+    "word": "ぼうしをかぶる",
+    "reading": "ぼうしをかぶる",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "かぶる is used for things worn on the head.",
+    "meaning_en": "wear / put on a hat",
+    "meaning_id": "memakai topi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "92f56010-3449-5687-9009-a2fcfca94648",
+    "level": "n5",
+    "code": "v107-020",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 20,
+    "word": "めがねをかける",
+    "reading": "めがねをかける",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "かける is used for glasses.",
+    "meaning_en": "wear / put on glasses",
+    "meaning_id": "memakai kacamata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "83084188-bbb7-515d-ad96-3d02c0b4569a",
+    "level": "n5",
+    "code": "v107-021",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 21,
+    "word": "スカーフをする",
+    "reading": "スカーフをする",
+    "part_of_speech": "phrase",
+    "note": "する is used for some accessories.",
+    "meaning_en": "wear a scarf",
+    "meaning_id": "memakai syal/scarf",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6c8a9a40-8137-5ef3-90a2-a64df5de6ee6",
+    "level": "n5",
+    "code": "v107-022",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 22,
+    "word": "セーターをきる",
+    "reading": "セーターをきる",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "きる is used for upper-body clothing.",
+    "meaning_en": "wear / put on a sweater",
+    "meaning_id": "memakai sweater",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b2a45126-7847-585f-9937-e00efd252768",
+    "level": "n5",
+    "code": "v107-023",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 23,
+    "word": "くつしたをはく",
+    "reading": "くつしたをはく",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "はく is used for lower-body clothing and footwear.",
+    "meaning_en": "wear / put on socks",
+    "meaning_id": "memakai kaus kaki",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7d3c8e57-f42b-5250-8106-01ff197fd01b",
+    "level": "n5",
+    "code": "v107-024",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 24,
+    "word": "くつをはく",
+    "reading": "くつをはく",
+    "part_of_speech": "phrase · 他動詞",
+    "note": "はく is used for footwear.",
+    "meaning_en": "wear / put on shoes",
+    "meaning_id": "memakai sepatu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bcd14a0a-2d5b-58b2-a40a-eb469f5e3ba7",
+    "level": "n5",
+    "code": "v107-025",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 25,
+    "word": "かぞえかた",
+    "reading": "かぞえかた",
+    "part_of_speech": "noun",
+    "note": "Category word for counters.",
+    "meaning_en": "how to count / counting method",
+    "meaning_id": "cara menghitung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "be68716d-d64f-5b7f-a2d4-c4ffba275735",
+    "level": "n5",
+    "code": "v107-026",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 26,
+    "word": "ひとつ",
+    "reading": "ひとつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "one thing",
+    "meaning_id": "satu buah/satu benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4bff4e45-ea56-585a-a5bd-d844e6fb034a",
+    "level": "n5",
+    "code": "v107-027",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 27,
+    "word": "ふたつ",
+    "reading": "ふたつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "two things",
+    "meaning_id": "dua buah/dua benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ac45737e-b49a-5ffe-8d80-4105d1d9f81d",
+    "level": "n5",
+    "code": "v107-028",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 28,
+    "word": "みっつ",
+    "reading": "みっつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "three things",
+    "meaning_id": "tiga buah/tiga benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "db4be414-bd19-5fef-92f6-4ac135af9c55",
+    "level": "n5",
+    "code": "v107-029",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 29,
+    "word": "よっつ",
+    "reading": "よっつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "four things",
+    "meaning_id": "empat buah/empat benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9048796d-9194-51ca-8227-d94fa56192b9",
+    "level": "n5",
+    "code": "v107-030",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 30,
+    "word": "いつつ",
+    "reading": "いつつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "five things",
+    "meaning_id": "lima buah/lima benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0616ec8f-2e18-5386-9fd1-a7f338b0cad0",
+    "level": "n5",
+    "code": "v107-031",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 31,
+    "word": "むっつ",
+    "reading": "むっつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "six things",
+    "meaning_id": "enam buah/enam benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "589cc6ca-b604-5eab-875f-a74ded47467f",
+    "level": "n5",
+    "code": "v107-032",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 32,
+    "word": "ななつ",
+    "reading": "ななつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "seven things",
+    "meaning_id": "tujuh buah/tujuh benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "02851b73-1504-5df9-ad64-f939aaab3d24",
+    "level": "n5",
+    "code": "v107-033",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 33,
+    "word": "やっつ",
+    "reading": "やっつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "eight things",
+    "meaning_id": "delapan buah/delapan benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "331ee844-4975-50e8-922a-d27699e54038",
+    "level": "n5",
+    "code": "v107-034",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 34,
+    "word": "ここのつ",
+    "reading": "ここのつ",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "nine things",
+    "meaning_id": "sembilan buah/sembilan benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2ce980b0-05fa-5ba5-8c68-9fa094fd1470",
+    "level": "n5",
+    "code": "v107-035",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 35,
+    "word": "とお",
+    "reading": "とお",
+    "part_of_speech": "counter",
+    "note": "General counter.",
+    "meaning_en": "ten things",
+    "meaning_id": "sepuluh buah/benda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b7e92e7a-c2fb-5c3a-bdfb-23b4d7b568b9",
+    "level": "n5",
+    "code": "v107-036",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 36,
+    "word": "いくつ",
+    "reading": "いくつ",
+    "part_of_speech": "question word / counter",
+    "note": "Used for general count or age of a child.",
+    "meaning_en": "how many things / how old",
+    "meaning_id": "berapa buah / umur berapa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "814ac58d-d243-5825-8bf7-1b8005841738",
+    "level": "n5",
+    "code": "v107-037",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 37,
+    "word": "ひとり",
+    "reading": "ひとり",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "one person",
+    "meaning_id": "satu orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "237bcda3-4604-5d52-887e-6f509da71eca",
+    "level": "n5",
+    "code": "v107-038",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 38,
+    "word": "ふたり",
+    "reading": "ふたり",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "two people",
+    "meaning_id": "dua orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f8b088b5-b9e7-51a0-bff8-a3b6bb550ed7",
+    "level": "n5",
+    "code": "v107-039",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 39,
+    "word": "さんにん",
+    "reading": "さんにん",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "three people",
+    "meaning_id": "tiga orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7a14828e-34cd-5bfd-abbf-5b1a0263de5b",
+    "level": "n5",
+    "code": "v107-040",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 40,
+    "word": "よにん",
+    "reading": "よにん",
+    "part_of_speech": "counter",
+    "note": "People counter. Not よんにん.",
+    "meaning_en": "four people",
+    "meaning_id": "empat orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0cd7cd9d-e8b1-5623-b294-a19419d98bb1",
+    "level": "n5",
+    "code": "v107-041",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 41,
+    "word": "ごにん",
+    "reading": "ごにん",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "five people",
+    "meaning_id": "lima orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e65ec9aa-654a-5d9b-ba0b-4aa764348729",
+    "level": "n5",
+    "code": "v107-042",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 42,
+    "word": "ろくにん",
+    "reading": "ろくにん",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "six people",
+    "meaning_id": "enam orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "de93b1f6-162c-5e75-8756-55dca1af5740",
+    "level": "n5",
+    "code": "v107-043",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 43,
+    "word": "しちにん／ななにん",
+    "reading": "しちにん／ななにん",
+    "part_of_speech": "counter",
+    "note": "Both readings appear; ななにん is also common.",
+    "meaning_en": "seven people",
+    "meaning_id": "tujuh orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "992dbf64-0757-53ab-823a-0e93d8bc2c78",
+    "level": "n5",
+    "code": "v107-044",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 44,
+    "word": "はちにん",
+    "reading": "はちにん",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "eight people",
+    "meaning_id": "delapan orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "56b1c708-5e8d-5505-abbb-66e0ffa4f283",
+    "level": "n5",
+    "code": "v107-045",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 45,
+    "word": "きゅうにん",
+    "reading": "きゅうにん",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "nine people",
+    "meaning_id": "sembilan orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0cfe18f3-2458-5cb2-a1c0-648e571ad313",
+    "level": "n5",
+    "code": "v107-046",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 46,
+    "word": "じゅうにん",
+    "reading": "じゅうにん",
+    "part_of_speech": "counter",
+    "note": "People counter.",
+    "meaning_en": "ten people",
+    "meaning_id": "sepuluh orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "03550725-1189-5b0d-8441-28fdb730158e",
+    "level": "n5",
+    "code": "v107-047",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 47,
+    "word": "なんにん",
+    "reading": "なんにん",
+    "part_of_speech": "question word / counter",
+    "note": "Question word for people.",
+    "meaning_en": "how many people",
+    "meaning_id": "berapa orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f456a2e2-c143-5a5d-b3cb-1a6f568e07c0",
+    "level": "n5",
+    "code": "v107-048",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 48,
+    "word": "いちまい",
+    "reading": "いちまい",
+    "part_of_speech": "counter",
+    "note": "Counter for paper, shirts, plates, etc.",
+    "meaning_en": "one flat/thin item",
+    "meaning_id": "satu lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ddf53f7c-786d-516f-a4eb-fe770f45ad2d",
+    "level": "n5",
+    "code": "v107-049",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 49,
+    "word": "にまい",
+    "reading": "にまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "two flat/thin items",
+    "meaning_id": "dua lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c8a555e4-0c73-5ac2-9640-2a0b5741435d",
+    "level": "n5",
+    "code": "v107-050",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 50,
+    "word": "さんまい",
+    "reading": "さんまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "three flat/thin items",
+    "meaning_id": "tiga lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fb50ee84-6616-5826-8a8c-e3b4a3b24ccb",
+    "level": "n5",
+    "code": "v107-051",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 51,
+    "word": "よんまい",
+    "reading": "よんまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "four flat/thin items",
+    "meaning_id": "empat lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "47b93050-4c50-5ca8-af69-f4cd81bc0295",
+    "level": "n5",
+    "code": "v107-052",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 52,
+    "word": "ごまい",
+    "reading": "ごまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "five flat/thin items",
+    "meaning_id": "lima lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "10a8a2a4-9f1c-5a41-ab48-891f24caab15",
+    "level": "n5",
+    "code": "v107-053",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 53,
+    "word": "ろくまい",
+    "reading": "ろくまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "six flat/thin items",
+    "meaning_id": "enam lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "936ef29d-9bd1-5a18-849f-dd2c7c914e08",
+    "level": "n5",
+    "code": "v107-054",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 54,
+    "word": "しちまい／ななまい",
+    "reading": "しちまい／ななまい",
+    "part_of_speech": "counter",
+    "note": "Both readings appear; ななまい is also common.",
+    "meaning_en": "seven flat/thin items",
+    "meaning_id": "tujuh lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "53090816-d10c-5c44-a28b-aaa2d359ed87",
+    "level": "n5",
+    "code": "v107-055",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 55,
+    "word": "はちまい",
+    "reading": "はちまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "eight flat/thin items",
+    "meaning_id": "delapan lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c4f812df-f360-5d60-bf1c-92958d554313",
+    "level": "n5",
+    "code": "v107-056",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 56,
+    "word": "きゅうまい",
+    "reading": "きゅうまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "nine flat/thin items",
+    "meaning_id": "sembilan lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d354f15e-f482-59bd-a3db-bfcb0f932577",
+    "level": "n5",
+    "code": "v107-057",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 57,
+    "word": "じゅうまい",
+    "reading": "じゅうまい",
+    "part_of_speech": "counter",
+    "note": "Counter for flat/thin items.",
+    "meaning_en": "ten flat/thin items",
+    "meaning_id": "sepuluh lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7db10027-5fa7-5ab0-bfba-de24839c2b29",
+    "level": "n5",
+    "code": "v107-058",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 58,
+    "word": "なんまい",
+    "reading": "なんまい",
+    "part_of_speech": "question word / counter",
+    "note": "Question word for flat/thin items.",
+    "meaning_en": "how many flat/thin items",
+    "meaning_id": "berapa lembar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "040bbe9b-6fe1-576a-a49e-a530b01223e2",
+    "level": "n5",
+    "code": "v107-059",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 59,
+    "word": "いちだい",
+    "reading": "いちだい",
+    "part_of_speech": "counter",
+    "note": "Counter for cars, machines, appliances.",
+    "meaning_en": "one machine/vehicle",
+    "meaning_id": "satu unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d9d9c227-db73-57d6-8230-0d6b7d996367",
+    "level": "n5",
+    "code": "v107-060",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 60,
+    "word": "にだい",
+    "reading": "にだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "two machines/vehicles",
+    "meaning_id": "dua unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fab455a1-7a8f-5d41-8965-b9b355f3836d",
+    "level": "n5",
+    "code": "v107-061",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 61,
+    "word": "さんだい",
+    "reading": "さんだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "three machines/vehicles",
+    "meaning_id": "tiga unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "507775e2-0a26-5e5b-a3d0-bfedcb7d5470",
+    "level": "n5",
+    "code": "v107-062",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 62,
+    "word": "よんだい",
+    "reading": "よんだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "four machines/vehicles",
+    "meaning_id": "empat unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4c19850f-c2db-5b6f-ac55-4d01eac18386",
+    "level": "n5",
+    "code": "v107-063",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 63,
+    "word": "ごだい",
+    "reading": "ごだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "five machines/vehicles",
+    "meaning_id": "lima unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3242367e-f8d4-5de9-a230-d9a09327187b",
+    "level": "n5",
+    "code": "v107-064",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 64,
+    "word": "ろくだい",
+    "reading": "ろくだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "six machines/vehicles",
+    "meaning_id": "enam unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9004c65f-1bc7-572d-bc08-16475285f08e",
+    "level": "n5",
+    "code": "v107-065",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 65,
+    "word": "ななだい",
+    "reading": "ななだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "seven machines/vehicles",
+    "meaning_id": "tujuh unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "93bf34d0-786b-5cd5-b12c-9088fecea81b",
+    "level": "n5",
+    "code": "v107-066",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 66,
+    "word": "はちだい",
+    "reading": "はちだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "eight machines/vehicles",
+    "meaning_id": "delapan unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2fd3ee6b-ed7f-578e-9fdc-7c06e4595a90",
+    "level": "n5",
+    "code": "v107-067",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 67,
+    "word": "きゅうだい",
+    "reading": "きゅうだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "nine machines/vehicles",
+    "meaning_id": "sembilan unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d8336bea-d3aa-5342-bf0f-d3e36d8a24ac",
+    "level": "n5",
+    "code": "v107-068",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 68,
+    "word": "じゅうだい",
+    "reading": "じゅうだい",
+    "part_of_speech": "counter",
+    "note": "Counter for machines/vehicles.",
+    "meaning_en": "ten machines/vehicles",
+    "meaning_id": "sepuluh unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c9c8c48b-4d23-5979-a507-daea79cf0af8",
+    "level": "n5",
+    "code": "v107-069",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 69,
+    "word": "なんだい",
+    "reading": "なんだい",
+    "part_of_speech": "question word / counter",
+    "note": "Question word for machines/vehicles.",
+    "meaning_en": "how many machines/vehicles",
+    "meaning_id": "berapa unit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4448651c-8775-5915-b5fc-c031787d07ab",
+    "level": "n5",
+    "code": "v107-070",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 70,
+    "word": "いっぽん",
+    "reading": "いっぽん",
+    "part_of_speech": "counter",
+    "note": "Counter for bottles, pencils, long objects.",
+    "meaning_en": "one long/cylindrical item",
+    "meaning_id": "satu batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9be4ee5d-e53d-5879-a284-8f457424216f",
+    "level": "n5",
+    "code": "v107-071",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 71,
+    "word": "にほん",
+    "reading": "にほん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "two long/cylindrical items",
+    "meaning_id": "dua batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "86d1efb4-b596-5a2b-9c53-88d6549ea49f",
+    "level": "n5",
+    "code": "v107-072",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 72,
+    "word": "さんぼん",
+    "reading": "さんぼん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "three long/cylindrical items",
+    "meaning_id": "tiga batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "31f9040b-b9dd-5908-a44f-d239a8762971",
+    "level": "n5",
+    "code": "v107-073",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 73,
+    "word": "よんほん",
+    "reading": "よんほん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "four long/cylindrical items",
+    "meaning_id": "empat batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8f044ce8-754c-5965-87ed-beb70b3aa6a0",
+    "level": "n5",
+    "code": "v107-074",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 74,
+    "word": "ごほん",
+    "reading": "ごほん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "five long/cylindrical items",
+    "meaning_id": "lima batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eb23db1a-3d5e-5337-8d5d-19619be73013",
+    "level": "n5",
+    "code": "v107-075",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 75,
+    "word": "ろっぽん",
+    "reading": "ろっぽん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "six long/cylindrical items",
+    "meaning_id": "enam batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4c8411c7-0bfb-5317-abbc-3e05c43c69fe",
+    "level": "n5",
+    "code": "v107-076",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 76,
+    "word": "ななほん",
+    "reading": "ななほん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "seven long/cylindrical items",
+    "meaning_id": "tujuh batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f2126345-6d4d-5969-9ba9-697d87ab99e0",
+    "level": "n5",
+    "code": "v107-077",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 77,
+    "word": "はっぽん",
+    "reading": "はっぽん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "eight long/cylindrical items",
+    "meaning_id": "delapan batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f6a124ef-65a6-5a16-9a0e-0d9d4c0d8b3c",
+    "level": "n5",
+    "code": "v107-078",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 78,
+    "word": "きゅうほん",
+    "reading": "きゅうほん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "nine long/cylindrical items",
+    "meaning_id": "sembilan batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "198f25c8-6526-5430-beec-485d980233c6",
+    "level": "n5",
+    "code": "v107-079",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 79,
+    "word": "じゅっぽん",
+    "reading": "じゅっぽん",
+    "part_of_speech": "counter",
+    "note": "Counter for long/cylindrical items.",
+    "meaning_en": "ten long/cylindrical items",
+    "meaning_id": "sepuluh batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2eeff3de-65ef-54bf-ac3b-fe5d85395263",
+    "level": "n5",
+    "code": "v107-080",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 80,
+    "word": "なんぼん",
+    "reading": "なんぼん",
+    "part_of_speech": "question word / counter",
+    "note": "Question word for long/cylindrical items.",
+    "meaning_en": "how many long/cylindrical items",
+    "meaning_id": "berapa batang/botol",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "88005ca3-de8c-545b-bfa1-ab97fb9bbde5",
+    "level": "n5",
+    "code": "v107-081",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 81,
+    "word": "いっさつ",
+    "reading": "いっさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "one book",
+    "meaning_id": "satu buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "71327553-2dba-57a9-bbf9-87a5ef5a6b2a",
+    "level": "n5",
+    "code": "v107-082",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 82,
+    "word": "にさつ",
+    "reading": "にさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "two books",
+    "meaning_id": "dua buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "38928c4e-1b5f-5e2a-8523-aee77abc7b64",
+    "level": "n5",
+    "code": "v107-083",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 83,
+    "word": "さんさつ",
+    "reading": "さんさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "three books",
+    "meaning_id": "tiga buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f9c28311-4f64-53d1-a891-6202f7cdb8df",
+    "level": "n5",
+    "code": "v107-084",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 84,
+    "word": "よんさつ",
+    "reading": "よんさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "four books",
+    "meaning_id": "empat buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cd04a52d-81f4-557e-98e5-0c1918b3dc8c",
+    "level": "n5",
+    "code": "v107-085",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 85,
+    "word": "ごさつ",
+    "reading": "ごさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "five books",
+    "meaning_id": "lima buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "97e3d5dc-47c8-570e-b669-0c2d85174160",
+    "level": "n5",
+    "code": "v107-086",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 86,
+    "word": "ろくさつ",
+    "reading": "ろくさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "six books",
+    "meaning_id": "enam buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1991be27-5732-5cc0-baf7-8906d913008b",
+    "level": "n5",
+    "code": "v107-087",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 87,
+    "word": "ななさつ",
+    "reading": "ななさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "seven books",
+    "meaning_id": "tujuh buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7773583b-095b-5081-96dd-230e9a3980da",
+    "level": "n5",
+    "code": "v107-088",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 88,
+    "word": "はっさつ",
+    "reading": "はっさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "eight books",
+    "meaning_id": "delapan buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "742ea564-8670-50f5-9533-200376dad3d9",
+    "level": "n5",
+    "code": "v107-089",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 89,
+    "word": "きゅうさつ",
+    "reading": "きゅうさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "nine books",
+    "meaning_id": "sembilan buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "154382d0-ebd7-5fb6-9ae4-c01054f790bc",
+    "level": "n5",
+    "code": "v107-090",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 90,
+    "word": "じゅっさつ",
+    "reading": "じゅっさつ",
+    "part_of_speech": "counter",
+    "note": "Counter for books/notebooks.",
+    "meaning_en": "ten books",
+    "meaning_id": "sepuluh buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "48146bd5-b955-5db0-bb5f-1a94bcb5ae10",
+    "level": "n5",
+    "code": "v107-091",
+    "lesson_id": "fbe0cef4-bf73-5db2-9229-35d7d7c8adf8",
+    "sequence": 91,
+    "word": "なんさつ",
+    "reading": "なんさつ",
+    "part_of_speech": "question word / counter",
+    "note": "Question word for books/notebooks.",
+    "meaning_en": "how many books",
+    "meaning_id": "berapa buku",
+    "sources": [
+      "soumatome"
+    ]
+  }
+]

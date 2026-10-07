@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "df4c9351-d55a-58bb-a9af-463045cfa807",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 1,
+    "pattern_a": "〜で（g101）",
+    "pattern_b": "〜に（comparison reference）",
+    "difference": "Action place vs destination/existence/target",
+    "use_when": "Use で for where an action happens. Use に for where something exists, goes, or attaches.",
+    "example": "図書館で勉強します。／図書館に行きます。"
+  },
+  {
+    "id": "e530a9a5-dd35-5028-b10c-d246c09b3b4a",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 2,
+    "pattern_a": "〜で働く（comparison reference）",
+    "pattern_b": "〜に勤める（g102）",
+    "difference": "Work at a place vs be employed by an organization",
+    "use_when": "Use 働く with で for work location. Use 勤める with に for employer/company.",
+    "example": "日本で働いています。／銀行に勤めています。"
+  },
+  {
+    "id": "35681007-2000-56ba-b021-a5c3bdb9f275",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 3,
+    "pattern_a": "〜から（g103）",
+    "pattern_b": "〜で（comparison reference）",
+    "difference": "Source material vs visible material/tool",
+    "use_when": "Use から when the material changes form. Use で when the material/tool is still directly felt.",
+    "example": "ワインはぶどうから作ります。／紙で人形を作ります。"
+  },
+  {
+    "id": "8a1a3869-fd5a-5160-8890-a207237e9ed5",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 4,
+    "pattern_a": "〜も（g105）",
+    "pattern_b": "〜ずつ（g106）",
+    "difference": "Surprising amount vs equal amount",
+    "use_when": "Use も to emphasize “as many as.” Use ずつ for “each” or “at a time.”",
+    "example": "三本も飲みました。／二本ずつ配ります。"
+  },
+  {
+    "id": "3b023da0-7477-5767-9932-4bce2c5bdd09",
+    "lesson_id": "c7af9b11-67f1-582a-b71f-704d45dfc78c",
+    "sequence": 5,
+    "pattern_a": "〜ほど〜ない（g107）",
+    "pattern_b": "〜より（comparison reference）",
+    "difference": "Negative comparison vs direct comparison",
+    "use_when": "Use ほど〜ない for “not as ~ as.” Use より for direct “more than.”",
+    "example": "AはBほど高くない。／BはAより高い。"
+  },
+  {
+    "id": "f6562d33-f1eb-5500-ba9b-1f410454273c",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 1,
+    "pattern_a": "〜でも（g110）",
+    "pattern_b": "〜も（g112）",
+    "difference": "Soft example/even vs amount emphasis",
+    "use_when": "Use でも for “something like” or “even.” Use も after quantity to show surprise.",
+    "example": "お茶でも飲みませんか。／三時間も待ちました。"
+  },
+  {
+    "id": "2472719a-ebd4-519f-9a87-ced9d6a4858a",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 2,
+    "pattern_a": "〜も（g112）",
+    "pattern_b": "〜も〜ない（g113）",
+    "difference": "Large amount vs zero amount",
+    "use_when": "Use も with positive to emphasize amount. Use も〜ない in negative sentences for “not even one.”",
+    "example": "三つもあります。／一つもありません。"
+  },
+  {
+    "id": "e4dddc8b-7ebb-5a64-810d-ccc814a6d696",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 3,
+    "pattern_a": "〜しか〜ない（g115）",
+    "pattern_b": "〜だけ（comparison reference）",
+    "difference": "Restrictive only vs neutral only",
+    "use_when": "Use しか〜ない when the amount feels limited. Use だけ for neutral “only.”",
+    "example": "少ししかありません。／少しだけあります。"
+  },
+  {
+    "id": "fb61930d-0490-5c25-9ca0-0a38dcb7e3be",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 4,
+    "pattern_a": "〜とか〜とか（g114）",
+    "pattern_b": "〜や〜など（comparison reference）",
+    "difference": "Casual examples vs neutral/formal examples",
+    "use_when": "Use とか in conversation. Use や／など in more neutral or written contexts.",
+    "example": "掃除とか洗濯とか。／掃除や洗濯など。"
+  },
+  {
+    "id": "017f8a89-9788-5107-a8c7-28d10ab3e7d5",
+    "lesson_id": "d6f091aa-02f2-5f28-b207-6cc1922514e4",
+    "sequence": 5,
+    "pattern_a": "〜で（g111）",
+    "pattern_b": "〜から（g103）",
+    "difference": "Tool/material/reason vs source material",
+    "use_when": "Use で for tool or visible material. Use から for source material that changes form.",
+    "example": "はしで食べます。／米から酒を作ります。"
+  },
+  {
+    "id": "7a4d7c5b-5067-538a-82f6-bc11c0a2fc1b",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 1,
+    "pattern_a": "〜まで（g116）",
+    "pattern_b": "〜までに（g117）",
+    "difference": "Until vs by a deadline",
+    "use_when": "Use まで when something continues. Use までに when something must finish before a point.",
+    "example": "5時まで待ちます。／5時までに来てください。"
+  },
+  {
+    "id": "f0b7be91-98b0-52c1-8335-19767b98e201",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 2,
+    "pattern_a": "〜たり〜たりする（g118）",
+    "pattern_b": "〜し〜し（g119）",
+    "difference": "Example actions vs reasons/qualities",
+    "use_when": "Use たり for sample actions. Use し for reasons or multiple qualities.",
+    "example": "映画を見たりします。／安いし、おいしいです。"
+  },
+  {
+    "id": "c5afe705-bf5a-5b96-8e37-1e1ab9400c0f",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 3,
+    "pattern_a": "〜たり〜たりする（g118）",
+    "pattern_b": "〜て〜て（comparison reference）",
+    "difference": "Examples vs sequence",
+    "use_when": "Use たり when the list is not complete. Use て to show sequence or connection.",
+    "example": "食べたり飲んだりします。／食べて寝ました。"
+  },
+  {
+    "id": "53bfe9b4-6db4-5d6d-bc90-d7f0b3552cb0",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 4,
+    "pattern_a": "〜ばかり（g120）",
+    "pattern_b": "〜しか〜ない（g115）",
+    "difference": "Too much of one kind vs only with negative",
+    "use_when": "Use ばかり for repeated or excessive focus. Use しか〜ない for strict limitation.",
+    "example": "ゲームばかりしています。／少ししかありません。"
+  },
+  {
+    "id": "c01aa32a-2f7e-5caa-8372-fef3bd72265d",
+    "lesson_id": "c2719300-7cb0-5a1c-81f8-2ce32aa73cec",
+    "sequence": 5,
+    "pattern_a": "〜ばかり（g120）",
+    "pattern_b": "〜だけ（comparison reference）",
+    "difference": "Often negative “nothing but” vs neutral “only”",
+    "use_when": "Use ばかり when it feels excessive. Use だけ when it is neutral.",
+    "example": "肉ばかり食べます。／肉だけ食べます。"
+  },
+  {
+    "id": "99db59b6-de7a-56be-96b5-e5fdc681e5ea",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 1,
+    "pattern_a": "Vるところ（g121）",
+    "pattern_b": "Vているところ（g122）",
+    "difference": "About to do vs doing now",
+    "use_when": "Use Vるところ before the action starts. Use Vているところ while the action is happening.",
+    "example": "出かけるところです。／勉強しているところです。"
+  },
+  {
+    "id": "7c6ddf51-b278-537a-a278-8b4d701463bc",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 2,
+    "pattern_a": "Vているところ（g122）",
+    "pattern_b": "Vたところ（g123）",
+    "difference": "Doing now vs just finished",
+    "use_when": "Use Vたところ immediately after the action ends.",
+    "example": "料理しているところです。／料理したところです。"
+  },
+  {
+    "id": "ae38009c-8d86-51b3-8364-f5a951ba1185",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 3,
+    "pattern_a": "Vたところ（g123）",
+    "pattern_b": "Vたばかり（comparison reference）",
+    "difference": "Just finished now vs recently finished",
+    "use_when": "Vたところ feels more immediate. Vたばかり can cover a wider recent period.",
+    "example": "今食べたところです。／先週来たばかりです。"
+  },
+  {
+    "id": "14a5cb32-a93c-5a7d-8b31-815ad8aa8e9e",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 4,
+    "pattern_a": "〜間に（g124）",
+    "pattern_b": "〜とき（に）（g125）",
+    "difference": "During a time span vs when/at the time",
+    "use_when": "Use 間に for an event during a period. Use とき for a timing point or situation.",
+    "example": "留守の間に来ました。／寝るとき電気を消します。"
+  },
+  {
+    "id": "be5153ec-342b-57f2-a830-3b869ca44053",
+    "lesson_id": "991de7a0-f547-52b5-a91a-5ac939ac7942",
+    "sequence": 5,
+    "pattern_a": "〜中（g126）",
+    "pattern_b": "〜ているところ（g122）",
+    "difference": "Noun-based “during” vs verb-based “in the middle of”",
+    "use_when": "Use 中 after nouns. Use ているところ after verbs.",
+    "example": "会議中です。／話しているところです。"
+  },
+  {
+    "id": "d1ebc1ac-ec73-5d75-bb42-95c53c41e5a1",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 1,
+    "pattern_a": "〜て／〜で cause（g127）",
+    "pattern_b": "〜から／〜ので（comparison reference）",
+    "difference": "Natural cause vs explicit reason",
+    "use_when": "Use て／で for natural result. Use から／ので before requests, commands, or wishes.",
+    "example": "かぜをひいて休みました。／暑いから窓を開けてください。"
+  },
+  {
+    "id": "270ab5f0-013e-5612-9ebd-a3992c4c7db3",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 2,
+    "pattern_a": "〜て method（g128）",
+    "pattern_b": "〜ないで method（g128）",
+    "difference": "By doing vs without doing",
+    "use_when": "Use て for method/action done. Use ないで for action not done.",
+    "example": "辞書を使って調べます。／辞書を使わないで書きます。"
+  },
+  {
+    "id": "59bef2f0-b3c8-543e-b80d-042c51acb503",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 3,
+    "pattern_a": "〜ないで（g128）",
+    "pattern_b": "〜なくて（comparison reference）",
+    "difference": "Without doing vs cause/reason",
+    "use_when": "Use ないで for manner. Use なくて for reason or cause.",
+    "example": "食べないで寝ました。／お金がなくて困っています。"
+  },
+  {
+    "id": "72323742-ceac-5682-8bb4-a077d401ba1c",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 4,
+    "pattern_a": "〜まま（g129）",
+    "pattern_b": "〜ながら（g130）",
+    "difference": "State remains vs simultaneous actions",
+    "use_when": "Use まま when a state is unchanged. Use ながら when doing two actions together.",
+    "example": "開けたまま寝ました。／聞きながら勉強します。"
+  },
+  {
+    "id": "2063a929-962b-5e3c-8d2a-730b32e1ff75",
+    "lesson_id": "9bd4f230-4518-5033-a4d7-3bd71c4e89be",
+    "sequence": 5,
+    "pattern_a": "〜ながら（g130）",
+    "pattern_b": "〜間に（g124）",
+    "difference": "Same subject simultaneous actions vs event during a period",
+    "use_when": "Use ながら when one subject does two actions. Use 間に when another event happens during a period.",
+    "example": "音楽を聞きながら勉強します。／留守の間に友達が来ました。"
+  },
+  {
+    "id": "4004922a-84f1-5537-a54b-9ed972062778",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 1,
+    "pattern_a": "Vたことがある（g131）",
+    "pattern_b": "Vることがある（g132）",
+    "difference": "Past experience vs occasional action",
+    "use_when": "Use Vたことがある for “have done before.” Use Vることがある for “sometimes do.”",
+    "example": "日本へ行ったことがあります。／日曜日に働くことがあります。"
+  },
+  {
+    "id": "dd750705-19bc-5522-8997-8bd13f6b39df",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 2,
+    "pattern_a": "〜にする（g133）",
+    "pattern_b": "〜ことにする（g134）",
+    "difference": "Choose a noun vs decide to do an action",
+    "use_when": "Use にする for choosing an item. Use ことにする for deciding an action.",
+    "example": "コーヒーにします。／勉強することにします。"
+  },
+  {
+    "id": "41f68728-cc0b-55ce-93c6-33084998da34",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 3,
+    "pattern_a": "〜ことにする（g134）",
+    "pattern_b": "〜ことになる（g137）",
+    "difference": "Personal decision vs outside decision",
+    "use_when": "Use ことにする when the subject decides. Use ことになる when the decision is made by situation, rule, or others.",
+    "example": "毎日日本語を勉強することにしました。／学校で来月、動物園へ行くことになりました。"
+  },
+  {
+    "id": "c66ca602-5f88-51e3-841a-502c795ffddb",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 4,
+    "pattern_a": "〜ことにしている（g135）",
+    "pattern_b": "〜ことにする（g134）",
+    "difference": "Habit/rule vs one-time decision",
+    "use_when": "Use ことにしている for ongoing personal rule. Use ことにする for a decision made now.",
+    "example": "毎日読むことにしています。／今日から読むことにしました。"
+  },
+  {
+    "id": "7a629167-4254-5548-838d-b0265625568d",
+    "lesson_id": "8ca6b389-dc2d-59db-8906-62a0bda11749",
+    "sequence": 5,
+    "pattern_a": "〜くする／〜にする（g138）",
+    "pattern_b": "〜くなる／〜になる（g139）",
+    "difference": "Make something change vs become changed",
+    "use_when": "Use する when someone causes the change. Use なる when the change happens or results.",
+    "example": "部屋を明るくしました。／部屋が明るくなりました。"
+  },
+  {
+    "id": "dae9cc51-076c-5f5b-af3b-f485e46339bf",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 1,
+    "pattern_a": "〜なければならない（g201）",
+    "pattern_b": "〜なくてはいけない（g202）",
+    "difference": "Both mean “must,” but 〜なければならない sounds more formal",
+    "use_when": "Use both for obligation. Use g201 for more formal situations.",
+    "example": "早く起きなければなりません。／早く起きなくてはいけません。"
+  },
+  {
+    "id": "e5b1cf7d-ba4a-5087-b33f-7184ee0c2873",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 2,
+    "pattern_a": "〜なくてはいけない（g202）",
+    "pattern_b": "〜ないといけない（g203）",
+    "difference": "Standard spoken obligation vs more conversational obligation",
+    "use_when": "Use 〜ないといけない in daily conversation.",
+    "example": "薬を飲まなくてはいけません。／薬を飲まないといけません。"
+  },
+  {
+    "id": "87621ef7-124c-5c56-9481-56eecd87ee6d",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 3,
+    "pattern_a": "〜なければならない（g201）",
+    "pattern_b": "〜なきゃ・〜なくちゃ（g204）",
+    "difference": "Full form vs casual shortened form",
+    "use_when": "Use g204 with friends, family, or inner thoughts.",
+    "example": "勉強しなければなりません。／勉強しなきゃ。"
+  },
+  {
+    "id": "499ca1c3-945d-5ec5-bc88-39ac390b0655",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 4,
+    "pattern_a": "〜なくてもいい（g206）",
+    "pattern_b": "〜てはいけない（g207）",
+    "difference": "Not necessary vs prohibited",
+    "use_when": "Use g206 for “you do not have to.” Use g207 for “you must not.”",
+    "example": "来なくてもいいです。／来てはいけません。"
+  },
+  {
+    "id": "69867559-32c4-5e4c-bf5d-cb86ad2e2f5b",
+    "lesson_id": "218e45d0-acc4-544c-b2ca-6923e10dee57",
+    "sequence": 5,
+    "pattern_a": "〜たほうがいい（comparison reference）",
+    "pattern_b": "〜といい・〜たらいい・〜ばいい（g208）",
+    "difference": "Direct advice vs softer suggestion or hope",
+    "use_when": "Use 〜たほうがいい for stronger advice. Use g208 for softer advice or hope.",
+    "example": "薬を飲んだほうがいいです。／薬を飲むといいです。"
+  },
+  {
+    "id": "72b8e66f-a998-5d70-8c4c-519efeff1000",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 1,
+    "pattern_a": "〜ておく（g209）",
+    "pattern_b": "〜てしまう（g210）",
+    "difference": "Preparation / leave as is vs completion / regret",
+    "use_when": "Use g209 when doing something for later. Use g210 when something is finished or regrettable.",
+    "example": "読んでおきます。／読んでしまいました。"
+  },
+  {
+    "id": "2989353d-c9e8-55dd-8928-8344d4f818c3",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 2,
+    "pattern_a": "〜ておく（g209）",
+    "pattern_b": "〜ている（comparison reference）",
+    "difference": "Intentional preparation/state keeping vs normal ongoing state",
+    "use_when": "Use 〜ておく when someone prepares or leaves something intentionally.",
+    "example": "窓を開けておいてください。／窓が開いています。"
+  },
+  {
+    "id": "e767f8c6-d741-5c35-963b-34d495e9b8ce",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 3,
+    "pattern_a": "〜てしまう（g210）",
+    "pattern_b": "〜ちゃう・〜じゃう（casual reference）",
+    "difference": "Standard form vs casual contraction",
+    "use_when": "Use 〜てしまう in neutral/polite speech. Use 〜ちゃう／〜じゃう casually.",
+    "example": "食べてしまいました。／食べちゃった。"
+  },
+  {
+    "id": "89c35885-d7f3-552e-8a19-5f416ad6087e",
+    "lesson_id": "fd735058-625b-5349-aa1e-529a19474ae3",
+    "sequence": 4,
+    "pattern_a": "〜てみる（g211）",
+    "pattern_b": "〜ておく（g209）",
+    "difference": "Try and see vs prepare for later",
+    "use_when": "Use 〜てみる when trying something. Use 〜ておく when preparing something.",
+    "example": "食べてみます。／買っておきます。"
+  },
+  {
+    "id": "52d88991-130a-54a9-a5a4-3c7e71f29d07",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 1,
+    "pattern_a": "あげる（g212）",
+    "pattern_b": "くれる（g212）",
+    "difference": "Give away from speaker side vs give toward speaker side",
+    "use_when": "Use あげる when I/my side gives. Use くれる when someone gives to me/my side.",
+    "example": "私は田中さんに本をあげました。／田中さんが私に本をくれました。"
+  },
+  {
+    "id": "65ecd77f-83f9-526b-944d-88ea8c270b84",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 2,
+    "pattern_a": "くれる（g212）",
+    "pattern_b": "もらう（g212）",
+    "difference": "Someone gives to me vs I receive from someone",
+    "use_when": "Use くれる when the giver is subject. Use もらう when the receiver is subject.",
+    "example": "田中さんが本をくれました。／私は田中さんに本をもらいました。"
+  },
+  {
+    "id": "68641150-fb30-5617-805a-b10dc0c3e428",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 3,
+    "pattern_a": "〜てあげる（g213）",
+    "pattern_b": "〜てくれる（g214）",
+    "difference": "Do for someone else vs someone does for me",
+    "use_when": "Use 〜てあげる when the helper is speaker side. Use 〜てくれる when the helper benefits speaker side.",
+    "example": "友だちを手伝ってあげました。／友だちが手伝ってくれました。"
+  },
+  {
+    "id": "68d77202-0b0e-57a4-bbf2-c6fa5b8c3133",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 4,
+    "pattern_a": "〜てくれる（g214）",
+    "pattern_b": "〜てもらう（g215）",
+    "difference": "Someone kindly does for me vs I receive help",
+    "use_when": "Use 〜てくれる to show gratitude toward the helper. Use 〜てもらう to focus on receiving help.",
+    "example": "先生が教えてくれました。／先生に教えてもらいました。"
+  },
+  {
+    "id": "c5908c2f-ae4c-5c2c-b27c-d80ec763ca7d",
+    "lesson_id": "21c76624-edf5-5cd5-a7f8-37f996c9ffc4",
+    "sequence": 5,
+    "pattern_a": "〜てあげる（g213）",
+    "pattern_b": "〜てさしあげる（g217）",
+    "difference": "Normal help vs polite/humble help",
+    "use_when": "Use 〜てさしあげる carefully. It can sound too direct if overused.",
+    "example": "手伝ってあげます。／手伝ってさしあげます。"
+  },
+  {
+    "id": "43bbb0d5-c75c-57d4-a83f-701b5d063215",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 1,
+    "pattern_a": "〜ために（g218）",
+    "pattern_b": "〜ように（g220）",
+    "difference": "Direct purpose vs state/result goal",
+    "use_when": "Use 〜ために for an intentional goal. Use 〜ように for ability, state, or prevention.",
+    "example": "家を買うために貯金します。／忘れないようにメモします。"
+  },
+  {
+    "id": "23d0e3c3-0ccb-505a-ae35-5e0570dbc856",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 2,
+    "pattern_a": "〜ために（g218）",
+    "pattern_b": "〜ために（g219）",
+    "difference": "Purpose vs cause",
+    "use_when": "Use g218 when someone acts for a goal. Use g219 when something happens because of a reason.",
+    "example": "会議のために行きます。／台風のため、遅れました。"
+  },
+  {
+    "id": "4db79fd1-386d-5ac2-8017-463d5939273e",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 3,
+    "pattern_a": "〜ようになる（g221）",
+    "pattern_b": "〜ようにする（g222）",
+    "difference": "Change of state vs conscious effort",
+    "use_when": "Use 〜ようになる when something becomes possible. Use 〜ようにする when someone tries or makes a habit.",
+    "example": "漢字が読めるようになりました。／毎日読むようにしています。"
+  },
+  {
+    "id": "842183aa-4083-59c2-953f-1e4f1e09f750",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 4,
+    "pattern_a": "〜ようにする（g222）",
+    "pattern_b": "〜ことにする（comparison reference）",
+    "difference": "Ongoing habit/effort vs decision",
+    "use_when": "Use 〜ようにする for repeated effort. Use 〜ことにする for a decision.",
+    "example": "日記を書くようにしています。／日記を書くことにしました。"
+  },
+  {
+    "id": "e95d7cb5-6712-5e1f-b206-40cf6d9a0b49",
+    "lesson_id": "9a7d4d0c-13a9-5ea6-8b3a-9635bda1d52d",
+    "sequence": 5,
+    "pattern_a": "〜ように言う（g223）",
+    "pattern_b": "〜ように言われる（g224）",
+    "difference": "Tell someone vs be told",
+    "use_when": "Use g223 from the instructor side. Use g224 from the receiver side.",
+    "example": "静かにするように言いました。／静かにするように言われました。"
+  },
+  {
+    "id": "708548ff-76e5-5d5a-a46d-3dec4d81977b",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 1,
+    "pattern_a": "こんな・そんな・あんな（g225）",
+    "pattern_b": "こう・そう・ああ（g227）",
+    "difference": "Type of noun vs way of doing",
+    "use_when": "Use こんな before nouns. Use こう before verbs/actions.",
+    "example": "こんな家。／こう書きます。"
+  },
+  {
+    "id": "2187b084-2e35-5ae9-ae85-e0c30455d397",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 2,
+    "pattern_a": "こんなN（g225）",
+    "pattern_b": "こんなに（g226）",
+    "difference": "Such a noun vs this much/so much",
+    "use_when": "Use こんな before nouns. Use こんなに before adjectives or verbs.",
+    "example": "こんな本。／こんなに高い。"
+  },
+  {
+    "id": "4e613e18-58dd-57d9-a916-c79647f6f057",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 3,
+    "pattern_a": "そんなN（g225）",
+    "pattern_b": "そんなに（g226）",
+    "difference": "That kind of noun vs that much",
+    "use_when": "Use そんなN to describe type. Use そんなに to describe degree.",
+    "example": "そんなことはできません。／そんなにむずかしいですか。"
+  },
+  {
+    "id": "b882ff25-8e20-5c5f-b011-0dbb9f717a71",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 4,
+    "pattern_a": "〜というN（g228）",
+    "pattern_b": "どういうN（g229）",
+    "difference": "Called/named ~ vs what kind/meaning ~",
+    "use_when": "Use 〜という to give a name. Use どういう to ask for meaning or type.",
+    "example": "目黒という町。／どういう意味ですか。"
+  },
+  {
+    "id": "a48eff29-e420-5def-abd6-424d591a891d",
+    "lesson_id": "bf53835b-e285-545c-8a53-559bda7a962f",
+    "sequence": 5,
+    "pattern_a": "〜というN（g228）",
+    "pattern_b": "〜っていうN（g228）",
+    "difference": "Standard vs casual",
+    "use_when": "Use という in neutral/polite speech. Use っていう in casual conversation.",
+    "example": "あすかというレストラン。／あすかっていうレストラン。"
+  },
+  {
+    "id": "4382708d-a358-5276-a1f6-2b03ce1fd9bb",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 1,
+    "pattern_a": "〜たほうがいい（g230）",
+    "pattern_b": "〜ないほうがいい（g231）",
+    "difference": "Advice to do vs advice not to do",
+    "use_when": "Use g230 for positive advice. Use g231 for warning/advice against an action.",
+    "example": "寝たほうがいいです。／行かないほうがいいです。"
+  },
+  {
+    "id": "e803227b-a0a5-56ad-afca-eb041cbae6b9",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 2,
+    "pattern_a": "〜たほうがいい（g230）",
+    "pattern_b": "〜といい（g208）",
+    "difference": "Direct advice vs softer suggestion",
+    "use_when": "Use 〜たほうがいい when the advice is clearer. Use 〜といい for softer advice or hope.",
+    "example": "病院へ行ったほうがいいです。／雨が降らないといいですね。"
+  },
+  {
+    "id": "ec87f68a-4cca-562f-a679-f51ae08ace89",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 3,
+    "pattern_a": "命令形（g232）",
+    "pattern_b": "〜なさい（g234）",
+    "difference": "Strong command vs firm instruction",
+    "use_when": "Use 命令形 carefully. Use 〜なさい from parent/teacher to child/student.",
+    "example": "早くしろ。／早くしなさい。"
+  },
+  {
+    "id": "03ad2b6c-8852-5299-9a82-d2337da1e861",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 4,
+    "pattern_a": "禁止形・〜るな（g233）",
+    "pattern_b": "〜ないでください（comparison reference）",
+    "difference": "Strong prohibition vs polite request not to do",
+    "use_when": "Use 〜るな for signs/orders/quoted speech. Use 〜ないでください politely.",
+    "example": "入るな。／入らないでください。"
+  },
+  {
+    "id": "7489e45c-884b-5df5-b924-b3bb28b6b00e",
+    "lesson_id": "52133a46-5970-59db-a9f9-e3c5beb70a87",
+    "sequence": 5,
+    "pattern_a": "命令形・禁止形（g232/g233）",
+    "pattern_b": "〜と言われる（comparison reference）",
+    "difference": "Direct command vs quoted command",
+    "use_when": "Use command forms when quoting what someone said.",
+    "example": "母に毎日メールをくれと言われています。／医者に酒を飲むなと言われました。"
+  },
+  {
+    "id": "f3d29fea-983b-559f-af9d-092fb7a40bf2",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 1,
+    "pattern_a": "〜かどうか（g301）",
+    "pattern_b": "疑問詞〜か（g302）",
+    "difference": "Yes/no question vs question-word question",
+    "use_when": "Use g301 for “whether.” Use g302 with words like どこ, だれ, 何.",
+    "example": "行くかどうか聞きます。／どこへ行くか聞きます。"
+  },
+  {
+    "id": "1dbbf4bc-9651-5bf6-a50a-bec19d9c76af",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 2,
+    "pattern_a": "〜の（g303）",
+    "pattern_b": "〜こと（comparison reference）",
+    "difference": "Concrete/personal action vs more abstract/formal idea",
+    "use_when": "Use の for direct actions, seeing, hearing, likes. Use こと for rules or abstract facts.",
+    "example": "走るのが好きです。／日本語を勉強することは大切です。"
+  },
+  {
+    "id": "dcdb47c6-f745-591a-bbdb-e84365296753",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 3,
+    "pattern_a": "〜のに（g304）",
+    "pattern_b": "〜ために（comparison reference）",
+    "difference": "Use/purpose phrase vs direct goal",
+    "use_when": "Use のに for “used for / needed for.” Use ために for direct purpose.",
+    "example": "このはさみは紙を切るのに使います。／日本へ行くために貯金します。"
+  },
+  {
+    "id": "f1c64310-ee8d-531b-a3c0-42bc17dc37cc",
+    "lesson_id": "5937b277-ddda-5c16-937c-e397e6616793",
+    "sequence": 4,
+    "pattern_a": "〜のに（用途）（g304）",
+    "pattern_b": "〜のに（逆接）（g311）",
+    "difference": "Purpose/use vs “even though / padahal”",
+    "use_when": "Use g304 with V辞書形. Use g311 with plain form and emotional contrast.",
+    "example": "書くのに使います。／書いたのに忘れました。"
+  },
+  {
+    "id": "ca283cfd-4025-56b8-a87c-5c51a5be8332",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 1,
+    "pattern_a": "聞こえる（g306）",
+    "pattern_b": "聞ける（g306）",
+    "difference": "Sound naturally reaches you vs ability/opportunity to listen",
+    "use_when": "Use 聞こえる for sound. Use 聞ける for access or ability.",
+    "example": "音が聞こえます。／このラジオは聞けます。"
+  },
+  {
+    "id": "9a6553d3-b6cc-577b-bd3d-ea55c3c0e10b",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 2,
+    "pattern_a": "見える（g307）",
+    "pattern_b": "見られる（g307）",
+    "difference": "Something is visible vs you can see/watch it",
+    "use_when": "Use 見える for natural visibility. Use 見られる for ability or permission.",
+    "example": "山が見えます。／この映画はネットで見られます。"
+  },
+  {
+    "id": "39be1566-d1fb-56e7-a818-fab3ddfbcf7d",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 3,
+    "pattern_a": "〜のが見える（g308）",
+    "pattern_b": "〜のを見る（g309）",
+    "difference": "Natural perception vs intentional observation",
+    "use_when": "Use のが見える when something enters your sight. Use のを見る when you actively watch.",
+    "example": "子どもが走っているのが見えます。／子どもが走っているのを見ました。"
+  },
+  {
+    "id": "19850fdd-8689-5763-b92b-df74b26bf461",
+    "lesson_id": "ea63a397-df51-59c4-bd2b-dd131249614b",
+    "sequence": 4,
+    "pattern_a": "可能形（g305）",
+    "pattern_b": "聞こえる・見える（g306–g307）",
+    "difference": "General ability vs natural perception",
+    "use_when": "Use potential form for ability. Use 聞こえる／見える when sound or image naturally reaches you.",
+    "example": "日本語が読めます。／声が聞こえます。"
+  },
+  {
+    "id": "2bdd8329-c2a6-5864-a749-9f3f05ba5ba1",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 1,
+    "pattern_a": "〜ので（g310）",
+    "pattern_b": "〜から（comparison reference）",
+    "difference": "Softer reason vs direct reason",
+    "use_when": "Use ので for polite explanation. Use から for direct/casual reason.",
+    "example": "暑いので、窓を開けます。／暑いから、窓を開けます。"
+  },
+  {
+    "id": "2291d9a9-0d5d-561c-b498-493a521a43d6",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 2,
+    "pattern_a": "〜のに（g311）",
+    "pattern_b": "〜ても（g312）",
+    "difference": "Emotional contrast vs neutral concession",
+    "use_when": "Use のに for disappointment or unexpected result. Use ても for “even if.”",
+    "example": "勉強したのに忘れました。／雨でも行きます。"
+  },
+  {
+    "id": "f27e9d91-f7bc-50fd-a45d-795c94324bfd",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 3,
+    "pattern_a": "〜ても（g312）",
+    "pattern_b": "疑問詞〜ても（g313）",
+    "difference": "Even if one condition vs no matter what condition",
+    "use_when": "Use g312 for one condition. Use g313 with いつ, 何, どんなに.",
+    "example": "高くても買います。／どんなに高くても買います。"
+  },
+  {
+    "id": "2758d7a3-4409-58e4-a84a-6cca1fe3d507",
+    "lesson_id": "a5061061-16a8-5a8b-8a7c-62597d74b816",
+    "sequence": 4,
+    "pattern_a": "〜ので（g310）",
+    "pattern_b": "〜のに（g311）",
+    "difference": "Reason vs contrast",
+    "use_when": "Use ので for cause. Use のに for “padahal.”",
+    "example": "雨なので行きません。／雨なのに行きます。"
+  },
+  {
+    "id": "bc691804-3678-559e-9a84-7407f955bfaf",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 1,
+    "pattern_a": "それに（g314）",
+    "pattern_b": "そのうえ（g314）",
+    "difference": "Casual addition vs slightly formal addition",
+    "use_when": "Use both for “what’s more.” Use そのうえ in more written or careful speech.",
+    "example": "安いです。それに近いです。／安いです。そのうえ便利です。"
+  },
+  {
+    "id": "60386db3-b21b-513c-88c3-1e509ad66406",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 2,
+    "pattern_a": "それで（g315）",
+    "pattern_b": "だから（g315）",
+    "difference": "Situation result vs direct conclusion",
+    "use_when": "Use それで for a natural result. Use だから for a clear reason-conclusion link.",
+    "example": "雨でした。それで中止になりました。／雨だから行きません。"
+  },
+  {
+    "id": "0a401dc3-a518-5253-817e-932f509a2de1",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 3,
+    "pattern_a": "ところが（g316）",
+    "pattern_b": "でも（comparison reference）",
+    "difference": "Unexpected result vs simple “but”",
+    "use_when": "Use ところが when reality differs from expectation. Use でも for simple contrast.",
+    "example": "行く予定でした。ところが行けませんでした。／高いです。でも買います。"
+  },
+  {
+    "id": "4a10c56a-6954-56c8-9729-0214de9b414b",
+    "lesson_id": "a99e1775-c8fc-5b59-8830-74a5c3f26033",
+    "sequence": 4,
+    "pattern_a": "〜さ（g317）",
+    "pattern_b": "V方（g318）",
+    "difference": "Degree noun vs method noun",
+    "use_when": "Use 〜さ for size/degree. Use V方 for how to do something.",
+    "example": "高さを調べます。／読み方を聞きます。"
+  },
+  {
+    "id": "3a2dd439-1c0e-5b13-950a-57b9cb540029",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 1,
+    "pattern_a": "〜てくれませんか（g319）",
+    "pattern_b": "〜てもらえませんか（g320）",
+    "difference": "Direct request vs softer received-help request",
+    "use_when": "Use g319 with familiar people. Use g320 when you want to sound softer.",
+    "example": "手伝ってくれませんか。／手伝ってもらえませんか。"
+  },
+  {
+    "id": "ac877e1c-2de7-5366-ac1f-82e154149416",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 2,
+    "pattern_a": "〜てくださいませんか（g321）",
+    "pattern_b": "〜ていただけませんか（g322）",
+    "difference": "Polite request vs very polite/humble request",
+    "use_when": "Use g321 politely. Use g322 for formal situations or higher-status people.",
+    "example": "教えてくださいませんか。／教えていただけませんか。"
+  },
+  {
+    "id": "73e909f8-6092-5d1f-92ad-55cb48bb47af",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 3,
+    "pattern_a": "〜てほしい（g323）",
+    "pattern_b": "〜てもらいたい（g324）",
+    "difference": "Direct want vs softer “want to receive help”",
+    "use_when": "Use てほしい for personal desire. Use てもらいたい to sound less direct.",
+    "example": "来てほしいです。／来てもらいたいです。"
+  },
+  {
+    "id": "58905032-1da7-55e8-80df-47b9c798d283",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 4,
+    "pattern_a": "〜てもらいたい（g324）",
+    "pattern_b": "〜ていただきたい（g325）",
+    "difference": "Normal polite vs more respectful",
+    "use_when": "Use g325 for teachers, customers, or formal writing.",
+    "example": "確認してもらいたいです。／確認していただきたいです。"
+  },
+  {
+    "id": "424d93cc-1446-5f1c-b9f2-557f8e57731d",
+    "lesson_id": "4ff92c96-743e-5ed9-901b-c4e1bd4a5e46",
+    "sequence": 5,
+    "pattern_a": "〜たらどうですか（g326）",
+    "pattern_b": "〜が・〜けど…（g327）",
+    "difference": "Suggestion vs preface",
+    "use_when": "Use g326 to advise. Use g327 before asking or bringing up a topic.",
+    "example": "休んだらどうですか。／聞きたいことがあるんですが…。"
+  },
+  {
+    "id": "9a2ad6e3-5c01-53c4-a55f-9f666f1f8196",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 1,
+    "pattern_a": "〜と言う（g328）",
+    "pattern_b": "〜って言う（g328）",
+    "difference": "Standard quote vs casual spoken quote",
+    "use_when": "Use と言う generally. Use って言う in casual speech.",
+    "example": "来ないと言いました。／来ないって言っていました。"
+  },
+  {
+    "id": "afab60c7-1528-542f-a0c2-07fdec90caad",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 2,
+    "pattern_a": "〜と言う（g328）",
+    "pattern_b": "〜と言われる（g329）",
+    "difference": "Someone says vs someone is told / it is said",
+    "use_when": "Use g328 for the speaker of the quote. Use g329 when the subject receives the message.",
+    "example": "母は早く寝ろと言いました。／母に早く寝ろと言われました。"
+  },
+  {
+    "id": "e753fe02-da81-580b-9485-8d86dc88d684",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 3,
+    "pattern_a": "〜と思う（g330）",
+    "pattern_b": "〜ようと思う（g332）",
+    "difference": "Opinion/thought vs intention",
+    "use_when": "Use と思う for what you think is true. Use ようと思う for what you plan to do.",
+    "example": "雨だと思います。／行こうと思います。"
+  },
+  {
+    "id": "28d7135a-0e57-53ec-adce-d7e72dbe3044",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 4,
+    "pattern_a": "Vよう（g331）",
+    "pattern_b": "〜つもり（g333）",
+    "difference": "Volitional invitation/intention form vs clear plan",
+    "use_when": "Use Vよう for “let’s/I will.” Use つもり for a planned intention.",
+    "example": "休もう。／休むつもりです。"
+  },
+  {
+    "id": "6d4adcee-ca1b-55e3-925d-5e7396291110",
+    "lesson_id": "49ada3fd-2978-5c59-8fa5-3d4c0684f136",
+    "sequence": 5,
+    "pattern_a": "〜ようと思う（g332）",
+    "pattern_b": "〜つもり（g333）",
+    "difference": "Softer intention vs stronger plan",
+    "use_when": "Use ようと思う when thinking of doing. Use つもり when the plan is clearer.",
+    "example": "日本語を勉強しようと思います。／毎日勉強するつもりです。"
+  },
+  {
+    "id": "e716d963-8344-5fc2-b075-03d05d59d7fb",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 1,
+    "pattern_a": "〜たら（g401）",
+    "pattern_b": "〜と（g404）",
+    "difference": "Flexible event condition vs automatic/natural result",
+    "use_when": "Use 〜たら for a future event or personal response. Use 〜と for automatic results.",
+    "example": "夏休みになったら帰ります。／押すと開きます。"
+  },
+  {
+    "id": "bd85cf96-78bc-58de-b078-0868b362f4ea",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 2,
+    "pattern_a": "〜ば（g402）",
+    "pattern_b": "〜たら（g401）",
+    "difference": "General condition vs event-based condition",
+    "use_when": "Use 〜ば for “if the condition is true.” Use 〜たら for “when/after it happens.”",
+    "example": "安ければ買います。／家に帰ったら電話します。"
+  },
+  {
+    "id": "8bdd2ea1-e2a6-521f-bda7-6a1882026b26",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 3,
+    "pattern_a": "〜なら（g403）",
+    "pattern_b": "〜たら（g401）",
+    "difference": "Topic-based “if it is about ~” vs event condition",
+    "use_when": "Use 〜なら when reacting to a topic. Use 〜たら when the action/event actually happens.",
+    "example": "ラーメンなら、駅前の店がいいです。／お湯がわいたら、めんを入れてください。"
+  },
+  {
+    "id": "b82020be-36b4-54b2-bca1-ed9464beffe9",
+    "lesson_id": "33597535-b20b-53cc-88c6-129aa5d85601",
+    "sequence": 4,
+    "pattern_a": "〜と（g404）",
+    "pattern_b": "〜なら（g403）",
+    "difference": "Automatic result vs advice based on topic",
+    "use_when": "Use 〜と for directions or mechanisms. Use 〜なら for advice.",
+    "example": "右に曲がると銀行があります。／銀行に行くなら、右に曲がってください。"
+  },
+  {
+    "id": "e42d8e56-06d9-524f-a63f-567dc8f71740",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 1,
+    "pattern_a": "〜ようだ（g405）",
+    "pattern_b": "〜みたいだ（g406）",
+    "difference": "Both mean “seems,” but 〜みたいだ is more conversational",
+    "use_when": "Use 〜ようだ in neutral/formal speech. Use 〜みたいだ in casual daily speech.",
+    "example": "疲れているようです。／疲れているみたいです。"
+  },
+  {
+    "id": "76aa3364-8ec3-53b0-8f48-158134632888",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 2,
+    "pattern_a": "〜そうだ（様態）（g407）",
+    "pattern_b": "〜そうだ（伝聞）（g408）",
+    "difference": "Appearance vs hearsay",
+    "use_when": "Use 様態 when you judge by looking. Use 伝聞 when you heard/read the information.",
+    "example": "雨が降りそうです。／雨が降るそうです。"
+  },
+  {
+    "id": "63103447-ffba-53cb-a2c6-bb3011ae1018",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 3,
+    "pattern_a": "〜でしょう（g409）",
+    "pattern_b": "〜かもしれない（g410）",
+    "difference": "Probable guess vs weaker possibility",
+    "use_when": "Use 〜でしょう when you think it is likely. Use 〜かもしれない when it is only possible.",
+    "example": "明日は晴れるでしょう。／明日は晴れるかもしれません。"
+  },
+  {
+    "id": "74675dfe-0d9a-5bfd-834e-44f731a9a40a",
+    "lesson_id": "ad28c115-9415-5cb2-9445-b4c068a137d0",
+    "sequence": 4,
+    "pattern_a": "〜そうだ（様態）（g407）",
+    "pattern_b": "〜ようだ（g405）",
+    "difference": "Direct appearance vs guess based on evidence",
+    "use_when": "Use 〜そうだ for visible appearance. Use 〜ようだ for broader inference.",
+    "example": "元気そうです。／熱があるようです。"
+  },
+  {
+    "id": "45218de0-af00-57cf-91f7-65805c8ad114",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 1,
+    "pattern_a": "〜すぎる（g411）",
+    "pattern_b": "とても（comparison reference）",
+    "difference": "Excessive vs simply very",
+    "use_when": "Use 〜すぎる when the degree is too much. Use とても for neutral “very.”",
+    "example": "高すぎます。／とても高いです。"
+  },
+  {
+    "id": "7c68d527-030d-5f77-87ea-cf3e1a8d1c09",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 2,
+    "pattern_a": "〜やすい（g412）",
+    "pattern_b": "〜にくい（g413）",
+    "difference": "Easy vs difficult",
+    "use_when": "Use 〜やすい for easy action. Use 〜にくい for difficult action.",
+    "example": "書きやすいです。／読みにくいです。"
+  },
+  {
+    "id": "cf574e7b-679b-54b6-933f-f08dd72ebb2c",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 3,
+    "pattern_a": "〜出す（g414）",
+    "pattern_b": "〜始める（comparison reference）",
+    "difference": "Sudden start vs neutral start",
+    "use_when": "Use 〜出す for sudden/unexpected start. Use 〜始める for a normal start.",
+    "example": "急に泣き出しました。／勉強を始めました。"
+  },
+  {
+    "id": "b9d55f89-7f47-534d-971e-db176845f221",
+    "lesson_id": "05163654-f5e3-5e4c-aba8-9881828538f6",
+    "sequence": 4,
+    "pattern_a": "〜終わる（g415）",
+    "pattern_b": "〜続ける（g416）",
+    "difference": "Finish doing vs continue doing",
+    "use_when": "Use 〜終わる for completion. Use 〜続ける for continuation.",
+    "example": "食べ終わりました。／飲み続けてください。"
+  },
+  {
+    "id": "0bed73ac-f73a-5267-9188-f776b1c85971",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 1,
+    "pattern_a": "受身形（g417）",
+    "pattern_b": "〜させる（g418）",
+    "difference": "Passive receives action vs causative makes/lets someone act",
+    "use_when": "Use passive when something is done to the subject. Use causative when the subject makes/lets someone do something.",
+    "example": "道を聞かれました。／子どもを走らせました。"
+  },
+  {
+    "id": "88f267ce-ee51-5887-a455-804eabb6dd92",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 2,
+    "pattern_a": "〜させる（g418）",
+    "pattern_b": "〜させられる（g419）",
+    "difference": "Make/let someone do vs be forced to do",
+    "use_when": "Use 〜させる from the controller's view. Use 〜させられる from the person forced to act.",
+    "example": "母は食べさせました。／私は食べさせられました。"
+  },
+  {
+    "id": "aa284c37-8e67-5462-a837-2c1059eae037",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 3,
+    "pattern_a": "〜させてください（g420）",
+    "pattern_b": "〜てください（comparison reference）",
+    "difference": "Let me do vs please do",
+    "use_when": "Use 〜させてください when asking permission for your own action. Use 〜てください when asking someone else to act.",
+    "example": "コピーさせてください。／コピーしてください。"
+  },
+  {
+    "id": "551a0c65-4179-5f67-80f6-a8515206b6c8",
+    "lesson_id": "a3ea001e-efeb-5868-b5b0-0c6799bdf92b",
+    "sequence": 4,
+    "pattern_a": "受身形（g417）",
+    "pattern_b": "〜させられる（g419）",
+    "difference": "Be acted on vs be forced to act",
+    "use_when": "Use passive for receiving an action. Use causative-passive for being forced to do an action.",
+    "example": "しかられました。／勉強させられました。"
+  },
+  {
+    "id": "d790162d-809a-5354-80f9-d4e0dec677a3",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 1,
+    "pattern_a": "自動詞（g421）",
+    "pattern_b": "他動詞（g421）",
+    "difference": "Something happens vs someone does something",
+    "use_when": "Use が with 自動詞. Use を with 他動詞.",
+    "example": "ドアが閉まります。／ドアを閉めます。"
+  },
+  {
+    "id": "18525793-8832-5677-9661-0eccb091d012",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 2,
+    "pattern_a": "〜ている（g422）",
+    "pattern_b": "〜てある（g423）",
+    "difference": "Result state vs prepared state from intentional action",
+    "use_when": "Use 〜ている for the state itself. Use 〜てある when someone prepared it intentionally.",
+    "example": "窓が閉まっています。／窓が閉めてあります。"
+  },
+  {
+    "id": "9a3a3dd4-2abe-52e4-885a-766408f47280",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 3,
+    "pattern_a": "〜てくる（g424）",
+    "pattern_b": "〜ていく（g425）",
+    "difference": "Toward now/here vs away from now/here",
+    "use_when": "Use 〜てくる for change up to now. Use 〜ていく for change from now on.",
+    "example": "寒くなってきました。／寒くなっていきます。"
+  },
+  {
+    "id": "d6c348f9-cca8-528b-8367-789fa6a1650d",
+    "lesson_id": "a23935d9-c3bd-58e6-bef2-7c58311cc011",
+    "sequence": 4,
+    "pattern_a": "〜ている（g422）",
+    "pattern_b": "〜ている（ongoing reference）",
+    "difference": "Result state vs action in progress",
+    "use_when": "Use result-state 〜ている with 自動詞 like 開く, 閉まる, 消える. Use ongoing 〜ている for actions in progress.",
+    "example": "ドアが開いています。／弟は今、出かけています。"
+  },
+  {
+    "id": "295a0fed-abfa-536d-b755-fe51f46204c2",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 1,
+    "pattern_a": "〜んです（g426）",
+    "pattern_b": "Plain statement（comparison reference）",
+    "difference": "Explanation/background vs simple fact",
+    "use_when": "Use 〜んです when giving or asking for a reason. Use plain statement for simple information.",
+    "example": "頭が痛いんです。／頭が痛いです。"
+  },
+  {
+    "id": "c9856962-f91c-541f-8591-6e1beaa3252a",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 2,
+    "pattern_a": "〜ね（g428）",
+    "pattern_b": "〜よ（g429）",
+    "difference": "Seeking agreement vs giving new information",
+    "use_when": "Use 〜ね when both sides can agree. Use 〜よ when telling or reminding the listener.",
+    "example": "いい天気ですね。／雨が降っていますよ。"
+  },
+  {
+    "id": "36dbd1d8-f15b-5d95-a7fe-a871ed00341d",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 3,
+    "pattern_a": "〜なあ（g427）",
+    "pattern_b": "〜ね（g428）",
+    "difference": "Personal emotion/self-talk vs shared confirmation",
+    "use_when": "Use 〜なあ for your own feeling. Use 〜ね to invite agreement.",
+    "example": "きれいだなあ。／きれいですね。"
+  },
+  {
+    "id": "763fffac-578d-5085-9e97-d058e97f05bf",
+    "lesson_id": "247d0c99-3622-5b0b-865a-98e31257de14",
+    "sequence": 4,
+    "pattern_a": "〜かな（g430）",
+    "pattern_b": "〜かしら（g430）",
+    "difference": "Common “I wonder” vs softer/textbook-feminine “I wonder”",
+    "use_when": "Use 〜かな in general self-talk. Use 〜かしら for a softer tone.",
+    "example": "明日晴れるかな。／明日晴れるかしら。"
+  }
+]

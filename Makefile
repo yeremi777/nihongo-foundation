@@ -1,0 +1,73 @@
+# Load DB_* and APP_* from .env when it exists, and export them to every recipe.
+ifneq (,$(wildcard .env))
+include .env
+export
+endif
+
+MIGRATIONS_DIR := internal/database/migrations
+# Keyword/value DSN; every value is quoted so an empty or spaced password parses.
+DB_DSN = host='$(DB_HOST)' port='$(DB_PORT)' dbname='$(DB_NAME)' user='$(DB_USERNAME)' password='$(DB_PASSWORD)' sslmode='$(DB_SSLMODE)'
+GOOSE = goose -dir $(MIGRATIONS_DIR) postgres "$(DB_DSN)"
+
+TEST_DB_CONTAINER := nihongo-foundation-test-db
+TEST_DB_PORT := 55432
+TEST_DB_DSN := host='127.0.0.1' port='$(TEST_DB_PORT)' dbname='test' user='postgres' password='test' sslmode='disable'
+
+.DEFAULT_GOAL := help
+.PHONY: help convert seed test test-integration test-db-up test-db-down vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
+
+help: ## List the targets
+	@awk 'BEGIN {FS = ":.*## "} /^[a-z-]+:.*## / {printf "  %-17s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+## Dataset
+
+convert: ## Convert data/source/*.md into the data/<level>/*.json dataset
+	go run ./cmd/convert
+
+seed: db-env ## Load the data/<level>/*.json dataset into the .env database
+	go run ./cmd/seed
+
+## Code
+
+test: ## Run the unit tests
+	go test ./...
+
+test-integration: ## Run unit and integration tests against the throwaway Postgres (make test-db-up first)
+	TEST_DB_DSN="$(TEST_DB_DSN)" go test -tags integration -count=1 ./...
+
+test-db-up: ## Start a throwaway Postgres in Docker for integration tests, never the .env database
+	docker run -d --rm --name $(TEST_DB_CONTAINER) -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 127.0.0.1:$(TEST_DB_PORT):5432 postgres:17-alpine
+	@until docker exec $(TEST_DB_CONTAINER) pg_isready -U postgres -d test >/dev/null 2>&1; do sleep 1; done
+
+test-db-down: ## Remove the throwaway Postgres
+	docker rm -f $(TEST_DB_CONTAINER)
+
+vet: ## Report suspicious constructs
+	go vet ./...
+
+fmt: ## Format all Go files
+	gofmt -w .
+
+tidy: ## Sync go.mod and go.sum with the imports
+	go mod tidy
+
+## Database (goose; recipes are silent so the DSN and its password are never printed)
+
+migrate-up: db-env ## Apply every pending migration
+	@$(GOOSE) up
+
+migrate-down: db-env ## Roll back the latest migration
+	@$(GOOSE) down
+
+migrate-reset: db-env ## Roll back every migration
+	@$(GOOSE) reset
+
+migrate-status: db-env ## Show which migrations are applied
+	@$(GOOSE) status
+
+migrate-create: ## Create a timestamped SQL migration: make migrate-create name=<name>
+	$(if $(name),,$(error usage: make migrate-create name=<name>))
+	goose -dir $(MIGRATIONS_DIR) create $(name) sql
+
+db-env:
+	$(foreach v,DB_HOST DB_PORT DB_NAME DB_USERNAME DB_SSLMODE,$(if $($(v)),,$(error $(v) is not set; copy .env.example to .env)))

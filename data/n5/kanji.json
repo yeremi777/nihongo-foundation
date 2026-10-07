@@ -1,0 +1,2664 @@
+[
+  {
+    "id": "74318444-11eb-55e1-89a9-bfe9f0d5a67e",
+    "level": "n5",
+    "code": "k101-001",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 1,
+    "character": "先",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "examples": [
+      "先生",
+      "先月",
+      "先に"
+    ],
+    "meaning_en": "previous, ahead, before",
+    "meaning_id": "sebelumnya, depan, lebih dulu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5e454459-5433-5c49-bd35-7c71d799052b",
+    "level": "n5",
+    "code": "k101-002",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 2,
+    "character": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "いきる",
+      "うまれる"
+    ],
+    "examples": [
+      "先生",
+      "生徒",
+      "生活",
+      "誕生日"
+    ],
+    "meaning_en": "life, birth, student",
+    "meaning_id": "hidup, lahir, murid",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "12ce3d66-246d-55e4-8183-691fad5a1580",
+    "level": "n5",
+    "code": "k101-003",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 3,
+    "character": "学",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まなぶ"
+    ],
+    "examples": [
+      "学生",
+      "学校",
+      "大学"
+    ],
+    "meaning_en": "study, learning, school",
+    "meaning_id": "belajar, pembelajaran, sekolah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "44006c55-cf8f-5153-b3b1-d4cef523cf74",
+    "level": "n5",
+    "code": "k101-004",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 4,
+    "character": "人",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "examples": [
+      "日本人",
+      "外国人",
+      "一人",
+      "二人",
+      "大人"
+    ],
+    "meaning_en": "person, people",
+    "meaning_id": "orang, manusia",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9b093e9f-90ae-5cee-8232-5649a356d46b",
+    "level": "n5",
+    "code": "k101-005",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 5,
+    "character": "国",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "examples": [
+      "外国",
+      "国"
+    ],
+    "meaning_en": "country, nation",
+    "meaning_id": "negara, bangsa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "113145e7-9d98-529e-bf9b-3284aa517128",
+    "level": "n5",
+    "code": "k101-006",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 6,
+    "character": "男",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "examples": [
+      "男の人",
+      "男の子"
+    ],
+    "meaning_en": "man, male",
+    "meaning_id": "laki-laki, pria",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8f33c345-9fa4-5e3b-8868-703c601c46b6",
+    "level": "n5",
+    "code": "k101-007",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 7,
+    "character": "女",
+    "onyomi": [
+      "ジョ",
+      "ニョ"
+    ],
+    "kunyomi": [
+      "おんな"
+    ],
+    "examples": [
+      "女の人",
+      "女の子",
+      "彼女"
+    ],
+    "meaning_en": "woman, female",
+    "meaning_id": "perempuan, wanita",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "363d1e0c-34be-5751-a3de-2329f27d3f5d",
+    "level": "n5",
+    "code": "k101-008",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 8,
+    "character": "子",
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "examples": [
+      "子ども",
+      "男の子",
+      "女の子"
+    ],
+    "meaning_en": "child",
+    "meaning_id": "anak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9605310c-fdff-5282-a432-acd5568ebdba",
+    "level": "n5",
+    "code": "k101-009",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 9,
+    "character": "友",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "examples": [
+      "友だち",
+      "友人"
+    ],
+    "meaning_en": "friend",
+    "meaning_id": "teman",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fb66c93c-12bb-5e2e-8a7d-d7c4fd81d691",
+    "level": "n5",
+    "code": "k101-010",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 10,
+    "character": "父",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "examples": [
+      "父",
+      "お父さん"
+    ],
+    "meaning_en": "father",
+    "meaning_id": "ayah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "85e0afeb-9ade-5da9-a2a7-e594295c4439",
+    "level": "n5",
+    "code": "k101-011",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 11,
+    "character": "母",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "examples": [
+      "母",
+      "お母さん"
+    ],
+    "meaning_en": "mother",
+    "meaning_id": "ibu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3feb248b-eb07-5313-b74f-5aaa1b7812d8",
+    "level": "n5",
+    "code": "k101-012",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 12,
+    "character": "名",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "examples": [
+      "名前",
+      "有名な"
+    ],
+    "meaning_en": "name, famous",
+    "meaning_id": "nama, terkenal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "675b04eb-18d7-5952-8f3d-f834d76ae3fa",
+    "level": "n5",
+    "code": "k101-013",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 13,
+    "character": "田",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "examples": [
+      "田中さん",
+      "山田さん"
+    ],
+    "meaning_en": "rice field, surname element",
+    "meaning_id": "sawah, unsur nama keluarga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4d70f3c-f878-5eeb-a984-7a54863f4059",
+    "level": "n5",
+    "code": "k101-014",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 14,
+    "character": "山",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "examples": [
+      "山",
+      "富士山"
+    ],
+    "meaning_en": "mountain",
+    "meaning_id": "gunung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1a04c4a8-2803-54cb-b08a-73e09840c9a1",
+    "level": "n5",
+    "code": "k101-015",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 15,
+    "character": "語",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かたる"
+    ],
+    "examples": [
+      "日本語",
+      "英語",
+      "何語"
+    ],
+    "meaning_en": "language, word, tell",
+    "meaning_id": "bahasa, kata, bercerita",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "271b2f7f-a7f6-5380-98b7-a13d9f9e489d",
+    "level": "n5",
+    "code": "k101-016",
+    "lesson_id": "01257228-3036-5974-8b1c-c39c01112548",
+    "sequence": 16,
+    "character": "本",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "examples": [
+      "本",
+      "日本",
+      "〜本"
+    ],
+    "meaning_en": "book, origin, counter for long objects",
+    "meaning_id": "buku, asal, satuan benda panjang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4eba02c9-4cd7-5c54-8bb1-e3057f451e0f",
+    "level": "n5",
+    "code": "k102-001",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 1,
+    "character": "何",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "examples": [
+      "何",
+      "何時",
+      "何時間",
+      "何語"
+    ],
+    "meaning_en": "what",
+    "meaning_id": "apa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "28e7a4e5-ad10-58d3-ae2b-510ab3eafb51",
+    "level": "n5",
+    "code": "k102-002",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 2,
+    "character": "時",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "examples": [
+      "九時",
+      "四時間",
+      "時計"
+    ],
+    "meaning_en": "time, hour",
+    "meaning_id": "waktu, jam",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7f09a2a9-eb02-55b2-af45-cfb07ad431c6",
+    "level": "n5",
+    "code": "k102-003",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 3,
+    "character": "分",
+    "onyomi": [
+      "フン",
+      "ブン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わける",
+      "わかる"
+    ],
+    "examples": [
+      "五分",
+      "三十分",
+      "半分"
+    ],
+    "meaning_en": "minute, part, understand/divide",
+    "meaning_id": "menit, bagian, mengerti/membagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "26908ab8-1794-5a93-8c3e-fde2dcbf9dfa",
+    "level": "n5",
+    "code": "k102-004",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 4,
+    "character": "間",
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま"
+    ],
+    "examples": [
+      "時間",
+      "一週間",
+      "AとBの間",
+      "この間",
+      "間に合う"
+    ],
+    "meaning_en": "interval, between, time span",
+    "meaning_id": "rentang, antara, jeda waktu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "94268f30-4332-5e66-b3aa-0fffea954162",
+    "level": "n5",
+    "code": "k102-005",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 5,
+    "character": "半",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なかば"
+    ],
+    "examples": [
+      "七時半",
+      "一時間半",
+      "半分"
+    ],
+    "meaning_en": "half",
+    "meaning_id": "setengah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "71d67120-6d21-5617-9a10-e517a48c5468",
+    "level": "n5",
+    "code": "k102-006",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 6,
+    "character": "午",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "午前",
+      "午後"
+    ],
+    "meaning_en": "noon",
+    "meaning_id": "tengah hari",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2881bfb8-d20f-57a0-b1f4-dfa535e72ea3",
+    "level": "n5",
+    "code": "k102-007",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 7,
+    "character": "前",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "examples": [
+      "午前",
+      "前",
+      "名前"
+    ],
+    "meaning_en": "before, front",
+    "meaning_id": "sebelum, depan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "421c6f46-1be1-5db0-8a2e-9d5f5fb1914c",
+    "level": "n5",
+    "code": "k102-008",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 8,
+    "character": "後",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "あと",
+      "うしろ"
+    ],
+    "examples": [
+      "午後",
+      "後で",
+      "後ろ"
+    ],
+    "meaning_en": "after, behind",
+    "meaning_id": "setelah, belakang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "665511ff-c192-5dde-bf5d-817ca6a658d3",
+    "level": "n5",
+    "code": "k102-009",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 9,
+    "character": "今",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "examples": [
+      "今月",
+      "今週",
+      "今",
+      "今日",
+      "今年",
+      "今朝"
+    ],
+    "meaning_en": "now, this ~",
+    "meaning_id": "sekarang, ~ ini",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d378432f-46fe-52ae-9010-3ef55c4b784c",
+    "level": "n5",
+    "code": "k102-010",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 10,
+    "character": "週",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "先週",
+      "来週",
+      "一週間",
+      "毎週"
+    ],
+    "meaning_en": "week",
+    "meaning_id": "minggu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "72b3ef24-d235-564d-b0cf-3837cd192977",
+    "level": "n5",
+    "code": "k102-011",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 11,
+    "character": "年",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "examples": [
+      "一年",
+      "去年",
+      "来年",
+      "今年",
+      "半年"
+    ],
+    "meaning_en": "year",
+    "meaning_id": "tahun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f0ee8254-8ef6-533a-bfd8-d66c0a7f8d97",
+    "level": "n5",
+    "code": "k102-012",
+    "lesson_id": "e145d8bf-fa0e-5dd1-a855-1dd8733e4e0e",
+    "sequence": 12,
+    "character": "毎",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "毎日",
+      "毎月",
+      "毎年",
+      "毎週"
+    ],
+    "meaning_en": "every",
+    "meaning_id": "setiap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c665a291-c215-591e-aefd-3905e7352007",
+    "level": "n5",
+    "code": "k103-001",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 1,
+    "character": "少",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "すこし",
+      "すくない"
+    ],
+    "examples": [
+      "少し",
+      "少ない"
+    ],
+    "meaning_en": "little, few",
+    "meaning_id": "sedikit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9a0e1825-dec2-55f2-9aa5-025c60e90901",
+    "level": "n5",
+    "code": "k103-002",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 2,
+    "character": "多",
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "おおい"
+    ],
+    "examples": [
+      "多い"
+    ],
+    "meaning_en": "many, much",
+    "meaning_id": "banyak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5fe465d8-d73f-5f99-81b6-be745aefcc4c",
+    "level": "n5",
+    "code": "k103-003",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 3,
+    "character": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちいさい",
+      "こ",
+      "お"
+    ],
+    "examples": [
+      "小学校",
+      "小さい"
+    ],
+    "meaning_en": "small",
+    "meaning_id": "kecil",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "79721322-a4b9-5d46-8667-cbaf419f732b",
+    "level": "n5",
+    "code": "k103-004",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 4,
+    "character": "大",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おおきい",
+      "おおいに"
+    ],
+    "examples": [
+      "大学",
+      "大人",
+      "大変な",
+      "大切な",
+      "大きい"
+    ],
+    "meaning_en": "big, large, great",
+    "meaning_id": "besar, agung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8796f870-c7a4-5608-b47a-252bc1626362",
+    "level": "n5",
+    "code": "k103-005",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 5,
+    "character": "安",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やすい"
+    ],
+    "examples": [
+      "安い",
+      "安全な",
+      "安心する"
+    ],
+    "meaning_en": "cheap, safe, peaceful",
+    "meaning_id": "murah, aman, tenang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3c9d6e72-fa6a-569e-96f2-48b516481538",
+    "level": "n5",
+    "code": "k103-006",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 6,
+    "character": "高",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たかい"
+    ],
+    "examples": [
+      "高校",
+      "高い"
+    ],
+    "meaning_en": "high, expensive",
+    "meaning_id": "tinggi, mahal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d95c5258-b13d-571a-8efd-a86a30ddfc46",
+    "level": "n5",
+    "code": "k103-007",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 7,
+    "character": "新",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたらしい",
+      "あらた"
+    ],
+    "examples": [
+      "新聞",
+      "新しい"
+    ],
+    "meaning_en": "new",
+    "meaning_id": "baru",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "43607011-0562-561d-b89b-c24d902392b1",
+    "level": "n5",
+    "code": "k103-008",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 8,
+    "character": "古",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふるい"
+    ],
+    "examples": [
+      "古い"
+    ],
+    "meaning_en": "old",
+    "meaning_id": "lama, tua",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "01bd61ff-b141-5572-b214-6193dd66f99b",
+    "level": "n5",
+    "code": "k103-009",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 9,
+    "character": "早",
+    "onyomi": [
+      "ソウ",
+      "サッ"
+    ],
+    "kunyomi": [
+      "はやい"
+    ],
+    "examples": [
+      "早い",
+      "早く"
+    ],
+    "meaning_en": "early, fast",
+    "meaning_id": "awal, cepat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4f2e336-d82f-5550-bace-4758641c2a01",
+    "level": "n5",
+    "code": "k103-010",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 10,
+    "character": "長",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "ながい"
+    ],
+    "examples": [
+      "長い",
+      "社長",
+      "校長"
+    ],
+    "meaning_en": "long, chief",
+    "meaning_id": "panjang, kepala/pemimpin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1b511d53-5c68-508f-99a2-950dccd4bfd6",
+    "level": "n5",
+    "code": "k103-011",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 11,
+    "character": "円",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まるい"
+    ],
+    "examples": [
+      "円",
+      "百円"
+    ],
+    "meaning_en": "circle, yen",
+    "meaning_id": "lingkaran, yen",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ffa0b12d-852b-58ce-9cb6-5d5adb01b67a",
+    "level": "n5",
+    "code": "k103-012",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 12,
+    "character": "校",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "学校",
+      "校長",
+      "小学校"
+    ],
+    "meaning_en": "school",
+    "meaning_id": "sekolah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "265de919-b69f-539a-ad17-bc56adebd9e9",
+    "level": "n5",
+    "code": "k103-013",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 13,
+    "character": "社",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "examples": [
+      "会社",
+      "社員"
+    ],
+    "meaning_en": "company, shrine",
+    "meaning_id": "perusahaan, kuil",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8963ee6b-ee88-5d77-a068-7a41328dd328",
+    "level": "n5",
+    "code": "k103-014",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 14,
+    "character": "中",
+    "onyomi": [
+      "チュウ",
+      "ジュウ"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "examples": [
+      "中学校",
+      "一日中",
+      "中"
+    ],
+    "meaning_en": "inside, middle, during",
+    "meaning_id": "dalam, tengah, selama",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "92c1a94c-221f-5af1-8e94-57072cad5b96",
+    "level": "n5",
+    "code": "k103-015",
+    "lesson_id": "9b84b8eb-1d5e-504e-be3c-6e1b60cabc6f",
+    "sequence": 15,
+    "character": "聞",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "きく",
+      "きこえる"
+    ],
+    "examples": [
+      "新聞",
+      "聞く",
+      "聞こえる"
+    ],
+    "meaning_en": "listen, hear, ask",
+    "meaning_id": "mendengar, bertanya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e36c82c4-b0b1-5cdd-9be5-5ba4080f011c",
+    "level": "n5",
+    "code": "k104-001",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 1,
+    "character": "駅",
+    "onyomi": [
+      "エキ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "駅",
+      "駅前"
+    ],
+    "meaning_en": "station",
+    "meaning_id": "stasiun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cd727f7f-abf5-5b23-a253-22635b261304",
+    "level": "n5",
+    "code": "k104-002",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 2,
+    "character": "口",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "examples": [
+      "口",
+      "入口",
+      "出口",
+      "東口"
+    ],
+    "meaning_en": "mouth, entrance, exit",
+    "meaning_id": "mulut, pintu masuk/keluar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "606ce045-c127-5823-8f1d-ddc7f3d7b9fd",
+    "level": "n5",
+    "code": "k104-003",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 3,
+    "character": "出",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "でる",
+      "だす"
+    ],
+    "examples": [
+      "出る",
+      "出す",
+      "出かける",
+      "出口"
+    ],
+    "meaning_en": "go out, put out, leave",
+    "meaning_id": "keluar, mengeluarkan, berangkat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d2c53ddc-55bb-5654-b8c1-565fa929aef5",
+    "level": "n5",
+    "code": "k104-004",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 4,
+    "character": "入",
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [
+      "はいる",
+      "いれる"
+    ],
+    "examples": [
+      "入る",
+      "入口",
+      "入れる"
+    ],
+    "meaning_en": "enter, put in",
+    "meaning_id": "masuk, memasukkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "270efda1-53bf-53cf-90e7-a3d2033bd29d",
+    "level": "n5",
+    "code": "k104-005",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 5,
+    "character": "東",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "examples": [
+      "東京",
+      "東",
+      "東口"
+    ],
+    "meaning_en": "east",
+    "meaning_id": "timur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b231861c-c008-53a2-8b34-b45b8134f779",
+    "level": "n5",
+    "code": "k104-006",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 6,
+    "character": "西",
+    "onyomi": [
+      "セイ",
+      "サイ"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "examples": [
+      "西",
+      "西口",
+      "西洋"
+    ],
+    "meaning_en": "west",
+    "meaning_id": "barat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0715b9f7-a2c9-5c91-9fd9-83ca1bce3963",
+    "level": "n5",
+    "code": "k104-007",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 7,
+    "character": "南",
+    "onyomi": [
+      "ナン"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "examples": [
+      "南",
+      "南口"
+    ],
+    "meaning_en": "south",
+    "meaning_id": "selatan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eb8fb019-10e9-5159-a4f8-2d21f403a5dd",
+    "level": "n5",
+    "code": "k104-008",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 8,
+    "character": "北",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "examples": [
+      "北海道",
+      "北",
+      "北口"
+    ],
+    "meaning_en": "north",
+    "meaning_id": "utara",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a203bf7b-824b-5669-a5f5-14ff629dc6ee",
+    "level": "n5",
+    "code": "k104-009",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 9,
+    "character": "上",
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "うわ",
+      "あがる",
+      "あげる"
+    ],
+    "examples": [
+      "上",
+      "上手な",
+      "上着"
+    ],
+    "meaning_en": "up, above, raise",
+    "meaning_id": "atas, naik, menaikkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "259f1fa5-ff77-52fc-a197-3e6cb2d02546",
+    "level": "n5",
+    "code": "k104-010",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 10,
+    "character": "下",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "さがる",
+      "さげる"
+    ],
+    "examples": [
+      "下",
+      "下手な",
+      "地下鉄"
+    ],
+    "meaning_en": "down, below, lower",
+    "meaning_id": "bawah, turun, menurunkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a754c254-f5f3-5ff1-ac11-3b16fbcb5b33",
+    "level": "n5",
+    "code": "k104-011",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 11,
+    "character": "左",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "examples": [
+      "左",
+      "左手"
+    ],
+    "meaning_en": "left",
+    "meaning_id": "kiri",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c0aeaab5-61e1-5628-af93-adbfc37adbae",
+    "level": "n5",
+    "code": "k104-012",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 12,
+    "character": "右",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "examples": [
+      "右",
+      "右手"
+    ],
+    "meaning_en": "right",
+    "meaning_id": "kanan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9ff6c0d1-8294-5260-8d01-6eeb44c11e46",
+    "level": "n5",
+    "code": "k104-013",
+    "lesson_id": "500b30b2-fe4d-5c74-836a-c6326f5c20a3",
+    "sequence": 13,
+    "character": "外",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "はずれる"
+    ],
+    "examples": [
+      "外",
+      "外国",
+      "外国人"
+    ],
+    "meaning_en": "outside, foreign",
+    "meaning_id": "luar, asing",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cd077502-af2a-5c75-818c-dec39b6d35cd",
+    "level": "n5",
+    "code": "k105-001",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 1,
+    "character": "休",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やすむ",
+      "やすみ"
+    ],
+    "examples": [
+      "休む",
+      "昼休み",
+      "休み"
+    ],
+    "meaning_en": "rest, day off",
+    "meaning_id": "istirahat, hari libur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9bbc112c-1a0d-5fa7-a4a3-a66da8854030",
+    "level": "n5",
+    "code": "k105-002",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 2,
+    "character": "見",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "みる",
+      "みえる",
+      "みせる"
+    ],
+    "examples": [
+      "見学",
+      "見物",
+      "見る",
+      "見える",
+      "見せる"
+    ],
+    "meaning_en": "see, look, show, be visible",
+    "meaning_id": "melihat, menunjukkan, terlihat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ccddc431-7e75-5939-9797-5b8b75aaf411",
+    "level": "n5",
+    "code": "k105-003",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 3,
+    "character": "言",
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "いう",
+      "こと"
+    ],
+    "examples": [
+      "言う",
+      "言葉"
+    ],
+    "meaning_en": "say, word",
+    "meaning_id": "berkata, kata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a991a6da-6659-518a-9d50-1390bfc5dd16",
+    "level": "n5",
+    "code": "k105-004",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 4,
+    "character": "行",
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "いく",
+      "おこなう"
+    ],
+    "examples": [
+      "銀行",
+      "旅行",
+      "行く"
+    ],
+    "meaning_en": "go, conduct",
+    "meaning_id": "pergi, melakukan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ef41e371-be2f-5c7f-b4e5-5a68369badea",
+    "level": "n5",
+    "code": "k105-005",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 5,
+    "character": "書",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "かく"
+    ],
+    "examples": [
+      "辞書",
+      "書く"
+    ],
+    "meaning_en": "write, book/document",
+    "meaning_id": "menulis, buku/dokumen",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "47fefbba-3abe-586a-b08b-4055d482f897",
+    "level": "n5",
+    "code": "k105-006",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 6,
+    "character": "読",
+    "onyomi": [
+      "ドク",
+      "トク"
+    ],
+    "kunyomi": [
+      "よむ"
+    ],
+    "examples": [
+      "読む",
+      "読書"
+    ],
+    "meaning_en": "read",
+    "meaning_id": "membaca",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1a50ed23-62fb-5ec0-b238-e3581b490cc2",
+    "level": "n5",
+    "code": "k105-007",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 7,
+    "character": "買",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "かう"
+    ],
+    "examples": [
+      "買う",
+      "買いもの"
+    ],
+    "meaning_en": "buy",
+    "meaning_id": "membeli",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "22a99258-d99c-5108-91e3-0c5e7a2ca3e8",
+    "level": "n5",
+    "code": "k105-008",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 8,
+    "character": "来",
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "くる",
+      "きたる"
+    ],
+    "examples": [
+      "来月",
+      "来週",
+      "来る",
+      "来ない",
+      "来た"
+    ],
+    "meaning_en": "come, next",
+    "meaning_id": "datang, berikutnya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "81f6ec3e-c6e8-5f31-b19a-3b3343634065",
+    "level": "n5",
+    "code": "k105-009",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 9,
+    "character": "立",
+    "onyomi": [
+      "リツ",
+      "リュウ"
+    ],
+    "kunyomi": [
+      "たつ",
+      "たてる"
+    ],
+    "examples": [
+      "立つ",
+      "立てる"
+    ],
+    "meaning_en": "stand, establish",
+    "meaning_id": "berdiri, mendirikan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ffd59006-2759-5025-9bd2-c167d2ea6866",
+    "level": "n5",
+    "code": "k105-010",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 10,
+    "character": "食",
+    "onyomi": [
+      "ショク"
+    ],
+    "kunyomi": [
+      "たべる",
+      "くう"
+    ],
+    "examples": [
+      "食事",
+      "食料品",
+      "食べる",
+      "食堂",
+      "食べもの"
+    ],
+    "meaning_en": "eat, food",
+    "meaning_id": "makan, makanan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cc5483f1-7243-56ff-8d55-5a9681e545b0",
+    "level": "n5",
+    "code": "k105-011",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 11,
+    "character": "飲",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "のむ"
+    ],
+    "examples": [
+      "飲む",
+      "飲みもの"
+    ],
+    "meaning_en": "drink",
+    "meaning_id": "minum",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d23a2c85-f41e-5869-9003-30776948b4b3",
+    "level": "n5",
+    "code": "k105-012",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 12,
+    "character": "会",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "あう"
+    ],
+    "examples": [
+      "会社",
+      "会う",
+      "会話"
+    ],
+    "meaning_en": "meet, meeting, association",
+    "meaning_id": "bertemu, pertemuan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5ebe143a-02fe-5d7b-870b-54dabc0f64f0",
+    "level": "n5",
+    "code": "k105-013",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 13,
+    "character": "電",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "電車",
+      "電気",
+      "電話"
+    ],
+    "meaning_en": "electricity",
+    "meaning_id": "listrik",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "783a17ad-69b5-5f10-9c4b-339d22823fcc",
+    "level": "n5",
+    "code": "k105-014",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 14,
+    "character": "話",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はなす",
+      "はなし"
+    ],
+    "examples": [
+      "電話",
+      "会話",
+      "話す",
+      "話"
+    ],
+    "meaning_en": "talk, speak, story",
+    "meaning_id": "berbicara, cerita",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e4f015e6-18cb-5501-ad78-198637a72d9a",
+    "level": "n5",
+    "code": "k105-015",
+    "lesson_id": "9eae5e81-f869-5bd6-a528-14a9c7224396",
+    "sequence": 15,
+    "character": "車",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "examples": [
+      "自動車",
+      "車",
+      "自転車",
+      "電車"
+    ],
+    "meaning_en": "car, vehicle, wheel",
+    "meaning_id": "mobil, kendaraan, roda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e7df0d05-01e2-5b65-abe5-e7f721edf743",
+    "level": "n5",
+    "code": "k106-001",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 1,
+    "character": "花",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "examples": [
+      "花",
+      "花びん",
+      "花見",
+      "花火"
+    ],
+    "meaning_en": "flower",
+    "meaning_id": "bunga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3e127ba4-6586-5efd-9189-5b35c96ecbd3",
+    "level": "n5",
+    "code": "k106-002",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 2,
+    "character": "天",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あま",
+      "あめ"
+    ],
+    "examples": [
+      "天気"
+    ],
+    "meaning_en": "heaven, sky",
+    "meaning_id": "langit, surga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d30d1d7c-1cd9-5b88-8066-63f3659d892e",
+    "level": "n5",
+    "code": "k106-003",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 3,
+    "character": "気",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "電気",
+      "病気",
+      "元気",
+      "空気"
+    ],
+    "meaning_en": "spirit, mood, air",
+    "meaning_id": "semangat, perasaan, udara",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "42194b70-b5bb-516a-9b0b-668d20d8af62",
+    "level": "n5",
+    "code": "k106-004",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 4,
+    "character": "耳",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "examples": [
+      "耳"
+    ],
+    "meaning_en": "ear",
+    "meaning_id": "telinga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1d0ea360-c45e-58c4-8277-a5f529747027",
+    "level": "n5",
+    "code": "k106-005",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 5,
+    "character": "手",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "て",
+      "た"
+    ],
+    "examples": [
+      "手",
+      "お手洗い",
+      "上手な",
+      "下手な"
+    ],
+    "meaning_en": "hand, skill",
+    "meaning_id": "tangan, keterampilan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "03949a22-ba56-51ba-8777-7135bc99454d",
+    "level": "n5",
+    "code": "k106-006",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 6,
+    "character": "足",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "たりる",
+      "たす"
+    ],
+    "examples": [
+      "足",
+      "足りる",
+      "足す"
+    ],
+    "meaning_en": "foot, leg, enough, add",
+    "meaning_id": "kaki, cukup, menambahkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0efb6805-8623-5e4c-a703-63a62e020854",
+    "level": "n5",
+    "code": "k106-007",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 7,
+    "character": "目",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "examples": [
+      "目",
+      "一つ目",
+      "二つ目",
+      "三つ目"
+    ],
+    "meaning_en": "eye, item, ordinal marker",
+    "meaning_id": "mata, butir, penanda urutan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "115f79a8-e9cb-5080-8e1f-c70548a36a59",
+    "level": "n5",
+    "code": "k106-008",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 8,
+    "character": "力",
+    "onyomi": [
+      "リョク",
+      "リキ"
+    ],
+    "kunyomi": [
+      "ちから"
+    ],
+    "examples": [
+      "力",
+      "力持ち"
+    ],
+    "meaning_en": "power, strength",
+    "meaning_id": "kekuatan, tenaga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ddb377c2-a59c-528b-b85d-11152a391815",
+    "level": "n5",
+    "code": "k106-009",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 9,
+    "character": "川",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "examples": [
+      "川"
+    ],
+    "meaning_en": "river",
+    "meaning_id": "sungai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b93a1eef-fab3-521f-ac1f-45beb04309b2",
+    "level": "n5",
+    "code": "k106-010",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 10,
+    "character": "牛",
+    "onyomi": [
+      "ギュウ"
+    ],
+    "kunyomi": [
+      "うし"
+    ],
+    "examples": [
+      "牛",
+      "牛肉",
+      "牛乳"
+    ],
+    "meaning_en": "cow, cattle",
+    "meaning_id": "sapi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "42d65326-d168-59e7-81bd-f129408eda84",
+    "level": "n5",
+    "code": "k106-011",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 11,
+    "character": "魚",
+    "onyomi": [
+      "ギョ"
+    ],
+    "kunyomi": [
+      "さかな",
+      "うお"
+    ],
+    "examples": [
+      "魚",
+      "魚屋"
+    ],
+    "meaning_en": "fish",
+    "meaning_id": "ikan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c1b36053-c22e-5d08-8768-402a97bafbcd",
+    "level": "n5",
+    "code": "k106-012",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 12,
+    "character": "店",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "みせ"
+    ],
+    "examples": [
+      "店",
+      "喫茶店"
+    ],
+    "meaning_en": "shop, store",
+    "meaning_id": "toko",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "27390ef5-907e-5a8e-b1be-f9f658f63469",
+    "level": "n5",
+    "code": "k106-013",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 13,
+    "character": "道",
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "みち"
+    ],
+    "examples": [
+      "道",
+      "道路"
+    ],
+    "meaning_en": "road, way, path",
+    "meaning_id": "jalan, cara",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ef833caf-a31f-56d4-82a8-dfe02b1d3b34",
+    "level": "n5",
+    "code": "k106-014",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 14,
+    "character": "門",
+    "onyomi": [
+      "モン"
+    ],
+    "kunyomi": [
+      "かど"
+    ],
+    "examples": [
+      "門",
+      "専門"
+    ],
+    "meaning_en": "gate",
+    "meaning_id": "gerbang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "69461c2d-f79f-5038-9043-97365c5664b1",
+    "level": "n5",
+    "code": "k106-015",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 15,
+    "character": "雨",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "examples": [
+      "雨"
+    ],
+    "meaning_en": "rain",
+    "meaning_id": "hujan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4147aac3-3a79-56f3-94d7-399b9773cc3e",
+    "level": "n5",
+    "code": "k106-016",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 16,
+    "character": "空",
+    "onyomi": [
+      "クウ"
+    ],
+    "kunyomi": [
+      "そら",
+      "あく",
+      "から"
+    ],
+    "examples": [
+      "空",
+      "空気",
+      "空港"
+    ],
+    "meaning_en": "sky, air, empty",
+    "meaning_id": "langit, udara, kosong",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "64eab886-51f1-5dc0-8e9d-0714a9afc45d",
+    "level": "n5",
+    "code": "k106-017",
+    "lesson_id": "91f6e797-69f9-509e-b1d6-83cd28ed0f86",
+    "sequence": 17,
+    "character": "白",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しろい"
+    ],
+    "examples": [
+      "白",
+      "白い"
+    ],
+    "meaning_en": "white",
+    "meaning_id": "putih",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4201025e-851f-5c7a-a5dd-20976a1a7e7c",
+    "level": "n5",
+    "code": "k107-001",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 1,
+    "character": "一",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと",
+      "ひとつ"
+    ],
+    "examples": [
+      "一",
+      "一つ",
+      "一日",
+      "一月"
+    ],
+    "meaning_en": "one",
+    "meaning_id": "satu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f0e1c6f1-d9fc-5015-9b00-fd1d9a85d24f",
+    "level": "n5",
+    "code": "k107-002",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 2,
+    "character": "二",
+    "onyomi": [
+      "ニ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふたつ"
+    ],
+    "examples": [
+      "二",
+      "二つ",
+      "二日",
+      "二月"
+    ],
+    "meaning_en": "two",
+    "meaning_id": "dua",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1f7b72f5-1034-585b-8a55-9fc8448063f9",
+    "level": "n5",
+    "code": "k107-003",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 3,
+    "character": "三",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "み",
+      "みっつ"
+    ],
+    "examples": [
+      "三",
+      "三つ",
+      "三日",
+      "三月"
+    ],
+    "meaning_en": "three",
+    "meaning_id": "tiga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "26ab09c2-65de-5c78-bd7f-29afcd02d8fb",
+    "level": "n5",
+    "code": "k107-004",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 4,
+    "character": "四",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よん",
+      "よっつ"
+    ],
+    "examples": [
+      "四",
+      "四つ",
+      "四日",
+      "四月"
+    ],
+    "meaning_en": "four",
+    "meaning_id": "empat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c0bba0f0-df0f-5bdb-af9e-9626eebb5f9b",
+    "level": "n5",
+    "code": "k107-005",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 5,
+    "character": "五",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつつ"
+    ],
+    "examples": [
+      "五",
+      "五つ",
+      "五日",
+      "五月"
+    ],
+    "meaning_en": "five",
+    "meaning_id": "lima",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2ef34ccf-0930-555f-92e0-be69544ff121",
+    "level": "n5",
+    "code": "k107-006",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 6,
+    "character": "六",
+    "onyomi": [
+      "ロク"
+    ],
+    "kunyomi": [
+      "む",
+      "むっつ"
+    ],
+    "examples": [
+      "六",
+      "六つ",
+      "六日",
+      "六月"
+    ],
+    "meaning_en": "six",
+    "meaning_id": "enam",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "301beb01-bd8b-5b44-98be-20fb9956c4df",
+    "level": "n5",
+    "code": "k107-007",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 7,
+    "character": "七",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "ななつ"
+    ],
+    "examples": [
+      "七",
+      "七つ",
+      "七日",
+      "七月"
+    ],
+    "meaning_en": "seven",
+    "meaning_id": "tujuh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4cce56b1-6ae4-5feb-bd1b-d17580721352",
+    "level": "n5",
+    "code": "k107-008",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 8,
+    "character": "八",
+    "onyomi": [
+      "ハチ"
+    ],
+    "kunyomi": [
+      "や",
+      "やっつ"
+    ],
+    "examples": [
+      "八",
+      "八つ",
+      "八日",
+      "八月"
+    ],
+    "meaning_en": "eight",
+    "meaning_id": "delapan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "46d67b40-cd8c-56da-8525-9de1102f7761",
+    "level": "n5",
+    "code": "k107-009",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 9,
+    "character": "九",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここのつ"
+    ],
+    "examples": [
+      "九",
+      "九つ",
+      "九日",
+      "九月"
+    ],
+    "meaning_en": "nine",
+    "meaning_id": "sembilan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "202213a3-d43e-5070-ad5a-b65d90a0e0e1",
+    "level": "n5",
+    "code": "k107-010",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 10,
+    "character": "十",
+    "onyomi": [
+      "ジュウ",
+      "ジッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と"
+    ],
+    "examples": [
+      "十",
+      "十日",
+      "十月"
+    ],
+    "meaning_en": "ten",
+    "meaning_id": "sepuluh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cb97d214-6c69-5635-99fb-64c09e6e0dec",
+    "level": "n5",
+    "code": "k107-011",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 11,
+    "character": "百",
+    "onyomi": [
+      "ヒャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "examples": [
+      "百",
+      "二百",
+      "三百"
+    ],
+    "meaning_en": "hundred",
+    "meaning_id": "seratus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f409ec7e-cb5c-5b19-9d3a-eef21d11fc55",
+    "level": "n5",
+    "code": "k107-012",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 12,
+    "character": "千",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "examples": [
+      "千",
+      "二千",
+      "三千"
+    ],
+    "meaning_en": "thousand",
+    "meaning_id": "seribu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cd01f69f-ffb4-561c-a7d3-dfddb1446279",
+    "level": "n5",
+    "code": "k107-013",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 13,
+    "character": "万",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "examples": [
+      "一万",
+      "十万",
+      "百万円"
+    ],
+    "meaning_en": "ten thousand",
+    "meaning_id": "sepuluh ribu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "39e53546-1738-54fe-aea9-e01e136ed5d7",
+    "level": "n5",
+    "code": "k107-014",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 14,
+    "character": "月",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "examples": [
+      "月",
+      "一月",
+      "月曜日"
+    ],
+    "meaning_en": "moon, month, Monday",
+    "meaning_id": "bulan, Senin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "839dc983-9801-5f96-a17b-1528717e2c2a",
+    "level": "n5",
+    "code": "k107-015",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 15,
+    "character": "日",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "か"
+    ],
+    "examples": [
+      "日",
+      "一日",
+      "日曜日",
+      "今日"
+    ],
+    "meaning_en": "sun, day, date, Sunday",
+    "meaning_id": "matahari, hari, tanggal, Minggu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a898316a-3d05-502f-8e9d-07858ba34006",
+    "level": "n5",
+    "code": "k107-016",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 16,
+    "character": "火",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "ほ"
+    ],
+    "examples": [
+      "火",
+      "火曜日"
+    ],
+    "meaning_en": "fire, Tuesday",
+    "meaning_id": "api, Selasa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "729cd21c-375e-5f1a-9883-d45bdd0c0029",
+    "level": "n5",
+    "code": "k107-017",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 17,
+    "character": "水",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "examples": [
+      "水",
+      "水曜日"
+    ],
+    "meaning_en": "water, Wednesday",
+    "meaning_id": "air, Rabu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "63954eaf-dc30-5c94-87b1-b919aa7c3637",
+    "level": "n5",
+    "code": "k107-018",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 18,
+    "character": "木",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ"
+    ],
+    "examples": [
+      "木",
+      "木曜日"
+    ],
+    "meaning_en": "tree, wood, Thursday",
+    "meaning_id": "pohon, kayu, Kamis",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9ac0a70c-f36b-592c-ab2f-9a79bc074841",
+    "level": "n5",
+    "code": "k107-019",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 19,
+    "character": "金",
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな"
+    ],
+    "examples": [
+      "金",
+      "お金",
+      "金曜日"
+    ],
+    "meaning_en": "gold, money, Friday",
+    "meaning_id": "emas, uang, Jumat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "692596ff-b4f1-566b-8ee5-895ce2b8e17e",
+    "level": "n5",
+    "code": "k107-020",
+    "lesson_id": "3d00f9f4-e6dc-54af-a3a0-9b947f1acc3e",
+    "sequence": 20,
+    "character": "土",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "examples": [
+      "土",
+      "土曜日"
+    ],
+    "meaning_en": "soil, earth, Saturday",
+    "meaning_id": "tanah, Sabtu",
+    "sources": [
+      "soumatome"
+    ]
+  }
+]

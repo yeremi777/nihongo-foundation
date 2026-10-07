@@ -47,7 +47,11 @@ _Avoid_: parent ID
 Two patterns from one lesson set side by side, with when to use each.
 
 **Mistake card**:
-An incorrect sentence and its correction, with the meaning in English and Indonesian.
+A short set of sentences judged incorrect or correct for one point, with the meaning in Indonesian and usually English.
+
+**Expression**:
+One word or phrase a grammar lesson lists to show a pattern's members, such as だれ among the question words.
+_Avoid_: expression note, sub-item
 
 ### Sources
 
@@ -74,7 +78,8 @@ A set of AI-generated questions built from items, never stored.
 - Every **Kanji**, **Vocabulary item**, and **Grammar point** belongs to exactly one **Lesson**
 - A **Code** is unique within its **Level**; the same **Code** can appear in another **Level**
 - A **Curriculum code** groups one or more **Grammar points**, which may sit in different **Lessons**
-- A **Comparison note** and a **Mistake card** belong to exactly one grammar **Lesson**
+- A **Comparison note**, a **Mistake card**, and an **Expression** belong to exactly one grammar **Lesson**
+- A **Mistake card** has at least one correct sentence; an incorrect one is usual but not required
 - Every item has one or more **Sources**
 - A **Source list** defines the items; the **Curriculum TOC** only checks them and fills what the list lacks
 - A **Quiz** draws on items of one **Level** and **Section**
