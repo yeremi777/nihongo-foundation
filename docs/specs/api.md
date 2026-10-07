@@ -70,7 +70,7 @@ Read once at startup from the environment, which `make` fills from `.env`. A mis
 
 ## Server
 
-- The server listens on `127.0.0.1:APP_PORT` and logs `api listening url=<APP_URL> docs=<APP_URL>/docs`.
+- The server binds `127.0.0.1:APP_PORT`, then logs `api listening url=<APP_URL> docs=<APP_URL>/docs`; a port it cannot bind stops startup with no `api listening` line.
 - Startup pings Postgres and fails when it cannot reach it.
 - Read-header timeout 5s, read timeout 10s, write timeout 10s, idle timeout 60s.
 - `SIGINT` or `SIGTERM` stops accepting connections and lets in-flight requests finish for up to 25s.
@@ -85,7 +85,7 @@ Read once at startup from the environment, which `make` fills from `.env`. A mis
 - AC-6: The route test passes: every registered route except the docs routes and redirect is in `docs/openapi.yaml`, and every path in it is registered.
 - AC-7: `GET /docs` renders the spec in Swagger UI, and `GET /docs/openapi.yaml` declares no servers.
 - AC-8: Repository integration tests pass against a test database seeded from `data/`.
-- AC-9: Startup without `DB_HOST` or `APP_URL`, with `APP_PORT=abc`, with `APP_URL=localhost`, or with an `APP_URL` port other than `APP_PORT`, exits non-zero naming the variable. Startup with an unreachable database exits non-zero.
+- AC-9: Startup without `DB_HOST` or `APP_URL`, with `APP_PORT=abc`, with `APP_URL=localhost`, or with an `APP_URL` port other than `APP_PORT`, exits non-zero naming the variable. Startup with an unreachable database, or on a port already in use, exits non-zero, and the busy port logs no `api listening` line.
 - AC-10: After `SIGTERM`, the process exits 0.
 
 ## Verification
@@ -94,7 +94,7 @@ Read once at startup from the environment, which `make` fills from `.env`. A mis
 set -a; . ./.env; set +a; B=127.0.0.1:$APP_PORT                                 # the commands below read the .env variables
 go vet ./... && go vet -tags integration ./...
 go test ./...                                                                     # AC-4, AC-5, AC-6, AC-7 (server)
-TEST_DB_DSN="host=127.0.0.1 port=5432 dbname=test_nihongo_foundation user=postgres password=<pw> sslmode=disable" go test -tags integration -count=1 -p 1 ./...   # AC-8, a local database whose name starts with "test", never the .env one; go test, not make, so the password is not echoed
+make test-integration                                                             # AC-8, on the local test_nihongo_foundation database, never the .env one
 make api                                                                          # serves on APP_PORT, docs at APP_URL/docs
 for l in n5 n4 n3; do for s in kanji vocabulary grammar; do echo "$l $s $(curl -s "$B/api/lessons?level=$l&section=$s" | jq length) $(jq --arg s $s '[.[] | select(.section == $s)] | length' data/$l/lessons.json)"; done; done   # AC-1, the two counts match
 curl -s $B/api/lessons | jq length; curl -s "$B/api/lessons?level=n2"   # AC-1, 209 and []
