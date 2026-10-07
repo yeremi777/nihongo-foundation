@@ -1,4 +1,5 @@
-// Package database opens the Postgres connection the commands use.
+// Package database opens the Postgres connections the commands use, and
+// holds the query surface the repositories share.
 package database
 
 import (
@@ -7,6 +8,7 @@ import (
 	"time"
 
 	"github.com/jackc/pgx/v5"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 const connectTimeout = 10 * time.Second
@@ -20,4 +22,27 @@ func Connect(ctx context.Context, dsn string) (*pgx.Conn, error) {
 		return nil, fmt.Errorf("connect to postgres: %w", err)
 	}
 	return conn, nil
+}
+
+// OpenPool opens a connection pool and proves it reaches the database,
+// giving up after connectTimeout.
+func OpenPool(ctx context.Context, dsn string) (*pgxpool.Pool, error) {
+	ctx, cancel := context.WithTimeout(ctx, connectTimeout)
+	defer cancel()
+	pool, err := pgxpool.New(ctx, dsn)
+	if err != nil {
+		return nil, fmt.Errorf("connect to postgres: %w", err)
+	}
+	if err := pool.Ping(ctx); err != nil {
+		pool.Close()
+		return nil, fmt.Errorf("connect to postgres: %w", err)
+	}
+	return pool, nil
+}
+
+// Querier is what a repository reads through: a pool in the server, a
+// connection in tests.
+type Querier interface {
+	Query(ctx context.Context, sql string, args ...any) (pgx.Rows, error)
+	BeginTx(ctx context.Context, txOptions pgx.TxOptions) (pgx.Tx, error)
 }

@@ -14,10 +14,15 @@ TEST_DB_PORT := 55432
 TEST_DB_DSN := host='127.0.0.1' port='$(TEST_DB_PORT)' dbname='test' user='postgres' password='test' sslmode='disable'
 
 .DEFAULT_GOAL := help
-.PHONY: help convert seed test test-integration test-db-up test-db-down vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
+.PHONY: help api convert seed test test-integration test-db-up test-db-down vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
 
 help: ## List the targets
 	@awk 'BEGIN {FS = ":.*## "} /^[a-z-]+:.*## / {printf "  %-17s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+## Run
+
+api: db-env ## Serve the API on APP_PORT, with its docs at APP_URL/docs
+	go run ./cmd/api
 
 ## Dataset
 
