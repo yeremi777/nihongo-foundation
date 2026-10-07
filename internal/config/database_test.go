@@ -1,4 +1,4 @@
-package database
+package config
 
 import (
 	"strings"
@@ -19,14 +19,15 @@ func validEnv() map[string]string {
 }
 
 // pgx's own parser is the judge of what the DSN means.
-func TestDSNFromEnvRoundTripsThroughPgx(t *testing.T) {
+func TestDatabaseDSNRoundTripsThroughPgx(t *testing.T) {
 	for _, password := range []string{"", "root", "p w", `it's`, `back\slash`, `'; sslmode=require`} {
 		vars := validEnv()
 		vars["DB_PASSWORD"] = password
-		dsn, err := DSNFromEnv(env(vars))
+		db, err := LoadDatabase(env(vars))
 		if err != nil {
 			t.Fatalf("password %q: %v", password, err)
 		}
+		dsn := db.DSN()
 		cfg, err := pgconn.ParseConfig(dsn)
 		if err != nil {
 			t.Fatalf("password %q: pgx cannot parse %q: %v", password, dsn, err)
@@ -39,7 +40,7 @@ func TestDSNFromEnvRoundTripsThroughPgx(t *testing.T) {
 	}
 }
 
-func TestDSNFromEnvRejectsMissingOrBadValues(t *testing.T) {
+func TestLoadDatabaseRejectsMissingOrBadValues(t *testing.T) {
 	for _, tt := range []struct{ key, value, want string }{
 		{"DB_HOST", "", "DB_HOST is not set"},
 		{"DB_NAME", "", "DB_NAME is not set"},
@@ -51,7 +52,7 @@ func TestDSNFromEnvRejectsMissingOrBadValues(t *testing.T) {
 	} {
 		vars := validEnv()
 		vars[tt.key] = tt.value
-		_, err := DSNFromEnv(env(vars))
+		_, err := LoadDatabase(env(vars))
 		if err == nil || !strings.Contains(err.Error(), tt.want) {
 			t.Errorf("%s=%q: error = %v, want %q", tt.key, tt.value, err, tt.want)
 		}

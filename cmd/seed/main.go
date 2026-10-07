@@ -8,6 +8,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/yeremi777/nihongo-foundation/internal/config"
 	"github.com/yeremi777/nihongo-foundation/internal/database"
 	"github.com/yeremi777/nihongo-foundation/internal/seed"
 )
@@ -25,7 +26,7 @@ func main() {
 }
 
 func run(dir string) error {
-	dsn, err := database.DSNFromEnv(os.Getenv)
+	db, err := config.LoadDatabase(os.Getenv)
 	if err != nil {
 		return err
 	}
@@ -35,7 +36,7 @@ func run(dir string) error {
 	}
 	ctx, cancel := context.WithTimeout(context.Background(), seedTimeout)
 	defer cancel()
-	conn, err := database.Connect(ctx, dsn)
+	conn, err := database.Connect(ctx, db.DSN())
 	if err != nil {
 		return err
 	}
