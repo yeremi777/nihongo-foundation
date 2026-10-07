@@ -41,7 +41,7 @@ func documentedRoutes(t *testing.T) []string {
 
 func TestEveryRouteIsDocumentedAndEveryDocumentedRouteExists(t *testing.T) {
 	rec := &recorder{}
-	register(rec, nil, []byte("openapi: 3.1.0\n"))
+	register(rec, nil, []byte("openapi: 3.1.0\n"), nil, 0)
 	if len(rec.patterns) == 0 {
 		t.Fatal("register registered nothing")
 	}

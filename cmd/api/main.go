@@ -19,6 +19,7 @@ import (
 	"github.com/yeremi777/nihongo-foundation/internal/database"
 	"github.com/yeremi777/nihongo-foundation/internal/httpx"
 	"github.com/yeremi777/nihongo-foundation/internal/lesson"
+	"github.com/yeremi777/nihongo-foundation/internal/quiz"
 )
 
 // drainTimeout is how long in-flight requests may run after a stop signal.
@@ -31,13 +32,43 @@ func main() {
 	}
 }
 
-// register adds every route the API serves to mux.
-func register(mux httpx.Mux, db database.Querier, spec []byte) {
+// register adds every route the API serves to mux. Quizzes are written by
+// generator within aiTimeout; a nil generator makes them unavailable.
+func register(mux httpx.Mux, db database.Querier, spec []byte, generator quiz.Generator, aiTimeout time.Duration) {
 	mux.HandleFunc("GET /health", func(w http.ResponseWriter, _ *http.Request) {
 		httpx.WriteJSON(w, http.StatusOK, map[string]string{"status": "ok"})
 	})
 	lesson.NewHandler(lesson.NewRepository(db)).Register(mux)
+	quiz.NewHandler(quiz.NewRepository(db), generator, aiTimeout).Register(mux)
 	httpx.Docs(mux, spec)
+}
+
+// generatorFor returns Mock when ai lists mock, else the chain of listed
+// providers, or nil when none is usable. A provider without API key or model
+// is skipped with a warning.
+func generatorFor(ai config.AI) quiz.Generator {
+	var chain quiz.Chain
+	for _, name := range ai.Providers {
+		var chat config.Chat
+		switch name {
+		case "mock":
+			return quiz.Mock{}
+		case "openrouter":
+			chat = ai.OpenRouter
+		case "opencode_zen":
+			chat = ai.OpenCodeZen
+		}
+		if chat.APIKey == "" || chat.Model == "" {
+			slog.Warn("quiz provider skipped: no API key or model", "provider", name)
+			continue
+		}
+		chain = append(chain, quiz.NewChat(chat.Name, chat.ServerURL, chat.Model, chat.APIKey, chat.Headers))
+	}
+	if len(chain) == 0 {
+		slog.Warn("no quiz provider is usable; quizzes answer quiz_unavailable", "AI_PROVIDERS", ai.Providers)
+		return nil
+	}
+	return chain
 }
 
 func run() error {
@@ -54,7 +85,7 @@ func run() error {
 	defer pool.Close()
 
 	mux := http.NewServeMux()
-	register(mux, pool, docs.Spec())
+	register(mux, pool, docs.Spec(), generatorFor(cfg.AI), cfg.AI.Timeout)
 	srv := &http.Server{
 		Addr:              net.JoinHostPort("127.0.0.1", strconv.Itoa(cfg.Port)),
 		Handler:           httpx.Router(mux),

@@ -1,8 +1,10 @@
 package config
 
 import (
+	"reflect"
 	"strings"
 	"testing"
+	"time"
 )
 
 func validAPIEnv() map[string]string {
@@ -22,7 +24,9 @@ func TestLoadAPI(t *testing.T) {
 		Port:     8080,
 		URL:      "http://127.0.0.1:8080",
 	}
-	if got != want {
+	want.AI.Timeout = 20 * time.Second
+	want.AI.OpenRouter, want.AI.OpenCodeZen = defaultChats()
+	if !reflect.DeepEqual(got, want) {
 		t.Errorf("got %+v\nwant %+v", got, want)
 	}
 
@@ -44,6 +48,7 @@ func TestLoadAPIRejectsMissingOrBadValues(t *testing.T) {
 		{"APP_URL", "localhost", `APP_URL "localhost" is not an absolute http or https URL`},
 		{"APP_URL", "ftp://api.example", `APP_URL "ftp://api.example" is not an absolute http or https URL`},
 		{"APP_URL", "http://127.0.0.1:9999", `APP_URL "http://127.0.0.1:9999" names port 9999, but APP_PORT is 8080`},
+		{"AI_PROVIDERS", "gpt", `AI_PROVIDERS names "gpt"; use openrouter, opencode_zen, or mock`},
 	} {
 		vars := validAPIEnv()
 		vars[tt.key] = tt.value
