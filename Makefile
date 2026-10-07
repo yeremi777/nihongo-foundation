@@ -9,21 +9,38 @@ MIGRATIONS_DIR := internal/database/migrations
 DB_DSN = host='$(DB_HOST)' port='$(DB_PORT)' dbname='$(DB_NAME)' user='$(DB_USERNAME)' password='$(DB_PASSWORD)' sslmode='$(DB_SSLMODE)'
 GOOSE = goose -dir $(MIGRATIONS_DIR) postgres "$(DB_DSN)"
 
+TEST_DB_CONTAINER := nihongo-foundation-test-db
+TEST_DB_PORT := 55432
+TEST_DB_DSN := host='127.0.0.1' port='$(TEST_DB_PORT)' dbname='test' user='postgres' password='test' sslmode='disable'
+
 .DEFAULT_GOAL := help
-.PHONY: help convert test vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
+.PHONY: help convert seed test test-integration test-db-up test-db-down vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
 
 help: ## List the targets
-	@awk 'BEGIN {FS = ":.*## "} /^[a-z-]+:.*## / {printf "  %-15s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+	@awk 'BEGIN {FS = ":.*## "} /^[a-z-]+:.*## / {printf "  %-17s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 ## Dataset
 
 convert: ## Convert data/source/*.md into the data/<level>/*.json dataset
 	go run ./cmd/convert
 
+seed: db-env ## Load the data/<level>/*.json dataset into the .env database
+	go run ./cmd/seed
+
 ## Code
 
-test: ## Run all tests
+test: ## Run the unit tests
 	go test ./...
+
+test-integration: ## Run unit and integration tests against the throwaway Postgres (make test-db-up first)
+	TEST_DB_DSN="$(TEST_DB_DSN)" go test -tags integration -count=1 ./...
+
+test-db-up: ## Start a throwaway Postgres in Docker for integration tests, never the .env database
+	docker run -d --rm --name $(TEST_DB_CONTAINER) -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 127.0.0.1:$(TEST_DB_PORT):5432 postgres:17-alpine
+	@until docker exec $(TEST_DB_CONTAINER) pg_isready -U postgres -d test >/dev/null 2>&1; do sleep 1; done
+
+test-db-down: ## Remove the throwaway Postgres
+	docker rm -f $(TEST_DB_CONTAINER)
 
 vet: ## Report suspicious constructs
 	go vet ./...

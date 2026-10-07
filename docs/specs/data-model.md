@@ -42,7 +42,7 @@ Shared columns, in every item table:
 | `level` | `text` | as `lesson.level`, equal to its lesson's level |
 | `code` | `text NOT NULL` | `UNIQUE (level, code)` |
 | `lesson_id` | `uuid NOT NULL` | FK `lesson(id)`, indexed; the lesson's section matches the table |
-| `sequence` | `int NOT NULL` | 1-based row position within its lesson; `UNIQUE (lesson_id, sequence)` |
+| `sequence` | `int NOT NULL` | 1-based row position within its lesson; `UNIQUE (lesson_id, sequence)`, deferrable on `vocabulary` and `grammar` because their id survives a move within the lesson |
 | `meaning_en`, `meaning_id` | `text NOT NULL` | |
 | `sources` | `text[] NOT NULL` | non-empty, subset of `{soumatome, shinkanzen, minna-no-nihongo}` |
 
@@ -122,7 +122,7 @@ All three also have `id`, `lesson_id` (FK to a grammar lesson), and `sequence`, 
 - AC-6: No `part_of_speech` in `data/*/vocabulary.json` contains an uppercase ASCII letter, `／`, `suru`, `i-adjective`, or `na-adj`.
 - AC-7: Migrations create the seven tables with the columns, checks, foreign keys, and unique constraints above. Rolling back every migration removes them, and `up` after that succeeds.
 - AC-8: Seeding an empty database loads every JSON row. The table counts match AC-2 summed over the levels: lesson 209, kanji 642, vocabulary 1991, grammar 416, grammar_comparison 383, grammar_mistake 292, grammar_expression 20.
-- AC-9: Seeding a second time keeps the same ids and counts. Seeding after a row is removed from the JSON deletes that row. Each seed runs in one transaction, so a failed seed changes nothing.
+- AC-9: Seeding a second time keeps the same ids, counts, and `updated_at`; a changed row alone gets a new `updated_at`. Seeding after a row is removed from the JSON deletes that row, and seeding after two rows of a lesson swap places succeeds. Each seed runs in one transaction, so a failed seed changes nothing.
 - AC-10: Every `kanji`, `vocabulary`, and `grammar` row's `lesson_id` points to a lesson of the same level and matching section; every `grammar_comparison`, `grammar_mistake`, and `grammar_expression` row's `lesson_id` points to a grammar lesson.
 
 ## Verification
@@ -136,7 +136,7 @@ make convert && make convert && git diff --exit-code -- data/                   
 grep -E '"part_of_speech": "[^"]*([A-Z]|／|suru|i-adjective|na-adj)' data/*/vocabulary.json; test $? -eq 1   # AC-6
 make migrate-up && make migrate-reset && make migrate-up                         # AC-7, run by the user
 make seed && make seed                                                           # AC-8, AC-9, run by the user
-go test -tags integration ./internal/seed/...                                    # AC-9 removed-row and rollback cases, run by the user against a disposable database
+make test-db-up && make test-integration && make test-db-down                   # AC-8, AC-9, AC-10 against a throwaway Postgres in Docker, never the .env database
 DB_DSN="host=$DB_HOST port=$DB_PORT dbname=$DB_NAME user=$DB_USERNAME password=$DB_PASSWORD sslmode=$DB_SSLMODE"   # values from .env
 psql "$DB_DSN" -c "SELECT 'lesson', count(*) FROM lesson UNION ALL SELECT 'kanji', count(*) FROM kanji UNION ALL SELECT 'vocabulary', count(*) FROM vocabulary UNION ALL SELECT 'grammar', count(*) FROM grammar UNION ALL SELECT 'grammar_comparison', count(*) FROM grammar_comparison UNION ALL SELECT 'grammar_mistake', count(*) FROM grammar_mistake UNION ALL SELECT 'grammar_expression', count(*) FROM grammar_expression"   # AC-8
 psql "$DB_DSN" -c "SELECT count(*) FROM kanji k JOIN lesson l ON l.id = k.lesson_id WHERE l.section <> 'kanji' OR l.level <> k.level"   # AC-10 returns 0, likewise vocabulary and grammar
