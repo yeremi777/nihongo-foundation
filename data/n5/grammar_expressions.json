@@ -1,0 +1,222 @@
+[
+  {
+    "id": "b2070e14-35fb-53b9-8187-7d6d55d0a4e5",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 1,
+    "expression": "だれ",
+    "reading": "dare",
+    "meaning_en": "who",
+    "meaning_id": "siapa",
+    "note": "Basic “who.”",
+    "example": "あの人はだれですか。"
+  },
+  {
+    "id": "1a7ff455-99a7-5d72-815a-fd44fe476a67",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 2,
+    "expression": "どなた",
+    "reading": "donata",
+    "meaning_en": "who, polite",
+    "meaning_id": "siapa, bentuk sopan",
+    "note": "Polite form of だれ.",
+    "example": "あの方はどなたですか。"
+  },
+  {
+    "id": "9077be41-b413-589e-b36e-9a8b4c7dd8c4",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 3,
+    "expression": "何",
+    "reading": "なに／なん",
+    "meaning_en": "what",
+    "meaning_id": "apa",
+    "note": "Reading depends on what follows.",
+    "example": "何の本ですか。"
+  },
+  {
+    "id": "c06e23e8-dfa4-5de9-b7ca-2f567e743471",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 4,
+    "expression": "どこ",
+    "reading": "doko",
+    "meaning_en": "where",
+    "meaning_id": "di mana",
+    "note": "Basic “where.”",
+    "example": "トイレはどこですか。"
+  },
+  {
+    "id": "01ee6d51-6711-581a-ad16-ed92266b0ca8",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 5,
+    "expression": "どちら",
+    "reading": "dochira",
+    "meaning_en": "which way/where/who, polite",
+    "meaning_id": "yang mana/di mana/siapa, bentuk sopan",
+    "note": "Polite form related to どこ／どっち, often used for country/company.",
+    "example": "お国はどちらですか。"
+  },
+  {
+    "id": "f2167d47-c705-5266-93fe-a64925f4d616",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 6,
+    "expression": "どうやって／何で",
+    "reading": "dou yatte / nan de",
+    "meaning_en": "how; by what means",
+    "meaning_id": "bagaimana; dengan apa",
+    "note": "Ask method or transportation. 何で can also mean “why” depending on context.",
+    "example": "どうやって会社に行きますか。"
+  },
+  {
+    "id": "e80f207e-a2a5-550f-93f9-7029e45ca546",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 7,
+    "expression": "どんなN",
+    "reading": "donna N",
+    "meaning_en": "what kind of N",
+    "meaning_id": "N seperti apa",
+    "note": "Must be followed by a noun.",
+    "example": "どんな音楽が好きですか。"
+  },
+  {
+    "id": "78d88eda-14d4-52ef-bb23-f434868aae1d",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 8,
+    "expression": "どのN",
+    "reading": "dono N",
+    "meaning_en": "which N",
+    "meaning_id": "N yang mana",
+    "note": "Must be followed by a noun.",
+    "example": "どの本ですか。"
+  },
+  {
+    "id": "67a00eda-bd81-5ac4-917e-d09f4c85a877",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 9,
+    "expression": "いくつ",
+    "reading": "ikutsu",
+    "meaning_en": "how many; how old",
+    "meaning_id": "berapa; umur berapa",
+    "note": "Used for quantity or age of people/animals.",
+    "example": "卵がいくつありますか。"
+  },
+  {
+    "id": "2c56f034-477b-5423-b49b-63de1f923775",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 10,
+    "expression": "いつ",
+    "reading": "itsu",
+    "meaning_en": "when",
+    "meaning_id": "kapan",
+    "note": "Asks time/date generally.",
+    "example": "いつ日本へ行きますか。"
+  },
+  {
+    "id": "78d69f01-395a-5620-a1dd-1cb5ba55c442",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 11,
+    "expression": "どれ",
+    "reading": "dore",
+    "meaning_en": "which one",
+    "meaning_id": "yang mana",
+    "note": "Used alone, not before a noun.",
+    "example": "どれが好きですか。"
+  },
+  {
+    "id": "1290daf8-8cbd-539d-a3ef-70b0531b0b8a",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 12,
+    "expression": "どうして／なぜ",
+    "reading": "dou shite / naze",
+    "meaning_en": "why",
+    "meaning_id": "mengapa",
+    "note": "なぜ is more formal than どうして.",
+    "example": "どうして休みましたか。"
+  },
+  {
+    "id": "46e95e96-5057-56b7-bac8-1d2feb525197",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 13,
+    "expression": "いくら",
+    "reading": "ikura",
+    "meaning_en": "how much money",
+    "meaning_id": "berapa harga",
+    "note": "Used for price.",
+    "example": "これはいくらですか。"
+  },
+  {
+    "id": "0e57703b-1cf9-5221-bd77-a7283821c8bc",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 14,
+    "expression": "どのくらい／どれくらい",
+    "reading": "dono kurai / dore kurai",
+    "meaning_en": "how long; how much; about how many",
+    "meaning_id": "seberapa lama; seberapa banyak",
+    "note": "Used for duration, distance, amount, or degree.",
+    "example": "学校までどのくらいかかりますか。"
+  },
+  {
+    "id": "3f40e950-aa55-5ca1-b20c-f2f9d2cb915e",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 15,
+    "expression": "こちら・そちら",
+    "reading": "kochira / sochira",
+    "meaning_en": "this person/place/side; that person/place/side",
+    "meaning_id": "orang/tempat/arah ini; orang/tempat/arah itu",
+    "note": "Used politely to introduce other people, but not usually for introducing one’s own family member.",
+    "example": "こちらはリンさんです。"
+  },
+  {
+    "id": "02ce2ae8-3c4e-5fb3-b953-740008de56dd",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 1,
+    "expression": "また",
+    "reading": "mata",
+    "meaning_en": "Again; another time",
+    "meaning_id": "Lagi; lain kali",
+    "note": "Used when something happens again.",
+    "example": "また来てください。"
+  },
+  {
+    "id": "65ca9d2d-095a-55f7-b954-bcbe01ead5e4",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 2,
+    "expression": "もういちど",
+    "reading": "mou ichido",
+    "meaning_en": "Once more; one more time",
+    "meaning_id": "Sekali lagi",
+    "note": "Polite and clear for asking repetition.",
+    "example": "もういちど言ってください。"
+  },
+  {
+    "id": "d417eee5-4ca7-5f75-98ae-91788af04561",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 3,
+    "expression": "たくさん",
+    "reading": "takusan",
+    "meaning_en": "Many; a lot",
+    "meaning_id": "Banyak",
+    "note": "Used with nouns or verbs.",
+    "example": "たくさん食べました。"
+  },
+  {
+    "id": "34154b73-180e-5f2d-95d1-4077f26d4f84",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 4,
+    "expression": "少し・ちょっと",
+    "reading": "sukoshi / chotto",
+    "meaning_en": "A little; a few",
+    "meaning_id": "Sedikit",
+    "note": "ちょっと is more conversational.",
+    "example": "少し待ってください。"
+  },
+  {
+    "id": "e125650a-d9b5-5ade-b4df-fa1d96416f45",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 5,
+    "expression": "もう少し・もうちょっと",
+    "reading": "mou sukoshi / mou chotto",
+    "meaning_en": "A little more",
+    "meaning_id": "Sedikit lagi",
+    "note": "Used when asking for more amount, time, or effort.",
+    "example": "もう少し食べたいです。"
+  }
+]

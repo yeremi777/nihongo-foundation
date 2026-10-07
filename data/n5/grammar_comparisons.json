@@ -1,0 +1,902 @@
+[
+  {
+    "id": "35244941-a62d-5a45-a8d4-b147aa11fef8",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 1,
+    "pattern_a": "い形容詞（g101）",
+    "pattern_b": "な形容詞（g103）",
+    "difference": "i-adjectives conjugate inside the adjective; na-adjectives conjugate with です／ではありません",
+    "use_when": "Use g101 for words like おもしろい and 大きい. Use g103 for words like きれい and げんき.",
+    "example": "おもしろくないです。／きれいではありません。"
+  },
+  {
+    "id": "06608448-960b-52d0-8fcf-0873064e511b",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 2,
+    "pattern_a": "いい（g102）",
+    "pattern_b": "Other い形容詞（g101）",
+    "difference": "いい uses よい-based forms when conjugated",
+    "use_when": "Use よかった／よくない／よくなかった for “good.”",
+    "example": "いいです。／よかったです。"
+  },
+  {
+    "id": "c35e523e-14a6-5d73-b60f-f2a886b45881",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 3,
+    "pattern_a": "な形容詞＋です（g103）",
+    "pattern_b": "な形容詞＋な＋名詞（g105）",
+    "difference": "な is only needed before a noun",
+    "use_when": "Use きれいです at sentence end, but きれいな部屋 before a noun.",
+    "example": "部屋はきれいです。／きれいな部屋です。"
+  },
+  {
+    "id": "6334c57b-a814-567c-9d56-12abc053d1d8",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 4,
+    "pattern_a": "来ます（g104）",
+    "pattern_b": "します（g104）",
+    "difference": "Both are irregular, but 来ます also changes reading",
+    "use_when": "Memorize 来ます as きます, 来る as くる, 来ない as こない, 来た as きた.",
+    "example": "来ます。／来なかったです。"
+  },
+  {
+    "id": "dfb9bdc3-91f8-55fa-9041-a6cad6e3bc1b",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 1,
+    "pattern_a": "いAdj+N（g105）",
+    "pattern_b": "なAdj+な+N（g105）",
+    "difference": "i-adjectives attach directly; na-adjectives need な",
+    "use_when": "Use 大きい車, but きれいな色.",
+    "example": "大きい車。／きれいな色。"
+  },
+  {
+    "id": "cc01a57c-998e-512a-8f84-35ff4c9fde04",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 2,
+    "pattern_a": "N1のN2（g106）",
+    "pattern_b": "〜の replacement（g107）",
+    "difference": "の connects two nouns vs replaces a noun",
+    "use_when": "Use g106 when the second noun is stated. Use g107 when the noun is omitted.",
+    "example": "田中さんのペン。／田中さんのです。"
+  },
+  {
+    "id": "c04756da-e407-57de-a37d-fb4c481b0382",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 3,
+    "pattern_a": "あります（g108）",
+    "pattern_b": "います（g108）",
+    "difference": "Things/abstract items vs people/animals",
+    "use_when": "Use あります for pens, umbrellas, meetings. Use います for siblings, cats, teachers.",
+    "example": "ペンがあります。／兄がいます。"
+  },
+  {
+    "id": "facf762a-2ded-5cc8-84a7-5ed24bd67768",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 4,
+    "pattern_a": "Nがあります（g108）",
+    "pattern_b": "PlaceにNがあります（g109）",
+    "difference": "Possession/general existence vs existence at a location",
+    "use_when": "Use g108 for “I have / there is.” Use g109 when the location is important.",
+    "example": "きょうだいがいます。／教室に学生がいます。"
+  },
+  {
+    "id": "8b8483ce-4fde-5230-8aad-c325e0e3d617",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 5,
+    "pattern_a": "が（positive existence）",
+    "pattern_b": "は（negative existence）",
+    "difference": "が introduces existence; は often marks what is absent in negative sentences",
+    "use_when": "Use は naturally in negative existence sentences.",
+    "example": "ここにキムさんはいません。"
+  },
+  {
+    "id": "86e56f98-7b49-5d1b-ad00-9581f11029a1",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 1,
+    "pattern_a": "は topic（g110）",
+    "pattern_b": "は contrast（g111）",
+    "difference": "Topic vs contrast/emphasis",
+    "use_when": "Use g110 to introduce a topic. Use g111 when comparing or emphasizing.",
+    "example": "来週はテストがあります。／肉は食べますが、魚は食べません。"
+  },
+  {
+    "id": "3774ff9a-4b25-5ada-a6b9-6c9f3221f40c",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 2,
+    "pattern_a": "は（g110）",
+    "pattern_b": "が（g113）",
+    "difference": "Topic vs subject focus",
+    "use_when": "Use は for known topic. Use が to identify the unknown answer or question-word subject.",
+    "example": "これは田中さんのです。／どれが田中さんのですか。"
+  },
+  {
+    "id": "7e1dde91-8cbc-5b8e-8c64-f0f533e08cd8",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 3,
+    "pattern_a": "AはBが〜（g112）",
+    "pattern_b": "AのBは〜（comparison reference）",
+    "difference": "Natural feature description vs explicit possessive phrase",
+    "use_when": "Use AはBが〜 for body parts, features, ability, and preference.",
+    "example": "兄は背が高いです。"
+  },
+  {
+    "id": "7f0b960c-cb58-5f6f-8791-023786a106ae",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 4,
+    "pattern_a": "を object（g114）",
+    "pattern_b": "を movement path（g114）",
+    "difference": "Direct object vs place passed through/left",
+    "use_when": "Use を with 食べる, 飲む, 読む, etc. Also use it with 出る, 通る, 曲がる in movement contexts.",
+    "example": "本を読みます。／公園を散歩します。"
+  },
+  {
+    "id": "6a588da8-de1a-5f5a-9352-4cc3a819e683",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 5,
+    "pattern_a": "と（g115）",
+    "pattern_b": "一人で（comparison reference）",
+    "difference": "With someone vs alone",
+    "use_when": "Use と when doing something with another person. Use 一人で for by oneself.",
+    "example": "友だちと行きます。／一人で行きます。"
+  },
+  {
+    "id": "4440ec34-ea34-5578-a98a-8a8808ccaff0",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 1,
+    "pattern_a": "に destination（g116）",
+    "pattern_b": "で action place（g117）",
+    "difference": "Destination/existence point vs action location",
+    "use_when": "Use に with 行く, 来る, 乗る, いる, ある. Use で where an action happens.",
+    "example": "学校に行きます。／学校で勉強します。"
+  },
+  {
+    "id": "302f3ca5-1386-5b77-a0f0-c408fb11127e",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 2,
+    "pattern_a": "に time（g116）",
+    "pattern_b": "で range（g117）",
+    "difference": "Specific time vs range/limit",
+    "use_when": "Use に for specific time. Use で for range like “in the world,” “among three.”",
+    "example": "9時に始まります。／世界で一番長い川。"
+  },
+  {
+    "id": "e633ab4f-c68f-5920-91f2-830431e238c5",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 3,
+    "pattern_a": "に target person（g116）",
+    "pattern_b": "と counterpart（g115）",
+    "difference": "Direction/target vs mutual counterpart",
+    "use_when": "Use に for asking, giving, meeting target in some fixed expressions. Use と for doing together or mutual action.",
+    "example": "先生に聞きます。／友だちと話します。"
+  },
+  {
+    "id": "0348041e-b3f4-5cb0-b17d-3c271f931805",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 4,
+    "pattern_a": "で method（g117）",
+    "pattern_b": "に destination（g116）",
+    "difference": "Means/tool/vehicle vs destination",
+    "use_when": "Use で for 電車で, ナイフで, 英語で. Use に for place reached.",
+    "example": "電車で行きます。／駅に行きます。"
+  },
+  {
+    "id": "cbb35685-d855-5f29-ae19-b63a22212a56",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 5,
+    "pattern_a": "も single（g118）",
+    "pattern_b": "も repeated（g118）",
+    "difference": "Also vs both/neither",
+    "use_when": "Use repeated も to talk about two similar items.",
+    "example": "私も行きます。／肉も魚も食べません。"
+  },
+  {
+    "id": "7b753bac-3729-5fdb-a82a-a98a5a523d66",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 1,
+    "pattern_a": "〜か（g119）",
+    "pattern_b": "〜や〜など（g120）",
+    "difference": "Choice between alternatives vs example list",
+    "use_when": "Use か for “A or B.” Use や〜など for “A, B, and things like that.”",
+    "example": "コーヒーか紅茶。／コンビニや銀行など。"
+  },
+  {
+    "id": "0c7cad26-6104-50cd-8ee7-65c1b2b95109",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 2,
+    "pattern_a": "〜から〜まで（g121）",
+    "pattern_b": "〜まで only",
+    "difference": "Start-to-end vs endpoint only",
+    "use_when": "Use から〜まで when both start and end are stated. Use まで when only the end point matters.",
+    "example": "家から学校まで。／学校まで。"
+  },
+  {
+    "id": "bd5b0e6e-6141-5fc8-ba02-2390472d1c1b",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 3,
+    "pattern_a": "〜ごろ（g122）",
+    "pattern_b": "〜くらい・〜ぐらい（g123）",
+    "difference": "Approximate clock time vs approximate amount/degree",
+    "use_when": "Use ごろ for 7時ごろ. Use ぐらい for 1時間ぐらい, 1,000円ぐらい.",
+    "example": "7時ごろ。／1時間ぐらい。"
+  },
+  {
+    "id": "412e06d2-f002-5f32-ac15-3f32d96aa694",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 4,
+    "pattern_a": "〜だけ（g124）",
+    "pattern_b": "〜しか〜ない（N4 comparison reference）",
+    "difference": "Neutral only vs restrictive only with negative",
+    "use_when": "Use だけ for neutral “only.” Use しか〜ない later when stressing limitation.",
+    "example": "日曜日だけです。／日曜日しか休みません。"
+  },
+  {
+    "id": "0eb0ee89-8158-572d-9994-da49a955924c",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 5,
+    "pattern_a": "Particle+は（g111 note）",
+    "pattern_b": "Plain particle",
+    "difference": "Topic or emphasis after particles",
+    "use_when": "Use は after に, で, へ, まで when the particle phrase is contrasted or emphasized.",
+    "example": "電車では5時間かかります。"
+  },
+  {
+    "id": "b93354af-635e-5a6f-aa9d-bdd32a2c593a",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 1,
+    "pattern_a": "だれ",
+    "pattern_b": "どなた",
+    "difference": "Casual/basic vs polite",
+    "use_when": "Use どなた in polite introductions or formal settings.",
+    "example": "だれですか。／どなたですか。"
+  },
+  {
+    "id": "6d14dce4-fac2-5e0b-b1b2-e13bb81e8425",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 2,
+    "pattern_a": "どこ",
+    "pattern_b": "どちら",
+    "difference": "Basic where vs polite where/which",
+    "use_when": "Use どちら for polite questions like country, company, or direction.",
+    "example": "どこですか。／お国はどちらですか。"
+  },
+  {
+    "id": "0eba76e3-bf4c-58bf-8ffa-112fa8082d61",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 3,
+    "pattern_a": "どんなN",
+    "pattern_b": "どのN",
+    "difference": "What kind of N vs which specific N",
+    "use_when": "Use どんな for type/kind. Use どの for selecting from known options.",
+    "example": "どんな本。／どの本。"
+  },
+  {
+    "id": "c17f03aa-c237-5c7f-9a3d-1f80d1efd563",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 4,
+    "pattern_a": "どれ",
+    "pattern_b": "どのN",
+    "difference": "Standalone which vs which before a noun",
+    "use_when": "Use どれ alone. Use どの before a noun.",
+    "example": "どれですか。／どの本ですか。"
+  },
+  {
+    "id": "08bc5397-bf90-587f-9266-9d1211ff1324",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 5,
+    "pattern_a": "いくつ",
+    "pattern_b": "いくら",
+    "difference": "Quantity/age vs price",
+    "use_when": "Use いくつ for number or age. Use いくら for money.",
+    "example": "たまごがいくつ。／これはいくら。"
+  },
+  {
+    "id": "c516b6df-f7a7-5147-9c3f-514d1ce79c6b",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 6,
+    "pattern_a": "どのくらい",
+    "pattern_b": "ごろ／ぐらい（g122/g123）",
+    "difference": "Question for approximate amount/duration vs answer-style approximation",
+    "use_when": "Use どのくらい to ask “how much/how long.” Use ごろ or ぐらい in answers.",
+    "example": "どのくらいかかりますか。／1時間ぐらいです。"
+  },
+  {
+    "id": "bf3c70e0-0986-5bda-b699-e28e03090198",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 1,
+    "pattern_a": "何か（g201）",
+    "pattern_b": "何も〜ない（g202）",
+    "difference": "Something vs nothing",
+    "use_when": "Use 何か in positive or question sentences. Use 何も with a negative ending.",
+    "example": "何か食べます。／何も食べません。"
+  },
+  {
+    "id": "b75f6358-eea0-546a-856a-1375d229ba7c",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 2,
+    "pattern_a": "だれか（g201）",
+    "pattern_b": "だれも〜ない（g202）",
+    "difference": "Someone vs no one",
+    "use_when": "Use だれか when the person is unknown. Use だれも when nobody exists or nobody does the action.",
+    "example": "だれかいますか。／だれもいません。"
+  },
+  {
+    "id": "c09605da-df15-5072-aca6-1dad683705d7",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 3,
+    "pattern_a": "どこか（g201）",
+    "pattern_b": "どこでも（g203）",
+    "difference": "Somewhere unspecified vs anywhere",
+    "use_when": "Use どこか for one unspecified place. Use どこでも when any place is okay.",
+    "example": "どこかへ行きたいです。／どこでも行きます。"
+  },
+  {
+    "id": "502f07e2-6c91-562c-878a-2d2bf2a49607",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 4,
+    "pattern_a": "何でも（g203）",
+    "pattern_b": "何か（g201）",
+    "difference": "Anything vs something",
+    "use_when": "Use 何でも when there is no limit. Use 何か when one unspecified thing is meant.",
+    "example": "何でも食べます。／何か食べましょう。"
+  },
+  {
+    "id": "b2c35129-5483-5d8b-8310-04376bd17d5d",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 5,
+    "pattern_a": "どうですか（g204）",
+    "pattern_b": "いかがですか（g204）",
+    "difference": "Basic/polite vs more polite",
+    "use_when": "Use いかがですか in polite offers or formal settings.",
+    "example": "コーヒーはどうですか。／コーヒーはいかがですか。"
+  },
+  {
+    "id": "72b2bdd2-601a-5b3a-9457-9cb0d813825a",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 1,
+    "pattern_a": "いAdjくて（g205）",
+    "pattern_b": "なAdjで（g205）",
+    "difference": "i-adjective connection vs na-adjective connection",
+    "use_when": "Use 安くて for i-adjectives. Use きれいで for na-adjectives.",
+    "example": "安くておいしいです。／きれいでやさしいです。"
+  },
+  {
+    "id": "0cb979fd-29a6-5107-95cb-a6d976bf5f76",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 2,
+    "pattern_a": "なAdjで（g205）",
+    "pattern_b": "Nで（g205）",
+    "difference": "na-adjective connection vs noun connection",
+    "use_when": "Both use で, but the first describes quality, the second connects noun descriptions.",
+    "example": "先生は親切で、きれいです。／あの人は先生で、日本人です。"
+  },
+  {
+    "id": "c048ef58-3eae-51ad-afdf-968c70cc87b4",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 3,
+    "pattern_a": "Vて（g206）",
+    "pattern_b": "Vてから（g207）",
+    "difference": "Sequence vs clearly after completing",
+    "use_when": "Use Vて for simple action order. Use Vてから when the first action must be completed before the next.",
+    "example": "帰ってテレビを見ます。／食べてから歯をみがきます。"
+  },
+  {
+    "id": "5dd09587-b030-53dc-98e7-d7e72f4378e3",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 4,
+    "pattern_a": "Vて（g206）",
+    "pattern_b": "それから（g208）",
+    "difference": "Same sentence connection vs separate sentence connector",
+    "use_when": "Use Vて inside one sentence. Use それから at the start of a new sentence or clause.",
+    "example": "朝起きて、ごはんを食べます。／朝起きます。それから、ごはんを食べます。"
+  },
+  {
+    "id": "d3ecdc8a-ceaf-569d-ba47-2619ca7a0409",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 5,
+    "pattern_a": "それから（g208）",
+    "pattern_b": "そして（g208）",
+    "difference": "Then/after that vs and/then",
+    "use_when": "Use それから for next step or extra item. Use そして to connect statements smoothly.",
+    "example": "コーヒーもお願いします。それから、ケーキも。／兄は頭がよくて、そしてやさしいです。"
+  },
+  {
+    "id": "a94571f3-5177-528a-8878-7bc79ed243cc",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 1,
+    "pattern_a": "Nがほしいです（g209）",
+    "pattern_b": "Vたいです（g210）",
+    "difference": "Want a thing vs want to do an action",
+    "use_when": "Use ほしい for nouns. Use たい for verbs.",
+    "example": "車がほしいです。／車を買いたいです。"
+  },
+  {
+    "id": "8fabff74-51d9-54d6-ac52-b96b3fd21e00",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 2,
+    "pattern_a": "Vています（progress）（g211）",
+    "pattern_b": "Vています（state）（g211）",
+    "difference": "Action happening now vs resulting state/status",
+    "use_when": "Use context to decide. Some verbs like 住む and 知る often describe a state.",
+    "example": "ピアノをひいています。／アメリカに住んでいます。"
+  },
+  {
+    "id": "69061b7b-64c3-52d2-b207-7cc7f897991c",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 3,
+    "pattern_a": "Vてください（g212）",
+    "pattern_b": "Vないでください（g213）",
+    "difference": "Please do vs please do not do",
+    "use_when": "Use Vてください for a request. Use Vないでください for a prohibition/request not to do something.",
+    "example": "待ってください。／書かないでください。"
+  },
+  {
+    "id": "40b9e7fc-95e4-5d86-8374-23c91140486f",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 4,
+    "pattern_a": "ね（g214）",
+    "pattern_b": "よ（g214）",
+    "difference": "Shared feeling/agreement vs new information/emphasis",
+    "use_when": "Use ね when you expect agreement. Use よ when you tell or emphasize information.",
+    "example": "おいしいですね。／テストは明日ですよ。"
+  },
+  {
+    "id": "cfa4cf59-173c-52a3-9983-d6edb645497f",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 5,
+    "pattern_a": "ね（g214）",
+    "pattern_b": "ねえ（g214）",
+    "difference": "Light agreement vs stronger emotional feeling",
+    "use_when": "Use ねえ when the feeling is stronger or more conversational.",
+    "example": "暑いですね。／暑いですねえ。"
+  },
+  {
+    "id": "066690a2-f1fa-590b-967b-ad9a1e9bc154",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 1,
+    "pattern_a": "もらいます（g215）",
+    "pattern_b": "くれます（g216）",
+    "difference": "Receiver-focused vs giver-focused toward me/us",
+    "use_when": "Use もらいます when the receiver is the subject. Use くれます when someone gives to me/us.",
+    "example": "私は友だちに本をもらいました。／友だちが本をくれました。"
+  },
+  {
+    "id": "d0057d3c-0630-5c3b-bba0-8b262690cf17",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 2,
+    "pattern_a": "あげます（g217）",
+    "pattern_b": "くれます（g216）",
+    "difference": "Giving away from speaker vs giving toward speaker",
+    "use_when": "Use あげます when I/someone gives to another. Use くれます when someone gives to me/us.",
+    "example": "私は妹に本をあげました。／妹が本をくれました。"
+  },
+  {
+    "id": "65305c41-1cdc-5161-b97d-77e11d9db2ee",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 3,
+    "pattern_a": "にもらいます（g215）",
+    "pattern_b": "からもらいます（g215）",
+    "difference": "From person vs from/source",
+    "use_when": "Both can be used with people. から feels like “from,” and is also natural with organizations.",
+    "example": "父に時計をもらいました。／会社からメールをもらいました。"
+  },
+  {
+    "id": "cddaefc3-16e3-5dd2-8a01-cb30106a586a",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 4,
+    "pattern_a": "Vましょう（g218）",
+    "pattern_b": "Vましょうか（g219）",
+    "difference": "Let’s do vs shall I/we do?",
+    "use_when": "Use ましょう for suggestion. Use ましょうか for offer or checking what to do.",
+    "example": "行きましょう。／行きましょうか。"
+  },
+  {
+    "id": "04988afb-9b3d-55ea-ab62-eec820a8ac55",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 5,
+    "pattern_a": "Vましょう（g218）",
+    "pattern_b": "Vませんか（g220）",
+    "difference": "Direct suggestion vs softer invitation",
+    "use_when": "Use Vませんか when inviting politely.",
+    "example": "コーヒーを飲みましょう。／コーヒーを飲みませんか。"
+  },
+  {
+    "id": "66934a04-2250-504d-bfb5-fc12a76b35d1",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 1,
+    "pattern_a": "いAdj+N（g221）",
+    "pattern_b": "なAdj+な+N（g221）",
+    "difference": "i-adjective direct modifier vs na-adjective with な",
+    "use_when": "Use 安いレストラン, but きれいな先生.",
+    "example": "安いレストラン。／きれいな先生。"
+  },
+  {
+    "id": "dd356d62-4ffa-5c45-9603-05af6111ae99",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 2,
+    "pattern_a": "NのN（g221）",
+    "pattern_b": "Clause+N（g221）",
+    "difference": "Noun modifier vs full sentence-like modifier",
+    "use_when": "Use NのN for simple noun relation. Use clause+N for richer description.",
+    "example": "駅の本や。／駅の近くにある本や。"
+  },
+  {
+    "id": "f13c7a37-e959-593f-a845-52b7f23ecb73",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 3,
+    "pattern_a": "父が好きなN（g221）",
+    "pattern_b": "父の好きなN（g221）",
+    "difference": "が and の can both mark the subject inside some noun modifiers",
+    "use_when": "Both can be natural in simple modifier clauses.",
+    "example": "父が好きなりょうり。／父の好きなりょうり。"
+  },
+  {
+    "id": "b9e5670b-d1ed-50f2-bd9d-d1941a0de41b",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 4,
+    "pattern_a": "Vる+N（g221）",
+    "pattern_b": "Vた+N（g221）",
+    "difference": "Action not completed/future/general vs completed/past",
+    "use_when": "Use Vる for use/do/buy in a general or future sense. Use Vた for already done.",
+    "example": "クラスで使う本。／きのう買ったCD。"
+  },
+  {
+    "id": "bf954232-3712-5613-8eeb-c88553d60cc5",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 5,
+    "pattern_a": "どうしますか（g222）",
+    "pattern_b": "どうしましたか（g222）",
+    "difference": "Future/handling question vs past/what happened",
+    "use_when": "Use どうしますか for “what will you do?” Use どうしましたか for “what happened?”",
+    "example": "その本をどうしますか。／パーティーのあと、どうしましたか。"
+  },
+  {
+    "id": "c5f655d1-b819-5230-9cc7-fcf631d00136",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 1,
+    "pattern_a": "〜から（g223）",
+    "pattern_b": "Vてから（g207）",
+    "difference": "Because vs after doing",
+    "use_when": "Use 〜から for reason. Use Vてから for sequence after an action.",
+    "example": "高いから買いません。／食べてから行きます。"
+  },
+  {
+    "id": "5ad52495-a52b-53b0-9545-bf18e00a897e",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 2,
+    "pattern_a": "〜から（g223）",
+    "pattern_b": "だから（g223）",
+    "difference": "Reason inside a sentence vs result sentence starter",
+    "use_when": "Use から after the reason clause. Use だから at the start of the result sentence.",
+    "example": "時間がないから、急ぎます。／時間がありません。だから、急ぎます。"
+  },
+  {
+    "id": "1c41e309-fce2-5633-9822-f6bcb12b021d",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 3,
+    "pattern_a": "〜けど（g224）",
+    "pattern_b": "でも（g225）",
+    "difference": "Clause connector vs sentence starter",
+    "use_when": "Use けど inside one sentence. Use でも to start a new sentence.",
+    "example": "難しいけど、おもしろいです。／難しいです。でも、おもしろいです。"
+  },
+  {
+    "id": "131d4471-a0a3-5f82-be35-fed7ca1162ad",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 4,
+    "pattern_a": "〜が（g224）",
+    "pattern_b": "しかし（g225）",
+    "difference": "Polite clause connector vs formal sentence starter",
+    "use_when": "Use が inside a sentence. Use しかし at the beginning of a new formal/written sentence.",
+    "example": "難しいですが、おもしろいです。／難しいです。しかし、おもしろいです。"
+  },
+  {
+    "id": "98e59fa1-5e68-5ac4-8164-3e4e406b49d0",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 5,
+    "pattern_a": "それでは（g226）",
+    "pattern_b": "じゃ（g226）",
+    "difference": "Polite/neutral transition vs casual transition",
+    "use_when": "Use それでは or では in class/work situations. Use じゃ in casual speech.",
+    "example": "それでは、始めましょう。／じゃ、行こう。"
+  },
+  {
+    "id": "d3387fdb-5b8a-56e1-bad4-b67c48d1dfbb",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 1,
+    "pattern_a": "とても（g301）",
+    "pattern_b": "たいへん（g301）",
+    "difference": "Neutral “very” vs stronger or more serious “very/terribly”",
+    "use_when": "Use とても generally. Use たいへん when the degree feels heavy, serious, or difficult.",
+    "example": "とてもおいしいです。／日本語の勉強はたいへんです。"
+  },
+  {
+    "id": "cc946554-e7be-5e59-a3f7-e110383de081",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 2,
+    "pattern_a": "すごく（g302）",
+    "pattern_b": "ほんとうに（g302）",
+    "difference": "Conversational strength vs “really/truly” emphasis",
+    "use_when": "Use すごく in daily speech. Use ほんとうに when emphasizing sincerity or reality.",
+    "example": "すごく寒いです。／ほんとうにきれいです。"
+  },
+  {
+    "id": "baf909d4-4f9f-554a-8602-beee30753a66",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 3,
+    "pattern_a": "あまり〜ない（g303）",
+    "pattern_b": "ぜんぜん〜ない（g303）",
+    "difference": "Not very vs not at all",
+    "use_when": "Use あまり for weaker or limited negation. Use ぜんぜん for complete or strong negation.",
+    "example": "あまり食べません。／ぜんぜん食べません。"
+  },
+  {
+    "id": "bb96311e-f74c-5e76-944e-ebe29e147aef",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 4,
+    "pattern_a": "いつも（g304）",
+    "pattern_b": "ときどき（g304）",
+    "difference": "Always vs sometimes",
+    "use_when": "Use いつも for a regular constant habit. Use ときどき for occasional actions.",
+    "example": "いつも早く寝ます。／ときどき映画を見ます。"
+  },
+  {
+    "id": "5c12e9b4-a65e-5c32-a7a3-e941fb6f3287",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 5,
+    "pattern_a": "たいてい（g304）",
+    "pattern_b": "よく（g304）",
+    "difference": "Usually vs often/well",
+    "use_when": "Use たいてい for what normally happens. Use よく for frequent action or skill/quality.",
+    "example": "日曜日はたいていうちにいます。／ひろはよくラーメンを食べます。"
+  },
+  {
+    "id": "284434d9-d189-5da4-952a-f52123841056",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 1,
+    "pattern_a": "まあまあ（g305）",
+    "pattern_b": "だいたい（g305）",
+    "difference": "So-so quality vs mostly/roughly",
+    "use_when": "Use まあまあ for evaluation. Use だいたい for approximate amount or understanding.",
+    "example": "まあまあでした。／だいたいわかりました。"
+  },
+  {
+    "id": "b3b329ec-f88a-55b5-a016-1df114736fe9",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 2,
+    "pattern_a": "ほとんど（g305）",
+    "pattern_b": "ぜんぜん〜ない（g303）",
+    "difference": "Almost all / hardly vs not at all",
+    "use_when": "Use ほとんど for “mostly” or “hardly” with negative. Use ぜんぜん for stronger complete negation.",
+    "example": "ほとんど話せません。／ぜんぜん話せません。"
+  },
+  {
+    "id": "8c4cf9c2-4207-5c9f-8d59-eb63d31345e4",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 3,
+    "pattern_a": "すぐに（g306）",
+    "pattern_b": "もうすぐ（g306）",
+    "difference": "Right away vs soon",
+    "use_when": "Use すぐに for immediate action. Use もうすぐ for something that will happen soon.",
+    "example": "すぐに来てください。／もうすぐ12時です。"
+  },
+  {
+    "id": "a25c469f-cc65-5413-9bf2-5107613ea9f0",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 4,
+    "pattern_a": "さっき（g306）",
+    "pattern_b": "もう（g307）",
+    "difference": "A moment ago vs already",
+    "use_when": "Use さっき to say when something happened. Use もう to say it is already completed.",
+    "example": "田中さんはさっき帰りました。／田中さんはもう帰りました。"
+  },
+  {
+    "id": "d23bd4e8-c57b-5a30-b13a-2bc14981b0b7",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 5,
+    "pattern_a": "もう（g307）",
+    "pattern_b": "まだ〜ない（g308）",
+    "difference": "Already vs not yet",
+    "use_when": "Use もう for completed action. Use まだ with a negative for incomplete action.",
+    "example": "もう終わりました。／まだ終わっていません。"
+  },
+  {
+    "id": "c143622b-34a1-5738-ab8e-d0c2748fe358",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 1,
+    "pattern_a": "早い",
+    "pattern_b": "早く（g309）",
+    "difference": "Adjective vs adverb",
+    "use_when": "Use 早い to describe a noun. Use 早く to describe an action.",
+    "example": "早い電車です。／早く起きます。"
+  },
+  {
+    "id": "f35cab0b-1e45-5c75-ba1a-4f3a64b631d9",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 2,
+    "pattern_a": "静かな",
+    "pattern_b": "静かに（g309）",
+    "difference": "na-adjective before noun vs adverb before verb",
+    "use_when": "Use 静かな before a noun. Use 静かに before a verb.",
+    "example": "静かな部屋です。／静かにしてください。"
+  },
+  {
+    "id": "c6d0854e-ab3e-564c-9cf8-559d8f8fe55f",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 3,
+    "pattern_a": "〜になる（g310）",
+    "pattern_b": "〜にする（g311）",
+    "difference": "Natural change vs intentional change",
+    "use_when": "Use なる when something becomes that way. Use する when someone makes it that way.",
+    "example": "部屋が明るくなりました。／部屋を明るくしました。"
+  },
+  {
+    "id": "0193c571-2d0c-5424-91cf-4d0bc7d80aed",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 4,
+    "pattern_a": "いAdjくなる（g310）",
+    "pattern_b": "なAdj・Nになる（g310）",
+    "difference": "i-adjective change vs na-adjective/noun change",
+    "use_when": "Use くなる after i-adjectives. Use になる after na-adjectives and nouns.",
+    "example": "寒くなりました。／便利になりました。"
+  },
+  {
+    "id": "c314f75f-d9c1-5fb7-9559-593bed440903",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 5,
+    "pattern_a": "どう言いますか（g312）",
+    "pattern_b": "何と言いますか（g312）",
+    "difference": "How do you say it vs what is it called",
+    "use_when": "Use どう言いますか for expression/translation. Use 何と言いますか for naming or wording.",
+    "example": "英語でどう言いますか。／これは何と言いますか。"
+  },
+  {
+    "id": "4c89a317-04e6-5d9f-83f7-b95f72556ffe",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 1,
+    "pattern_a": "Vるとき（g313）",
+    "pattern_b": "Vたとき（g313）",
+    "difference": "When/before doing vs when/after doing",
+    "use_when": "Use Vるとき before or while doing. Use Vたとき after the action happened.",
+    "example": "ごはんを食べるとき、手を洗います。／東京へ行ったとき、買いました。"
+  },
+  {
+    "id": "1c791673-bafc-570c-8f7e-a0de0f622b4e",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 2,
+    "pattern_a": "Nの前に（g314）",
+    "pattern_b": "Vる前に（g314）",
+    "difference": "Before a noun event vs before a verb action",
+    "use_when": "Use の after nouns. Use dictionary form before 前に.",
+    "example": "食事の前に。／家を出る前に。"
+  },
+  {
+    "id": "f393beb3-a26a-552d-960a-d040b64687e9",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 3,
+    "pattern_a": "Nのあとで（g315）",
+    "pattern_b": "Vたあとで（g315）",
+    "difference": "After a noun event vs after a verb action",
+    "use_when": "Use の after nouns. Use past form before あとで.",
+    "example": "じゅぎょうのあとで。／勉強したあとで。"
+  },
+  {
+    "id": "e7385b78-6437-581e-9b04-8b7620b9673f",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 4,
+    "pattern_a": "前に（g314）",
+    "pattern_b": "あとで（g315）",
+    "difference": "Before vs after",
+    "use_when": "Use 前に for preparation before an action. Use あとで after an action is finished.",
+    "example": "食べる前に手を洗います。／食べたあとで歯をみがきます。"
+  },
+  {
+    "id": "6093d76a-00a3-5615-8fb6-a05872fc5516",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 5,
+    "pattern_a": "Vます-stemに行く（g316）",
+    "pattern_b": "Placeに行く（comparison reference）",
+    "difference": "Purpose vs destination",
+    "use_when": "Use Vます-stemに for the purpose. Use place+に/へ for destination.",
+    "example": "映画を見に行きます。／映画館に行きます。"
+  },
+  {
+    "id": "65a64306-ce76-5fa8-b4a9-c3f57c70da41",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 1,
+    "pattern_a": "AはBより〜（g317）",
+    "pattern_b": "AよりBのほうが〜（g318）",
+    "difference": "A is more than B vs B is more than A",
+    "use_when": "Use g317 when A is the main topic. Use g318 when emphasizing B as the stronger side.",
+    "example": "母は父より高いです。／父より母のほうが高いです。"
+  },
+  {
+    "id": "957722fd-ac09-5a9f-96db-0b221ebd576a",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 2,
+    "pattern_a": "AとBとどちら〜（g319）",
+    "pattern_b": "Aがいちばん〜（g320）",
+    "difference": "Two-choice comparison vs top in a group",
+    "use_when": "Use どちら for two choices. Use いちばん for three or more, or a group.",
+    "example": "犬と猫とどちらが好きですか。／動物の中で猫がいちばん好きです。"
+  },
+  {
+    "id": "bb77b0fb-e23b-5fa9-91be-9cf56b566d67",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 3,
+    "pattern_a": "どちら（g319）",
+    "pattern_b": "どっち（g319）",
+    "difference": "Polite/neutral vs conversational",
+    "use_when": "Use どちら in polite or written Japanese. Use どっち in casual speech.",
+    "example": "どちらがいいですか。／どっちがいい？"
+  },
+  {
+    "id": "e1a223bb-fcfa-5e04-94cb-284f56d006e8",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 4,
+    "pattern_a": "〜たり〜たりする（g321）",
+    "pattern_b": "Vて、Vて（comparison reference）",
+    "difference": "Example actions vs sequence",
+    "use_when": "Use たり for examples. Use て-form for clear sequence.",
+    "example": "本を読んだりテレビを見たりします。／本を読んで寝ます。"
+  },
+  {
+    "id": "eb84cfd1-2beb-5870-89f2-9b2974bc4527",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 5,
+    "pattern_a": "〜たり〜たりする（g321）",
+    "pattern_b": "〜や〜など（comparison reference）",
+    "difference": "Example actions vs example nouns",
+    "use_when": "Use たり for verbs. Use や／など for nouns.",
+    "example": "行ったり食べたりします。／りんごやバナナなど。"
+  },
+  {
+    "id": "ece5a34a-59e0-532e-93d6-ac59b6d6fd39",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 1,
+    "pattern_a": "Vること（g322）",
+    "pattern_b": "Vるの（g323）",
+    "difference": "More abstract/formal vs more concrete/natural in comments",
+    "use_when": "Use こと for definitions, rules, and abstract ideas. Use の for concrete actions or comments.",
+    "example": "趣味は映画を見ることです。／漢字を書くのは難しいです。"
+  },
+  {
+    "id": "daf0ebd1-e729-5e9f-af6f-faacb4ec2521",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 2,
+    "pattern_a": "Vることです（g322）",
+    "pattern_b": "Vるのです（g323）",
+    "difference": "Definition phrase vs explanation-style sentence",
+    "use_when": "Use 〜は〜ことです for hobby or definition. Avoid replacing it with のです.",
+    "example": "私の趣味は映画を見ることです。"
+  },
+  {
+    "id": "20b9abf5-e985-50ac-b53d-37aaf3badaee",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 3,
+    "pattern_a": "Nができます（g324）",
+    "pattern_b": "Vることができます（g325）",
+    "difference": "Noun ability/activity vs verb ability/action",
+    "use_when": "Use Nができます with nouns. Use Vることができます with verbs.",
+    "example": "ロシア語ができます。／ロシア語を話すことができます。"
+  },
+  {
+    "id": "5f003af1-2902-584c-ad0e-bcbc4d7acdb7",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 4,
+    "pattern_a": "Vることができます（g325）",
+    "pattern_b": "可能形（g326）",
+    "difference": "Longer/formal ability form vs shorter natural potential form",
+    "use_when": "Use ことができます for clear textbook/formal expression. Use potential form in normal conversation.",
+    "example": "書くことができます。／書けます。"
+  },
+  {
+    "id": "00e7a596-9757-5646-9563-dfb996395c0a",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 5,
+    "pattern_a": "ができます（g324/g325）",
+    "pattern_b": "はできません（g326 note）",
+    "difference": "Positive ability often uses が; negative or contrast often uses は",
+    "use_when": "Use は when contrasting what someone can and cannot do.",
+    "example": "日本語を話すことはできますが、書くことはできません。"
+  }
+]

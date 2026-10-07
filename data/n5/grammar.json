@@ -1,0 +1,1533 @@
+[
+  {
+    "id": "0fc3e1b0-09fd-5cbf-9712-67c053f7e08e",
+    "level": "n5",
+    "code": "g101",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 1,
+    "curriculum_code": "g101",
+    "pattern": "い形容詞の形",
+    "reading": "i-keiyoushi no katachi",
+    "formula": "いAdjです／いAdjくないです／いAdjかったです／いAdjくなかったです",
+    "note": "Drop final い before adding くない, かった, or くなかった. Do not use でした directly after an i-adjective in standard beginner grammar.",
+    "example": "この本はおもしろくなかったです。",
+    "difficulty": "easy",
+    "meaning_en": "i-adjective forms: present, past, negative",
+    "meaning_id": "Bentuk kata sifat-i: sekarang, lampau, negatif",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "75d3d6e5-0584-572b-b8d4-c1ac9703dbb7",
+    "level": "n5",
+    "code": "g102",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 2,
+    "curriculum_code": "g102",
+    "pattern": "いい・よい",
+    "reading": "ii / yoi",
+    "formula": "いいです→よくないです／よかったです／よくなかったです",
+    "note": "いい changes to よい for conjugation. Avoid いいかった and いくない.",
+    "example": "コンサートはよかったです。",
+    "difficulty": "easy",
+    "meaning_en": "Special adjective forms for “good”",
+    "meaning_id": "Bentuk khusus kata sifat “baik”",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "06dc2007-7aee-56ee-8fce-ac3f1f1fbd3b",
+    "level": "n5",
+    "code": "g103",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 3,
+    "curriculum_code": "g103",
+    "pattern": "な形容詞の形",
+    "reading": "na-keiyoushi no katachi",
+    "formula": "なAdjです／なAdjではありません／なAdjでした／なAdjではありませんでした",
+    "note": "な is used before a noun, not before です. In casual negative, では can become じゃ.",
+    "example": "私の部屋はきれいではありません。",
+    "difficulty": "easy",
+    "meaning_en": "na-adjective forms: present, past, negative",
+    "meaning_id": "Bentuk kata sifat-na: sekarang, lampau, negatif",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "1d592986-3c91-5730-85ef-e3e73a74976d",
+    "level": "n5",
+    "code": "g104",
+    "lesson_id": "75a48cc5-3031-596d-a8ee-73f11f19717e",
+    "sequence": 4,
+    "curriculum_code": "g104",
+    "pattern": "あります・します・来ますの形",
+    "reading": "arimasu / shimasu / kimasu no katachi",
+    "formula": "あります→ある／ない／あった／なかった；します→する／しない／した／しなかった；来ます→来る／来ない／来た／来なかった",
+    "note": "These verbs have important irregular or semi-irregular forms. Be careful with 来ます readings: きます, くる, こない, きた.",
+    "example": "田中さんは来なかったです。",
+    "difficulty": "medium",
+    "meaning_en": "Basic common verb conjugation review",
+    "meaning_id": "Ulasan perubahan kata kerja umum",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "92d3780c-e85f-51f5-8b51-48bc53423ec2",
+    "level": "n5",
+    "code": "g105",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 1,
+    "curriculum_code": "g105",
+    "pattern": "形容詞＋名詞",
+    "reading": "keiyoushi + meishi",
+    "formula": "いAdj+N／なAdj+な+N",
+    "note": "i-adjectives attach directly to nouns. na-adjectives need な before nouns.",
+    "example": "大きい車を買いました。",
+    "difficulty": "easy",
+    "meaning_en": "Adjective modifies a noun",
+    "meaning_id": "Kata sifat menerangkan kata benda",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f173320b-2444-599f-b6be-ad55a28f3015",
+    "level": "n5",
+    "code": "g106",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 2,
+    "curriculum_code": "g106",
+    "pattern": "名詞＋の＋名詞",
+    "reading": "meishi + no + meishi",
+    "formula": "N1+の+N2",
+    "note": "Shows possession, origin, category, material, or description. The exact meaning depends on context.",
+    "example": "日本の車を買いました。",
+    "difficulty": "easy",
+    "meaning_en": "Noun modifies another noun",
+    "meaning_id": "Kata benda menerangkan kata benda",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "8b13d044-1ea3-5cad-abcb-6cf73063a87a",
+    "level": "n5",
+    "code": "g107",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 3,
+    "curriculum_code": "g107",
+    "pattern": "〜の（名詞の代用）",
+    "reading": "no",
+    "formula": "Modifier+の",
+    "note": "Replaces a noun already understood from context. Can mean “one” or “mine/yours/his.”",
+    "example": "私のは青いのです。",
+    "difficulty": "easy",
+    "meaning_en": "Noun replacement: one; mine; yours",
+    "meaning_id": "Pengganti kata benda: yang ...; milik ...",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "eb8cda79-3112-5fac-988c-8d7a5a898667",
+    "level": "n5",
+    "code": "g108",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 4,
+    "curriculum_code": "g108",
+    "pattern": "あります・います",
+    "reading": "arimasu / imasu",
+    "formula": "Nがあります／Nがいます",
+    "note": "あります is used for things and abstract items. います is used for people and animals.",
+    "example": "ペンがありますか。",
+    "difficulty": "easy",
+    "meaning_en": "Have; there is/are",
+    "meaning_id": "Punya; ada",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3a270ff1-db6d-51de-995f-020d7621c251",
+    "level": "n5",
+    "code": "g109",
+    "lesson_id": "56957ba1-6688-533d-8294-98d1e341720f",
+    "sequence": 5,
+    "curriculum_code": "g109",
+    "pattern": "場所に〜があります・います",
+    "reading": "basho ni~ga arimasu / imasu",
+    "formula": "Place+に+Nがあります／います",
+    "note": "Use に for the location of existence. In negative sentences, が often becomes は.",
+    "example": "いすの上にねこがいます。",
+    "difficulty": "easy",
+    "meaning_en": "Something/someone exists at a place",
+    "meaning_id": "Sesuatu/seseorang ada di suatu tempat",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "988621b6-b9b0-5a3e-a7e0-3e26210cc0a2",
+    "level": "n5",
+    "code": "g110",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 1,
+    "curriculum_code": "g110",
+    "pattern": "〜は（話題）",
+    "reading": "wa",
+    "formula": "N+は+predicate",
+    "note": "Introduces what the sentence is about. It often translates as “as for ~.”",
+    "example": "来週はテストがあります。",
+    "difficulty": "easy",
+    "meaning_en": "Topic marker",
+    "meaning_id": "Penanda topik",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "c7e0fda5-27ce-559c-aedc-fb7ce329d06c",
+    "level": "n5",
+    "code": "g111",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 2,
+    "curriculum_code": "g111",
+    "pattern": "〜は（対比・強調）",
+    "reading": "wa",
+    "formula": "Nは..., Nは...／Particle+は",
+    "note": "Used to contrast two topics or emphasize a marked part, such as には, では, へは, までは.",
+    "example": "私は肉は食べますが、魚は食べません。",
+    "difficulty": "medium",
+    "meaning_en": "Contrast or emphasis marker",
+    "meaning_id": "Penanda kontras atau penekanan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d6c3da09-c984-53e5-a7ca-2772c753f6c2",
+    "level": "n5",
+    "code": "g112",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 3,
+    "curriculum_code": "g112",
+    "pattern": "AはBが〜",
+    "reading": "A wa B ga~",
+    "formula": "AはBがAdjです",
+    "note": "Used for describing a part, feature, ability, or preference of the topic.",
+    "example": "兄は背が高いです。",
+    "difficulty": "medium",
+    "meaning_en": "A has B that is ~",
+    "meaning_id": "A memiliki B yang ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "53ae06dd-b297-5801-b29a-0bbd37700c93",
+    "level": "n5",
+    "code": "g113",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 4,
+    "curriculum_code": "g113",
+    "pattern": "疑問詞＋が",
+    "reading": "gimonshi + ga",
+    "formula": "Wh-word+が+predicate",
+    "note": "Use が when the question word is the subject, and also when answering that subject.",
+    "example": "どこがいいですか。",
+    "difficulty": "medium",
+    "meaning_en": "Question word as subject",
+    "meaning_id": "Kata tanya sebagai subjek",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ebde984f-03b9-50ff-bca5-10f4b4116d29",
+    "level": "n5",
+    "code": "g114",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 5,
+    "curriculum_code": "g114",
+    "pattern": "〜を（対象・通過点）",
+    "reading": "wo",
+    "formula": "N+を+V",
+    "note": "Marks direct object. With movement verbs, it can mark a place passed through or left from.",
+    "example": "毎朝、家を出ます。",
+    "difficulty": "easy",
+    "meaning_en": "Object marker; movement through or leaving point",
+    "meaning_id": "Penanda objek; tempat yang dilewati atau ditinggalkan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "768237f2-29dc-52bc-aa0c-c315a031ff88",
+    "level": "n5",
+    "code": "g115",
+    "lesson_id": "1b4fcb52-f924-5936-ac38-c854b68162d9",
+    "sequence": 6,
+    "curriculum_code": "g115",
+    "pattern": "〜と（相手・一緒）",
+    "reading": "to",
+    "formula": "Person+と+V",
+    "note": "Shows doing something together with someone or interacting with another person.",
+    "example": "友だちと映画に行きました。",
+    "difficulty": "easy",
+    "meaning_en": "With someone; counterpart",
+    "meaning_id": "Dengan seseorang; lawan/interaksi",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "c16dd796-b071-584b-8888-3ab7c9f54055",
+    "level": "n5",
+    "code": "g116",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 1,
+    "curriculum_code": "g116",
+    "pattern": "〜に（場所・方向・時間・相手）",
+    "reading": "ni",
+    "formula": "N+に+V",
+    "note": "Marks destination, existence location, specific time, target person, or direction.",
+    "example": "学校は9時に始まります。",
+    "difficulty": "easy",
+    "meaning_en": "To/at/on/toward; time, destination, location, person",
+    "meaning_id": "Ke/pada/di; waktu, tujuan, tempat, orang",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "2ae7fe6d-c6b1-56d5-8cbf-07ec3b7b2686",
+    "level": "n5",
+    "code": "g117",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 2,
+    "curriculum_code": "g117",
+    "pattern": "〜で（場所・方法・範囲）",
+    "reading": "de",
+    "formula": "N+で+V",
+    "note": "Marks place of action, tool, method, vehicle, language, material, cause, or range.",
+    "example": "公園で遊びました。",
+    "difficulty": "easy",
+    "meaning_en": "At/by/with/in; place, method, vehicle, range",
+    "meaning_id": "Di/dengan/secara; tempat, cara, kendaraan, cakupan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "104224af-1750-5c7d-906f-baaa1168871f",
+    "level": "n5",
+    "code": "g118",
+    "lesson_id": "93b4c1d6-4409-50cf-b7c8-3f115dcb84f1",
+    "sequence": 3,
+    "curriculum_code": "g118",
+    "pattern": "〜も",
+    "reading": "mo",
+    "formula": "N+も",
+    "note": "Shows the same situation applies. Repeated も can mean “both” or “neither” depending on the sentence.",
+    "example": "田中さんは25さいです。私も25さいです。",
+    "difficulty": "easy",
+    "meaning_en": "Also; too; both/neither in repeated contrast",
+    "meaning_id": "Juga; pun; dua-duanya dalam kontras berulang",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "91fa373f-390a-5d89-a502-2d52aca3e997",
+    "level": "n5",
+    "code": "g119",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 1,
+    "curriculum_code": "g119",
+    "pattern": "〜か",
+    "reading": "ka",
+    "formula": "N1かN2",
+    "note": "Used between two choices. It can also mark a question at sentence end, but this item focuses on choice.",
+    "example": "毎朝、コーヒーか紅茶を飲みます。",
+    "difficulty": "easy",
+    "meaning_en": "Or; choice marker",
+    "meaning_id": "Atau; penanda pilihan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "be2cae82-46db-52d6-b8e9-f4294889df04",
+    "level": "n5",
+    "code": "g120",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 2,
+    "curriculum_code": "g120",
+    "pattern": "〜や〜など",
+    "reading": "ya~nado",
+    "formula": "N1やN2など",
+    "note": "Lists examples, not a complete list. など means “and so on.”",
+    "example": "駅の前にコンビニや銀行などがあります。",
+    "difficulty": "easy",
+    "meaning_en": "Things like ~ and ~",
+    "meaning_id": "Seperti ~ dan lainnya",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "2c238761-83e8-566a-b09c-0314b6700be8",
+    "level": "n5",
+    "code": "g121",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 3,
+    "curriculum_code": "g121",
+    "pattern": "〜から〜まで",
+    "reading": "kara~made",
+    "formula": "N1から+N2まで",
+    "note": "N1 and N2 can be places or times. Shows start and end points.",
+    "example": "家から学校まで1時間かかります。",
+    "difficulty": "easy",
+    "meaning_en": "From ~ to/until ~",
+    "meaning_id": "Dari ~ sampai ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "0bb8775a-1b1f-5d7c-919a-bf3778831a4c",
+    "level": "n5",
+    "code": "g122",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 4,
+    "curriculum_code": "g122",
+    "pattern": "〜ごろ",
+    "reading": "goro",
+    "formula": "Time+ごろ",
+    "note": "Used only with time expressions, not prices or general amounts.",
+    "example": "7時ごろ電話します。",
+    "difficulty": "easy",
+    "meaning_en": "Around a time",
+    "meaning_id": "Sekitar waktu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "2749fa78-09a2-53a3-88f1-2a7c876d31fd",
+    "level": "n5",
+    "code": "g123",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 5,
+    "curriculum_code": "g123",
+    "pattern": "〜くらい・〜ぐらい",
+    "reading": "kurai / gurai",
+    "formula": "Amount/period/degree+くらい／ぐらい",
+    "note": "Used with approximate amount, duration, distance, price, or degree. くらい and ぐらい are both common.",
+    "example": "駅までタクシーで1,000円ぐらいかかります。",
+    "difficulty": "easy",
+    "meaning_en": "About; approximately",
+    "meaning_id": "Kira-kira; sekitar",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "325957b3-bd48-5af3-a2f6-2ec558717887",
+    "level": "n5",
+    "code": "g124",
+    "lesson_id": "888460df-80c3-533c-ab02-dfa0bef35ed0",
+    "sequence": 6,
+    "curriculum_code": "g124",
+    "pattern": "〜だけ",
+    "reading": "dake",
+    "formula": "N/quantity+だけ",
+    "note": "Neutral “only.” Can attach to nouns, quantities, time periods, and some particles.",
+    "example": "休みは日曜日だけです。",
+    "difficulty": "easy",
+    "meaning_en": "Only; just",
+    "meaning_id": "Hanya; cuma",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ede33094-7864-56ad-b09c-3ba9a55bbc54",
+    "level": "n5",
+    "code": "g125",
+    "lesson_id": "304dd3b0-0617-5bb9-a1f9-c3e22b06954f",
+    "sequence": 1,
+    "curriculum_code": "g125",
+    "pattern": "疑問詞",
+    "reading": "gimonshi",
+    "formula": "だれ／どなた／何／どこ／どちら／どうやって／なんで／どんなN／どのN／いくつ／いつ／どれ／どうして／なぜ／いくら／どのくらい",
+    "note": "N5 question words. Some are polite forms, some attach to nouns, and some ask about quantity, method, reason, or degree.",
+    "example": "お国はどちらですか。",
+    "difficulty": "easy",
+    "meaning_en": "Question words",
+    "meaning_id": "Kata tanya",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "19a0022e-5f74-5b5d-92a0-e7f926798e72",
+    "level": "n5",
+    "code": "g201",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 1,
+    "curriculum_code": "g201",
+    "pattern": "何か・だれか・どこか・いつか",
+    "reading": "nanika / dareka / dokoka / itsuka",
+    "formula": "疑問詞+か",
+    "note": "Makes an indefinite expression. Used when the exact thing, person, place, or time is unknown or not specified.",
+    "example": "何か飲みましょう。",
+    "difficulty": "easy",
+    "meaning_en": "Something; someone; somewhere; sometime",
+    "meaning_id": "Sesuatu; seseorang; suatu tempat; suatu waktu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "09281ade-5a59-5e41-abf8-a0d13adb3392",
+    "level": "n5",
+    "code": "g202",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 2,
+    "curriculum_code": "g202",
+    "pattern": "何も・だれも・どこへも〜ない",
+    "reading": "nanimo / daremo / doko e mo~nai",
+    "formula": "疑問詞+も+negative",
+    "note": "Used with a negative ending. どこへも and どこにも both appear depending on the verb and nuance.",
+    "example": "きのうはどこへも行きませんでした。",
+    "difficulty": "medium",
+    "meaning_en": "Nothing; no one; nowhere with a negative sentence",
+    "meaning_id": "Tidak apa pun; tidak siapa pun; tidak ke mana pun",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "a7c77767-a7cd-5854-8767-437263443a03",
+    "level": "n5",
+    "code": "g203",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 3,
+    "curriculum_code": "g203",
+    "pattern": "疑問詞＋でも・Nでも",
+    "reading": "gimonshi + demo / N demo",
+    "formula": "疑問詞+でも／N+でも",
+    "note": "With question words, it means “any.” With nouns, it can give a soft example or suggestion, like お茶でも. Do not confuse this with でも meaning “but.”",
+    "example": "いつでも来てください。",
+    "difficulty": "medium",
+    "meaning_en": "Any; anyone; anywhere; even; something like ~",
+    "meaning_id": "Apa pun; siapa pun; di mana pun; bahkan; seperti ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "7e7f4702-5421-58ed-a0e2-4a3a56fe8af1",
+    "level": "n5",
+    "code": "g204",
+    "lesson_id": "86505cd4-7fae-58c6-ad3c-b8526e98ee1e",
+    "sequence": 4,
+    "curriculum_code": "g204",
+    "pattern": "どうですか・いかがですか",
+    "reading": "dou desu ka / ikaga desu ka",
+    "formula": "Nはどう／いかがですか",
+    "note": "いかが is the polite form of どう. Used to ask impressions or to offer/suggest something politely.",
+    "example": "コーヒーはいかがですか。",
+    "difficulty": "easy",
+    "meaning_en": "How is ~?; how about ~?; would you like ~?",
+    "meaning_id": "Bagaimana ~?; bagaimana kalau ~?; maukah ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "30ff282f-801c-575d-847e-3a42ac2717e2",
+    "level": "n5",
+    "code": "g205",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 1,
+    "curriculum_code": "g205",
+    "pattern": "形容詞・名詞のて形接続",
+    "reading": "keiyoushi / meishi no te-kei setsuzoku",
+    "formula": "いAdjくて／なAdjで／Nで",
+    "note": "Used to connect descriptions. Negative forms are いAdjくなくて, なAdjじゃなくて, and Nじゃなくて.",
+    "example": "そのレストランは安くて、おいしいです。",
+    "difficulty": "easy",
+    "meaning_en": "Connect adjective or noun descriptions",
+    "meaning_id": "Menghubungkan deskripsi kata sifat atau kata benda",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "cd5ff811-670f-540c-8dc4-0c47ee170ac5",
+    "level": "n5",
+    "code": "g206",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 2,
+    "curriculum_code": "g206",
+    "pattern": "Vて",
+    "reading": "V-te",
+    "formula": "Vて",
+    "note": "Connects actions in order or links actions naturally. The action order usually follows the sentence order.",
+    "example": "うちに帰って、テレビを見ます。",
+    "difficulty": "easy",
+    "meaning_en": "Verb te-form for sequence or connection",
+    "meaning_id": "Bentuk te untuk urutan atau koneksi aksi",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "79b198f4-a2db-50a7-984c-71775202e4d3",
+    "level": "n5",
+    "code": "g207",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 3,
+    "curriculum_code": "g207",
+    "pattern": "Vてから",
+    "reading": "te kara",
+    "formula": "Vてから",
+    "note": "Emphasizes that the second action happens after the first action is finished.",
+    "example": "手を洗ってから、ごはんを食べましょう。",
+    "difficulty": "easy",
+    "meaning_en": "After doing ~",
+    "meaning_id": "Setelah melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f9d2df08-10b6-5825-9a19-38ce1f31d625",
+    "level": "n5",
+    "code": "g208",
+    "lesson_id": "40e6e389-4995-582c-bf5a-cee14241f139",
+    "sequence": 4,
+    "curriculum_code": "g208",
+    "pattern": "それから・そして",
+    "reading": "sore kara / soshite",
+    "formula": "Sentence。それから／そして...",
+    "note": "それから often means “after that / then.” そして connects sentences or descriptions, often like “and.”",
+    "example": "ピザをお願いします。それから、コーヒーもお願いします。",
+    "difficulty": "easy",
+    "meaning_en": "And then; after that; and",
+    "meaning_id": "Lalu; setelah itu; dan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "583f3f26-ec8b-57ef-84e0-f8b25f835e2c",
+    "level": "n5",
+    "code": "g209",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 1,
+    "curriculum_code": "g209",
+    "pattern": "Nがほしいです",
+    "reading": "N ga hoshii desu",
+    "formula": "N+がほしいです",
+    "note": "Used mainly to talk about the speaker’s own desire. ほしい conjugates like an i-adjective.",
+    "example": "じてんしゃがほしいです。",
+    "difficulty": "easy",
+    "meaning_en": "Want a noun",
+    "meaning_id": "Ingin benda",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "52ecbcf2-cde5-58e2-bad4-ed780d684516",
+    "level": "n5",
+    "code": "g210",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 2,
+    "curriculum_code": "g210",
+    "pattern": "Vたいです",
+    "reading": "tai desu",
+    "formula": "Vます-stem+たいです",
+    "note": "Expresses the speaker’s desire to do something. The object can often take が or を, but が is common with たい.",
+    "example": "ステーキが食べたいです。",
+    "difficulty": "easy",
+    "meaning_en": "Want to do ~",
+    "meaning_id": "Ingin melakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "52bdd70d-41c0-5b21-b428-df83341e728d",
+    "level": "n5",
+    "code": "g211",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 3,
+    "curriculum_code": "g211",
+    "pattern": "Vています",
+    "reading": "te imasu",
+    "formula": "Vて+います",
+    "note": "Has three common N5 uses: action in progress, resulting state, and habit/status.",
+    "example": "テレビを見ています。",
+    "difficulty": "easy",
+    "meaning_en": "Be doing now; be in a state; have a habit",
+    "meaning_id": "Sedang melakukan; dalam keadaan; punya kebiasaan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "4da1a462-4fd4-510a-bbab-16ea26461c23",
+    "level": "n5",
+    "code": "g212",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 4,
+    "curriculum_code": "g212",
+    "pattern": "Vてください",
+    "reading": "te kudasai",
+    "formula": "Vて+ください",
+    "note": "Polite request or instruction. Often used by teachers, staff, or when asking someone to do something.",
+    "example": "写真を見せてください。",
+    "difficulty": "easy",
+    "meaning_en": "Please do ~",
+    "meaning_id": "Tolong lakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "c0ed1e08-9418-53ae-8810-50c297f16207",
+    "level": "n5",
+    "code": "g213",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 5,
+    "curriculum_code": "g213",
+    "pattern": "Vないでください",
+    "reading": "naide kudasai",
+    "formula": "Vない+でください",
+    "note": "Polite negative request. Do not use Vなくてください.",
+    "example": "タバコはすわないでください。",
+    "difficulty": "easy",
+    "meaning_en": "Please do not do ~",
+    "meaning_id": "Tolong jangan lakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "68a52101-c36e-533b-97a6-184890ec1df6",
+    "level": "n5",
+    "code": "g214",
+    "lesson_id": "dd45d7e7-d005-5d04-a7e3-5113c59eb841",
+    "sequence": 6,
+    "curriculum_code": "g214",
+    "pattern": "〜ね・〜ねえ・〜よ",
+    "reading": "ne / nee / yo",
+    "formula": "Sentence+ね／ねえ／よ",
+    "note": "ね asks for agreement or shares feeling. ねえ sounds more emotional. よ informs or emphasizes something for the listener.",
+    "example": "毎日あついですねえ。",
+    "difficulty": "easy",
+    "meaning_en": "Sentence-ending confirmation, agreement, feeling, or emphasis",
+    "meaning_id": "Akhiran kalimat untuk konfirmasi, persetujuan, perasaan, atau penekanan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "176b35f0-6ee3-58fc-92d9-4f471713489b",
+    "level": "n5",
+    "code": "g215",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 1,
+    "curriculum_code": "g215",
+    "pattern": "〜に・〜からもらいます",
+    "reading": "ni / kara moraimasu",
+    "formula": "Personに／から+Nをもらう",
+    "note": "The receiver is usually the subject. Both に and から can mark the giver; から feels like “from.”",
+    "example": "友だちに本をもらいました。",
+    "difficulty": "easy",
+    "meaning_en": "Receive from someone",
+    "meaning_id": "Menerima dari seseorang",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "8e5ae1f1-d4fd-52de-b486-da8791298bae",
+    "level": "n5",
+    "code": "g216",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 2,
+    "curriculum_code": "g216",
+    "pattern": "〜がくれます",
+    "reading": "ga kuremasu",
+    "formula": "Personが+(私に)+Nをくれる",
+    "note": "Used when someone gives something to the speaker or the speaker’s in-group. The receiver 私に is often omitted.",
+    "example": "友だちがチョコレートをくれました。",
+    "difficulty": "easy",
+    "meaning_en": "Someone gives me/us ~",
+    "meaning_id": "Seseorang memberi kepada saya/kita",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "6e9da159-1456-5d0f-ae43-31ebe2e30bbc",
+    "level": "n5",
+    "code": "g217",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 3,
+    "curriculum_code": "g217",
+    "pattern": "〜にあげます",
+    "reading": "ni agemasu",
+    "formula": "Personに+Nをあげる",
+    "note": "Used when the subject gives something to someone else. The receiver is marked with に.",
+    "example": "いもうとにこのスカートをあげます。",
+    "difficulty": "easy",
+    "meaning_en": "Give to someone",
+    "meaning_id": "Memberi kepada seseorang",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "b90cc6f9-fc50-5f46-99ad-c032a21293f4",
+    "level": "n5",
+    "code": "g218",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 4,
+    "curriculum_code": "g218",
+    "pattern": "Vましょう",
+    "reading": "mashou",
+    "formula": "Vます-stem+ましょう",
+    "note": "Used to suggest doing something together or to encourage action.",
+    "example": "タクシーで行きましょう。",
+    "difficulty": "easy",
+    "meaning_en": "Let’s do ~",
+    "meaning_id": "Ayo lakukan ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ccd31e82-8011-5046-a6d5-1599093ac028",
+    "level": "n5",
+    "code": "g219",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 5,
+    "curriculum_code": "g219",
+    "pattern": "Vましょうか",
+    "reading": "mashou ka",
+    "formula": "Vます-stem+ましょうか",
+    "note": "Used to offer help or ask what action to take together.",
+    "example": "てつだいましょうか。",
+    "difficulty": "easy",
+    "meaning_en": "Shall I/we do ~?",
+    "meaning_id": "Mau saya/kita lakukan ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "e6097060-f636-5d8e-b7e1-4480a73a65e1",
+    "level": "n5",
+    "code": "g220",
+    "lesson_id": "6029be07-7086-5f6d-ae74-6439f7a952a1",
+    "sequence": 6,
+    "curriculum_code": "g220",
+    "pattern": "Vませんか",
+    "reading": "masen ka",
+    "formula": "Vます-stem+ませんか",
+    "note": "A polite invitation. Softer than directly saying Vましょう.",
+    "example": "いっしょにえいがを見ませんか。",
+    "difficulty": "easy",
+    "meaning_en": "Why don’t we/you ~?; would you like to ~?",
+    "meaning_id": "Bagaimana kalau kita/Anda ~?; maukah ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "55376afb-85cd-5a90-b563-a30ae177a316",
+    "level": "n5",
+    "code": "g221",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 1,
+    "curriculum_code": "g221",
+    "pattern": "名詞修飾",
+    "reading": "meishi shuushoku",
+    "formula": "Modifier+N",
+    "note": "Words or clauses that describe nouns come before the noun. The modifying phrase can be short or long.",
+    "example": "これはクラスで使う本です。",
+    "difficulty": "medium",
+    "meaning_en": "Noun modification; relative clause",
+    "meaning_id": "Modifikasi kata benda; klausa relatif",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "bd5d38dd-b6a3-5f25-b1d0-0248492109be",
+    "level": "n5",
+    "code": "g222",
+    "lesson_id": "c0634349-a48f-551f-ab3c-c0df72aacd08",
+    "sequence": 2,
+    "curriculum_code": "g222",
+    "pattern": "どうしますか・どうしましたか",
+    "reading": "dou shimasu ka / dou shimashita ka",
+    "formula": "どうしますか／どうしましたか",
+    "note": "どうしますか asks what someone will do with something or how they will handle it. どうしましたか asks what happened or what someone did.",
+    "example": "その本をどうしますか。",
+    "difficulty": "easy",
+    "meaning_en": "What will you do?; what happened?",
+    "meaning_id": "Akan bagaimana?; ada apa?",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8042796e-aa14-5ddc-8a44-8d471e308dc4",
+    "level": "n5",
+    "code": "g223",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 1,
+    "curriculum_code": "g223",
+    "pattern": "〜から・〜からです・だから",
+    "reading": "kara / kara desu / dakara",
+    "formula": "Reason+から／Reason+からです／だから+result",
+    "note": "から gives a reason. からです answers “why?” だから starts a result sentence. Do not confuse with Vてから meaning “after doing.”",
+    "example": "時間がないから、いそぎましょう。",
+    "difficulty": "easy",
+    "meaning_en": "Because; the reason is; therefore",
+    "meaning_id": "Karena; alasannya; jadi",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "41c520d4-cca7-50bc-be8d-22261220c25f",
+    "level": "n5",
+    "code": "g224",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 2,
+    "curriculum_code": "g224",
+    "pattern": "〜けれど・〜けど・〜が",
+    "reading": "keredo / kedo / ga",
+    "formula": "Clause+けれど／けど／が",
+    "note": "Connects two contrasting ideas. けど is conversational. が is more polite or written.",
+    "example": "べんきょうしたけれど、テストはできませんでした。",
+    "difficulty": "medium",
+    "meaning_en": "But; although",
+    "meaning_id": "Tetapi; walaupun",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "122088eb-7c05-53c1-9426-fc65e6e05b1a",
+    "level": "n5",
+    "code": "g225",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 3,
+    "curriculum_code": "g225",
+    "pattern": "でも・しかし",
+    "reading": "demo / shikashi",
+    "formula": "Sentence。でも／しかし...",
+    "note": "Used at the start of a new sentence. でも is conversational/neutral. しかし is more formal or written.",
+    "example": "日本語はむずかしいです。でも、おもしろいです。",
+    "difficulty": "easy",
+    "meaning_en": "But; however",
+    "meaning_id": "Tapi; namun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "73b4c0b9-8218-563b-8614-159b8906e2c0",
+    "level": "n5",
+    "code": "g226",
+    "lesson_id": "a96f5035-0493-59cf-864b-b93512f16dc3",
+    "sequence": 4,
+    "curriculum_code": "g226",
+    "pattern": "それでは・では・それじゃ・じゃ",
+    "reading": "soredewa / dewa / soreja / ja",
+    "formula": "それでは／では／それじゃ／じゃ...",
+    "note": "Used to move to the next action, decision, or closing. それじゃ and じゃ are conversational.",
+    "example": "それでは、じゅぎょうをおわります。",
+    "difficulty": "easy",
+    "meaning_en": "Well then; in that case",
+    "meaning_id": "Kalau begitu; kalau begitu ya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4e4179bb-317e-5f91-9926-27362f64b153",
+    "level": "n5",
+    "code": "g301",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 1,
+    "curriculum_code": "g301",
+    "pattern": "とても・たいへん",
+    "reading": "totemo / taihen",
+    "formula": "とても／たいへん+Adj",
+    "note": "Both strengthen adjectives. たいへん can also mean “difficult/tough” as in たいへんです.",
+    "example": "きのうはとても寒かったです。",
+    "difficulty": "easy",
+    "meaning_en": "Very; terribly",
+    "meaning_id": "Sangat; amat",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f4b6f1e2-0f5b-5420-b19e-8b78ac53a021",
+    "level": "n5",
+    "code": "g302",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 2,
+    "curriculum_code": "g302",
+    "pattern": "すごく・ほんとうに",
+    "reading": "sugoku / hontou ni",
+    "formula": "すごく／ほんとうに+Adj",
+    "note": "すごく is common in conversation. ほんとうに emphasizes that something is really true or strongly felt.",
+    "example": "日本語がすごく上手ですね。",
+    "difficulty": "easy",
+    "meaning_en": "Very; really",
+    "meaning_id": "Sangat; benar-benar",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "48fde559-fabf-53a1-813e-22a61d421886",
+    "level": "n5",
+    "code": "g303",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 3,
+    "curriculum_code": "g303",
+    "pattern": "あまり・ぜんぜん〜ない",
+    "reading": "amari / zenzen~nai",
+    "formula": "あまり／ぜんぜん+negative",
+    "note": "Used mostly with negative endings. ぜんぜん is stronger than あまり. In casual speech, ぜんぜん can appear with positive words, but negative use is safest for N5.",
+    "example": "今日はあまり寒くありません。",
+    "difficulty": "easy",
+    "meaning_en": "Not very; not at all",
+    "meaning_id": "Tidak begitu; sama sekali tidak",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "2b7113d2-5546-55ff-8a22-850e7965a69b",
+    "level": "n5",
+    "code": "g304",
+    "lesson_id": "13e2cb6e-61d3-5618-bf84-32d53b087ec0",
+    "sequence": 4,
+    "curriculum_code": "g304",
+    "pattern": "いつも・ときどき・たいてい・よく",
+    "reading": "itsumo / tokidoki / taitei / yoku",
+    "formula": "Frequency adverb+V",
+    "note": "Shows how often something happens. よく can mean “often” or “well,” depending on context.",
+    "example": "あの店はいつもこんでいます。",
+    "difficulty": "easy",
+    "meaning_en": "Always; sometimes; usually; often",
+    "meaning_id": "Selalu; kadang-kadang; biasanya; sering",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "1af4fdba-21f3-5f15-8724-7b51b3575687",
+    "level": "n5",
+    "code": "g305",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 1,
+    "curriculum_code": "g305",
+    "pattern": "まあまあ・ほとんど・だいたい",
+    "reading": "maa maa / hotondo / daitai",
+    "formula": "Adverb+sentence",
+    "note": "まあまあ means “so-so.” ほとんど often means “almost all/mostly,” and with a negative it means “hardly.” だいたい means “roughly/mostly.”",
+    "example": "そのレストランはまあまあおいしかったです。",
+    "difficulty": "easy",
+    "meaning_en": "So-so; almost; mostly",
+    "meaning_id": "Lumayan; hampir; kebanyakan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ec5ec6b7-5352-5b40-a0dd-1fde04fc8abc",
+    "level": "n5",
+    "code": "g306",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 2,
+    "curriculum_code": "g306",
+    "pattern": "もっと・さっき・すぐに・もうすぐ",
+    "reading": "motto / sakki / sugu ni / mou sugu",
+    "formula": "Adverb+sentence",
+    "note": "もっと asks for a higher degree or amount. さっき refers to a short time ago. すぐに means right away. もうすぐ means soon.",
+    "example": "もうすぐ12時です。",
+    "difficulty": "easy",
+    "meaning_en": "More; just now; right away; soon",
+    "meaning_id": "Lebih; tadi/barusan; segera; sebentar lagi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "faa1ae3c-dd44-50d0-85d1-35114fa9a38c",
+    "level": "n5",
+    "code": "g307",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 3,
+    "curriculum_code": "g307",
+    "pattern": "もう",
+    "reading": "mou",
+    "formula": "もう+Vました",
+    "note": "Used when an action is already finished or a state has already happened.",
+    "example": "もうしゅくだいをしましたか。",
+    "difficulty": "easy",
+    "meaning_en": "Already",
+    "meaning_id": "Sudah",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "5b9dea5b-f34b-506b-a042-70d52f00e4ca",
+    "level": "n5",
+    "code": "g308",
+    "lesson_id": "30ccb7b1-026c-509c-8af2-1875710c6054",
+    "sequence": 4,
+    "curriculum_code": "g308",
+    "pattern": "まだ〜ません・まだ〜ないです",
+    "reading": "mada~masen / mada~nai desu",
+    "formula": "まだ+negative",
+    "note": "Used when an action has not happened yet, but may happen later.",
+    "example": "まだおひるごはんを食べていません。",
+    "difficulty": "easy",
+    "meaning_en": "Not yet",
+    "meaning_id": "Belum",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "3718f737-13a1-54f6-a1cd-7258f888f2cc",
+    "level": "n5",
+    "code": "g309",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 1,
+    "curriculum_code": "g309",
+    "pattern": "いAdjくV・なAdjにV",
+    "reading": "i-Adj ku V / na-Adj ni V",
+    "formula": "いAdjく+V／なAdjに+V",
+    "note": "Changes adjectives into adverbs. Used to explain how an action is done.",
+    "example": "早く帰りましょう。",
+    "difficulty": "medium",
+    "meaning_en": "Do in an adjective manner",
+    "meaning_id": "Melakukan dengan cara/sifat tertentu",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "ad3f8987-6212-5b30-b0e9-4d4bfbe08113",
+    "level": "n5",
+    "code": "g310",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 2,
+    "curriculum_code": "g310",
+    "pattern": "〜くなる・〜になる",
+    "reading": "ku naru / ni naru",
+    "formula": "いAdjくなる／なAdj・Nになる",
+    "note": "Expresses a natural change of state. The subject changes without focusing on who caused it.",
+    "example": "日本語が上手になりました。",
+    "difficulty": "easy",
+    "meaning_en": "Become ~",
+    "meaning_id": "Menjadi ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f9479662-93d4-5990-b4c0-32814f89b307",
+    "level": "n5",
+    "code": "g311",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 3,
+    "curriculum_code": "g311",
+    "pattern": "〜くする・〜にする",
+    "reading": "ku suru / ni suru",
+    "formula": "いAdjくする／なAdj・Nにする",
+    "note": "Expresses an intentional change caused by someone.",
+    "example": "テレビの音を小さくしてください。",
+    "difficulty": "medium",
+    "meaning_en": "Make/change into ~",
+    "meaning_id": "Membuat/menjadikan ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5f80f3d1-98ab-5b31-8168-0056c491e9b7",
+    "level": "n5",
+    "code": "g312",
+    "lesson_id": "97ce74b4-f6cb-5b32-8e70-485656b909a7",
+    "sequence": 4,
+    "curriculum_code": "g312",
+    "pattern": "どう言いますか・何と言いますか",
+    "reading": "dou iimasu ka / nan to iimasu ka",
+    "formula": "どう／何と+言いますか",
+    "note": "どう言いますか asks how to say something. 何と言いますか asks what something is called or what words are used.",
+    "example": "これは日本語でどう言いますか。",
+    "difficulty": "easy",
+    "meaning_en": "How do you say ~?; what do you call ~?",
+    "meaning_id": "Bagaimana mengatakan ~?; disebut apa?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f2af7d2b-bad6-5928-bea2-5e97c9550ae8",
+    "level": "n5",
+    "code": "g313",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 1,
+    "curriculum_code": "g313",
+    "pattern": "〜とき",
+    "reading": "toki",
+    "formula": "Nのとき／いAdjとき／なAdjなとき／V普通形とき",
+    "note": "Describes the time or situation when something happens. Vるとき often means before or around doing. Vたとき often means after the action happened.",
+    "example": "わたしは子どものとき、フランスに住んでいました。",
+    "difficulty": "easy",
+    "meaning_en": "When ~",
+    "meaning_id": "Ketika ~; saat ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "13442d9c-f9cf-5254-ac85-ca1c78f0f846",
+    "level": "n5",
+    "code": "g314",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 2,
+    "curriculum_code": "g314",
+    "pattern": "〜前に",
+    "reading": "mae ni",
+    "formula": "Nの前に／V(dict)+前に",
+    "note": "Used for doing something before a noun event or before doing a verb action. The verb before 前に uses dictionary form.",
+    "example": "じゅぎょうの前に、よしゅうをしましょう。",
+    "difficulty": "easy",
+    "meaning_en": "Before ~",
+    "meaning_id": "Sebelum ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "f1844b1f-58f0-5091-ae29-ee8de91ec6d6",
+    "level": "n5",
+    "code": "g315",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 3,
+    "curriculum_code": "g315",
+    "pattern": "〜あとで",
+    "reading": "ato de",
+    "formula": "Nのあとで／V(た)+あとで",
+    "note": "Used for doing something after a noun event or after finishing a verb action. The verb before あとで uses past form.",
+    "example": "おふろに入ったあとで、ビールを飲みます。",
+    "difficulty": "easy",
+    "meaning_en": "After ~",
+    "meaning_id": "Setelah ~",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f9810305-e10f-50b4-83c7-9d8a09887d36",
+    "level": "n5",
+    "code": "g316",
+    "lesson_id": "3e6ed719-2341-58b6-8da3-76b39829686c",
+    "sequence": 4,
+    "curriculum_code": "g316",
+    "pattern": "〜に行く・来る・帰る",
+    "reading": "ni iku / kuru / kaeru",
+    "formula": "Nに／Vます-stemに+行く／来る／帰る",
+    "note": "に marks the purpose of movement. With verbs, use the ます-stem before に.",
+    "example": "としょかんへ本を返しに行きました。",
+    "difficulty": "easy",
+    "meaning_en": "Go/come/return for a purpose",
+    "meaning_id": "Pergi/datang/pulang untuk tujuan",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "dc38c7d5-f0b4-5227-9e83-15a182fc6531",
+    "level": "n5",
+    "code": "g317",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 1,
+    "curriculum_code": "g317",
+    "pattern": "AはBより〜",
+    "reading": "A wa B yori~",
+    "formula": "AはBより+Adj",
+    "note": "Direct comparison. B is the comparison base.",
+    "example": "母は父より背が高いです。",
+    "difficulty": "easy",
+    "meaning_en": "A is more ~ than B",
+    "meaning_id": "A lebih ~ daripada B",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "7b6f72b2-4a58-5880-a364-30f5ff7d7648",
+    "level": "n5",
+    "code": "g318",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 2,
+    "curriculum_code": "g318",
+    "pattern": "AよりBのほうが〜",
+    "reading": "A yori B no hou ga~",
+    "formula": "AよりBのほうが+Adj",
+    "note": "Compares two things while emphasizing B as the more adjective one.",
+    "example": "父より母のほうが背が高いです。",
+    "difficulty": "easy",
+    "meaning_en": "B is more ~ than A",
+    "meaning_id": "B lebih ~ daripada A",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "a5d65827-f28c-5bb6-977a-da1e9a4735be",
+    "level": "n5",
+    "code": "g319",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 3,
+    "curriculum_code": "g319",
+    "pattern": "AとBとどちら〜",
+    "reading": "A to B to dochira~",
+    "formula": "AとBとどちらが+Adj",
+    "note": "Used to ask a comparison question between two choices. どっち is the casual form of どちら.",
+    "example": "ペンとえんぴつとどちらをよく使いますか。",
+    "difficulty": "easy",
+    "meaning_en": "Between A and B, which is more ~?",
+    "meaning_id": "Antara A dan B, mana yang lebih ~?",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d9f02f50-ec3b-5408-a15f-9b97b6ec339b",
+    "level": "n5",
+    "code": "g320",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 4,
+    "curriculum_code": "g320",
+    "pattern": "Aがいちばん〜",
+    "reading": "A ga ichiban~",
+    "formula": "Aがいちばん+Adj",
+    "note": "Used for the top item in a group. Often appears with Nの中で.",
+    "example": "くだものの中でりんごがいちばん好きです。",
+    "difficulty": "easy",
+    "meaning_en": "A is the most ~",
+    "meaning_id": "A paling ~",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "262c01c8-6c42-50a2-a9b6-6e3b1ca0848d",
+    "level": "n5",
+    "code": "g321",
+    "lesson_id": "7fab1801-5be4-58f2-9f65-93a1f2afd573",
+    "sequence": 5,
+    "curriculum_code": "g321",
+    "pattern": "〜たり〜たりします",
+    "reading": "tari~tari shimasu",
+    "formula": "V(た)+り+V(た)+りする",
+    "note": "Gives examples from several actions. The list is not complete.",
+    "example": "休みの日は買いものに行ったり、食事をしたりします。",
+    "difficulty": "easy",
+    "meaning_en": "Do things like A and B",
+    "meaning_id": "Melakukan hal seperti A dan B",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "2288849f-eff2-54a2-95bd-757592efc0f2",
+    "level": "n5",
+    "code": "g322",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 1,
+    "curriculum_code": "g322",
+    "pattern": "Vること",
+    "reading": "V-ru koto",
+    "formula": "V(dict)+こと",
+    "note": "Turns a verb phrase into a noun-like idea. Safer for abstract ideas, rules, and definitions.",
+    "example": "わたしのしゅみは映画を見ることです。",
+    "difficulty": "easy",
+    "meaning_en": "Verb nominalization with こと",
+    "meaning_id": "Nominalisasi kata kerja dengan こと",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "d1516885-be40-5303-9424-3ef695ee539c",
+    "level": "n5",
+    "code": "g323",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 2,
+    "curriculum_code": "g323",
+    "pattern": "Vるの",
+    "reading": "V-ru no",
+    "formula": "V(dict)+の",
+    "note": "Turns a verb phrase into a noun-like phrase. Often used for concrete actions, perception, likes/dislikes, and comments. Cannot replace こと in 〜は〜ことです.",
+    "example": "かんじをおぼえるのはたいへんです。",
+    "difficulty": "medium",
+    "meaning_en": "Verb nominalization with の",
+    "meaning_id": "Nominalisasi kata kerja dengan の",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e53329a0-dc8d-5323-a37c-586f4866115a",
+    "level": "n5",
+    "code": "g324",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 3,
+    "curriculum_code": "g324",
+    "pattern": "Nができます",
+    "reading": "N ga dekimasu",
+    "formula": "N+ができます",
+    "note": "Used for abilities, possible activities, or availability with nouns.",
+    "example": "コンビニがあるから、いつでも買いものができます。",
+    "difficulty": "easy",
+    "meaning_en": "Can do; possible noun",
+    "meaning_id": "Bisa; kemampuan pada nomina",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "cb936d7b-a3bb-5a65-8da6-c0f616c39394",
+    "level": "n5",
+    "code": "g325",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 4,
+    "curriculum_code": "g325",
+    "pattern": "Vることができます",
+    "reading": "V-ru koto ga dekimasu",
+    "formula": "V(dict)+ことができます",
+    "note": "Formal/basic way to express ability or possibility for a verb action.",
+    "example": "だれでもこの部屋を使うことができます。",
+    "difficulty": "easy",
+    "meaning_en": "Can do a verb",
+    "meaning_id": "Bisa melakukan suatu aksi",
+    "sources": [
+      "soumatome",
+      "minna-no-nihongo"
+    ]
+  },
+  {
+    "id": "94f738a0-4105-5001-86e4-6f6d599f59f8",
+    "level": "n5",
+    "code": "g326",
+    "lesson_id": "444c5e39-c087-530e-aed4-dcf396c23245",
+    "sequence": 5,
+    "curriculum_code": "g326",
+    "pattern": "可能形",
+    "reading": "kanoukei",
+    "formula": "V potential form",
+    "note": "Shorter ability form. Group 1 changes final sound to e-row + る. Group 2 uses られる. する→できる, 来る→来られる.",
+    "example": "ひらがなは書けますが、かんじは書けません。",
+    "difficulty": "hard",
+    "meaning_en": "Potential verb form; can do ~",
+    "meaning_id": "Bentuk potensial; bisa melakukan ~",
+    "sources": [
+      "soumatome"
+    ]
+  }
+]

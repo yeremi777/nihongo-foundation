@@ -1,0 +1,7565 @@
+[
+  {
+    "id": "fc8dd6cd-2c9a-54ed-b26c-46bea5ba7513",
+    "level": "n3",
+    "code": "k101-001",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 1,
+    "character": "駐",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "駐車",
+      "駐車場"
+    ],
+    "meaning_en": "park vehicles, station troops",
+    "meaning_id": "parkir kendaraan, menempatkan pasukan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0db416b7-af68-54c1-a242-a437378eac49",
+    "level": "n3",
+    "code": "k101-002",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 2,
+    "character": "無",
+    "onyomi": [
+      "ム"
+    ],
+    "kunyomi": [
+      "ない"
+    ],
+    "examples": [
+      "無休",
+      "無理な",
+      "無料",
+      "無い"
+    ],
+    "meaning_en": "nothing, without, non-",
+    "meaning_id": "tidak ada, tanpa, niir-",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d744c665-8299-58ff-b5f3-f8d0e33ad280",
+    "level": "n3",
+    "code": "k101-003",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 3,
+    "character": "満",
+    "onyomi": [
+      "マン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "満車",
+      "満員",
+      "不満な"
+    ],
+    "meaning_en": "full, satisfy, fulfill",
+    "meaning_id": "penuh, memuaskan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5d2adb3a-16e2-50d2-ac93-8098f0619dde",
+    "level": "n3",
+    "code": "k101-004",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 4,
+    "character": "向",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "むこう",
+      "むかう",
+      "むき"
+    ],
+    "examples": [
+      "方向",
+      "向かう",
+      "向こう",
+      "〇〇向き"
+    ],
+    "meaning_en": "direction, facing, toward",
+    "meaning_id": "arah, menghadap, menuju",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "62394d90-fd03-5706-b47d-b7674a6490d8",
+    "level": "n3",
+    "code": "k101-005",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 5,
+    "character": "禁",
+    "onyomi": [
+      "キン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "禁止"
+    ],
+    "meaning_en": "prohibit, forbid, ban",
+    "meaning_id": "melarang, larangan, dilarang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eb90de57-d3c9-502c-a0ac-54ca785908fc",
+    "level": "n3",
+    "code": "k101-006",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 6,
+    "character": "関",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "関心",
+      "関する"
+    ],
+    "meaning_en": "related, concern, connection",
+    "meaning_id": "berkaitan, berhubungan, kepedulian",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c749ff7c-7268-5d83-bb00-3b822eb75463",
+    "level": "n3",
+    "code": "k101-007",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 7,
+    "character": "係",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [
+      "かかり"
+    ],
+    "examples": [
+      "関係",
+      "係"
+    ],
+    "meaning_en": "relation, person in charge",
+    "meaning_id": "hubungan, petugas, keterkaitan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4ac6f44c-b72c-51b7-926d-72006e9161b3",
+    "level": "n3",
+    "code": "k101-008",
+    "lesson_id": "14e32c15-30cc-55e1-9c6d-ffdee839bdda",
+    "sequence": 8,
+    "character": "断",
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [
+      "ことわる"
+    ],
+    "examples": [
+      "無断",
+      "断水",
+      "断る"
+    ],
+    "meaning_en": "cut off, refuse, decide",
+    "meaning_id": "memutus, menolak, memutuskan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "140fc597-13b6-51af-b401-fc545043e4f0",
+    "level": "n3",
+    "code": "k102-001",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 1,
+    "character": "横",
+    "onyomi": [
+      "オウ"
+    ],
+    "kunyomi": [
+      "よこ"
+    ],
+    "examples": [
+      "横断",
+      "横",
+      "横断歩道"
+    ],
+    "meaning_en": "side, horizontal, sideways",
+    "meaning_id": "samping, horizontal, melintang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7d791e66-4887-5631-b603-d1f57024128f",
+    "level": "n3",
+    "code": "k102-002",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 2,
+    "character": "押",
+    "onyomi": [],
+    "kunyomi": [
+      "おす",
+      "おさえる"
+    ],
+    "examples": [
+      "押す",
+      "押し入れ",
+      "押さえる"
+    ],
+    "meaning_en": "push, hold down, press",
+    "meaning_id": "mendorong, menahan, menekan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9e4e3266-4c24-5da2-89d2-fea61ec7242a",
+    "level": "n3",
+    "code": "k102-003",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 3,
+    "character": "式",
+    "onyomi": [
+      "シキ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "押しボタン式",
+      "数式",
+      "入学式"
+    ],
+    "meaning_en": "ceremony, style, formula",
+    "meaning_id": "upacara, gaya, rumus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ba6275c5-14ab-5229-92f1-58a3eb5af82d",
+    "level": "n3",
+    "code": "k102-004",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 4,
+    "character": "信",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "送信",
+      "自信",
+      "信じる",
+      "信用"
+    ],
+    "meaning_en": "trust, believe, signal",
+    "meaning_id": "percaya, kepercayaan, sinyal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3a7cb3be-05cb-5645-87d5-12f348088809",
+    "level": "n3",
+    "code": "k102-005",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 5,
+    "character": "号",
+    "onyomi": [
+      "ゴウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "信号",
+      "〜号車"
+    ],
+    "meaning_en": "number, signal, name",
+    "meaning_id": "nomor, sinyal, nama",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5fd7080e-078d-5c23-a202-d41491bbf187",
+    "level": "n3",
+    "code": "k102-006",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 6,
+    "character": "確",
+    "onyomi": [
+      "カク"
+    ],
+    "kunyomi": [
+      "たしか",
+      "たしかめる"
+    ],
+    "examples": [
+      "正確な",
+      "確かめる",
+      "確かな"
+    ],
+    "meaning_en": "certain, confirm, accurate",
+    "meaning_id": "pasti, mengkonfirmasi, akurat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7d004446-fed9-5327-a301-25c57df64087",
+    "level": "n3",
+    "code": "k102-007",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 7,
+    "character": "認",
+    "onyomi": [
+      "ニン"
+    ],
+    "kunyomi": [
+      "みとめる"
+    ],
+    "examples": [
+      "確認",
+      "認める"
+    ],
+    "meaning_en": "recognize, admit, approve",
+    "meaning_id": "mengakui, menyadari, menyetujui",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7ad5c399-f9f1-5e51-ba22-5c196960a6d9",
+    "level": "n3",
+    "code": "k102-008",
+    "lesson_id": "3d4e899f-f699-5901-8f2e-283a96e4b2a0",
+    "sequence": 8,
+    "character": "飛",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "とぶ"
+    ],
+    "examples": [
+      "飛行場",
+      "飛ぶ"
+    ],
+    "meaning_en": "fly, jump, skip",
+    "meaning_id": "terbang, melompat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8b7cbcd4-a86e-5164-9aa0-8820c57a9764",
+    "level": "n3",
+    "code": "k103-001",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 1,
+    "character": "非",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "非常の",
+      "非常口",
+      "非常に"
+    ],
+    "meaning_en": "un-, not, mistake, wrong",
+    "meaning_id": "bukan, tidak, kesalahan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "91a274d1-8390-5848-83ed-ab169dc33fec",
+    "level": "n3",
+    "code": "k103-002",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 2,
+    "character": "常",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "日常の",
+      "正常な"
+    ],
+    "meaning_en": "normal, always, constant",
+    "meaning_id": "normal, selalu, tetap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f4a6ff62-ece7-5fab-acff-c985756d1db2",
+    "level": "n3",
+    "code": "k103-003",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 3,
+    "character": "階",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〜階"
+    ],
+    "meaning_en": "floor, level, story",
+    "meaning_id": "lantai, tingkat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d0d083d8-14e9-5271-905c-7bd68c265ba4",
+    "level": "n3",
+    "code": "k103-004",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 4,
+    "character": "段",
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "階段"
+    ],
+    "meaning_en": "step, grade, paragraph",
+    "meaning_id": "langkah, tingkatan, paragraf",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "10c085d7-399e-509d-899f-700818c753f2",
+    "level": "n3",
+    "code": "k103-005",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 5,
+    "character": "箱",
+    "onyomi": [],
+    "kunyomi": [
+      "はこ"
+    ],
+    "examples": [
+      "箱",
+      "ごみ箱"
+    ],
+    "meaning_en": "box, container",
+    "meaning_id": "kotak, wadah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d92d660f-00f2-5f76-8941-beb6aafacdb3",
+    "level": "n3",
+    "code": "k103-006",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 6,
+    "character": "危",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "あぶない"
+    ],
+    "examples": [
+      "危険な",
+      "危ない"
+    ],
+    "meaning_en": "dangerous, risky",
+    "meaning_id": "berbahaya, berisiko",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5c210b20-d367-5740-95a7-ba316e3399fe",
+    "level": "n3",
+    "code": "k103-007",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 7,
+    "character": "険",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "危険な"
+    ],
+    "meaning_en": "steep, risky, harsh",
+    "meaning_id": "curam, berisiko, berbahaya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "acf4307b-17e9-562a-9ce1-b8e0145f08a5",
+    "level": "n3",
+    "code": "k103-008",
+    "lesson_id": "f4437ce0-6776-5b9c-96aa-c49e1e0cbcc3",
+    "sequence": 8,
+    "character": "捨",
+    "onyomi": [],
+    "kunyomi": [
+      "すてる"
+    ],
+    "examples": [
+      "捨てる"
+    ],
+    "meaning_en": "throw away, discard, abandon",
+    "meaning_id": "membuang, meninggalkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "83dae9ab-04f6-5a6e-8b82-415b7e425cb0",
+    "level": "n3",
+    "code": "k104-001",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 1,
+    "character": "線",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "線",
+      "〜番線"
+    ],
+    "meaning_en": "line, track, route, wire",
+    "meaning_id": "garis, jalur, rute",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "25851982-17c2-5e17-9a87-2441018ee99d",
+    "level": "n3",
+    "code": "k104-002",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 2,
+    "character": "面",
+    "onyomi": [
+      "メン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "全面",
+      "〇〇方面",
+      "画面"
+    ],
+    "meaning_en": "face, surface, direction",
+    "meaning_id": "wajah, permukaan, arah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2b22f708-9428-5b9b-8232-1452177e211a",
+    "level": "n3",
+    "code": "k104-003",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 3,
+    "character": "普",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "普通の"
+    ],
+    "meaning_en": "general, ordinary, common",
+    "meaning_id": "umum, biasa, lazim",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5acaef73-60ff-5573-b8e9-dc7fe8c465c3",
+    "level": "n3",
+    "code": "k104-004",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 4,
+    "character": "各",
+    "onyomi": [
+      "カク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "各駅",
+      "各自",
+      "各国"
+    ],
+    "meaning_en": "each, every, respective",
+    "meaning_id": "masing-masing, setiap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "08f6f96d-4966-5986-a57b-7512e688c50c",
+    "level": "n3",
+    "code": "k104-005",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 5,
+    "character": "次",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "つぎ"
+    ],
+    "examples": [
+      "目次",
+      "次",
+      "次回"
+    ],
+    "meaning_en": "next, following, order",
+    "meaning_id": "berikutnya, selanjutnya, urutan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8621095e-1755-5adb-9259-af409bc16055",
+    "level": "n3",
+    "code": "k104-006",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 6,
+    "character": "快",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "快速"
+    ],
+    "meaning_en": "pleasant, rapid, refreshing",
+    "meaning_id": "menyenangkan, cepat, segar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2664e134-477a-582a-bf89-750e2693cfd5",
+    "level": "n3",
+    "code": "k104-007",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 7,
+    "character": "速",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "はやい"
+    ],
+    "examples": [
+      "高速道路",
+      "速い",
+      "速度"
+    ],
+    "meaning_en": "fast, speed, swift",
+    "meaning_id": "cepat, kecepatan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "30d0cb63-0d6d-5c01-baae-850751a6ff3b",
+    "level": "n3",
+    "code": "k104-008",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 8,
+    "character": "過",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "すぎる"
+    ],
+    "examples": [
+      "通過",
+      "過ぎる",
+      "過去"
+    ],
+    "meaning_en": "pass, exceed, too much",
+    "meaning_id": "melewati, melampaui, terlalu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d74a189c-c07d-5007-bf9b-8f2520bd3b30",
+    "level": "n3",
+    "code": "k104-009",
+    "lesson_id": "ef5dcc99-12c6-5967-b01e-7ab7ab3fd15b",
+    "sequence": 9,
+    "character": "鉄",
+    "onyomi": [
+      "テツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "地下鉄",
+      "鉄",
+      "鉄道"
+    ],
+    "meaning_en": "iron, steel, railway",
+    "meaning_id": "besi, baja, rel kereta",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d578e035-672d-5fe0-ad6f-55d06af3d775",
+    "level": "n3",
+    "code": "k105-001",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 1,
+    "character": "指",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "ゆび"
+    ],
+    "examples": [
+      "指定",
+      "指",
+      "指定席",
+      "指輪"
+    ],
+    "meaning_en": "finger, point, designate",
+    "meaning_id": "jari, menunjuk, menentukan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8d7cac58-455a-57c0-892d-f260513e79e4",
+    "level": "n3",
+    "code": "k105-002",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 2,
+    "character": "定",
+    "onyomi": [
+      "テイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "定休日",
+      "安定"
+    ],
+    "meaning_en": "decide, fix, set",
+    "meaning_id": "memutuskan, menetapkan, tetap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e6c56456-f45d-5008-a4aa-7e45b6dcedf4",
+    "level": "n3",
+    "code": "k105-003",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 3,
+    "character": "席",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "席",
+      "出席",
+      "欠席"
+    ],
+    "meaning_en": "seat, place, position",
+    "meaning_id": "kursi, tempat duduk, posisi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "167b191e-8554-53d6-9724-9c382bd08286",
+    "level": "n3",
+    "code": "k105-004",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 4,
+    "character": "由",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "自由な",
+      "理由",
+      "自由席"
+    ],
+    "meaning_en": "reason, freedom, origin",
+    "meaning_id": "alasan, kebebasan, asal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e74e3c28-34e6-55f2-b5eb-05bcf9451de3",
+    "level": "n3",
+    "code": "k105-005",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 5,
+    "character": "番",
+    "onyomi": [
+      "バン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "番号",
+      "〜番線",
+      "〜番"
+    ],
+    "meaning_en": "number, turn, guard",
+    "meaning_id": "nomor, giliran, menjaga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "60492ca3-ba7a-50da-95d9-cfae5c24602a",
+    "level": "n3",
+    "code": "k105-006",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 6,
+    "character": "窓",
+    "onyomi": [],
+    "kunyomi": [
+      "まど"
+    ],
+    "examples": [
+      "窓",
+      "窓口"
+    ],
+    "meaning_en": "window",
+    "meaning_id": "jendela",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1bd35669-eb49-51c2-b868-c95a3bfe85e1",
+    "level": "n3",
+    "code": "k105-007",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 7,
+    "character": "側",
+    "onyomi": [],
+    "kunyomi": [
+      "かわ"
+    ],
+    "examples": [
+      "両側",
+      "窓側",
+      "右側"
+    ],
+    "meaning_en": "side, flank",
+    "meaning_id": "sisi, samping",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "93f25ed7-0493-5a63-9a97-956933fb0dd4",
+    "level": "n3",
+    "code": "k105-008",
+    "lesson_id": "d3b4599e-ae55-566a-8584-37c2a49877ed",
+    "sequence": 8,
+    "character": "路",
+    "onyomi": [
+      "ロ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "通路",
+      "線路",
+      "道路"
+    ],
+    "meaning_en": "road, path, route",
+    "meaning_id": "jalan, jalur, rute",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "36ae93cb-b917-5813-b7ff-ab3d37fdfb3e",
+    "level": "n3",
+    "code": "k106-001",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 1,
+    "character": "停",
+    "onyomi": [
+      "テイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "停車",
+      "バス停"
+    ],
+    "meaning_en": "stop, halt, park",
+    "meaning_id": "berhenti, menghentikan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5e4ee8d0-3b61-50cd-bccd-e46348e51515",
+    "level": "n3",
+    "code": "k106-002",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 2,
+    "character": "整",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "整理",
+      "整理券"
+    ],
+    "meaning_en": "arrange, organize, put in order",
+    "meaning_id": "mengatur, merapikan, menertibkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f8efa1a0-00be-56c5-ad2d-143efb10275b",
+    "level": "n3",
+    "code": "k106-003",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 3,
+    "character": "券",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "駐車券",
+      "回数券",
+      "乗車券"
+    ],
+    "meaning_en": "ticket, coupon, certificate",
+    "meaning_id": "tiket, kupon, sertifikat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ffdde56c-0271-5acd-8326-f8846a629e2f",
+    "level": "n3",
+    "code": "k106-004",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 4,
+    "character": "現",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "あらわれる"
+    ],
+    "examples": [
+      "現金",
+      "現れる",
+      "表現"
+    ],
+    "meaning_en": "present, appear, current",
+    "meaning_id": "sekarang, muncul, terkini",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7d699c50-d5a4-521d-a431-448acd57b33d",
+    "level": "n3",
+    "code": "k106-005",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 5,
+    "character": "両",
+    "onyomi": [
+      "リョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "両親",
+      "〜両",
+      "両替"
+    ],
+    "meaning_en": "both, two, railway car",
+    "meaning_id": "keduanya, dua, gerbong",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bc0b270a-08cf-5ca1-850c-76c008c06e94",
+    "level": "n3",
+    "code": "k106-006",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 6,
+    "character": "替",
+    "onyomi": [],
+    "kunyomi": [
+      "かえる"
+    ],
+    "examples": [
+      "取り替える",
+      "着替える"
+    ],
+    "meaning_en": "exchange, replace, substitute",
+    "meaning_id": "menukar, mengganti",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "390b3707-5a3a-55d0-aaf7-9f0901e2cd97",
+    "level": "n3",
+    "code": "k106-007",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 7,
+    "character": "優",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "やさしい"
+    ],
+    "examples": [
+      "優先席",
+      "優しい",
+      "女優"
+    ],
+    "meaning_en": "gentle, superior, kind",
+    "meaning_id": "lembut, unggul, baik hati",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "19bdc614-4e46-548b-9125-f33a2c2c0b2b",
+    "level": "n3",
+    "code": "k106-008",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 8,
+    "character": "座",
+    "onyomi": [
+      "ザ"
+    ],
+    "kunyomi": [
+      "すわる"
+    ],
+    "examples": [
+      "座席",
+      "座る",
+      "正座"
+    ],
+    "meaning_en": "sit, seat, position",
+    "meaning_id": "duduk, kursi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3a5da3de-3b54-5ee5-a156-f5781efc6765",
+    "level": "n3",
+    "code": "k106-009",
+    "lesson_id": "aedb16c9-2cbf-5d79-bebd-8a2e692229e2",
+    "sequence": 9,
+    "character": "降",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "おりる",
+      "ふる"
+    ],
+    "examples": [
+      "降車口",
+      "降りる",
+      "以降",
+      "降る"
+    ],
+    "meaning_en": "descend, get off, fall (rain)",
+    "meaning_id": "turun, turun kendaraan, hujan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0019d568-1da1-5a19-9959-08632ac0dc09",
+    "level": "n3",
+    "code": "k107-001",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 1,
+    "character": "未",
+    "onyomi": [
+      "ミ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "未定",
+      "〜未満",
+      "未来"
+    ],
+    "meaning_en": "not yet, future, un-",
+    "meaning_id": "belum, masa depan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7b727f56-e9a5-521f-a03a-9c1a4e872e09",
+    "level": "n3",
+    "code": "k107-002",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 2,
+    "character": "末",
+    "onyomi": [
+      "マツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "週末",
+      "年末",
+      "月末"
+    ],
+    "meaning_en": "end, tip, close",
+    "meaning_id": "akhir, ujung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0ca798ef-53df-527a-b16b-f76be8bda636",
+    "level": "n3",
+    "code": "k107-003",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 3,
+    "character": "若",
+    "onyomi": [],
+    "kunyomi": [
+      "わかい"
+    ],
+    "examples": [
+      "若い"
+    ],
+    "meaning_en": "young, youthful",
+    "meaning_id": "muda, belia",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6488f70d-529b-5db2-8926-d1e567fcc10a",
+    "level": "n3",
+    "code": "k107-004",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 4,
+    "character": "晩",
+    "onyomi": [
+      "バン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "晩",
+      "晩ご飯",
+      "今晩",
+      "毎晩"
+    ],
+    "meaning_en": "evening, night, late",
+    "meaning_id": "malam, petang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "97078bf5-5d6e-5298-846f-320ae08c3b20",
+    "level": "n3",
+    "code": "k107-005",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 5,
+    "character": "島",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "しま"
+    ],
+    "examples": [
+      "〇〇島",
+      "島"
+    ],
+    "meaning_en": "island",
+    "meaning_id": "pulau",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5326efe4-8a67-583c-a6ec-4f820539687d",
+    "level": "n3",
+    "code": "k107-006",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 6,
+    "character": "皿",
+    "onyomi": [],
+    "kunyomi": [
+      "さら"
+    ],
+    "examples": [
+      "皿",
+      "灰皿"
+    ],
+    "meaning_en": "plate, dish, saucer",
+    "meaning_id": "piring, mangkuk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bb92e1c2-7185-54d5-b157-3ac43755e5a8",
+    "level": "n3",
+    "code": "k107-007",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 7,
+    "character": "血",
+    "onyomi": [
+      "ケツ"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "examples": [
+      "出血",
+      "血"
+    ],
+    "meaning_en": "blood",
+    "meaning_id": "darah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "94c98f28-6826-5fdc-8099-166874b798a3",
+    "level": "n3",
+    "code": "k107-008",
+    "lesson_id": "35ed598a-085a-5202-93c8-f68859feb795",
+    "sequence": 8,
+    "character": "助",
+    "onyomi": [
+      "ジョ"
+    ],
+    "kunyomi": [
+      "たすける"
+    ],
+    "examples": [
+      "救助",
+      "助ける"
+    ],
+    "meaning_en": "help, rescue, save",
+    "meaning_id": "membantu, menyelamatkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "576dd831-6b04-547b-bba2-2d74847e3bbd",
+    "level": "n3",
+    "code": "k201-001",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 1,
+    "character": "準",
+    "onyomi": [
+      "ジュン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "準備"
+    ],
+    "meaning_en": "semi-, level, prepare",
+    "meaning_id": "mempersiapkan, standar, setara",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3859b3b1-54e9-5f65-8858-3212f2111e38",
+    "level": "n3",
+    "code": "k201-002",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 2,
+    "character": "備",
+    "onyomi": [
+      "ビ"
+    ],
+    "kunyomi": [
+      "そなえる"
+    ],
+    "examples": [
+      "準備",
+      "備える"
+    ],
+    "meaning_en": "prepare, equip, provide",
+    "meaning_id": "mempersiapkan, melengkapi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "18c6f6be-65b4-573d-9767-92affbe97316",
+    "level": "n3",
+    "code": "k201-003",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 3,
+    "character": "営",
+    "onyomi": [
+      "エイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "営業"
+    ],
+    "meaning_en": "manage, operate, run",
+    "meaning_id": "mengelola, beroperasi, menjalankan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e3182aab-005f-50f3-be5c-f6a3dfef8a99",
+    "level": "n3",
+    "code": "k201-004",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 4,
+    "character": "閉",
+    "onyomi": [
+      "ヘイ"
+    ],
+    "kunyomi": [
+      "しまる",
+      "しめる"
+    ],
+    "examples": [
+      "開閉",
+      "閉まる",
+      "閉める"
+    ],
+    "meaning_en": "close, shut",
+    "meaning_id": "menutup, tertutup",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2dd0ddcc-d92a-5835-9c5e-265fc76bca59",
+    "level": "n3",
+    "code": "k201-005",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 5,
+    "character": "案",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "案内",
+      "案"
+    ],
+    "meaning_en": "plan, idea, proposal",
+    "meaning_id": "rencana, ide, usulan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "90693e9e-a54c-5f1e-9090-64e878f4c952",
+    "level": "n3",
+    "code": "k201-006",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 6,
+    "character": "内",
+    "onyomi": [
+      "ナイ"
+    ],
+    "kunyomi": [
+      "うち"
+    ],
+    "examples": [
+      "家内",
+      "内側",
+      "以内",
+      "国内"
+    ],
+    "meaning_en": "inside, within, home",
+    "meaning_id": "dalam, di dalam, rumah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a2006cb9-192b-57b7-b4be-cf26153197ee",
+    "level": "n3",
+    "code": "k201-007",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 7,
+    "character": "予",
+    "onyomi": [
+      "ヨ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "予定",
+      "予習"
+    ],
+    "meaning_en": "beforehand, in advance",
+    "meaning_id": "sebelumnya, di muka, lebih dahulu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3ccb1cbb-5b9d-5009-be10-09fb242dcdc9",
+    "level": "n3",
+    "code": "k201-008",
+    "lesson_id": "e25de08f-a765-54ec-8e26-0532eec45fa8",
+    "sequence": 8,
+    "character": "約",
+    "onyomi": [
+      "ヤク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "予約",
+      "約〜"
+    ],
+    "meaning_en": "approximately, promise, reserve",
+    "meaning_id": "sekitar, janji, reservasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4158c757-1515-5327-9f9d-8c5408bd5fc7",
+    "level": "n3",
+    "code": "k202-001",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 1,
+    "character": "煙",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "けむり"
+    ],
+    "examples": [
+      "禁煙",
+      "煙"
+    ],
+    "meaning_en": "smoke, fumes, haze",
+    "meaning_id": "asap, kabut asap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c039494b-9bca-58f5-a37c-50eb3bdb6736",
+    "level": "n3",
+    "code": "k202-002",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 2,
+    "character": "当",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "あたる"
+    ],
+    "examples": [
+      "本当",
+      "当たる",
+      "当〇〇",
+      "当たり前"
+    ],
+    "meaning_en": "hit, correct, current, apply",
+    "meaning_id": "mengenai, benar, saat ini",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b494a992-130e-5662-8e5e-737ba242fd39",
+    "level": "n3",
+    "code": "k202-003",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 3,
+    "character": "全",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "全部",
+      "全席",
+      "安全な"
+    ],
+    "meaning_en": "all, complete, entire",
+    "meaning_id": "semua, lengkap, seluruh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "abf36464-abc4-5b2d-8a88-006a67da400a",
+    "level": "n3",
+    "code": "k202-004",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 4,
+    "character": "客",
+    "onyomi": [
+      "キャク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "客",
+      "お客様"
+    ],
+    "meaning_en": "guest, customer, visitor",
+    "meaning_id": "tamu, pelanggan, pengunjung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "159609cf-b94a-5b15-bb5c-66350fc3cf51",
+    "level": "n3",
+    "code": "k202-005",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 5,
+    "character": "様",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "さま"
+    ],
+    "examples": [
+      "様子",
+      "〇〇様"
+    ],
+    "meaning_en": "manner, appearance, honorific",
+    "meaning_id": "cara, penampilan, sebutan hormat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "610399db-b933-5b86-a382-eabfb5a436a6",
+    "level": "n3",
+    "code": "k202-006",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 6,
+    "character": "解",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "理解",
+      "解説",
+      "解答",
+      "分解"
+    ],
+    "meaning_en": "understand, solve, dissolve",
+    "meaning_id": "memahami, memecahkan, melarutkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bc7bb0a9-1763-5f66-a58b-e5c51abe7d84",
+    "level": "n3",
+    "code": "k202-007",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 7,
+    "character": "協",
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "協力"
+    ],
+    "meaning_en": "cooperate, collaborate",
+    "meaning_id": "bekerja sama, berkolaborasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "716f1593-80b4-5101-a6a3-0f48d6b9ab47",
+    "level": "n3",
+    "code": "k202-008",
+    "lesson_id": "e55c8a54-ea61-5bd1-9646-99ff0f2aaa6b",
+    "sequence": 8,
+    "character": "願",
+    "onyomi": [],
+    "kunyomi": [
+      "ねがう"
+    ],
+    "examples": [
+      "願う"
+    ],
+    "meaning_en": "wish, request, hope",
+    "meaning_id": "berharap, memohon, meminta",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "41f73f59-afa3-5119-95f9-3c5a55ceb6a3",
+    "level": "n3",
+    "code": "k203-001",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 1,
+    "character": "観",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "観光",
+      "観客"
+    ],
+    "meaning_en": "view, observe, sightseeing",
+    "meaning_id": "melihat, mengamati, pariwisata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cdefcc17-3a2b-552e-a5f0-86b47d266556",
+    "level": "n3",
+    "code": "k203-002",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 2,
+    "character": "園",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "動物園"
+    ],
+    "meaning_en": "garden, park, institution",
+    "meaning_id": "taman, kebun, lembaga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1c172242-f20a-5fc8-9bb1-d296dde225d5",
+    "level": "n3",
+    "code": "k203-003",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 3,
+    "character": "港",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "みなと"
+    ],
+    "examples": [
+      "空港",
+      "港",
+      "〇〇港"
+    ],
+    "meaning_en": "harbor, port",
+    "meaning_id": "pelabuhan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1c682253-c288-5df7-949e-81216f535c91",
+    "level": "n3",
+    "code": "k203-004",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 4,
+    "character": "遊",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "あそぶ"
+    ],
+    "examples": [
+      "遊園地",
+      "遊ぶ"
+    ],
+    "meaning_en": "play, enjoy, recreation",
+    "meaning_id": "bermain, menikmati, rekreasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "df728b9a-aeef-5980-9852-27ddee697d7e",
+    "level": "n3",
+    "code": "k203-005",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 5,
+    "character": "美",
+    "onyomi": [
+      "ビ"
+    ],
+    "kunyomi": [
+      "うつくしい"
+    ],
+    "examples": [
+      "美術館",
+      "美しい",
+      "美人"
+    ],
+    "meaning_en": "beautiful, beauty",
+    "meaning_id": "indah, cantik, keindahan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e6bb8798-5b74-58ad-b0dd-43d8f302fcd6",
+    "level": "n3",
+    "code": "k203-006",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 6,
+    "character": "術",
+    "onyomi": [
+      "ジュツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "美術",
+      "手術",
+      "技術"
+    ],
+    "meaning_en": "art, technique, skill, surgery",
+    "meaning_id": "seni, teknik, keahlian, operasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "702b64fc-263c-59c9-b342-d1d981baca0f",
+    "level": "n3",
+    "code": "k203-007",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 7,
+    "character": "神",
+    "onyomi": [
+      "シン",
+      "ジン"
+    ],
+    "kunyomi": [
+      "かみ"
+    ],
+    "examples": [
+      "神社",
+      "神様",
+      "神経質な"
+    ],
+    "meaning_en": "god, spirit, divine",
+    "meaning_id": "dewa, roh, ilahi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "111c3f82-5071-52c7-8f59-f89d8ac5220e",
+    "level": "n3",
+    "code": "k203-008",
+    "lesson_id": "ba1aefbf-d869-5d31-94fe-334756b81eb3",
+    "sequence": 8,
+    "character": "寺",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "てら"
+    ],
+    "examples": [
+      "〇〇寺",
+      "お寺"
+    ],
+    "meaning_en": "temple",
+    "meaning_id": "kuil, vihara, candi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7cddb448-71ad-5924-809a-cbf504e2417c",
+    "level": "n3",
+    "code": "k204-001",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 1,
+    "character": "役",
+    "onyomi": [
+      "ヤク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "市役所",
+      "役員",
+      "役に立つ"
+    ],
+    "meaning_en": "role, service, duty, office",
+    "meaning_id": "peran, layanan, tugas, kantor",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "37fc8318-6413-5f13-b7cc-6dd56d1276db",
+    "level": "n3",
+    "code": "k204-002",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 2,
+    "character": "郵",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "郵便"
+    ],
+    "meaning_en": "mail, postal",
+    "meaning_id": "pos, surat, layanan pos",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5e4134fc-0c2c-537f-a8d1-ee9b572c840e",
+    "level": "n3",
+    "code": "k204-003",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 3,
+    "character": "局",
+    "onyomi": [
+      "キョク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "郵便局",
+      "薬局"
+    ],
+    "meaning_en": "bureau, office, station",
+    "meaning_id": "biro, kantor, stasiun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0da327b2-605a-5c68-b223-76ce1f56f5e1",
+    "level": "n3",
+    "code": "k204-004",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 4,
+    "character": "交",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "交番",
+      "交換",
+      "交通"
+    ],
+    "meaning_en": "mix, exchange, intersect",
+    "meaning_id": "campur, pertukaran, persimpangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f77abf5e-07f1-5076-afaf-8b04fa372732",
+    "level": "n3",
+    "code": "k204-005",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 5,
+    "character": "差",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "さす"
+    ],
+    "examples": [
+      "差",
+      "差し出す",
+      "差出人"
+    ],
+    "meaning_en": "difference, insert, hold out",
+    "meaning_id": "perbedaan, memasukkan, mengulurkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a6f9da0c-1bd3-52d9-9719-2538b3f87bd9",
+    "level": "n3",
+    "code": "k204-006",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 6,
+    "character": "点",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "交差点",
+      "〜点",
+      "点数"
+    ],
+    "meaning_en": "point, score, dot, aspect",
+    "meaning_id": "poin, nilai, titik, aspek",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e63acf4e-9c61-5b6d-88e0-f401e6187ea8",
+    "level": "n3",
+    "code": "k204-007",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 7,
+    "character": "橋",
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [
+      "はし"
+    ],
+    "examples": [
+      "歩道橋",
+      "橋"
+    ],
+    "meaning_en": "bridge",
+    "meaning_id": "jembatan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1bfeaef5-c0cd-5918-b3de-4efbbfc924e0",
+    "level": "n3",
+    "code": "k204-008",
+    "lesson_id": "355283d5-8c1d-5b50-a88a-37617b104702",
+    "sequence": 8,
+    "character": "公",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "公園"
+    ],
+    "meaning_en": "public, official, open",
+    "meaning_id": "publik, resmi, umum",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "871fb29a-d813-5921-82ed-fa43da45c827",
+    "level": "n3",
+    "code": "k205-001",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 1,
+    "character": "受",
+    "onyomi": [
+      "ジュ"
+    ],
+    "kunyomi": [
+      "うける"
+    ],
+    "examples": [
+      "受信",
+      "受ける",
+      "受験"
+    ],
+    "meaning_en": "receive, accept, undergo",
+    "meaning_id": "menerima, mendapat, menjalani",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b8945ae1-9ae2-5ccd-97f8-b8ca1de4d36c",
+    "level": "n3",
+    "code": "k205-002",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 2,
+    "character": "付",
+    "onyomi": [],
+    "kunyomi": [
+      "つける",
+      "つく"
+    ],
+    "examples": [
+      "付ける",
+      "受付",
+      "片付ける",
+      "付く"
+    ],
+    "meaning_en": "attach, stick, affix",
+    "meaning_id": "menempel, melekat, melampirkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2a768379-16a6-5b40-9b10-be20c3988a2a",
+    "level": "n3",
+    "code": "k205-003",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 3,
+    "character": "科",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "科学",
+      "内科",
+      "外科",
+      "教科書"
+    ],
+    "meaning_en": "subject, department, branch",
+    "meaning_id": "mata pelajaran, departemen, cabang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fe24796d-fe1b-5dad-af1f-33c5b0c8827e",
+    "level": "n3",
+    "code": "k205-004",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 4,
+    "character": "鼻",
+    "onyomi": [
+      "ビ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "examples": [
+      "耳鼻科",
+      "鼻"
+    ],
+    "meaning_en": "nose",
+    "meaning_id": "hidung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3a99635c-2cbe-57be-978c-8bcf3c7b3631",
+    "level": "n3",
+    "code": "k205-005",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 5,
+    "character": "婦",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "婦人",
+      "主婦",
+      "産婦人科"
+    ],
+    "meaning_en": "woman, wife, lady",
+    "meaning_id": "wanita, istri, ibu rumah tangga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "548cb585-6ea0-5dab-8671-29ec91a4ddff",
+    "level": "n3",
+    "code": "k205-006",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 6,
+    "character": "形",
+    "onyomi": [
+      "ケイ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "かたち"
+    ],
+    "examples": [
+      "形式",
+      "整形外科",
+      "人形",
+      "図形",
+      "形"
+    ],
+    "meaning_en": "shape, form, appearance",
+    "meaning_id": "bentuk, rupa, penampilan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f6052621-f608-50f9-85a6-564d418013bd",
+    "level": "n3",
+    "code": "k205-007",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 7,
+    "character": "骨",
+    "onyomi": [
+      "コツ"
+    ],
+    "kunyomi": [
+      "ほね"
+    ],
+    "examples": [
+      "骨折",
+      "骨"
+    ],
+    "meaning_en": "bone, frame, skeleton",
+    "meaning_id": "tulang, kerangka",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cfe81d47-fc18-5a55-aea7-96a94434affa",
+    "level": "n3",
+    "code": "k205-008",
+    "lesson_id": "6c7350b1-956d-58be-be42-a21f5b995499",
+    "sequence": 8,
+    "character": "折",
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [
+      "おる",
+      "おれる"
+    ],
+    "examples": [
+      "右折",
+      "左折",
+      "折る",
+      "折り紙",
+      "折れる"
+    ],
+    "meaning_en": "fold, break, turn",
+    "meaning_id": "melipat, mematahkan, belok",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "16054544-ba85-5417-805c-427583d71656",
+    "level": "n3",
+    "code": "k206-001",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 1,
+    "character": "困",
+    "onyomi": [],
+    "kunyomi": [
+      "こまる"
+    ],
+    "examples": [
+      "困る"
+    ],
+    "meaning_en": "troubled, in difficulty",
+    "meaning_id": "kesulitan, susah, bingung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d5cbc169-eb9d-582d-a07c-ae65e1085e12",
+    "level": "n3",
+    "code": "k206-002",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 2,
+    "character": "消",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "きえる",
+      "けす"
+    ],
+    "examples": [
+      "消防",
+      "消す",
+      "消える",
+      "消しゴム"
+    ],
+    "meaning_en": "extinguish, disappear, erase",
+    "meaning_id": "memadamkan, menghilang, menghapus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2e0ffd46-1650-50f0-88e3-3e8a22881279",
+    "level": "n3",
+    "code": "k206-003",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 3,
+    "character": "防",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "ふせぐ"
+    ],
+    "examples": [
+      "予防",
+      "防ぐ"
+    ],
+    "meaning_en": "prevent, defend, protect",
+    "meaning_id": "mencegah, mempertahankan, melindungi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "54ef1933-b3ab-537f-bc23-ec8cd5f0e82b",
+    "level": "n3",
+    "code": "k206-004",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 4,
+    "character": "救",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "すくう"
+    ],
+    "examples": [
+      "救急車",
+      "救う"
+    ],
+    "meaning_en": "rescue, save, relieve",
+    "meaning_id": "menyelamatkan, menolong",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b2b4793d-173f-50e7-b892-3285ea3d6da4",
+    "level": "n3",
+    "code": "k206-005",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 5,
+    "character": "警",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "警官"
+    ],
+    "meaning_en": "warn, police, caution",
+    "meaning_id": "memperingatkan, polisi, waspada",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0ca540c9-8285-5f72-bc13-9224dc787ca7",
+    "level": "n3",
+    "code": "k206-006",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 6,
+    "character": "察",
+    "onyomi": [
+      "サツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "警察",
+      "警察署"
+    ],
+    "meaning_en": "judge, perceive, examine",
+    "meaning_id": "memeriksa, mengamati, menyelidiki",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c002164c-e59a-516e-b7c6-418446485847",
+    "level": "n3",
+    "code": "k206-007",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 7,
+    "character": "故",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "事故",
+      "故〇〇",
+      "故障"
+    ],
+    "meaning_en": "reason, cause, accident",
+    "meaning_id": "alasan, sebab, kecelakaan, gangguan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "88ce5401-8583-56e6-89da-a59e230cd058",
+    "level": "n3",
+    "code": "k206-008",
+    "lesson_id": "2cbcec6d-966e-5457-b0bc-3e0d59b134df",
+    "sequence": 8,
+    "character": "伝",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "つたえる"
+    ],
+    "examples": [
+      "伝言",
+      "伝える",
+      "手伝う"
+    ],
+    "meaning_en": "transmit, convey, tell",
+    "meaning_id": "menyampaikan, meneruskan, memberitahu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9d39497d-a507-563c-b3b4-344cce935c8b",
+    "level": "n3",
+    "code": "k207-001",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 1,
+    "character": "黄",
+    "onyomi": [],
+    "kunyomi": [
+      "き"
+    ],
+    "examples": [
+      "黄色",
+      "黄色い"
+    ],
+    "meaning_en": "yellow",
+    "meaning_id": "kuning",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1b34741c-fa25-514c-b86b-3178cb78fe07",
+    "level": "n3",
+    "code": "k207-002",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 2,
+    "character": "絵",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "絵画",
+      "絵",
+      "絵本"
+    ],
+    "meaning_en": "picture, painting, drawing",
+    "meaning_id": "gambar, lukisan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a3944b6e-a418-535c-b501-7a495dfedb4b",
+    "level": "n3",
+    "code": "k207-003",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 3,
+    "character": "組",
+    "onyomi": [],
+    "kunyomi": [
+      "くみ",
+      "くむ"
+    ],
+    "examples": [
+      "〜組",
+      "組む",
+      "番組",
+      "組み立てる"
+    ],
+    "meaning_en": "group, combine, assemble",
+    "meaning_id": "kelompok, menggabungkan, merakit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e4c88c02-5600-56fd-bdf0-b63b9a9e3785",
+    "level": "n3",
+    "code": "k207-004",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 4,
+    "character": "束",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "たば"
+    ],
+    "examples": [
+      "約束",
+      "〜束",
+      "花束"
+    ],
+    "meaning_en": "bundle, bunch, promise",
+    "meaning_id": "ikat, berkas, janji",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ceea4b05-ba1d-5edb-bdf8-800c133063c7",
+    "level": "n3",
+    "code": "k207-005",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 5,
+    "character": "授",
+    "onyomi": [
+      "ジュ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "授業",
+      "教授"
+    ],
+    "meaning_en": "instruct, grant, award",
+    "meaning_id": "mengajarkan, memberikan, menganugerahkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "189d9775-68fc-5b1c-83f1-60c7e1c10052",
+    "level": "n3",
+    "code": "k207-006",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 6,
+    "character": "渡",
+    "onyomi": [],
+    "kunyomi": [
+      "わたる",
+      "わたす"
+    ],
+    "examples": [
+      "渡る",
+      "渡す"
+    ],
+    "meaning_en": "cross, hand over, pass",
+    "meaning_id": "menyeberang, menyerahkan, melewati",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "907a33a5-87d6-58c2-8410-b8b0360c07bd",
+    "level": "n3",
+    "code": "k207-007",
+    "lesson_id": "9ebf5a27-3cc8-585e-a1a5-3e5e9b8683c6",
+    "sequence": 7,
+    "character": "昔",
+    "onyomi": [],
+    "kunyomi": [
+      "むかし"
+    ],
+    "examples": [
+      "昔"
+    ],
+    "meaning_en": "past, former times, long ago",
+    "meaning_id": "dahulu, masa lalu, zaman dulu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5d54c5e1-2f4e-5dad-88cb-42a8655660cc",
+    "level": "n3",
+    "code": "k301-001",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 1,
+    "character": "要",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "いる"
+    ],
+    "examples": [
+      "必要(な)",
+      "要る",
+      "重要(な)"
+    ],
+    "meaning_en": "necessary, need, require",
+    "meaning_id": "perlu, membutuhkan, diperlukan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "34f7d0ec-017a-5d62-b3ac-fcc178d7974a",
+    "level": "n3",
+    "code": "k301-002",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 2,
+    "character": "冷",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [
+      "つめたい",
+      "ひやす",
+      "ひえる",
+      "さめる"
+    ],
+    "examples": [
+      "冷房",
+      "冷やす",
+      "冷める",
+      "冷たい",
+      "冷える"
+    ],
+    "meaning_en": "cold, cool, chill, refrigerate",
+    "meaning_id": "dingin, mendinginkan, mendingin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c748d344-309e-52d5-b380-639dd6f5a97b",
+    "level": "n3",
+    "code": "k301-003",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 3,
+    "character": "蔵",
+    "onyomi": [
+      "ゾウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "冷蔵庫"
+    ],
+    "meaning_en": "storehouse, warehouse, preserve",
+    "meaning_id": "gudang, menyimpan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9afb0a22-20ee-5b16-8701-671524efd1ec",
+    "level": "n3",
+    "code": "k301-004",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 4,
+    "character": "凍",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "こおる"
+    ],
+    "examples": [
+      "冷凍庫",
+      "凍る"
+    ],
+    "meaning_en": "freeze, frozen",
+    "meaning_id": "membekukan, beku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a1f697b5-25c0-5890-b559-91594d324b8d",
+    "level": "n3",
+    "code": "k301-005",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 5,
+    "character": "庫",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "金庫",
+      "車庫"
+    ],
+    "meaning_en": "storehouse, warehouse, garage",
+    "meaning_id": "gudang, garasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5546c973-2c88-527c-8a89-7d74c1d6115f",
+    "level": "n3",
+    "code": "k301-006",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 6,
+    "character": "召",
+    "onyomi": [],
+    "kunyomi": [
+      "めす"
+    ],
+    "examples": [
+      "召し上がる"
+    ],
+    "meaning_en": "summon, call, eat (polite form)",
+    "meaning_id": "memanggil, makan (hormat)",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e0dd8302-5275-5700-abff-65c2622d5209",
+    "level": "n3",
+    "code": "k301-007",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 7,
+    "character": "保",
+    "onyomi": [
+      "ホ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "保存する"
+    ],
+    "meaning_en": "protect, keep, preserve, maintain",
+    "meaning_id": "melindungi, menjaga, menyimpan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9c93c580-062c-500f-8ea3-251e801a6981",
+    "level": "n3",
+    "code": "k301-008",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 8,
+    "character": "存",
+    "onyomi": [
+      "ゾン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "ご存じです",
+      "存じません"
+    ],
+    "meaning_en": "exist, know (humble)",
+    "meaning_id": "ada, mengetahui (rendah hati)",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d9b0f3c4-f8b8-5446-a307-06e11c1e2803",
+    "level": "n3",
+    "code": "k301-009",
+    "lesson_id": "7ceae874-b4bc-582b-9fb3-c12a45213aae",
+    "sequence": 9,
+    "character": "必",
+    "onyomi": [
+      "ヒツ"
+    ],
+    "kunyomi": [
+      "かならず"
+    ],
+    "examples": [
+      "必要(な)",
+      "必ず",
+      "必死(に)"
+    ],
+    "meaning_en": "certain, inevitable, always, must",
+    "meaning_id": "pasti, tentu, harus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c101e1e5-568f-5a08-b2c0-b6b9f9d9798b",
+    "level": "n3",
+    "code": "k302-001",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 1,
+    "character": "費",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "費用",
+      "旅費",
+      "消費者",
+      "会費"
+    ],
+    "meaning_en": "expense, cost, spend, consume",
+    "meaning_id": "biaya, pengeluaran, menghabiskan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "471bd47e-2652-5f1d-b4d0-e83c6ce30beb",
+    "level": "n3",
+    "code": "k302-002",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 2,
+    "character": "期",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "期間",
+      "長期",
+      "定期券",
+      "短期"
+    ],
+    "meaning_en": "period, term, time, season",
+    "meaning_id": "periode, jangka waktu, musim",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "41cdbc92-77da-5aea-9701-45b7457b9373",
+    "level": "n3",
+    "code": "k302-003",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 3,
+    "character": "限",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "かぎる"
+    ],
+    "examples": [
+      "期限",
+      "限る",
+      "限度",
+      "限定"
+    ],
+    "meaning_en": "limit, restrict, bound",
+    "meaning_id": "batas, membatasi, terbatas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5deb6c03-e7b2-5351-907f-62d0eeaa28f3",
+    "level": "n3",
+    "code": "k302-004",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 4,
+    "character": "製",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〇〇製",
+      "製品"
+    ],
+    "meaning_en": "manufacture, made of, production",
+    "meaning_id": "pembuatan, produksi, dibuat dari",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "10358aa0-3dc3-5793-b602-f88aab9e4868",
+    "level": "n3",
+    "code": "k302-005",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 5,
+    "character": "造",
+    "onyomi": [
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "つくる"
+    ],
+    "examples": [
+      "製造",
+      "造る"
+    ],
+    "meaning_en": "make, manufacture, build, create",
+    "meaning_id": "membuat, memproduksi, membangun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "192a68f2-ce72-5da0-96de-d011faa43bae",
+    "level": "n3",
+    "code": "k302-006",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 6,
+    "character": "賞",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "賞",
+      "賞金",
+      "賞味期限",
+      "賞品"
+    ],
+    "meaning_en": "prize, award, praise",
+    "meaning_id": "hadiah, penghargaan, pujian",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "87f8900a-c2e6-5940-b33c-1fadaa54a2dd",
+    "level": "n3",
+    "code": "k302-007",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 7,
+    "character": "法",
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "方法",
+      "文法"
+    ],
+    "meaning_en": "law, method, way, rule",
+    "meaning_id": "hukum, metode, cara, aturan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2127416c-73b5-5dd4-ab08-fb7f6d53f614",
+    "level": "n3",
+    "code": "k302-008",
+    "lesson_id": "fa37347b-e6a4-5b31-bdba-674ca7767cb6",
+    "sequence": 8,
+    "character": "温",
+    "onyomi": [
+      "オン"
+    ],
+    "kunyomi": [
+      "あたたかい"
+    ],
+    "examples": [
+      "温度",
+      "温かい",
+      "気温",
+      "常温"
+    ],
+    "meaning_en": "warm, temperature, mild",
+    "meaning_id": "hangat, suhu, temperatur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "309e7d8c-1c79-5c23-9cca-85b233f564f4",
+    "level": "n3",
+    "code": "k303-001",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 1,
+    "character": "販",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "販売",
+      "自動販売機"
+    ],
+    "meaning_en": "sell, trade, deal in",
+    "meaning_id": "menjual, berdagang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3ea51457-8700-591f-8cf4-90ca9da092aa",
+    "level": "n3",
+    "code": "k303-002",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 2,
+    "character": "機",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "飛行機",
+      "機会",
+      "機械"
+    ],
+    "meaning_en": "machine, opportunity, chance",
+    "meaning_id": "mesin, kesempatan, peluang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "89b32e80-719f-5df2-9572-1170a46e172c",
+    "level": "n3",
+    "code": "k303-003",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 3,
+    "character": "増",
+    "onyomi": [
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "ふえる",
+      "ふやす"
+    ],
+    "examples": [
+      "増加",
+      "増える",
+      "増やす"
+    ],
+    "meaning_en": "increase, add, grow",
+    "meaning_id": "bertambah, meningkatkan, menambah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5571dacf-d411-52ac-a306-7cdc4af5c32e",
+    "level": "n3",
+    "code": "k303-004",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 4,
+    "character": "減",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "へる",
+      "へらす"
+    ],
+    "examples": [
+      "減少",
+      "減る",
+      "減らす"
+    ],
+    "meaning_en": "decrease, reduce, lessen",
+    "meaning_id": "berkurang, mengurangi, penurunan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ce628cd9-8f86-591d-a6fd-c8f43c6ec775",
+    "level": "n3",
+    "code": "k303-005",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 5,
+    "character": "量",
+    "onyomi": [
+      "リョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "量",
+      "数量",
+      "増量",
+      "減量"
+    ],
+    "meaning_en": "quantity, amount, volume",
+    "meaning_id": "jumlah, kuantitas, volume",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "57d78947-c54e-584a-b4bb-ae6c320b3fc9",
+    "level": "n3",
+    "code": "k303-006",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 6,
+    "character": "氷",
+    "onyomi": [],
+    "kunyomi": [
+      "こおり"
+    ],
+    "examples": [
+      "氷"
+    ],
+    "meaning_en": "ice",
+    "meaning_id": "es, batu es",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0998374a-b91f-5472-bd92-3899d1979bf4",
+    "level": "n3",
+    "code": "k303-007",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 7,
+    "character": "返",
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "かえす"
+    ],
+    "examples": [
+      "返事",
+      "返す",
+      "返却"
+    ],
+    "meaning_en": "return, reply, give back",
+    "meaning_id": "mengembalikan, membalas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "76d9c96b-1916-53d5-872d-654ddea6a9aa",
+    "level": "n3",
+    "code": "k303-008",
+    "lesson_id": "aab234de-ea6c-5c50-9737-32ce603d22cb",
+    "sequence": 8,
+    "character": "湯",
+    "onyomi": [
+      "ユ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "(お)湯"
+    ],
+    "meaning_en": "hot water, bath",
+    "meaning_id": "air panas, air hangat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "225c09b2-f1b2-54f8-b39a-e510c0c473f9",
+    "level": "n3",
+    "code": "k304-001",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 1,
+    "character": "材",
+    "onyomi": [
+      "ザイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "材料",
+      "教材"
+    ],
+    "meaning_en": "material, ingredient, timber",
+    "meaning_id": "bahan, material, bahan baku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5f5c8b92-188e-521b-8858-22adbb9492c5",
+    "level": "n3",
+    "code": "k304-002",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 2,
+    "character": "卵",
+    "onyomi": [],
+    "kunyomi": [
+      "たまご"
+    ],
+    "examples": [
+      "卵",
+      "卵焼き"
+    ],
+    "meaning_en": "egg",
+    "meaning_id": "telur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f54113af-2584-5438-8abb-2e8ce3d06c78",
+    "level": "n3",
+    "code": "k304-003",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 3,
+    "character": "乳",
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "牛乳"
+    ],
+    "meaning_en": "milk, breast, dairy",
+    "meaning_id": "susu, produk susu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "045d81f2-6536-5ecd-9026-9baa2797f17d",
+    "level": "n3",
+    "code": "k304-004",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 4,
+    "character": "粉",
+    "onyomi": [],
+    "kunyomi": [
+      "こな",
+      "こ"
+    ],
+    "examples": [
+      "粉",
+      "小麦粉"
+    ],
+    "meaning_en": "powder, flour, dust",
+    "meaning_id": "bubuk, tepung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "df8965c2-184b-5b52-8ff9-ca78c7c7c5d6",
+    "level": "n3",
+    "code": "k304-005",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 5,
+    "character": "袋",
+    "onyomi": [],
+    "kunyomi": [
+      "ふくろ"
+    ],
+    "examples": [
+      "袋",
+      "ごみ袋",
+      "紙袋",
+      "手袋",
+      "足袋"
+    ],
+    "meaning_en": "bag, sack, pouch",
+    "meaning_id": "kantong, tas, karung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "16dd5dd1-81a1-58af-ab30-f14b9c342a07",
+    "level": "n3",
+    "code": "k304-006",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 6,
+    "character": "混",
+    "onyomi": [
+      "コン"
+    ],
+    "kunyomi": [
+      "まぜる"
+    ],
+    "examples": [
+      "混雑",
+      "混ぜる"
+    ],
+    "meaning_en": "mix, blend, mingle, crowded",
+    "meaning_id": "mencampur, aduk, campur aduk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "65eca046-1d75-5581-8848-d8a52e2752ab",
+    "level": "n3",
+    "code": "k304-007",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 7,
+    "character": "焼",
+    "onyomi": [],
+    "kunyomi": [
+      "やく",
+      "やける"
+    ],
+    "examples": [
+      "焼く",
+      "焼ける"
+    ],
+    "meaning_en": "burn, roast, grill, bake",
+    "meaning_id": "memanggang, membakar, memanggang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d299cf14-ceb6-54b1-b10a-689fef7a9b58",
+    "level": "n3",
+    "code": "k304-008",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 8,
+    "character": "表",
+    "onyomi": [
+      "ヒョウ"
+    ],
+    "kunyomi": [
+      "おもて",
+      "あらわす"
+    ],
+    "examples": [
+      "表",
+      "発表",
+      "表面",
+      "代表",
+      "表す"
+    ],
+    "meaning_en": "surface, table, express, announce",
+    "meaning_id": "permukaan, tabel, mengumumkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e101c6f3-8ed7-5cab-94b3-0d94c7d4f3fb",
+    "level": "n3",
+    "code": "k304-009",
+    "lesson_id": "82ba1b59-a997-5eff-b736-7be60f40ff99",
+    "sequence": 9,
+    "character": "裏",
+    "onyomi": [],
+    "kunyomi": [
+      "うら"
+    ],
+    "examples": [
+      "裏",
+      "裏返す"
+    ],
+    "meaning_en": "reverse, back, inside, hidden",
+    "meaning_id": "belakang, sisi dalam, tersembunyi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "890c9306-65b0-5d1a-95bf-e8623af595d0",
+    "level": "n3",
+    "code": "k305-001",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 1,
+    "character": "留",
+    "onyomi": [
+      "リュウ",
+      "ル"
+    ],
+    "kunyomi": [
+      "とめる"
+    ],
+    "examples": [
+      "留学",
+      "保留",
+      "留守番",
+      "書留",
+      "留守"
+    ],
+    "meaning_en": "stay, keep, detain, stop",
+    "meaning_id": "tinggal, menahan, menyimpan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "dfb8bcfa-a333-5a1a-8dbb-edca0e47572e",
+    "level": "n3",
+    "code": "k305-002",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 2,
+    "character": "守",
+    "onyomi": [
+      "シュ",
+      "ス"
+    ],
+    "kunyomi": [
+      "まもる"
+    ],
+    "examples": [
+      "守備",
+      "守る",
+      "留守"
+    ],
+    "meaning_en": "protect, guard, keep, obey",
+    "meaning_id": "melindungi, menjaga, mematuhi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "836b3b12-97d6-5a03-9eb6-ed98693a0012",
+    "level": "n3",
+    "code": "k305-003",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 3,
+    "character": "濃",
+    "onyomi": [],
+    "kunyomi": [
+      "こい"
+    ],
+    "examples": [
+      "濃い"
+    ],
+    "meaning_en": "dark (color), thick, concentrated, strong",
+    "meaning_id": "gelap, pekat, kental, kuat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8b72ad60-68e3-534b-9f21-9e98d9d7bfaa",
+    "level": "n3",
+    "code": "k305-004",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 4,
+    "character": "薄",
+    "onyomi": [],
+    "kunyomi": [
+      "うすい"
+    ],
+    "examples": [
+      "薄い"
+    ],
+    "meaning_en": "thin, light (color), weak, pale",
+    "meaning_id": "tipis, pucat, encer, lemah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5547f4a9-8282-5ac7-ad36-e38be82de4d2",
+    "level": "n3",
+    "code": "k305-005",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 5,
+    "character": "部",
+    "onyomi": [
+      "ブ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "部分",
+      "部長",
+      "学部",
+      "部屋"
+    ],
+    "meaning_en": "part, section, department, room",
+    "meaning_id": "bagian, seksi, departemen, kamar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d98b4ad2-5c52-5ab7-bcf1-9ffcd714ca6e",
+    "level": "n3",
+    "code": "k305-006",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 6,
+    "character": "数",
+    "onyomi": [
+      "スウ"
+    ],
+    "kunyomi": [
+      "かず",
+      "かぞえる"
+    ],
+    "examples": [
+      "数字",
+      "数学",
+      "数",
+      "数える"
+    ],
+    "meaning_en": "number, count, several",
+    "meaning_id": "angka, nomor, menghitung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e7999ab6-5946-5f3b-bf3b-7a4e54705a55",
+    "level": "n3",
+    "code": "k305-007",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 7,
+    "character": "件",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "件名",
+      "用件",
+      "事件"
+    ],
+    "meaning_en": "matter, item, case, subject",
+    "meaning_id": "hal, masalah, kasus, subjek",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a11a1de4-b2e0-50db-bbff-50f09a853b9f",
+    "level": "n3",
+    "code": "k305-008",
+    "lesson_id": "f2028332-621f-543f-83c6-97f405538a6b",
+    "sequence": 8,
+    "character": "再",
+    "onyomi": [
+      "サイ",
+      "サ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "再入国",
+      "再生",
+      "再ダイヤル",
+      "再来週"
+    ],
+    "meaning_en": "again, re-, repeat",
+    "meaning_id": "lagi, kembali, ulang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b6afc750-4ea5-5ecd-a996-2a06133af970",
+    "level": "n3",
+    "code": "k306-001",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 1,
+    "character": "接",
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "接続",
+      "面接"
+    ],
+    "meaning_en": "connect, touch, receive, join",
+    "meaning_id": "menghubungkan, menyambung, menyentuh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "675153b0-e58e-56f5-b3ba-89c085cf9641",
+    "level": "n3",
+    "code": "k306-002",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 2,
+    "character": "続",
+    "onyomi": [
+      "ゾク"
+    ],
+    "kunyomi": [
+      "つづく",
+      "つづける"
+    ],
+    "examples": [
+      "接続",
+      "続く",
+      "続ける"
+    ],
+    "meaning_en": "continue, connect, keep on",
+    "meaning_id": "melanjutkan, meneruskan, bersambung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7ed97cd4-7ae3-58b6-91e8-90bd80fa3d8e",
+    "level": "n3",
+    "code": "k306-003",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 3,
+    "character": "示",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "しめす"
+    ],
+    "examples": [
+      "表示",
+      "指示",
+      "示す"
+    ],
+    "meaning_en": "show, indicate, point out, display",
+    "meaning_id": "menunjukkan, memperlihatkan, menampilkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9cc29b04-07fe-58c8-a253-ae3819f530b2",
+    "level": "n3",
+    "code": "k306-004",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 4,
+    "character": "戻",
+    "onyomi": [],
+    "kunyomi": [
+      "もどる",
+      "もどす"
+    ],
+    "examples": [
+      "戻る",
+      "戻す"
+    ],
+    "meaning_en": "return, go back, put back",
+    "meaning_id": "kembali, mengembalikan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5e29dbfb-a3ed-53df-958e-07ae0df4859f",
+    "level": "n3",
+    "code": "k306-005",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 5,
+    "character": "完",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "完了",
+      "完全(な)"
+    ],
+    "meaning_en": "complete, perfect, finish",
+    "meaning_id": "selesai, sempurna, lengkap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7fe39128-0014-548f-aa78-48f1134fe255",
+    "level": "n3",
+    "code": "k306-006",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 6,
+    "character": "了",
+    "onyomi": [
+      "リョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "了解",
+      "終了"
+    ],
+    "meaning_en": "finish, complete, understand, agree",
+    "meaning_id": "selesai, tamat, memahami, setuju",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "824648b0-f0c1-570b-a238-3008a2443c29",
+    "level": "n3",
+    "code": "k306-007",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 7,
+    "character": "登",
+    "onyomi": [
+      "トウ",
+      "ト"
+    ],
+    "kunyomi": [
+      "のぼる"
+    ],
+    "examples": [
+      "登録",
+      "登山",
+      "登る"
+    ],
+    "meaning_en": "climb, register, ascend, go up",
+    "meaning_id": "mendaki, mendaftar, naik",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4318395c-8086-516d-9cb1-04c326703c33",
+    "level": "n3",
+    "code": "k306-008",
+    "lesson_id": "0fe3fa14-a769-584a-aab8-703a18e07cb5",
+    "sequence": 8,
+    "character": "録",
+    "onyomi": [
+      "ロク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "記録",
+      "録音",
+      "録画"
+    ],
+    "meaning_en": "record, register, write down",
+    "meaning_id": "mencatat, merekam, mendaftarkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6565a63e-5382-5cf6-9150-7b1837601a25",
+    "level": "n3",
+    "code": "k307-001",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 1,
+    "character": "育",
+    "onyomi": [
+      "イク"
+    ],
+    "kunyomi": [
+      "そだつ",
+      "そだてる"
+    ],
+    "examples": [
+      "教育",
+      "育てる",
+      "育つ"
+    ],
+    "meaning_en": "raise, bring up, educate, grow",
+    "meaning_id": "membesarkan, mendidik, tumbuh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f72f0a4a-ab75-5fc8-8f69-8cc8b0df0f25",
+    "level": "n3",
+    "code": "k307-002",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 2,
+    "character": "種",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "たね"
+    ],
+    "examples": [
+      "種類",
+      "種"
+    ],
+    "meaning_en": "type, kind, seed, species",
+    "meaning_id": "jenis, tipe, benih, spesies",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fd3ec560-eab3-5728-9811-d61942050b4e",
+    "level": "n3",
+    "code": "k307-003",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 3,
+    "character": "類",
+    "onyomi": [
+      "ルイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "書類",
+      "分類",
+      "人類"
+    ],
+    "meaning_en": "type, kind, category, classify",
+    "meaning_id": "jenis, kategori, mengklasifikasikan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4f546d9e-5483-5c3c-a12b-d7043152128e",
+    "level": "n3",
+    "code": "k307-004",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 4,
+    "character": "師",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "教師",
+      "医師",
+      "看護師"
+    ],
+    "meaning_en": "teacher, master, expert, doctor",
+    "meaning_id": "guru, ahli, dokter, master",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e3222209-5ef7-5114-a144-5f20bf3e84e7",
+    "level": "n3",
+    "code": "k307-005",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 5,
+    "character": "妻",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "つま"
+    ],
+    "examples": [
+      "夫妻",
+      "妻"
+    ],
+    "meaning_en": "wife, spouse",
+    "meaning_id": "istri, pasangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "85b1c808-a65f-516e-8480-b5db657c1c1c",
+    "level": "n3",
+    "code": "k307-006",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 6,
+    "character": "馬",
+    "onyomi": [
+      "バ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "examples": [
+      "馬",
+      "乗馬"
+    ],
+    "meaning_en": "horse",
+    "meaning_id": "kuda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3aa28ed7-27b6-5251-b732-e7811ccef9e6",
+    "level": "n3",
+    "code": "k307-007",
+    "lesson_id": "6d6adc0a-d5f7-51dd-a852-9da1df17ec41",
+    "sequence": 7,
+    "character": "石",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "いし"
+    ],
+    "examples": [
+      "石けん",
+      "石油",
+      "石"
+    ],
+    "meaning_en": "stone, rock, mineral",
+    "meaning_id": "batu, bebatuan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7858b30f-4aa1-5a99-8fa8-bc46794609cc",
+    "level": "n3",
+    "code": "k401-001",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 1,
+    "character": "砂",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "すな"
+    ],
+    "examples": [
+      "砂糖",
+      "砂"
+    ],
+    "meaning_en": "sand, sugar (in 砂糖)",
+    "meaning_id": "pasir, gula",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "465a44dc-8a66-5e7f-9a56-c9142378ef2e",
+    "level": "n3",
+    "code": "k401-002",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 2,
+    "character": "塩",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "しお"
+    ],
+    "examples": [
+      "食塩",
+      "塩"
+    ],
+    "meaning_en": "salt",
+    "meaning_id": "garam",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5166157a-e7c1-5265-a0dd-06842c50c226",
+    "level": "n3",
+    "code": "k401-003",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 3,
+    "character": "油",
+    "onyomi": [
+      "ユ"
+    ],
+    "kunyomi": [
+      "あぶら"
+    ],
+    "examples": [
+      "しょう油",
+      "灯油",
+      "石油",
+      "油"
+    ],
+    "meaning_en": "oil, fat",
+    "meaning_id": "minyak, lemak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ab89ecaa-891a-5ce7-b176-f2d6fc25d449",
+    "level": "n3",
+    "code": "k401-004",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 4,
+    "character": "緑",
+    "onyomi": [
+      "リョク"
+    ],
+    "kunyomi": [
+      "みどり"
+    ],
+    "examples": [
+      "緑茶",
+      "緑(色)"
+    ],
+    "meaning_en": "green",
+    "meaning_id": "hijau",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c5af4488-339f-52ce-9ad8-1cbd6b7cad68",
+    "level": "n3",
+    "code": "k401-005",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 5,
+    "character": "紅",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "べに"
+    ],
+    "examples": [
+      "紅茶",
+      "口紅"
+    ],
+    "meaning_en": "red, crimson, rouge",
+    "meaning_id": "merah, krimson",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "77672293-8066-50b3-96c6-fb377037325a",
+    "level": "n3",
+    "code": "k401-006",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 6,
+    "character": "冊",
+    "onyomi": [
+      "サツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〜冊",
+      "冊数"
+    ],
+    "meaning_en": "counter for books/volumes",
+    "meaning_id": "satuan buku",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "44156ea5-61a6-511a-a6f3-a19670e9f42d",
+    "level": "n3",
+    "code": "k401-007",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 7,
+    "character": "個",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〜個",
+      "個人",
+      "個数",
+      "団体"
+    ],
+    "meaning_en": "counter for general objects, individual",
+    "meaning_id": "satuan benda umum, individu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a6443b21-acf0-5a6b-829e-1f0b58405359",
+    "level": "n3",
+    "code": "k401-008",
+    "lesson_id": "1b8f63d8-9e00-5144-9198-291589629ffc",
+    "sequence": 8,
+    "character": "枚",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〜枚",
+      "枚数"
+    ],
+    "meaning_en": "counter for flat objects/sheets",
+    "meaning_id": "satuan benda tipis/lembaran",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "398f0704-1eaf-5b40-b3c2-62ab3fcd5c6c",
+    "level": "n3",
+    "code": "k402-001",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 1,
+    "character": "告",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "広告"
+    ],
+    "meaning_en": "tell, announce, advertise",
+    "meaning_id": "memberitahu, mengumumkan, iklan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "577e214d-dd04-55e4-9742-9b3dd501073d",
+    "level": "n3",
+    "code": "k402-002",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 2,
+    "character": "利",
+    "onyomi": [
+      "リ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "便利(な)",
+      "利用"
+    ],
+    "meaning_en": "profit, benefit, convenient",
+    "meaning_id": "keuntungan, manfaat, praktis",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0d654630-cd88-5b53-afe7-94ae15deab9d",
+    "level": "n3",
+    "code": "k402-003",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 3,
+    "character": "割",
+    "onyomi": [
+      "カツ"
+    ],
+    "kunyomi": [
+      "わる",
+      "われる"
+    ],
+    "examples": [
+      "割る",
+      "割れる",
+      "割合",
+      "割引"
+    ],
+    "meaning_en": "divide, break, proportion, discount",
+    "meaning_id": "membagi, memecah, diskon, proporsi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3d26aaa3-d1fa-5a58-b938-ea2ec046c3d8",
+    "level": "n3",
+    "code": "k402-004",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 4,
+    "character": "倍",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〜倍",
+      "倍"
+    ],
+    "meaning_en": "times (quantity), double, fold",
+    "meaning_id": "kali lipat, dua kali",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "97556e87-a33a-5919-8110-ebb66d54d0d2",
+    "level": "n3",
+    "code": "k402-005",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 5,
+    "character": "値",
+    "onyomi": [],
+    "kunyomi": [
+      "ね"
+    ],
+    "examples": [
+      "値段",
+      "値上げ",
+      "値下げ"
+    ],
+    "meaning_en": "price, value, worth",
+    "meaning_id": "harga, nilai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a8616f72-b0f1-517c-b080-936992883461",
+    "level": "n3",
+    "code": "k402-006",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 6,
+    "character": "商",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "商品",
+      "商店"
+    ],
+    "meaning_en": "trade, commerce, goods",
+    "meaning_id": "perdagangan, barang dagangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b66ea601-9e66-5c54-92ee-78a2d31bab59",
+    "level": "n3",
+    "code": "k402-007",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 7,
+    "character": "支",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "支店",
+      "支社",
+      "本店",
+      "本社"
+    ],
+    "meaning_en": "branch, support, pay",
+    "meaning_id": "cabang, mendukung, membayar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d17f78fe-d4ec-5943-bed8-3efb86c90c85",
+    "level": "n3",
+    "code": "k402-008",
+    "lesson_id": "d9997c7b-a623-5395-8eba-a84655276b3c",
+    "sequence": 8,
+    "character": "払",
+    "onyomi": [],
+    "kunyomi": [
+      "はらう"
+    ],
+    "examples": [
+      "払う",
+      "支払い"
+    ],
+    "meaning_en": "pay, clear away, brush off",
+    "meaning_id": "membayar, menyingkirkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2e6cfa0a-a434-5d12-aa5c-05d77804beac",
+    "level": "n3",
+    "code": "k403-001",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 1,
+    "character": "米",
+    "onyomi": [
+      "ベイ"
+    ],
+    "kunyomi": [
+      "こめ"
+    ],
+    "examples": [
+      "米国",
+      "米"
+    ],
+    "meaning_en": "rice, America (abbreviation)",
+    "meaning_id": "beras, Amerika",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "448c9277-8176-506d-b051-0541279ea976",
+    "level": "n3",
+    "code": "k403-002",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 2,
+    "character": "級",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "高級",
+      "上級",
+      "中級"
+    ],
+    "meaning_en": "class, grade, level, rank",
+    "meaning_id": "kelas, tingkatan, level",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ea679dbe-30fd-5a1f-b016-81caf909f83c",
+    "level": "n3",
+    "code": "k403-003",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 3,
+    "character": "残",
+    "onyomi": [
+      "ザン"
+    ],
+    "kunyomi": [
+      "のこる",
+      "のこす"
+    ],
+    "examples": [
+      "残業",
+      "残り",
+      "残る",
+      "残す"
+    ],
+    "meaning_en": "remain, leftover, overtime",
+    "meaning_id": "sisa, tersisa, lembur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b8ee7229-500f-50e6-9a76-6f9c09eab7ce",
+    "level": "n3",
+    "code": "k403-004",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 4,
+    "character": "型",
+    "onyomi": [],
+    "kunyomi": [
+      "かた"
+    ],
+    "examples": [
+      "大型",
+      "新型",
+      "小型"
+    ],
+    "meaning_en": "type, model, mold, size",
+    "meaning_id": "tipe, model, cetakan, ukuran",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3eb1ea52-4931-5bf8-88be-a953e6f3b048",
+    "level": "n3",
+    "code": "k403-005",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 5,
+    "character": "税",
+    "onyomi": [
+      "ゼイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "消費税",
+      "税金"
+    ],
+    "meaning_en": "tax, duty",
+    "meaning_id": "pajak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7e0ee965-895e-5ca9-a142-e7dcb0d8d407",
+    "level": "n3",
+    "code": "k403-006",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 6,
+    "character": "込",
+    "onyomi": [],
+    "kunyomi": [
+      "こむ"
+    ],
+    "examples": [
+      "込む",
+      "振り込む",
+      "税込"
+    ],
+    "meaning_en": "crowd, include, transfer money",
+    "meaning_id": "penuh sesak, termasuk, transfer",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d7b8aff3-7f19-5ca0-bb14-0d317ef3df31",
+    "level": "n3",
+    "code": "k403-007",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 7,
+    "character": "価",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "価格",
+      "定価"
+    ],
+    "meaning_en": "price, value, cost",
+    "meaning_id": "harga, nilai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7eb3900e-7376-5a86-9755-d61408271f02",
+    "level": "n3",
+    "code": "k403-008",
+    "lesson_id": "fdf652a5-ec5a-5036-b45b-30b39913e19d",
+    "sequence": 8,
+    "character": "格",
+    "onyomi": [
+      "カク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "合格",
+      "格安"
+    ],
+    "meaning_en": "status, rank, pass, grid",
+    "meaning_id": "status, kelas, lulus, kotak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1ef72ff4-916b-580f-911a-aace858bfe25",
+    "level": "n3",
+    "code": "k404-001",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 1,
+    "character": "申",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "もうす"
+    ],
+    "examples": [
+      "申し込む",
+      "申告",
+      "申す",
+      "申込書",
+      "申請",
+      "申し上げる"
+    ],
+    "meaning_en": "say (humble), report, apply",
+    "meaning_id": "mengatakan (rendah hati), melapor, mendaftar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0a4a25ea-85a6-5d72-a868-53673125218f",
+    "level": "n3",
+    "code": "k404-002",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 2,
+    "character": "記",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "記入",
+      "記号",
+      "日記",
+      "記事"
+    ],
+    "meaning_en": "record, note, write, mark",
+    "meaning_id": "mencatat, merekam, menandai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "fc3a0297-cbb0-519f-b152-cddc842bdf04",
+    "level": "n3",
+    "code": "k404-003",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 3,
+    "character": "例",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [
+      "たとえる"
+    ],
+    "examples": [
+      "例",
+      "例えば"
+    ],
+    "meaning_en": "example, instance, comparison",
+    "meaning_id": "contoh, misalnya, perumpamaan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cfb54e56-b06a-56f3-b73a-85c217324f56",
+    "level": "n3",
+    "code": "k404-004",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 4,
+    "character": "齢",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "年齢",
+      "高齢"
+    ],
+    "meaning_en": "age",
+    "meaning_id": "usia, umur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a143eb99-243b-58f9-8e0f-8d29ca32a25d",
+    "level": "n3",
+    "code": "k404-005",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 5,
+    "character": "歳",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "〜歳",
+      "二十歳",
+      "二十歳(はたち)"
+    ],
+    "meaning_en": "years old, age, year",
+    "meaning_id": "tahun (usia)",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "96cdddc4-6472-57fe-a33c-944a4452b67d",
+    "level": "n3",
+    "code": "k404-006",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 6,
+    "character": "性",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "性別",
+      "女性",
+      "男性",
+      "性格"
+    ],
+    "meaning_en": "sex, gender, nature, personality",
+    "meaning_id": "jenis kelamin, sifat, kepribadian",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "29f8e429-e3f5-5d94-a3e5-6cf9bc8a687a",
+    "level": "n3",
+    "code": "k404-007",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 7,
+    "character": "連",
+    "onyomi": [
+      "レン"
+    ],
+    "kunyomi": [
+      "つれる"
+    ],
+    "examples": [
+      "連休",
+      "連れて行く",
+      "連れて来る"
+    ],
+    "meaning_en": "connect, take along, consecutive",
+    "meaning_id": "menghubungkan, membawa serta, berturut-turut",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4e87d11-97a8-5579-a804-57a6cbd820d3",
+    "level": "n3",
+    "code": "k404-008",
+    "lesson_id": "77bfe768-6b4c-5921-a812-0683a52733a0",
+    "sequence": 8,
+    "character": "絡",
+    "onyomi": [
+      "ラク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "連絡"
+    ],
+    "meaning_en": "contact, connection, entwine",
+    "meaning_id": "kontak, hubungan, melilit",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c0b1bf38-e9ed-56a7-80f8-68726ce1c1ae",
+    "level": "n3",
+    "code": "k405-001",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 1,
+    "character": "届",
+    "onyomi": [],
+    "kunyomi": [
+      "とどける",
+      "とどく"
+    ],
+    "examples": [
+      "届ける",
+      "届く"
+    ],
+    "meaning_en": "deliver, reach, arrive, notify",
+    "meaning_id": "mengirimkan, sampai, tiba, memberitahu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5309d5b5-eb4e-531a-8d1d-259c020bef13",
+    "level": "n3",
+    "code": "k405-002",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 2,
+    "character": "宅",
+    "onyomi": [
+      "タク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "自宅",
+      "お宅",
+      "宅配"
+    ],
+    "meaning_en": "home, house, residence",
+    "meaning_id": "rumah, kediaman, tempat tinggal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "13ab53ef-d490-5c45-ae21-79da07cb4bac",
+    "level": "n3",
+    "code": "k405-003",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 3,
+    "character": "配",
+    "onyomi": [
+      "ハイ"
+    ],
+    "kunyomi": [
+      "くばる"
+    ],
+    "examples": [
+      "配達",
+      "配送料",
+      "心配",
+      "配る"
+    ],
+    "meaning_en": "distribute, deliver, worry, arrange",
+    "meaning_id": "mendistribusikan, mengantarkan, khawatir",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "721cdcbf-bb88-5b8a-8a86-e25ae032150d",
+    "level": "n3",
+    "code": "k405-004",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 4,
+    "character": "希",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "希望"
+    ],
+    "meaning_en": "hope, wish, rare, desire",
+    "meaning_id": "harapan, keinginan, langka",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f02deb31-dace-5123-839d-927155ba55e7",
+    "level": "n3",
+    "code": "k405-005",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 5,
+    "character": "望",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "のぞむ"
+    ],
+    "examples": [
+      "失望",
+      "望む"
+    ],
+    "meaning_en": "hope, desire, wish, look out",
+    "meaning_id": "harapan, keinginan, berharap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "34b6bc1c-19a0-5501-915e-c1e0a2714205",
+    "level": "n3",
+    "code": "k405-006",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 6,
+    "character": "荷",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "に"
+    ],
+    "examples": [
+      "入荷",
+      "出荷",
+      "荷物",
+      "手荷物"
+    ],
+    "meaning_en": "luggage, cargo, load, goods",
+    "meaning_id": "bagasi, muatan, barang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c3fc0b08-f6b8-505f-b8e8-b72ba6494da5",
+    "level": "n3",
+    "code": "k405-007",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 7,
+    "character": "換",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "かえる"
+    ],
+    "examples": [
+      "交換",
+      "乗り換え",
+      "代金引換"
+    ],
+    "meaning_en": "exchange, replace, change, convert",
+    "meaning_id": "menukar, mengganti, mengkonversi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "df177ae0-31b6-5dd6-aad0-286cbc5e4fb2",
+    "level": "n3",
+    "code": "k405-008",
+    "lesson_id": "48dc2fe4-6430-592a-b0d4-b775a018f87d",
+    "sequence": 8,
+    "character": "額",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "金額",
+      "半額"
+    ],
+    "meaning_en": "amount, sum of money, frame",
+    "meaning_id": "jumlah uang, bingkai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e46093e0-b598-5e1d-bd3f-9f442394bdcb",
+    "level": "n3",
+    "code": "k406-001",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 1,
+    "character": "在",
+    "onyomi": [
+      "ザイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "不在",
+      "現在"
+    ],
+    "meaning_en": "exist, be present, reside",
+    "meaning_id": "ada, hadir, bertempat tinggal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e1980f0c-f46c-544e-8014-e0ffa1d30c45",
+    "level": "n3",
+    "code": "k406-002",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 2,
+    "character": "取",
+    "onyomi": [],
+    "kunyomi": [
+      "とる"
+    ],
+    "examples": [
+      "取る",
+      "受け取る",
+      "受取人"
+    ],
+    "meaning_en": "take, get, receive, pick up",
+    "meaning_id": "mengambil, mendapatkan, menerima",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a57a27d9-72d7-52c7-aafb-565f48b1b8e5",
+    "level": "n3",
+    "code": "k406-003",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 3,
+    "character": "預",
+    "onyomi": [
+      "ヨ"
+    ],
+    "kunyomi": [
+      "あずける"
+    ],
+    "examples": [
+      "預金",
+      "預ける"
+    ],
+    "meaning_en": "deposit, entrust, keep for someone",
+    "meaning_id": "mendepositkan, menitipkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d39f64ac-8817-5c1b-b5be-f43c9272ce25",
+    "level": "n3",
+    "code": "k406-004",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 4,
+    "character": "衣",
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "衣類",
+      "衣服"
+    ],
+    "meaning_en": "clothing, garment, clothes",
+    "meaning_id": "pakaian, busana",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "abba305c-802c-51d1-8bb2-8f6ca731b4c0",
+    "level": "n3",
+    "code": "k406-005",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 5,
+    "character": "参",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "まいる"
+    ],
+    "examples": [
+      "参加",
+      "参考書",
+      "参る"
+    ],
+    "meaning_en": "participate, go/come (humble)",
+    "meaning_id": "berpartisipasi, datang/pergi (rendah hati)",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2629e608-8de4-53e9-9dc0-74f94ceb3c88",
+    "level": "n3",
+    "code": "k406-006",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 6,
+    "character": "達",
+    "onyomi": [
+      "タツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "上達",
+      "速達",
+      "友達"
+    ],
+    "meaning_en": "reach, attain, friends, progress",
+    "meaning_id": "mencapai, teman, kemajuan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d4a99e16-d8b0-5368-8365-7f9d44d3cfd0",
+    "level": "n3",
+    "code": "k406-007",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 7,
+    "character": "勤",
+    "onyomi": [
+      "キン"
+    ],
+    "kunyomi": [
+      "つとめる"
+    ],
+    "examples": [
+      "通勤",
+      "勤める"
+    ],
+    "meaning_en": "work, be employed, diligent",
+    "meaning_id": "bekerja, berdinas, rajin",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1009ac82-d4c8-54e3-8867-02b20e6aac25",
+    "level": "n3",
+    "code": "k406-008",
+    "lesson_id": "8946f5f6-e080-5ed1-ad50-ae1f8f0d0b82",
+    "sequence": 8,
+    "character": "帯",
+    "onyomi": [
+      "タイ"
+    ],
+    "kunyomi": [
+      "おび"
+    ],
+    "examples": [
+      "携帯(電話)",
+      "時間帯",
+      "帯"
+    ],
+    "meaning_en": "belt, zone, carry, mobile",
+    "meaning_id": "sabuk, zona, membawa, ponsel",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e0c052bb-67e3-58db-8325-4eef9893ee4b",
+    "level": "n3",
+    "code": "k407-001",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 1,
+    "character": "細",
+    "onyomi": [],
+    "kunyomi": [
+      "ほそい",
+      "こまかい"
+    ],
+    "examples": [
+      "細い",
+      "細かい"
+    ],
+    "meaning_en": "fine, thin, small, detailed",
+    "meaning_id": "tipis, halus, kecil, rinci",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "736bfccb-9b0f-5915-b58c-9a3d99dbb998",
+    "level": "n3",
+    "code": "k407-002",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 2,
+    "character": "戸",
+    "onyomi": [],
+    "kunyomi": [
+      "と"
+    ],
+    "examples": [
+      "戸",
+      "雨戸",
+      "戸だな"
+    ],
+    "meaning_en": "door, household, shutter",
+    "meaning_id": "pintu, rumah tangga, jendela kayu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "69519349-6b06-598a-9e49-95de22ab482b",
+    "level": "n3",
+    "code": "k407-003",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 3,
+    "character": "湖",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "みずうみ"
+    ],
+    "examples": [
+      "びわ湖",
+      "湖"
+    ],
+    "meaning_en": "lake",
+    "meaning_id": "danau",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f9c9ffed-5df7-50e7-b095-a6f8389c97d9",
+    "level": "n3",
+    "code": "k407-004",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 4,
+    "character": "船",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ふね",
+      "ふな"
+    ],
+    "examples": [
+      "風船",
+      "船",
+      "船長",
+      "船便"
+    ],
+    "meaning_en": "boat, ship, vessel",
+    "meaning_id": "kapal, perahu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ea4a33e7-fa83-59fb-8292-da767e2b0af9",
+    "level": "n3",
+    "code": "k407-005",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 5,
+    "character": "角",
+    "onyomi": [
+      "カク"
+    ],
+    "kunyomi": [
+      "かど"
+    ],
+    "examples": [
+      "角度",
+      "四角い",
+      "三角形",
+      "角"
+    ],
+    "meaning_en": "angle, corner, horn, square",
+    "meaning_id": "sudut, pojok, tanduk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e0e20da5-852e-5dc4-bae8-11a1c66be6d6",
+    "level": "n3",
+    "code": "k407-006",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 6,
+    "character": "夫",
+    "onyomi": [
+      "フ",
+      "フウ"
+    ],
+    "kunyomi": [
+      "おっと"
+    ],
+    "examples": [
+      "夫妻",
+      "夫婦",
+      "夫"
+    ],
+    "meaning_en": "husband, man, mister",
+    "meaning_id": "suami, pria",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3367a23b-cd9b-5bfe-9303-ea0c3e60a797",
+    "level": "n3",
+    "code": "k407-007",
+    "lesson_id": "a650b586-5861-5bf8-9610-44c04c00b5f3",
+    "sequence": 7,
+    "character": "苦",
+    "onyomi": [
+      "ク"
+    ],
+    "kunyomi": [
+      "くるしい",
+      "にがい"
+    ],
+    "examples": [
+      "苦労",
+      "苦しい",
+      "苦い",
+      "苦手(な)"
+    ],
+    "meaning_en": "suffering, bitter, distressing, weak point",
+    "meaning_id": "penderitaan, pahit, kelemahan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "99a519f2-8d6c-5619-9916-8b08315da66b",
+    "level": "n3",
+    "code": "k501-001",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 1,
+    "character": "礼",
+    "onyomi": [
+      "レイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "お礼"
+    ],
+    "meaning_en": "thanks, courtesy, gratitude, bow",
+    "meaning_id": "terima kasih, kesopanan, membungkuk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "db170d91-d378-5dc7-ba68-f77a6e2d1961",
+    "level": "n3",
+    "code": "k501-002",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 2,
+    "character": "伺",
+    "onyomi": [],
+    "kunyomi": [
+      "うかがう"
+    ],
+    "examples": [
+      "伺う"
+    ],
+    "meaning_en": "visit, ask, inquire (humble form)",
+    "meaning_id": "mengunjungi, bertanya (rendah hati)",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "7f432d55-5fcd-5fe3-bee3-feb1c4d18022",
+    "level": "n3",
+    "code": "k501-003",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 3,
+    "character": "遅",
+    "onyomi": [
+      "チ"
+    ],
+    "kunyomi": [
+      "おそい",
+      "おくれる"
+    ],
+    "examples": [
+      "遅刻",
+      "遅い",
+      "遅れる"
+    ],
+    "meaning_en": "late, slow, delay, be behind",
+    "meaning_id": "terlambat, lambat, keterlambatan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d0416928-b20b-5fff-9397-9cdd7ad13b31",
+    "level": "n3",
+    "code": "k501-004",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 4,
+    "character": "失",
+    "onyomi": [
+      "シツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "失礼(な)",
+      "失敗",
+      "失礼する"
+    ],
+    "meaning_en": "lose, miss, fail, rudeness",
+    "meaning_id": "kehilangan, gagal, tidak sopan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eea7274e-08cf-5770-8b2a-241d5babb747",
+    "level": "n3",
+    "code": "k501-005",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 5,
+    "character": "汗",
+    "onyomi": [],
+    "kunyomi": [
+      "あせ"
+    ],
+    "examples": [
+      "汗",
+      "汗をかく"
+    ],
+    "meaning_en": "sweat, perspiration",
+    "meaning_id": "keringat, berkeringat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "79226b09-fe91-5e95-ba88-5dec6050afbe",
+    "level": "n3",
+    "code": "k501-006",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 6,
+    "character": "念",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "残念(な)",
+      "記念"
+    ],
+    "meaning_en": "thought, feeling, regret, commemoration",
+    "meaning_id": "pikiran, perasaan, penyesalan, peringatan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "57ce22a7-3fdc-5425-b4da-a0ecb79c9c85",
+    "level": "n3",
+    "code": "k501-007",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 7,
+    "character": "涙",
+    "onyomi": [],
+    "kunyomi": [
+      "なみだ"
+    ],
+    "examples": [
+      "涙",
+      "涙を流す"
+    ],
+    "meaning_en": "tear(s), weep, cry",
+    "meaning_id": "air mata, menangis",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a9d9dbca-353b-51ab-b0e5-87fdd3147975",
+    "level": "n3",
+    "code": "k501-008",
+    "lesson_id": "5716f495-cfdf-51d3-a364-2241bab59b19",
+    "sequence": 8,
+    "character": "笑",
+    "onyomi": [],
+    "kunyomi": [
+      "わらう",
+      "えむ"
+    ],
+    "examples": [
+      "笑う",
+      "笑顔",
+      "笑い"
+    ],
+    "meaning_en": "laugh, smile, laughter",
+    "meaning_id": "tertawa, senyum, tawa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1e2ddbf5-f8ff-5376-88d3-d364bc428556",
+    "level": "n3",
+    "code": "k502-001",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 1,
+    "character": "調",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "しらべる"
+    ],
+    "examples": [
+      "調子",
+      "調べる",
+      "調査",
+      "強調"
+    ],
+    "meaning_en": "investigate, condition, tune, adjust",
+    "meaning_id": "menyelidiki, kondisi, mengatur, menyelaraskan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "550c6034-5285-5ef4-9ef2-c11e629bbb44",
+    "level": "n3",
+    "code": "k502-002",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 2,
+    "character": "査",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "調査"
+    ],
+    "meaning_en": "investigate, inspect, examine",
+    "meaning_id": "menyelidiki, memeriksa, mengecek",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "59b6be06-4c42-5322-ad56-6043286b40fd",
+    "level": "n3",
+    "code": "k502-003",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 3,
+    "character": "移",
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [
+      "うつる",
+      "うつす"
+    ],
+    "examples": [
+      "移動",
+      "移る",
+      "移す"
+    ],
+    "meaning_en": "move, transfer, shift, change",
+    "meaning_id": "berpindah, memindahkan, mengalihkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9e292c4c-0aea-5eb6-a404-9ed08ad3aeb9",
+    "level": "n3",
+    "code": "k502-004",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 4,
+    "character": "難",
+    "onyomi": [
+      "ナン"
+    ],
+    "kunyomi": [
+      "むずかしい"
+    ],
+    "examples": [
+      "困難(な)",
+      "難問",
+      "難しい"
+    ],
+    "meaning_en": "difficult, hard, trouble, problem",
+    "meaning_id": "sulit, susah, masalah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a0fb8ae3-d2a3-525f-9e3a-b5f662a1432e",
+    "level": "n3",
+    "code": "k502-005",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 5,
+    "character": "簡",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "簡単(な)"
+    ],
+    "meaning_en": "simple, brief, easy, concise",
+    "meaning_id": "sederhana, singkat, mudah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c71af03f-7230-590a-bfbd-822ee1bcd03d",
+    "level": "n3",
+    "code": "k502-006",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 6,
+    "character": "単",
+    "onyomi": [
+      "タン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "単語",
+      "単位"
+    ],
+    "meaning_en": "single, simple, unit, vocabulary",
+    "meaning_id": "tunggal, sederhana, satuan, kosakata",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0d95a160-558f-5d8b-abbd-cff5a2295b02",
+    "level": "n3",
+    "code": "k502-007",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 7,
+    "character": "感",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "感じる",
+      "感動"
+    ],
+    "meaning_en": "feel, emotion, impression, inspiration",
+    "meaning_id": "merasakan, emosi, kesan, inspirasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f7e8694a-4d91-5b7a-97a9-2b6231089572",
+    "level": "n3",
+    "code": "k502-008",
+    "lesson_id": "28fe8825-cde3-5ce5-a071-54c8469beeae",
+    "sequence": 8,
+    "character": "想",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "感想",
+      "予想"
+    ],
+    "meaning_en": "think, imagine, suppose, anticipate",
+    "meaning_id": "berpikir, membayangkan, memperkirakan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a89af082-9b14-55a5-bbe1-9472628fbcde",
+    "level": "n3",
+    "code": "k503-001",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 1,
+    "character": "練",
+    "onyomi": [
+      "レン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "練習"
+    ],
+    "meaning_en": "practice, train, knead, refine",
+    "meaning_id": "berlatih, melatih, memperbaiki",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e39d3a6b-6416-5fdb-9c82-a843a85cb6fb",
+    "level": "n3",
+    "code": "k503-002",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 2,
+    "character": "最",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "もっとも"
+    ],
+    "examples": [
+      "最近",
+      "最初",
+      "最後",
+      "最も"
+    ],
+    "meaning_en": "most, extreme, best, recent, last",
+    "meaning_id": "paling, terbaru, terbaik, terakhir",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5a4f5a2c-893b-5e95-87c1-59e2fc20e67d",
+    "level": "n3",
+    "code": "k503-003",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 3,
+    "character": "適",
+    "onyomi": [
+      "テキ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "適当(な)",
+      "快適(な)"
+    ],
+    "meaning_en": "suitable, fit, proper, comfortable",
+    "meaning_id": "cocok, sesuai, tepat, nyaman",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f3c13e36-3e8a-53c3-bb75-48a79ad9cd45",
+    "level": "n3",
+    "code": "k503-004",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 4,
+    "character": "選",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "えらぶ"
+    ],
+    "examples": [
+      "選挙",
+      "選手",
+      "選ぶ"
+    ],
+    "meaning_en": "select, choose, elect, player",
+    "meaning_id": "memilih, menyeleksi, pemain",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8c0652be-943a-5845-95e9-a1c7a3bfc7b2",
+    "level": "n3",
+    "code": "k503-005",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 5,
+    "character": "違",
+    "onyomi": [],
+    "kunyomi": [
+      "ちがう",
+      "ちがえる"
+    ],
+    "examples": [
+      "違う",
+      "間違い",
+      "間違う",
+      "間違える"
+    ],
+    "meaning_en": "different, wrong, mistake",
+    "meaning_id": "berbeda, salah, kekeliruan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "dffc55f0-7f7e-5d30-b16f-63039597423c",
+    "level": "n3",
+    "code": "k503-006",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 6,
+    "character": "直",
+    "onyomi": [
+      "チョク"
+    ],
+    "kunyomi": [
+      "なおる",
+      "なおす"
+    ],
+    "examples": [
+      "直線",
+      "直接",
+      "直る",
+      "直す"
+    ],
+    "meaning_en": "straight, direct, fix, repair",
+    "meaning_id": "lurus, langsung, memperbaiki",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "eef3a029-a3e3-5942-8d3b-e39e9c8bc09c",
+    "level": "n3",
+    "code": "k503-007",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 7,
+    "character": "復",
+    "onyomi": [
+      "フク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "復習",
+      "回復",
+      "往復"
+    ],
+    "meaning_en": "recover, return, review, round trip",
+    "meaning_id": "pulih, kembali, mengulang, perjalanan pulang pergi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "dfa5a616-a669-557c-96e7-fe40d8ad62f4",
+    "level": "n3",
+    "code": "k503-008",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 8,
+    "character": "辞",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "やめる"
+    ],
+    "examples": [
+      "辞書",
+      "辞める"
+    ],
+    "meaning_en": "resign, dictionary, quit, leave",
+    "meaning_id": "mengundurkan diri, kamus, berhenti",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "41b81d1c-dc0e-5db2-ab4d-77c172d85e70",
+    "level": "n3",
+    "code": "k503-009",
+    "lesson_id": "082d13f1-2b05-534e-bfc1-d6e21e5c1060",
+    "sequence": 9,
+    "character": "宿",
+    "onyomi": [
+      "シュク"
+    ],
+    "kunyomi": [
+      "やど"
+    ],
+    "examples": [
+      "宿題",
+      "下宿",
+      "宿"
+    ],
+    "meaning_en": "inn, lodge, homework, boarding house",
+    "meaning_id": "penginapan, rumah kos, pekerjaan rumah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cff9235b-fd4f-5f16-8112-4d6a4931eef3",
+    "level": "n3",
+    "code": "k504-001",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 1,
+    "character": "昨",
+    "onyomi": [
+      "サク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "昨日",
+      "昨夜",
+      "昨年"
+    ],
+    "meaning_en": "yesterday, last (time), previous",
+    "meaning_id": "kemarin, yang lalu, sebelumnya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ea7de875-ffea-56d6-80b8-474215307066",
+    "level": "n3",
+    "code": "k504-002",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 2,
+    "character": "君",
+    "onyomi": [
+      "クン"
+    ],
+    "kunyomi": [
+      "きみ"
+    ],
+    "examples": [
+      "〇〇君",
+      "君"
+    ],
+    "meaning_en": "you (informal), honorific for males",
+    "meaning_id": "kamu (informal), sebutan hormat pria",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5661398f-6353-5420-b477-52b713f65282",
+    "level": "n3",
+    "code": "k504-003",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 3,
+    "character": "結",
+    "onyomi": [
+      "ケツ"
+    ],
+    "kunyomi": [
+      "むすぶ"
+    ],
+    "examples": [
+      "結構(な)",
+      "結局",
+      "結ぶ"
+    ],
+    "meaning_en": "tie, connect, conclude, splendid",
+    "meaning_id": "mengikat, menyimpulkan, bagus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f3b19634-37f3-54c8-919c-037c37fcb911",
+    "level": "n3",
+    "code": "k504-004",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 4,
+    "character": "婚",
+    "onyomi": [
+      "コン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "結婚",
+      "婚約"
+    ],
+    "meaning_en": "marriage, wedding",
+    "meaning_id": "pernikahan, perkawinan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "dfeef484-05eb-5bd5-b2df-7a6fdf2479f1",
+    "level": "n3",
+    "code": "k504-005",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 5,
+    "character": "祝",
+    "onyomi": [
+      "シュク"
+    ],
+    "kunyomi": [
+      "いわう"
+    ],
+    "examples": [
+      "祝日",
+      "祝う",
+      "お祝い"
+    ],
+    "meaning_en": "celebrate, congratulate, festival day",
+    "meaning_id": "merayakan, mengucapkan selamat, hari raya",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cb4291a4-2921-5e76-bcad-c2797bd3cc83",
+    "level": "n3",
+    "code": "k504-006",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 6,
+    "character": "曲",
+    "onyomi": [
+      "キョク"
+    ],
+    "kunyomi": [
+      "まがる",
+      "まげる"
+    ],
+    "examples": [
+      "曲",
+      "曲線",
+      "曲がる",
+      "曲げる"
+    ],
+    "meaning_en": "piece of music, bend, curve, turn",
+    "meaning_id": "lagu, musik, membelok, melengkung",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "adaf5c09-c84e-5832-a380-4ce37eb05e27",
+    "level": "n3",
+    "code": "k504-007",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 7,
+    "character": "奥",
+    "onyomi": [],
+    "kunyomi": [
+      "おく"
+    ],
+    "examples": [
+      "奥さん",
+      "奥"
+    ],
+    "meaning_en": "inmost, inner, back, another's wife",
+    "meaning_id": "paling dalam, bagian belakang, istri orang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "de3ccc41-c253-5358-adab-eb0ef8b3c0c2",
+    "level": "n3",
+    "code": "k504-008",
+    "lesson_id": "f514f00d-864f-51dc-b8a1-d94f30de72dd",
+    "sequence": 8,
+    "character": "寝",
+    "onyomi": [],
+    "kunyomi": [
+      "ねる"
+    ],
+    "examples": [
+      "寝る",
+      "昼寝",
+      "寝坊"
+    ],
+    "meaning_en": "sleep, lie down, go to bed, nap",
+    "meaning_id": "tidur, berbaring, tidur siang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f2e73ace-7c62-5cc3-9066-3411145f4072",
+    "level": "n3",
+    "code": "k505-001",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 1,
+    "character": "痛",
+    "onyomi": [
+      "ツウ"
+    ],
+    "kunyomi": [
+      "いたい"
+    ],
+    "examples": [
+      "頭痛",
+      "腹痛",
+      "痛い"
+    ],
+    "meaning_en": "painful, sore, ache, hurt",
+    "meaning_id": "sakit, nyeri, menyakitkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d2490837-c1d7-53ff-bf1e-019c955d4afd",
+    "level": "n3",
+    "code": "k505-002",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 2,
+    "character": "熱",
+    "onyomi": [
+      "ネツ"
+    ],
+    "kunyomi": [
+      "あつい"
+    ],
+    "examples": [
+      "熱",
+      "熱心(な)",
+      "熱い"
+    ],
+    "meaning_en": "heat, fever, hot, enthusiasm",
+    "meaning_id": "panas, demam, semangat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "37a55f3d-8ea9-56ef-b5d6-bcd14d64bbfb",
+    "level": "n3",
+    "code": "k505-003",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 3,
+    "character": "虫",
+    "onyomi": [],
+    "kunyomi": [
+      "むし"
+    ],
+    "examples": [
+      "虫"
+    ],
+    "meaning_en": "insect, bug, worm, germ",
+    "meaning_id": "serangga, kuman, ulat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "08d68eb3-1f7a-5c70-9a58-a1793703a635",
+    "level": "n3",
+    "code": "k505-004",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 4,
+    "character": "歯",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "は"
+    ],
+    "examples": [
+      "歯科",
+      "歯",
+      "歯医者",
+      "虫歯"
+    ],
+    "meaning_en": "tooth, teeth, dentistry",
+    "meaning_id": "gigi, kedokteran gigi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "90b195a7-203f-51e9-a46e-1cd15d6accce",
+    "level": "n3",
+    "code": "k505-005",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 5,
+    "character": "治",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "なおる",
+      "なおす"
+    ],
+    "examples": [
+      "政治",
+      "治療",
+      "治る",
+      "治す"
+    ],
+    "meaning_en": "heal, cure, recover, govern",
+    "meaning_id": "sembuh, mengobati, menyembuhkan, memerintah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "85e1ff4c-7353-5f4f-ad16-ae77fc1bb27f",
+    "level": "n3",
+    "code": "k505-006",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 6,
+    "character": "汚",
+    "onyomi": [],
+    "kunyomi": [
+      "きたない",
+      "よごれる"
+    ],
+    "examples": [
+      "汚い",
+      "汚れる"
+    ],
+    "meaning_en": "dirty, filthy, stain, pollute",
+    "meaning_id": "kotor, mencemari, ternoda",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "741fd9c4-b8af-5315-8995-52fc2062ff05",
+    "level": "n3",
+    "code": "k505-007",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 7,
+    "character": "並",
+    "onyomi": [],
+    "kunyomi": [
+      "ならぶ",
+      "ならべる"
+    ],
+    "examples": [
+      "並ぶ",
+      "歯並び",
+      "並べる"
+    ],
+    "meaning_en": "line up, stand in a row, set up, arrange",
+    "meaning_id": "berbaris, mengantri, menyusun",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8af8c8a6-5f1c-5a70-b56b-d672422ea9eb",
+    "level": "n3",
+    "code": "k505-008",
+    "lesson_id": "84b6a2c9-6038-5d83-a815-34dd0561ee8a",
+    "sequence": 8,
+    "character": "他",
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "他の",
+      "その他"
+    ],
+    "meaning_en": "other, another, else",
+    "meaning_id": "lain, yang lain, selain itu",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f6ec32d1-3384-5c72-aad7-7ac0e65e92cb",
+    "level": "n3",
+    "code": "k506-001",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 1,
+    "character": "身",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "examples": [
+      "身長",
+      "身分",
+      "独身",
+      "刺身"
+    ],
+    "meaning_en": "body, oneself, social status",
+    "meaning_id": "tubuh, diri sendiri, status sosial",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "02ba6371-2743-5d06-a70f-c6977a82466e",
+    "level": "n3",
+    "code": "k506-002",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 2,
+    "character": "酒",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "さけ",
+      "さか"
+    ],
+    "examples": [
+      "日本酒",
+      "お酒",
+      "料理酒",
+      "酒屋"
+    ],
+    "meaning_en": "sake, alcohol, liquor",
+    "meaning_id": "sake, alkohol, minuman keras",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "4d2ee3ee-7ca4-5ec1-9ea5-4ed783f1812d",
+    "level": "n3",
+    "code": "k506-003",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 3,
+    "character": "吸",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "すう"
+    ],
+    "examples": [
+      "呼吸",
+      "吸う"
+    ],
+    "meaning_en": "breathe, inhale, absorb, smoke",
+    "meaning_id": "bernapas, menghirup, menyerap, merokok",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c25a85cf-8152-5803-9f3e-f94fec2e91d5",
+    "level": "n3",
+    "code": "k506-004",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 4,
+    "character": "欲",
+    "onyomi": [
+      "ヨク"
+    ],
+    "kunyomi": [
+      "ほしい"
+    ],
+    "examples": [
+      "食欲",
+      "意欲",
+      "欲しい"
+    ],
+    "meaning_en": "want, desire, greed, appetite",
+    "meaning_id": "ingin, keinginan, nafsu makan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "06747f1a-2e8b-58b9-98cf-a96a663df709",
+    "level": "n3",
+    "code": "k506-005",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 5,
+    "character": "眠",
+    "onyomi": [
+      "ミン"
+    ],
+    "kunyomi": [
+      "ねむい",
+      "ねむる"
+    ],
+    "examples": [
+      "睡眠",
+      "眠い",
+      "眠る"
+    ],
+    "meaning_en": "sleep, sleepy, slumber",
+    "meaning_id": "tidur, mengantuk, tertidur",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6b0090ec-da38-56d3-959b-13de52d40d36",
+    "level": "n3",
+    "code": "k506-006",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 6,
+    "character": "疲",
+    "onyomi": [],
+    "kunyomi": [
+      "つかれる"
+    ],
+    "examples": [
+      "疲れる"
+    ],
+    "meaning_en": "tired, exhausted, weary",
+    "meaning_id": "lelah, kelelahan, capek",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9bcca061-d073-529f-9b44-45a1e74eeeae",
+    "level": "n3",
+    "code": "k506-007",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 7,
+    "character": "息",
+    "onyomi": [],
+    "kunyomi": [
+      "いき"
+    ],
+    "examples": [
+      "息",
+      "息切れ",
+      "息子"
+    ],
+    "meaning_en": "breath, son, rest, pause",
+    "meaning_id": "napas, anak laki-laki, istirahat",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "97fb5fcf-b60a-5889-98d0-73749b763eb2",
+    "level": "n3",
+    "code": "k506-008",
+    "lesson_id": "538748f6-c277-535d-8cb0-2b6ed833fb14",
+    "sequence": 8,
+    "character": "呼",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "よぶ"
+    ],
+    "examples": [
+      "呼吸",
+      "呼ぶ"
+    ],
+    "meaning_en": "call, breathe out, invite, name",
+    "meaning_id": "memanggil, menghembuskan napas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9df3b60c-02bf-5787-843f-db47d6fc5fcd",
+    "level": "n3",
+    "code": "k507-001",
+    "lesson_id": "f5f9f26c-2bf9-5897-a253-f070e8a34736",
+    "sequence": 1,
+    "character": "厚",
+    "onyomi": [],
+    "kunyomi": [
+      "あつい"
+    ],
+    "examples": [
+      "厚い"
+    ],
+    "meaning_en": "thick, heavy, deep, kind",
+    "meaning_id": "tebal, berat, dalam, baik hati",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5b85ee3f-bfaf-5b1b-aa0b-1c5c2313bf72",
+    "level": "n3",
+    "code": "k507-002",
+    "lesson_id": "f5f9f26c-2bf9-5897-a253-f070e8a34736",
+    "sequence": 2,
+    "character": "泣",
+    "onyomi": [],
+    "kunyomi": [
+      "なく"
+    ],
+    "examples": [
+      "泣く"
+    ],
+    "meaning_en": "cry, weep, sob",
+    "meaning_id": "menangis, meratap",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "03057256-87cd-5011-b934-1daef58380a9",
+    "level": "n3",
+    "code": "k507-003",
+    "lesson_id": "f5f9f26c-2bf9-5897-a253-f070e8a34736",
+    "sequence": 3,
+    "character": "鳴",
+    "onyomi": [],
+    "kunyomi": [
+      "なく",
+      "なる"
+    ],
+    "examples": [
+      "鳴く",
+      "鳴る"
+    ],
+    "meaning_en": "chirp, croak, ring, chime, sound",
+    "meaning_id": "berkicau, bersuara, berbunyi, berdering",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b9867f80-3655-5dfd-82aa-8dab6a4671aa",
+    "level": "n3",
+    "code": "k507-004",
+    "lesson_id": "f5f9f26c-2bf9-5897-a253-f070e8a34736",
+    "sequence": 4,
+    "character": "初",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "はじめ",
+      "はじめて"
+    ],
+    "examples": [
+      "最初",
+      "初め",
+      "初めて",
+      "初級"
+    ],
+    "meaning_en": "first, beginning, for the first time",
+    "meaning_id": "pertama, awal, pertama kali",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5ab31803-0c26-5d1e-9c8e-ee7b66edf240",
+    "level": "n3",
+    "code": "k507-005",
+    "lesson_id": "f5f9f26c-2bf9-5897-a253-f070e8a34736",
+    "sequence": 5,
+    "character": "泊",
+    "onyomi": [
+      "ハク"
+    ],
+    "kunyomi": [
+      "とまる",
+      "とめる"
+    ],
+    "examples": [
+      "宿泊",
+      "泊まる",
+      "泊める"
+    ],
+    "meaning_en": "lodging, stay overnight, accommodate",
+    "meaning_id": "menginap, bermalam, penginapan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "650df93e-679e-5dd1-8627-1d78b3074601",
+    "level": "n3",
+    "code": "k507-006",
+    "lesson_id": "f5f9f26c-2bf9-5897-a253-f070e8a34736",
+    "sequence": 6,
+    "character": "葉",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "は"
+    ],
+    "examples": [
+      "紅葉",
+      "葉",
+      "言葉"
+    ],
+    "meaning_en": "leaf, autumn leaves, word, language",
+    "meaning_id": "daun, daun musim gugur, kata, bahasa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e3fc6af9-3271-58b6-8c33-daf8e829a98d",
+    "level": "n3",
+    "code": "k601-001",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 1,
+    "character": "報",
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "予報",
+      "報告"
+    ],
+    "meaning_en": "report, news, inform, forecast, reward",
+    "meaning_id": "laporan, berita, prakiraan, membalas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "bfcb1481-9038-59ef-b4d0-ed7d8d0b6ddb",
+    "level": "n3",
+    "code": "k601-002",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 2,
+    "character": "晴",
+    "onyomi": [],
+    "kunyomi": [
+      "はれる"
+    ],
+    "examples": [
+      "晴れる",
+      "晴れ"
+    ],
+    "meaning_en": "be sunny, clear up, fine weather",
+    "meaning_id": "cerah, cuaca cerah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0bf5fd4e-e19e-54de-91ab-34eade5ec9b8",
+    "level": "n3",
+    "code": "k601-003",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 3,
+    "character": "雲",
+    "onyomi": [],
+    "kunyomi": [
+      "くも"
+    ],
+    "examples": [
+      "雲"
+    ],
+    "meaning_en": "clouds, cloudy",
+    "meaning_id": "awan, berawan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "76bdf064-6917-55bd-ac97-cd90c9e48b37",
+    "level": "n3",
+    "code": "k601-004",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 4,
+    "character": "吹",
+    "onyomi": [],
+    "kunyomi": [
+      "ふく"
+    ],
+    "examples": [
+      "吹く"
+    ],
+    "meaning_en": "blow (wind), play (instrument)",
+    "meaning_id": "bertiup, meniup",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "298dc889-148a-59d6-93ef-7ec5ad474fb8",
+    "level": "n3",
+    "code": "k601-005",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 5,
+    "character": "暖",
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [
+      "あたたかい"
+    ],
+    "examples": [
+      "暖房",
+      "暖かい"
+    ],
+    "meaning_en": "warm, mild, gentle",
+    "meaning_id": "hangat, sejuk",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "313b180f-dbe0-5d88-bb78-95c2e3258dd8",
+    "level": "n3",
+    "code": "k601-006",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 6,
+    "character": "雪",
+    "onyomi": [],
+    "kunyomi": [
+      "ゆき"
+    ],
+    "examples": [
+      "雪"
+    ],
+    "meaning_en": "snow",
+    "meaning_id": "salju",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d3ac7ce6-fee0-5228-b142-d898414d467a",
+    "level": "n3",
+    "code": "k601-007",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 7,
+    "character": "震",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "地震",
+      "震度"
+    ],
+    "meaning_en": "earthquake, shake, tremble",
+    "meaning_id": "gempa bumi, gemetar",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6d91c0d1-71b1-574e-82c6-201afc0578f1",
+    "level": "n3",
+    "code": "k601-008",
+    "lesson_id": "39c6b5af-abc6-5469-86a0-866833a0aa9e",
+    "sequence": 8,
+    "character": "波",
+    "onyomi": [
+      "ハ"
+    ],
+    "kunyomi": [
+      "なみ"
+    ],
+    "examples": [
+      "電波",
+      "波",
+      "津波"
+    ],
+    "meaning_en": "wave, ripple, tsunami",
+    "meaning_id": "gelombang, ombak, tsunami",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9329b38c-eaa3-5698-9064-1334b27188d9",
+    "level": "n3",
+    "code": "k602-001",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 1,
+    "character": "求",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "もとめる"
+    ],
+    "examples": [
+      "要求",
+      "請求書",
+      "求人",
+      "求める"
+    ],
+    "meaning_en": "demand, request, seek, want",
+    "meaning_id": "meminta, menuntut, mencari",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "b1f49339-9d6c-52b1-96c8-6ed182723c96",
+    "level": "n3",
+    "code": "k602-002",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 2,
+    "character": "募",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "募集"
+    ],
+    "meaning_en": "recruit, solicit,募集",
+    "meaning_id": "merekrut, mencari, penggalangan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9b45045c-4ce7-5060-9cda-f2c206a37be1",
+    "level": "n3",
+    "code": "k602-003",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 3,
+    "character": "職",
+    "onyomi": [
+      "ショク"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "職場",
+      "職業",
+      "転職",
+      "職員"
+    ],
+    "meaning_en": "occupation, workplace, employee",
+    "meaning_id": "pekerjaan, tempat kerja, pegawai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "140b09d5-1ac2-58af-a10d-46f70392e821",
+    "level": "n3",
+    "code": "k602-004",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 4,
+    "character": "容",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "美容院",
+      "内容"
+    ],
+    "meaning_en": "contain, form, appearance, contents",
+    "meaning_id": "berisi, penampilan, isi, konten",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "456676d5-96b5-58df-9ae7-e6f4f6aa3d3a",
+    "level": "n3",
+    "code": "k602-005",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 5,
+    "character": "技",
+    "onyomi": [
+      "ギ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "技術",
+      "技術者"
+    ],
+    "meaning_en": "technique, skill, technology",
+    "meaning_id": "teknik, keahlian, teknologi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "40acf206-381c-5469-bf96-2c59a9517625",
+    "level": "n3",
+    "code": "k602-006",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 6,
+    "character": "般",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "一般",
+      "一般に"
+    ],
+    "meaning_en": "general, average, common",
+    "meaning_id": "umum, rata-rata, biasa",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a8abcb32-db5c-538d-a3e6-c91d83d06613",
+    "level": "n3",
+    "code": "k602-007",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 7,
+    "character": "務",
+    "onyomi": [
+      "ム"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "事務",
+      "事務所",
+      "公務員",
+      "税務署"
+    ],
+    "meaning_en": "office work, duty, service",
+    "meaning_id": "pekerjaan kantor, tugas, dinas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9d0eb823-6d54-5615-bf4a-37bb8827fee9",
+    "level": "n3",
+    "code": "k602-008",
+    "lesson_id": "49fa6050-0efc-5704-8cde-dc8d2a516113",
+    "sequence": 8,
+    "character": "課",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "第1課",
+      "課長"
+    ],
+    "meaning_en": "lesson, section, department chief",
+    "meaning_id": "pelajaran, seksi, kepala bagian",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "9a57d190-014b-5059-9aa5-110d199d57a1",
+    "level": "n3",
+    "code": "k603-001",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 1,
+    "character": "球",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "地球",
+      "電球",
+      "野球"
+    ],
+    "meaning_en": "ball, sphere, globe",
+    "meaning_id": "bola, bola dunia",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c8eab0e5-d226-5de4-912c-b44ac63b466a",
+    "level": "n3",
+    "code": "k603-002",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 2,
+    "character": "決",
+    "onyomi": [
+      "ケツ"
+    ],
+    "kunyomi": [
+      "きめる",
+      "きまる"
+    ],
+    "examples": [
+      "決して",
+      "決める",
+      "決定",
+      "決まる"
+    ],
+    "meaning_en": "decide, determine, by no means",
+    "meaning_id": "memutuskan, ditentukan, sama sekali tidak",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "87d9d57c-e9e5-57bf-b8ee-eb5e7b6e5596",
+    "level": "n3",
+    "code": "k603-003",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 3,
+    "character": "勝",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "かつ"
+    ],
+    "examples": [
+      "優勝",
+      "決勝",
+      "勝つ"
+    ],
+    "meaning_en": "win, victory, championship",
+    "meaning_id": "menang, kemenangan, juara",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "aad59b57-73e7-54f2-97e0-9aaa53eeeec2",
+    "level": "n3",
+    "code": "k603-004",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 4,
+    "character": "対",
+    "onyomi": [
+      "タイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "1対2",
+      "反対"
+    ],
+    "meaning_en": "against, versus, opposite, score",
+    "meaning_id": "melawan, versus, berlawanan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "990040f6-db56-5da7-8247-c9c4bc4c5827",
+    "level": "n3",
+    "code": "k603-005",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 5,
+    "character": "流",
+    "onyomi": [],
+    "kunyomi": [
+      "ながれる",
+      "ながす"
+    ],
+    "examples": [
+      "流れる",
+      "流す"
+    ],
+    "meaning_en": "flow, let flow, stream, current",
+    "meaning_id": "mengalir, mengalirkan, arus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "41e192c4-6333-5ead-87c4-5e835971df10",
+    "level": "n3",
+    "code": "k603-006",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 6,
+    "character": "負",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "まける"
+    ],
+    "examples": [
+      "勝負",
+      "負ける"
+    ],
+    "meaning_en": "lose, defeat, match, contest",
+    "meaning_id": "kalah, kekalahan, pertandingan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f6202e36-37e5-542b-a578-bc3d2b8f0ab0",
+    "level": "n3",
+    "code": "k603-007",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 7,
+    "character": "投",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "なげる"
+    ],
+    "examples": [
+      "投手",
+      "投げる"
+    ],
+    "meaning_en": "throw, pitch, invest",
+    "meaning_id": "melempar, melemparkan, berinvestasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e5195ed0-08e8-506c-bd03-653a63fb8132",
+    "level": "n3",
+    "code": "k603-008",
+    "lesson_id": "57aa6ff6-a825-57fc-85de-2ca5bcad4466",
+    "sequence": 8,
+    "character": "果",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "結果",
+      "果物"
+    ],
+    "meaning_en": "result, fruit, effect, carry out",
+    "meaning_id": "hasil, buah, efek, melaksanakan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a7e38971-0fb0-5bc3-ba62-437fc4ae0500",
+    "level": "n3",
+    "code": "k604-001",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 1,
+    "character": "戦",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "たたかう"
+    ],
+    "examples": [
+      "戦後",
+      "戦争",
+      "戦う"
+    ],
+    "meaning_en": "fight, war, battle, compete",
+    "meaning_id": "berperang, pertempuran, bersaing",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "d74e39ed-bdd8-52d2-bdd1-053202900909",
+    "level": "n3",
+    "code": "k604-002",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 2,
+    "character": "経",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "経験",
+      "経営"
+    ],
+    "meaning_en": "pass through, manage, experience",
+    "meaning_id": "melewati, mengelola, pengalaman",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "014301eb-3041-5582-9d08-c42ffb63965e",
+    "level": "n3",
+    "code": "k604-003",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 3,
+    "character": "済",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "すむ"
+    ],
+    "examples": [
+      "経済",
+      "済む"
+    ],
+    "meaning_en": "finish, economy,済む",
+    "meaning_id": "menyelesaikan, ekonomi, selesai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "2b746865-2847-5340-9eb3-7b3aa8d5da14",
+    "level": "n3",
+    "code": "k604-004",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 4,
+    "character": "成",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "成長",
+      "完成"
+    ],
+    "meaning_en": "grow, become, complete, achieve",
+    "meaning_id": "tumbuh, menjadi, selesai, mencapai",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "c77ee3ca-5c78-5ef0-a317-f22b7dc09318",
+    "level": "n3",
+    "code": "k604-005",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 5,
+    "character": "貿",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "貿易"
+    ],
+    "meaning_en": "trade, commerce",
+    "meaning_id": "perdagangan, niaga",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "72b97f1d-b593-5746-9098-b338f927f0f9",
+    "level": "n3",
+    "code": "k604-006",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 6,
+    "character": "易",
+    "onyomi": [
+      "エキ"
+    ],
+    "kunyomi": [
+      "やさしい"
+    ],
+    "examples": [
+      "貿易",
+      "易しい"
+    ],
+    "meaning_en": "easy, trade, simple, plain",
+    "meaning_id": "mudah, perdagangan, sederhana",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1b681a5f-ebf8-5cb7-99ec-5f84f1fbbf5b",
+    "level": "n3",
+    "code": "k604-007",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 7,
+    "character": "輸",
+    "onyomi": [
+      "ユ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "輸出",
+      "輸入",
+      "輸送"
+    ],
+    "meaning_en": "transport, export, import",
+    "meaning_id": "mengangkut, mengekspor, mengimpor",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "8006c613-c7b6-5603-9f34-575ce594f9eb",
+    "level": "n3",
+    "code": "k604-008",
+    "lesson_id": "3cc6a6aa-9554-5c7a-b48f-9eba4e7e2aec",
+    "sequence": 8,
+    "character": "相",
+    "onyomi": [
+      "ソウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "あい"
+    ],
+    "examples": [
+      "相談",
+      "首相",
+      "相手"
+    ],
+    "meaning_en": "mutual, appearance, consultation, minister",
+    "meaning_id": "saling, penampilan, konsultasi, menteri",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e8920414-09c2-50d7-a560-d33cc0cb09cd",
+    "level": "n3",
+    "code": "k605-001",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 1,
+    "character": "化",
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "文化",
+      "化学",
+      "〇〇化",
+      "化粧"
+    ],
+    "meaning_en": "change, -ize, transform, chemistry",
+    "meaning_id": "berubah, mengubah, kimia, transformasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5fc73580-e69a-53c0-b18c-c7d1c8f569ef",
+    "level": "n3",
+    "code": "k605-002",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 2,
+    "character": "比",
+    "onyomi": [],
+    "kunyomi": [
+      "くらべる"
+    ],
+    "examples": [
+      "比べる"
+    ],
+    "meaning_en": "compare, ratio, contrast",
+    "meaning_id": "membandingkan, rasio, perbandingan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "30d7c84c-35ce-520d-b5fe-a8c81903b66c",
+    "level": "n3",
+    "code": "k605-003",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 3,
+    "character": "原",
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "原料",
+      "原因"
+    ],
+    "meaning_en": "original, raw material, field, cause",
+    "meaning_id": "asli, bahan baku, lapangan, penyebab",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e0f7b7bc-8cf4-596e-8331-c5223a7a6098",
+    "level": "n3",
+    "code": "k605-004",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 4,
+    "character": "因",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "原因"
+    ],
+    "meaning_en": "cause, reason, factor",
+    "meaning_id": "penyebab, alasan, faktor",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "3bc874d1-d2ec-532d-9406-341bb174eed5",
+    "level": "n3",
+    "code": "k605-005",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 5,
+    "character": "際",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "国際(の)",
+      "交際"
+    ],
+    "meaning_en": "occasion, international, border",
+    "meaning_id": "kesempatan, internasional, batas",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "53f973c9-4e79-5a0b-a8ae-abaac0b11df0",
+    "level": "n3",
+    "code": "k605-006",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 6,
+    "character": "議",
+    "onyomi": [
+      "ギ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "会議",
+      "議員"
+    ],
+    "meaning_en": "discuss, deliberate, parliament, assembly",
+    "meaning_id": "berdiskusi, bermusyawarah, parlemen",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "f8fed7bb-a744-597d-94d4-f21bcf8e81a7",
+    "level": "n3",
+    "code": "k605-007",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 7,
+    "character": "活",
+    "onyomi": [
+      "カツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "生活",
+      "活動"
+    ],
+    "meaning_en": "lively, life, activity, live",
+    "meaning_id": "hidup, aktif, kegiatan, kehidupan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "de93fd6c-a1af-5bcf-a234-abac6cc502b0",
+    "level": "n3",
+    "code": "k605-008",
+    "lesson_id": "4c10ce6e-cf83-5d1c-a6ce-ec16aa989c20",
+    "sequence": 8,
+    "character": "変",
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "かわる",
+      "かえる"
+    ],
+    "examples": [
+      "大変(な)",
+      "変化",
+      "変わる",
+      "変える"
+    ],
+    "meaning_en": "change, strange, serious, transform",
+    "meaning_id": "berubah, aneh, serius, mengubah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "52ed194c-194c-5453-ba48-de8fdd096bd1",
+    "level": "n3",
+    "code": "k606-001",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 1,
+    "character": "政",
+    "onyomi": [
+      "セイ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "政治",
+      "政治家"
+    ],
+    "meaning_en": "politics, government, administration",
+    "meaning_id": "politik, pemerintahan, administrasi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "5e5c81a2-283d-5f5f-a7bd-9b6be3a50e53",
+    "level": "n3",
+    "code": "k606-002",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 2,
+    "character": "府",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "政府",
+      "都道府県"
+    ],
+    "meaning_en": "government, urban prefecture",
+    "meaning_id": "pemerintahan, prefektur perkotaan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "60a41b27-c015-5b00-882b-4f468677e6b1",
+    "level": "n3",
+    "code": "k606-003",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 3,
+    "character": "改",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "あらためる"
+    ],
+    "examples": [
+      "改正",
+      "改める",
+      "改札口"
+    ],
+    "meaning_en": "change, reform, amend, check, revise",
+    "meaning_id": "mengubah, mereformasi, merevisi",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "a3fe00c7-a4ae-5360-8a31-6a9b19d8d1af",
+    "level": "n3",
+    "code": "k606-004",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 4,
+    "character": "否",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "否定"
+    ],
+    "meaning_en": "negate, deny, no, rejection",
+    "meaning_id": "menolak, menyangkal, tidak, penolakan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0c5dc396-7569-53a3-87c2-64b2ecad4eb9",
+    "level": "n3",
+    "code": "k606-005",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 5,
+    "character": "的",
+    "onyomi": [
+      "テキ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "否定的(な)",
+      "国際的(な)",
+      "目的",
+      "個人的(な)"
+    ],
+    "meaning_en": "-ic, -ical, aim, target, purpose",
+    "meaning_id": "-ik, tujuan, sasaran",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "1ad31aa8-2446-5fec-8c41-99e6b116bd95",
+    "level": "n3",
+    "code": "k606-006",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 6,
+    "character": "実",
+    "onyomi": [
+      "ジツ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "実際に",
+      "実は",
+      "実験"
+    ],
+    "meaning_en": "reality, truth, actual, experiment",
+    "meaning_id": "kenyataan, kebenaran, sebenarnya, percobaan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "01da22a3-9b2e-5abd-bfc2-e7d660537945",
+    "level": "n3",
+    "code": "k606-007",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 7,
+    "character": "欠",
+    "onyomi": [
+      "ケツ"
+    ],
+    "kunyomi": [
+      "かける"
+    ],
+    "examples": [
+      "欠点",
+      "欠席",
+      "欠ける"
+    ],
+    "meaning_en": "lack, absent, chip, miss, shortcoming",
+    "meaning_id": "kurang, absen, kekurangan, celah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "e305d09e-f63a-526d-9147-9ddbea0e1b67",
+    "level": "n3",
+    "code": "k606-008",
+    "lesson_id": "adfc023d-dbff-5e4d-91d1-8541355ea33e",
+    "sequence": 8,
+    "character": "専",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "専門",
+      "専門家"
+    ],
+    "meaning_en": "specialty, exclusive, dedicated",
+    "meaning_id": "spesialisasi, eksklusif, khusus",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "ee83b9d3-364e-52ce-87f6-d3f1f1884a1c",
+    "level": "n3",
+    "code": "k607-001",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 1,
+    "character": "亡",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "ない"
+    ],
+    "examples": [
+      "死亡",
+      "亡くなる"
+    ],
+    "meaning_en": "die, deceased, lost, perish",
+    "meaning_id": "meninggal, almarhum, hilang",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "0cf4b8d0-bbdb-58e7-b330-67d2b0072acb",
+    "level": "n3",
+    "code": "k607-002",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 2,
+    "character": "忙",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "いそがしい"
+    ],
+    "examples": [
+      "多忙(な)",
+      "忙しい"
+    ],
+    "meaning_en": "busy, occupied, hectic",
+    "meaning_id": "sibuk, ramai, disibukkan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "97378b7a-1e59-5fea-bf39-26ee9e437ec7",
+    "level": "n3",
+    "code": "k607-003",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 3,
+    "character": "忘",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [
+      "わすれる"
+    ],
+    "examples": [
+      "忘年会",
+      "忘れる",
+      "忘れ物"
+    ],
+    "meaning_en": "forget, leave behind",
+    "meaning_id": "melupakan, terlupa, tertinggal",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "718e50e2-2d84-54cb-b6d4-05fdb51fc6b6",
+    "level": "n3",
+    "code": "k607-004",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 4,
+    "character": "祭",
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "まつり"
+    ],
+    "examples": [
+      "文化祭",
+      "(お)祭り"
+    ],
+    "meaning_en": "festival, celebrate, enshrine",
+    "meaning_id": "festival, merayakan, festival sekolah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "804dbdf4-bcab-5a5f-9647-1b97dbb536f0",
+    "level": "n3",
+    "code": "k607-005",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 5,
+    "character": "労",
+    "onyomi": [
+      "ロウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "苦労",
+      "労働者"
+    ],
+    "meaning_en": "labor, trouble, hardship, worker",
+    "meaning_id": "kerja keras, penderitaan, buruh",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "48b29d66-aebc-5df5-ab3b-9b08122c6779",
+    "level": "n3",
+    "code": "k607-006",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 6,
+    "character": "加",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "くわえる"
+    ],
+    "examples": [
+      "参加",
+      "増加",
+      "加える"
+    ],
+    "meaning_en": "add, participate, increase, join",
+    "meaning_id": "menambahkan, berpartisipasi, bertambah",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "cff59cb8-5d0b-5f5b-9b8d-4329d6833fd4",
+    "level": "n3",
+    "code": "k607-007",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 7,
+    "character": "情",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "情報",
+      "表情",
+      "事情",
+      "感情"
+    ],
+    "meaning_en": "feeling, emotion, information, circumstance",
+    "meaning_id": "perasaan, emosi, informasi, keadaan",
+    "sources": [
+      "soumatome"
+    ]
+  },
+  {
+    "id": "6f58550f-710a-50fd-9930-dbf1080e6397",
+    "level": "n3",
+    "code": "k607-008",
+    "lesson_id": "96f4f467-b7ee-5af7-bcfe-f56f5e67b868",
+    "sequence": 8,
+    "character": "反",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [],
+    "examples": [
+      "反対"
+    ],
+    "meaning_en": "anti-, opposite, against, reverse",
+    "meaning_id": "anti-, berlawanan, menentang",
+    "sources": [
+      "soumatome"
+    ]
+  }
+]
