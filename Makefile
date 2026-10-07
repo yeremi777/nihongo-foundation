@@ -9,15 +9,20 @@ MIGRATIONS_DIR := internal/database/migrations
 DB_DSN = host='$(DB_HOST)' port='$(DB_PORT)' dbname='$(DB_NAME)' user='$(DB_USERNAME)' password='$(DB_PASSWORD)' sslmode='$(DB_SSLMODE)'
 GOOSE = goose -dir $(MIGRATIONS_DIR) postgres "$(DB_DSN)"
 
-TEST_DB_CONTAINER := nihongo-foundation-test-db
-TEST_DB_PORT := 55432
-TEST_DB_DSN := host='127.0.0.1' port='$(TEST_DB_PORT)' dbname='test' user='postgres' password='test' sslmode='disable'
+# Integration tests use this database on the .env Postgres server, never DB_NAME.
+TEST_DB_NAME ?= test_nihongo_foundation
+TEST_DB_DSN = host='$(DB_HOST)' port='$(DB_PORT)' dbname='$(TEST_DB_NAME)' user='$(DB_USERNAME)' password='$(DB_PASSWORD)' sslmode='$(DB_SSLMODE)'
 
 .DEFAULT_GOAL := help
-.PHONY: help convert seed test test-integration test-db-up test-db-down vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
+.PHONY: help api convert seed test test-integration vet fmt tidy migrate-up migrate-down migrate-reset migrate-status migrate-create db-env
 
 help: ## List the targets
 	@awk 'BEGIN {FS = ":.*## "} /^[a-z-]+:.*## / {printf "  %-17s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+## Run
+
+api: db-env ## Serve the API on APP_PORT, with its docs at APP_URL/docs
+	go run ./cmd/api
 
 ## Dataset
 
@@ -32,18 +37,15 @@ seed: db-env ## Load the data/<level>/*.json dataset into the .env database
 test: ## Run the unit tests
 	go test ./...
 
-test-integration: ## Run unit and integration tests against the throwaway Postgres (make test-db-up first)
-	TEST_DB_DSN="$(TEST_DB_DSN)" go test -tags integration -count=1 ./...
-
-test-db-up: ## Start a throwaway Postgres in Docker for integration tests, never the .env database
-	docker run -d --rm --name $(TEST_DB_CONTAINER) -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 127.0.0.1:$(TEST_DB_PORT):5432 postgres:17-alpine
-	@until docker exec $(TEST_DB_CONTAINER) pg_isready -U postgres -d test >/dev/null 2>&1; do sleep 1; done
-
-test-db-down: ## Remove the throwaway Postgres
-	docker rm -f $(TEST_DB_CONTAINER)
+# One package at a time: every package with integration tests rebuilds the
+# shared test database's schema before its tests run.
+# Silent so the DSN and its password are never printed.
+test-integration: db-env ## Run unit and integration tests on the TEST_DB_NAME database (first: createdb -h DB_HOST -U DB_USERNAME test_nihongo_foundation), emptied after every run
+	@TEST_DB_DSN="$(TEST_DB_DSN)" go test -tags integration -count=1 -p 1 ./...
 
 vet: ## Report suspicious constructs
 	go vet ./...
+	go vet -tags integration ./...
 
 fmt: ## Format all Go files
 	gofmt -w .

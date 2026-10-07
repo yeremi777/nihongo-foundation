@@ -1,0 +1,298 @@
+openapi: 3.1.0
+info:
+  title: Nihongo Foundation
+  version: 1.0.0
+  description: >
+    JLPT N5 to N3 kanji, vocabulary, and grammar, by level, section, week, and
+    lesson.
+# No authentication.
+security: []
+tags:
+  - name: health
+    description: Service status.
+  - name: lessons
+    description: Lessons with their kanji, vocabulary, and grammar.
+
+paths:
+  /health:
+    get:
+      tags: [health]
+      summary: Liveness
+      operationId: health
+      responses:
+        "200":
+          description: The service is up.
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                properties:
+                  status: { type: string, const: ok }
+
+  /api/lessons:
+    get:
+      tags: [lessons]
+      summary: List lessons
+      description: Ordered by level from n5, section as kanji, vocabulary, grammar, then week, then day.
+      operationId: listLessons
+      parameters:
+        - name: level
+          in: query
+          description: Only this level.
+          schema: { $ref: "#/components/schemas/Level" }
+        - name: section
+          in: query
+          description: Only this section.
+          schema: { $ref: "#/components/schemas/Section" }
+      responses:
+        "200":
+          description: Matching lessons; `[]` when none match.
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: "#/components/schemas/Lesson" }
+        "400":
+          description: "`invalid_level` or `invalid_section`."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/lessons/{lesson_id}:
+    get:
+      tags: [lessons]
+      summary: Get a lesson
+      description: Items ordered by `sequence`.
+      operationId: getLesson
+      parameters:
+        - name: lesson_id
+          in: path
+          required: true
+          schema: { $ref: "#/components/schemas/Id" }
+          examples:
+            n5_kanji_week1_day1: { value: 01257228-3036-5974-8b1c-c39c01112548 }
+      responses:
+        "200":
+          description: The lesson and its items.
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: "#/components/schemas/KanjiLesson"
+                  - $ref: "#/components/schemas/VocabularyLesson"
+                  - $ref: "#/components/schemas/GrammarLesson"
+        "404":
+          description: "`lesson_not_found`: not a UUID, or no such lesson."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+components:
+  responses:
+    InternalError:
+      description: "`internal_error`. Cause logged, never returned."
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Error" }
+
+  schemas:
+    Level:
+      type: string
+      enum: [n5, n4, n3, n2, n1]
+    Section:
+      type: string
+      enum: [kanji, vocabulary, grammar]
+    Source:
+      type: string
+      description: Textbook name.
+      enum: [soumatome, shinkanzen, minna-no-nihongo]
+    Sources:
+      type: array
+      minItems: 1
+      uniqueItems: true
+      items: { $ref: "#/components/schemas/Source" }
+    Id:
+      type: string
+      format: uuid
+      description: Stable, opaque UUID.
+
+    Lesson:
+      type: object
+      description: One day of study in a week.
+      required: [id, level, section, week, day, title, title_en, title_id, week_title, week_title_en, week_title_id]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        level: { $ref: "#/components/schemas/Level" }
+        section: { $ref: "#/components/schemas/Section" }
+        week: { type: integer, minimum: 1 }
+        day: { type: integer, minimum: 1, description: Position in the week. }
+        title: { type: string, examples: [お名前は？] }
+        title_en: { type: string, examples: ["People, Names, Country, Language"] }
+        title_id: { type: string, description: Indonesian. }
+        week_title: { type: string }
+        week_title_en: { type: string }
+        week_title_id: { type: [string, "null"], description: Indonesian. }
+
+    Kanji:
+      type: object
+      required: [id, level, code, lesson_id, sequence, character, onyomi, kunyomi, examples, meaning_en, meaning_id, sources]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        level: { $ref: "#/components/schemas/Level" }
+        code: { type: string, examples: [k101-001] }
+        lesson_id: { $ref: "#/components/schemas/Id" }
+        sequence: { type: integer, minimum: 1 }
+        character: { type: string, minLength: 1, maxLength: 1, examples: [先] }
+        onyomi: { type: array, items: { type: string } }
+        kunyomi: { type: array, items: { type: string } }
+        examples: { type: array, items: { type: string } }
+        meaning_en: { type: string }
+        meaning_id: { type: string, description: Indonesian. }
+        sources: { $ref: "#/components/schemas/Sources" }
+
+    VocabularyItem:
+      type: object
+      required: [id, level, code, lesson_id, sequence, word, reading, part_of_speech, note, meaning_en, meaning_id, sources]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        level: { $ref: "#/components/schemas/Level" }
+        code: { type: string, examples: [v101-001] }
+        lesson_id: { $ref: "#/components/schemas/Id" }
+        sequence: { type: integer, minimum: 1 }
+        word: { type: string, description: As written., examples: [あまい] }
+        reading: { type: string }
+        part_of_speech: { type: string, examples: [い-adjective, noun / する-verb] }
+        note: { type: [string, "null"] }
+        meaning_en: { type: string }
+        meaning_id: { type: string, description: Indonesian. }
+        sources: { $ref: "#/components/schemas/Sources" }
+
+    GrammarPoint:
+      type: object
+      required: [id, level, code, lesson_id, sequence, curriculum_code, pattern, reading, formula, note, example, difficulty, meaning_en, meaning_id, sources]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        level: { $ref: "#/components/schemas/Level" }
+        code: { type: string, examples: [g101-a] }
+        lesson_id: { $ref: "#/components/schemas/Id" }
+        sequence: { type: integer, minimum: 1 }
+        curriculum_code: { type: string, description: Code without its `-<letter>` suffix., examples: [g101] }
+        pattern: { type: string }
+        reading: { type: [string, "null"] }
+        formula: { type: [string, "null"] }
+        note: { type: [string, "null"] }
+        example: { type: [string, "null"], description: Japanese sentence only. }
+        difficulty: { type: string, enum: [easy, medium, hard] }
+        meaning_en: { type: string }
+        meaning_id: { type: string, description: Indonesian. }
+        sources: { $ref: "#/components/schemas/Sources" }
+
+    ComparisonNote:
+      type: object
+      description: Two patterns side by side.
+      required: [id, lesson_id, sequence, pattern_a, pattern_b, difference, use_when, example]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        lesson_id: { $ref: "#/components/schemas/Id" }
+        sequence: { type: integer, minimum: 1 }
+        pattern_a: { type: string }
+        pattern_b: { type: string }
+        difference: { type: string }
+        use_when: { type: string }
+        example: { type: string }
+
+    MistakeCard:
+      type: object
+      description: Incorrect and correct sentences for one point.
+      required: [id, lesson_id, sequence, point, lines, meaning_en, meaning_id]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        lesson_id: { $ref: "#/components/schemas/Id" }
+        sequence: { type: integer, minimum: 1 }
+        point: { type: string }
+        lines:
+          type: array
+          minItems: 1
+          description: Card order; at least one `correct`.
+          items:
+            type: object
+            required: [verdict, label, sentence]
+            properties:
+              verdict: { type: string, enum: [incorrect, correct] }
+              label: { type: string, description: Card wording after the mark., examples: [Less natural] }
+              sentence: { type: string }
+        meaning_en: { type: [string, "null"] }
+        meaning_id: { type: string, description: Indonesian. }
+
+    Expression:
+      type: object
+      description: A word or phrase showing a pattern's members.
+      required: [id, lesson_id, sequence, expression, reading, meaning_en, meaning_id, note, example]
+      properties:
+        id: { $ref: "#/components/schemas/Id" }
+        lesson_id: { $ref: "#/components/schemas/Id" }
+        sequence: { type: integer, minimum: 1 }
+        expression: { type: string, examples: [だれ] }
+        reading: { type: [string, "null"] }
+        meaning_en: { type: string }
+        meaning_id: { type: string, description: Indonesian. }
+        note: { type: [string, "null"] }
+        example: { type: [string, "null"] }
+
+    KanjiLesson:
+      type: object
+      required: [lesson, kanji]
+      additionalProperties: false
+      properties:
+        lesson: { $ref: "#/components/schemas/Lesson" }
+        kanji:
+          type: array
+          items: { $ref: "#/components/schemas/Kanji" }
+
+    VocabularyLesson:
+      type: object
+      required: [lesson, vocabulary]
+      additionalProperties: false
+      properties:
+        lesson: { $ref: "#/components/schemas/Lesson" }
+        vocabulary:
+          type: array
+          items: { $ref: "#/components/schemas/VocabularyItem" }
+
+    GrammarLesson:
+      type: object
+      description: Adds `comparisons`, `mistakes`, and `expressions`, `[]` when none.
+      required: [lesson, grammar, comparisons, mistakes, expressions]
+      additionalProperties: false
+      properties:
+        lesson: { $ref: "#/components/schemas/Lesson" }
+        grammar:
+          type: array
+          items: { $ref: "#/components/schemas/GrammarPoint" }
+        comparisons:
+          type: array
+          items: { $ref: "#/components/schemas/ComparisonNote" }
+        mistakes:
+          type: array
+          items: { $ref: "#/components/schemas/MistakeCard" }
+        expressions:
+          type: array
+          items: { $ref: "#/components/schemas/Expression" }
+
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code:
+              type: string
+              enum: [invalid_level, invalid_section, lesson_not_found, not_found, method_not_allowed, internal_error]
+            message: { type: string }
