@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   description: >
     JLPT N5 to N3 kanji, vocabulary, and grammar, by level, section, week, and
-    lesson.
+    lesson, and quizzes built from them.
 # No authentication.
 security: []
 tags:
@@ -12,6 +12,8 @@ tags:
     description: Service status.
   - name: lessons
     description: Lessons with their kanji, vocabulary, and grammar.
+  - name: quizzes
+    description: AI-written questions, never stored.
 
 paths:
   /health:
@@ -91,6 +93,53 @@ paths:
               schema: { $ref: "#/components/schemas/Error" }
         "500":
           $ref: "#/components/responses/InternalError"
+
+  /api/quizzes:
+    post:
+      tags: [quizzes]
+      summary: Generate a quiz
+      description: Each question is anchored to one item and checked against it; a failing question is dropped.
+      operationId: createQuiz
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/QuizRequest" }
+            examples:
+              n5_vocabulary: { value: { level: n5, section: vocabulary, lang: id, count: 5 } }
+      responses:
+        "200":
+          description: The quiz.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Quiz" }
+        "400":
+          description: "`invalid_body`, `invalid_level`, `invalid_section`, `invalid_lang`, `invalid_type`, `invalid_count`, or `invalid_lesson`; the first that applies."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "404":
+          description: "`items_not_found`: no item matches the request."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "502":
+          description: "`quiz_generation_failed`. Cause logged, never returned."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "503":
+          description: "`quiz_unavailable`: no provider configured."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "504":
+          description: "`quiz_generation_timeout`."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
 
 components:
   responses:
@@ -284,6 +333,57 @@ components:
           type: array
           items: { $ref: "#/components/schemas/Expression" }
 
+    QuestionType:
+      type: string
+      description: "Per section: kanji `meaning`, `reading`; vocabulary `meaning`, `reading`, `usage`; grammar `meaning`, `usage`."
+      enum: [meaning, reading, usage]
+
+    QuizRequest:
+      type: object
+      required: [level, section, lang]
+      additionalProperties: false
+      properties:
+        level: { $ref: "#/components/schemas/Level" }
+        section: { $ref: "#/components/schemas/Section" }
+        lang: { type: string, enum: [en, id], description: Language of meanings and explanations. }
+        lesson_ids:
+          type: array
+          description: Lessons of the level and section; all when absent or empty.
+          items: { $ref: "#/components/schemas/Id" }
+        types:
+          type: array
+          description: Question types of the section; all when absent or empty.
+          items: { $ref: "#/components/schemas/QuestionType" }
+        count: { type: integer, minimum: 1, maximum: 10, default: 5, description: Upper bound on questions. }
+
+    Question:
+      type: object
+      required: [code, type, prompt, choices, answer, explanation]
+      properties:
+        code: { type: string, description: Code of the item asked about., examples: [v101-001] }
+        type: { $ref: "#/components/schemas/QuestionType" }
+        prompt: { type: string, description: "The item, or for `usage` a sentence with ＿＿.", examples: [あまい] }
+        choices:
+          type: array
+          minItems: 4
+          maxItems: 4
+          uniqueItems: true
+          description: Random order.
+          items: { type: string }
+          examples: [[manis, asin, pahit, pedas]]
+        answer: { type: integer, minimum: 0, maximum: 3, description: Index of the correct choice. }
+        explanation: { type: string, description: "In `lang`; not checked." }
+
+    Quiz:
+      type: object
+      required: [questions, dropped]
+      properties:
+        questions:
+          type: array
+          minItems: 1
+          items: { $ref: "#/components/schemas/Question" }
+        dropped: { type: integer, minimum: 0, description: Questions dropped for failing their checks. }
+
     Error:
       type: object
       required: [error]
@@ -294,5 +394,20 @@ components:
           properties:
             code:
               type: string
-              enum: [invalid_level, invalid_section, lesson_not_found, not_found, method_not_allowed, internal_error]
+              enum:
+                - invalid_body
+                - invalid_level
+                - invalid_section
+                - invalid_lang
+                - invalid_type
+                - invalid_count
+                - invalid_lesson
+                - lesson_not_found
+                - items_not_found
+                - not_found
+                - method_not_allowed
+                - internal_error
+                - quiz_generation_failed
+                - quiz_unavailable
+                - quiz_generation_timeout
             message: { type: string }
