@@ -3,9 +3,11 @@
 package lesson
 
 import (
+	"cmp"
 	"context"
 	"errors"
 	"reflect"
+	"slices"
 	"testing"
 
 	"github.com/jackc/pgx/v5"
@@ -44,27 +46,51 @@ func where[T any](rows []T, keep func(T) bool) []T {
 	return kept
 }
 
-func TestListReturnsTheLessonsOfALevelAndSectionInWeekAndDayOrder(t *testing.T) {
+// inListOrder sorts lessons by level from n5, section from kanji, week, and day.
+func inListOrder(lessons []dataset.Lesson) []dataset.Lesson {
+	slices.SortStableFunc(lessons, func(a, b dataset.Lesson) int {
+		return cmp.Or(
+			cmp.Compare(slices.Index(levels, a.Level), slices.Index(levels, b.Level)),
+			cmp.Compare(slices.Index(sections, a.Section), slices.Index(sections, b.Section)),
+			cmp.Compare(a.Week, b.Week),
+			cmp.Compare(a.Day, b.Day),
+		)
+	})
+	return lessons
+}
+
+func TestListReturnsTheLessonsTheFilterMatchesInListOrder(t *testing.T) {
 	repo := NewRepository(testConn)
+	list := func(f Filter) []dataset.Lesson {
+		t.Helper()
+		got, err := repo.List(context.Background(), f)
+		if err != nil {
+			t.Fatal(err)
+		}
+		return got
+	}
+
+	var all []dataset.Lesson
 	for _, ds := range datasets {
+		all = append(all, ds.Lessons...)
 		for _, section := range sections {
-			got, err := repo.List(context.Background(), ds.Level, section)
-			if err != nil {
-				t.Fatal(err)
-			}
 			want := where(ds.Lessons, func(l dataset.Lesson) bool { return l.Section == section })
 			if len(want) == 0 {
 				t.Fatalf("%s %s: the dataset has no lessons to compare with", ds.Level, section)
 			}
-			if !reflect.DeepEqual(got, want) {
+			if got := list(Filter{Level: ds.Level, Section: section}); !reflect.DeepEqual(got, inListOrder(want)) {
 				t.Errorf("%s %s: got %d lessons, want the %d of data/%s/lessons.json in order", ds.Level, section, len(got), len(want), ds.Level)
 			}
 		}
+		if got, want := list(Filter{Level: ds.Level}), inListOrder(slices.Clone(ds.Lessons)); !reflect.DeepEqual(got, want) {
+			t.Errorf("%s: got %d lessons, want its %d in list order", ds.Level, len(got), len(want))
+		}
 	}
-
-	none, err := repo.List(context.Background(), "n2", dataset.SectionKanji)
-	if err != nil || none == nil || len(none) != 0 {
-		t.Errorf("n2 kanji: got %v, %v; want an empty list", none, err)
+	if got, want := list(Filter{}), inListOrder(all); !reflect.DeepEqual(got, want) {
+		t.Errorf("no filter: got %d lessons, want all %d in list order", len(got), len(want))
+	}
+	if got := list(Filter{Level: "n2", Section: dataset.SectionKanji}); got == nil || len(got) != 0 {
+		t.Errorf("n2 kanji: got %v; want an empty list", got)
 	}
 }
 

@@ -10,13 +10,8 @@ import (
 	"github.com/yeremi777/nihongo-foundation/internal/httpx"
 )
 
-var (
-	levels   = []string{"n5", "n4", "n3", "n2", "n1"}
-	sections = []dataset.Section{dataset.SectionKanji, dataset.SectionVocabulary, dataset.SectionGrammar}
-)
-
 type store interface {
-	List(ctx context.Context, level string, section dataset.Section) ([]dataset.Lesson, error)
+	List(ctx context.Context, filter Filter) ([]dataset.Lesson, error)
 	Get(ctx context.Context, id string) (Detail, error)
 }
 
@@ -28,21 +23,22 @@ func NewHandler(lessons store) Handler { return Handler{lessons: lessons} }
 
 // Register adds the lesson routes to mux.
 func (h Handler) Register(mux httpx.Mux) {
-	mux.HandleFunc("GET /api/levels/{level}/sections/{section}/lessons", h.list)
+	mux.HandleFunc("GET /api/lessons", h.list)
 	mux.HandleFunc("GET /api/lessons/{lesson_id}", h.get)
 }
 
 func (h Handler) list(w http.ResponseWriter, r *http.Request) {
-	level, section := r.PathValue("level"), dataset.Section(r.PathValue("section"))
-	if !slices.Contains(levels, level) {
-		httpx.WriteError(w, http.StatusNotFound, "level_not_found", "Level was not found.")
+	q := r.URL.Query()
+	filter := Filter{Level: q.Get("level"), Section: dataset.Section(q.Get("section"))}
+	if filter.Level != "" && !slices.Contains(levels, filter.Level) {
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_level", "Level must be n5, n4, n3, n2, or n1.")
 		return
 	}
-	if !slices.Contains(sections, section) {
-		httpx.WriteError(w, http.StatusNotFound, "section_not_found", "Section was not found.")
+	if filter.Section != "" && !slices.Contains(sections, filter.Section) {
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_section", "Section must be kanji, vocabulary, or grammar.")
 		return
 	}
-	lessons, err := h.lessons.List(r.Context(), level, section)
+	lessons, err := h.lessons.List(r.Context(), filter)
 	if err != nil {
 		httpx.InternalError(w, "list lessons", err)
 		return

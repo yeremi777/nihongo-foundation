@@ -17,10 +17,10 @@ type fakeStore struct {
 	err     error
 }
 
-func (f fakeStore) List(_ context.Context, level string, section dataset.Section) ([]dataset.Lesson, error) {
+func (f fakeStore) List(_ context.Context, filter Filter) ([]dataset.Lesson, error) {
 	matched := []dataset.Lesson{}
 	for _, l := range f.lessons {
-		if l.Level == level && l.Section == section {
+		if (filter.Level == "" || l.Level == filter.Level) && (filter.Section == "" || l.Section == filter.Section) {
 			matched = append(matched, l)
 		}
 	}
@@ -60,8 +60,10 @@ func lesson(id string, section dataset.Section) dataset.Lesson {
 		Title: "お名前は？", TitleEN: "Names", TitleID: "Nama", WeekTitle: "れんしゅう①", WeekTitleEN: "Practice 1"}
 }
 
-func lessonJSON(id, section string) string {
-	return `{"id":"` + id + `","level":"n5","section":"` + section + `","week":1,"day":1,"title":"お名前は？","title_en":"Names","title_id":"Nama","week_title":"れんしゅう①","week_title_en":"Practice 1","week_title_id":null}`
+func lessonJSON(id, section string) string { return lessonJSONAt(id, "n5", section) }
+
+func lessonJSONAt(id, level, section string) string {
+	return `{"id":"` + id + `","level":"` + level + `","section":"` + section + `","week":1,"day":1,"title":"お名前は？","title_en":"Names","title_id":"Nama","week_title":"れんしゅう①","week_title_en":"Practice 1","week_title_id":null}`
 }
 
 var (
@@ -89,22 +91,29 @@ var (
 	}
 )
 
-func TestHandlerListsTheLessonsOfALevelAndSection(t *testing.T) {
-	store := fakeStore{lessons: []dataset.Lesson{lesson("l-kanji", dataset.SectionKanji), lesson("l-grammar", dataset.SectionGrammar)}}
+func TestHandlerListsLessonsFilteredByLevelAndSection(t *testing.T) {
+	n4 := lesson("l-n4-kanji", dataset.SectionKanji)
+	n4.Level = "n4"
+	store := fakeStore{lessons: []dataset.Lesson{lesson("l-kanji", dataset.SectionKanji), lesson("l-grammar", dataset.SectionGrammar), n4}}
+	n5Kanji, n5Grammar, n4Kanji := lessonJSON("l-kanji", "kanji"), lessonJSON("l-grammar", "grammar"), lessonJSONAt("l-n4-kanji", "n4", "kanji")
 
-	assertBody(t, get(t, store, "/api/levels/n5/sections/kanji/lessons"), http.StatusOK, `[`+lessonJSON("l-kanji", "kanji")+`]`)
-	assertBody(t, get(t, store, "/api/levels/n2/sections/kanji/lessons"), http.StatusOK, `[]`)
+	assertBody(t, get(t, store, "/api/lessons?level=n5&section=kanji"), http.StatusOK, `[`+n5Kanji+`]`)
+	assertBody(t, get(t, store, "/api/lessons?level=n5"), http.StatusOK, `[`+n5Kanji+`,`+n5Grammar+`]`)
+	assertBody(t, get(t, store, "/api/lessons?section=kanji"), http.StatusOK, `[`+n5Kanji+`,`+n4Kanji+`]`)
+	assertBody(t, get(t, store, "/api/lessons"), http.StatusOK, `[`+n5Kanji+`,`+n5Grammar+`,`+n4Kanji+`]`)
+	assertBody(t, get(t, store, "/api/lessons?level=&section="), http.StatusOK, `[`+n5Kanji+`,`+n5Grammar+`,`+n4Kanji+`]`)
+	assertBody(t, get(t, store, "/api/lessons?level=n2&section=kanji"), http.StatusOK, `[]`)
 }
 
-func TestHandlerRejectsAnUnknownLevelOrSection(t *testing.T) {
+func TestHandlerRejectsAnInvalidLevelOrSection(t *testing.T) {
 	store := fakeStore{lessons: []dataset.Lesson{lesson("l-kanji", dataset.SectionKanji)}}
-	levelNotFound := `{"error":{"code":"level_not_found","message":"Level was not found."}}`
-	sectionNotFound := `{"error":{"code":"section_not_found","message":"Section was not found."}}`
+	invalidLevel := `{"error":{"code":"invalid_level","message":"Level must be n5, n4, n3, n2, or n1."}}`
+	invalidSection := `{"error":{"code":"invalid_section","message":"Section must be kanji, vocabulary, or grammar."}}`
 
-	assertBody(t, get(t, store, "/api/levels/n9/sections/kanji/lessons"), http.StatusNotFound, levelNotFound)
-	assertBody(t, get(t, store, "/api/levels/N5/sections/kanji/lessons"), http.StatusNotFound, levelNotFound)
-	assertBody(t, get(t, store, "/api/levels/n5/sections/phrases/lessons"), http.StatusNotFound, sectionNotFound)
-	assertBody(t, get(t, store, "/api/levels/n5/sections/Kanji/lessons"), http.StatusNotFound, sectionNotFound)
+	assertBody(t, get(t, store, "/api/lessons?level=n9"), http.StatusBadRequest, invalidLevel)
+	assertBody(t, get(t, store, "/api/lessons?level=N5&section=kanji"), http.StatusBadRequest, invalidLevel)
+	assertBody(t, get(t, store, "/api/lessons?section=phrases"), http.StatusBadRequest, invalidSection)
+	assertBody(t, get(t, store, "/api/lessons?level=n5&section=Kanji"), http.StatusBadRequest, invalidSection)
 }
 
 func TestHandlerGetsALessonWithTheItemsOfItsSection(t *testing.T) {
@@ -128,6 +137,6 @@ func TestHandlerHidesStoreErrors(t *testing.T) {
 	store := fakeStore{err: errors.New("password authentication failed for user postgres")}
 	internal := `{"error":{"code":"internal_error","message":"Internal server error."}}`
 
-	assertBody(t, get(t, store, "/api/levels/n5/sections/kanji/lessons"), http.StatusInternalServerError, internal)
+	assertBody(t, get(t, store, "/api/lessons?level=n5"), http.StatusInternalServerError, internal)
 	assertBody(t, get(t, store, "/api/lessons/l-kanji"), http.StatusInternalServerError, internal)
 }

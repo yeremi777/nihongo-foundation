@@ -2,7 +2,7 @@
 
 ## Goal
 
-`cmd/api` serves the seeded dataset over HTTP: a level's lessons in one section, and one lesson with its items, documented by `docs/openapi.yaml` and browsable in Swagger UI.
+`cmd/api` serves the seeded dataset over HTTP: lessons filtered by level and section, and one lesson with its items, documented by `docs/openapi.yaml` and browsable in Swagger UI.
 
 ## Non-goals
 
@@ -16,13 +16,15 @@
 | Method and path | 200 body | Errors |
 |---|---|---|
 | `GET /health` | `{"status":"ok"}` | |
-| `GET /api/levels/{level}/sections/{section}/lessons` | array of Lesson | 404 `level_not_found`, 404 `section_not_found` |
+| `GET /api/lessons?level=&section=` | array of Lesson | 400 `invalid_level`, 400 `invalid_section` |
 | `GET /api/lessons/{lesson_id}` | Lesson detail | 404 `lesson_not_found` |
-| `GET /docs`, `GET /docs/`, `GET /docs/index.html` | Swagger UI's standalone page rendering `docs/openapi.yaml`; its top bar shows only the dark-mode toggle, and the page starts dark when the operating system prefers dark | |
+| `GET /docs`, `GET /docs/`, `GET /docs/index.html` | Swagger UI's standalone page rendering `docs/openapi.yaml`; its top bar shows the Swagger logo on the left and the dark-mode toggle in the right corner, without the Explore box, and the page starts dark when the operating system prefers dark | |
 | `GET /docs/openapi.yaml` | the spec file as written, `application/yaml` | |
 | `GET /` | 302 redirect to `/docs` | |
 
-`docs/openapi.yaml` is the contract for every route and body except the docs routes and redirect above. Its only server is `/`, so the docs page calls the address it was opened on. It is written by hand, and a test fails when a registered route other than those is missing from it, or a path in it is not registered.
+Every route of a resource starts with `/api/<resource>`, so every lesson route starts with `/api/lessons`; filters are query parameters.
+
+`docs/openapi.yaml` is the contract for every route and body except the docs routes and redirect above. It declares no servers, so the docs page calls OpenAPI's default `/`, the address it was opened on, and shows no servers picker. Its descriptions are short and direct: one point each, no restating the route, and none about errors. It is written by hand, and a test fails when a registered route other than those is missing from it, or a path in it is not registered.
 
 ### Bodies
 
@@ -36,16 +38,16 @@ Every JSON body is written by `encoding/json`'s `Encoder` with its defaults, so 
 
 ### Lessons and items
 
-- `level` is one of `n5`, `n4`, `n3`, `n2`, `n1`, and `section` one of `kanji`, `vocabulary`, `grammar`, matched exactly. A valid level and section with no lessons answer `[]`.
-- Lessons are ordered by week, then day. Items, comparisons, mistakes, and expressions are ordered by `sequence`.
+- `level` is one of `n5`, `n4`, `n3`, `n2`, `n1`, and `section` one of `kanji`, `vocabulary`, `grammar`, matched exactly. Both are optional; an absent or empty one matches every value, and they combine with AND. A filter no lesson matches answers `[]`.
+- Lessons are ordered by level from `n5` to `n1`, section as kanji, vocabulary, grammar, then week, then day. Items, comparisons, mistakes, and expressions are ordered by `sequence`.
 - A `lesson_id` that is not a UUID, or names no lesson, answers `lesson_not_found`.
 
 ### Errors
 
 | Status | Code | Message |
 |---|---|---|
-| 404 | `level_not_found` | `Level was not found.` |
-| 404 | `section_not_found` | `Section was not found.` |
+| 400 | `invalid_level` | `Level must be n5, n4, n3, n2, or n1.` |
+| 400 | `invalid_section` | `Section must be kanji, vocabulary, or grammar.` |
 | 404 | `lesson_not_found` | `Lesson was not found.` |
 | 404 | `not_found` | `Route was not found.` |
 | 405 | `method_not_allowed` | `Method is not allowed on this route.` |
@@ -75,13 +77,13 @@ Read once at startup from the environment, which `make` fills from `.env`. A mis
 
 ## Acceptance criteria
 
-- AC-1: Against the seeded `.env` database, `GET /api/levels/{level}/sections/{section}/lessons` returns as many lessons as the matching rows of `data/<level>/lessons.json`, in week and day order, for every level and section of the dataset; `n2` returns `[]`.
+- AC-1: Against the seeded `.env` database, `GET /api/lessons` with `level` and `section` returns the ids of the matching rows of `data/<level>/lessons.json` in week and day order, for every level and section of the dataset; `level` alone returns that level's lessons, no filter returns all 209 lessons in list order, and `level=n2` returns `[]`.
 - AC-2: `GET /api/lessons/{lesson_id}` for a kanji, a vocabulary, and a grammar lesson returns the lesson and exactly its rows from `data/<level>/*.json`, in `sequence` order, with the three grammar keys on the grammar lesson only.
-- AC-3: `n9`, `phrases`, a non-UUID `lesson_id`, and an unknown UUID answer 404 with `level_not_found`, `section_not_found`, `lesson_not_found`, and `lesson_not_found`, in the error body shape.
+- AC-3: `level=n9` and `section=phrases` answer 400 `invalid_level` and `invalid_section`; a non-UUID `lesson_id` and an unknown UUID answer 404 `lesson_not_found`; all in the error body shape.
 - AC-4: An unknown path answers 404 `not_found`, and a wrong method on a known path answers 405 `method_not_allowed`, both in the error body shape.
 - AC-5: A handler test forces a store error and gets 500 `internal_error` with no detail from the error in the body.
 - AC-6: The route test passes: every registered route except the docs routes and redirect is in `docs/openapi.yaml`, and every path in it is registered.
-- AC-7: `GET /docs` renders the spec in Swagger UI, and `GET /docs/openapi.yaml` lists `/` as its only server.
+- AC-7: `GET /docs` renders the spec in Swagger UI, and `GET /docs/openapi.yaml` declares no servers.
 - AC-8: Repository integration tests pass against a test database seeded from `data/`.
 - AC-9: Startup without `DB_HOST` or `APP_URL`, with `APP_PORT=abc`, with `APP_URL=localhost`, or with an `APP_URL` port other than `APP_PORT`, exits non-zero naming the variable. Startup with an unreachable database exits non-zero.
 - AC-10: After `SIGTERM`, the process exits 0.
@@ -92,14 +94,14 @@ Read once at startup from the environment, which `make` fills from `.env`. A mis
 set -a; . ./.env; set +a; B=127.0.0.1:$APP_PORT                                 # the commands below read the .env variables
 go vet ./... && go vet -tags integration ./...
 go test ./...                                                                     # AC-4, AC-5, AC-6, AC-7 (server)
-make test-integration TEST_DB_DSN="host=127.0.0.1 port=5432 dbname=test_nihongo_foundation user=postgres password=<pw> sslmode=disable"   # AC-8, a local database whose name starts with "test", never the .env one
+TEST_DB_DSN="host=127.0.0.1 port=5432 dbname=test_nihongo_foundation user=postgres password=<pw> sslmode=disable" go test -tags integration -count=1 -p 1 ./...   # AC-8, a local database whose name starts with "test", never the .env one; go test, not make, so the password is not echoed
 make api                                                                          # serves on APP_PORT, docs at APP_URL/docs
-for l in n5 n4 n3; do for s in kanji vocabulary grammar; do echo "$l $s $(curl -s $B/api/levels/$l/sections/$s/lessons | jq length) $(jq --arg s $s '[.[] | select(.section == $s)] | length' data/$l/lessons.json)"; done; done   # AC-1, the two counts match
-curl -s $B/api/levels/n2/sections/kanji/lessons                       # AC-1, []
+for l in n5 n4 n3; do for s in kanji vocabulary grammar; do echo "$l $s $(curl -s "$B/api/lessons?level=$l&section=$s" | jq length) $(jq --arg s $s '[.[] | select(.section == $s)] | length' data/$l/lessons.json)"; done; done   # AC-1, the two counts match
+curl -s $B/api/lessons | jq length; curl -s "$B/api/lessons?level=n2"   # AC-1, 209 and []
 id=$(jq -r '[.[] | select(.section == "grammar")][0].id' data/n5/lessons.json); curl -s $B/api/lessons/$id | jq 'keys, (.grammar | length)'   # AC-2
-curl -s $B/api/levels/n9/sections/kanji/lessons; curl -s $B/api/levels/n5/sections/phrases/lessons; curl -s $B/api/lessons/nope; curl -s $B/api/lessons/00000000-0000-0000-0000-000000000000   # AC-3
+curl -s "$B/api/lessons?level=n9"; curl -s "$B/api/lessons?section=phrases"; curl -s $B/api/lessons/nope; curl -s $B/api/lessons/00000000-0000-0000-0000-000000000000   # AC-3
 curl -s $B/nope; curl -s -X DELETE $B/health             # AC-4
-open http://$B/docs; curl -s $B/docs/openapi.yaml | grep -A1 '^servers:'   # AC-7
+open http://$B/docs; curl -s $B/docs/openapi.yaml | grep -c '^servers:'   # AC-7, 0
 DB_HOST= go run ./cmd/api; APP_URL= go run ./cmd/api; APP_PORT=abc go run ./cmd/api; APP_URL=localhost go run ./cmd/api; APP_URL=http://127.0.0.1:1 go run ./cmd/api; DB_PORT=1 go run ./cmd/api   # AC-9, each exits non-zero
 kill -TERM <api pid>                                                              # AC-10, exits 0
 ```

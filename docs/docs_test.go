@@ -2,7 +2,6 @@ package docs
 
 import (
 	"os"
-	"reflect"
 	"testing"
 
 	"gopkg.in/yaml.v3"
@@ -18,22 +17,15 @@ func TestSpecIsTheContractFile(t *testing.T) {
 	}
 }
 
-// A relative server makes the docs page call the address it was opened on,
-// so it works from localhost and 127.0.0.1 alike.
-func TestSpecServerIsRelative(t *testing.T) {
-	var spec struct {
-		Servers []struct {
-			URL string `yaml:"url"`
-		} `yaml:"servers"`
-	}
+// With no servers, OpenAPI's default server is "/", the address the docs page
+// was opened on, so the page calls localhost and 127.0.0.1 alike without
+// showing a servers picker.
+func TestSpecDeclaresNoServers(t *testing.T) {
+	var spec map[string]any
 	if err := yaml.Unmarshal(Spec(), &spec); err != nil {
 		t.Fatal(err)
 	}
-	var urls []string
-	for _, s := range spec.Servers {
-		urls = append(urls, s.URL)
-	}
-	if want := []string{"/"}; !reflect.DeepEqual(urls, want) {
-		t.Errorf("servers = %q, want %q", urls, want)
+	if servers, ok := spec["servers"]; ok {
+		t.Errorf("servers = %v, want none", servers)
 	}
 }

@@ -29,9 +29,17 @@ type Repository struct{ db database.Querier }
 // NewRepository reads through db.
 func NewRepository(db database.Querier) Repository { return Repository{db: db} }
 
-// List returns the lessons of a level in one section, by week and day.
-func (r Repository) List(ctx context.Context, level string, section dataset.Section) ([]dataset.Lesson, error) {
-	rows, err := r.db.Query(ctx, "SELECT "+lessonColumns+" FROM lesson WHERE level = $1 AND section = $2 ORDER BY week, day", level, section)
+// List returns the lessons the filter matches, by level from n5, section
+// from kanji, week, and day.
+func (r Repository) List(ctx context.Context, filter Filter) ([]dataset.Lesson, error) {
+	sectionOrder := make([]string, len(sections))
+	for i, s := range sections {
+		sectionOrder[i] = string(s)
+	}
+	rows, err := r.db.Query(ctx, "SELECT "+lessonColumns+" FROM lesson"+
+		" WHERE ($1 = '' OR level = $1) AND ($2 = '' OR section = $2)"+
+		" ORDER BY array_position($3::text[], level), array_position($4::text[], section), week, day",
+		filter.Level, string(filter.Section), levels, sectionOrder)
 	if err != nil {
 		return nil, err
 	}

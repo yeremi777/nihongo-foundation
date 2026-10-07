@@ -1,4 +1,4 @@
-// Package lesson serves the curriculum: the lessons of a level in one
+// Package lesson serves the curriculum: lessons, filtered by level and
 // section, and one lesson with its items.
 package lesson
 
@@ -12,6 +12,18 @@ import (
 
 // ErrNotFound reports a lesson id that names no lesson.
 var ErrNotFound = errors.New("lesson not found")
+
+// levels and sections are the values a Filter accepts, in list order.
+var (
+	levels   = []string{"n5", "n4", "n3", "n2", "n1"}
+	sections = []dataset.Section{dataset.SectionKanji, dataset.SectionVocabulary, dataset.SectionGrammar}
+)
+
+// Filter narrows a lesson list; an empty field matches every value.
+type Filter struct {
+	Level   string
+	Section dataset.Section
+}
 
 // Detail is one lesson with the rows of its section, each in sequence order.
 // Only the fields of the lesson's section are filled; a grammar lesson fills

@@ -76,8 +76,9 @@ type Mux interface {
 	HandleFunc(pattern string, handler func(http.ResponseWriter, *http.Request))
 }
 
-// docsPage renders /docs/openapi.yaml with Swagger UI's standalone layout.
-// Its top bar keeps only the dark-mode toggle; the page starts dark when the
+// docsPage renders /docs/openapi.yaml with Swagger UI's standalone layout:
+// the Swagger logo on the left of the top bar and the dark-mode toggle in its
+// right corner, without the Explore box. The page starts dark when the
 // operating system prefers dark.
 const docsPage = `<!DOCTYPE html>
 <html>
@@ -86,8 +87,8 @@ const docsPage = `<!DOCTYPE html>
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui.css">
 <title>Nihongo Foundation - Swagger UI</title>
 <style>
-#swagger-ui .topbar-wrapper { justify-content: flex-end; }
-#swagger-ui .topbar-wrapper > :not(.dark-mode-toggle) { display: none; }
+#swagger-ui .topbar .download-url-wrapper { display: none; }
+#swagger-ui .topbar .dark-mode-toggle { margin-left: auto; }
 </style>
 </head>
 <body>
