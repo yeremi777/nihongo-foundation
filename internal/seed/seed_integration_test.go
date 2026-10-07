@@ -5,74 +5,25 @@ package seed
 import (
 	"context"
 	"fmt"
-	"os"
-	"path/filepath"
 	"slices"
-	"sort"
 	"strings"
 	"testing"
 	"time"
 
 	"github.com/jackc/pgx/v5"
 
+	"github.com/yeremi777/nihongo-foundation/internal/database/dbtest"
 	"github.com/yeremi777/nihongo-foundation/internal/dataset"
 )
 
 var testConn *pgx.Conn
 
-// TestMain rebuilds the schema of a throwaway test database from the migrations.
-// It refuses any database whose name does not start with "test".
+// TestMain runs the tests against the throwaway test database dbtest opens.
 func TestMain(m *testing.M) {
-	dsn := os.Getenv("TEST_DB_DSN")
-	if dsn == "" {
-		fmt.Fprintln(os.Stderr, "TEST_DB_DSN is not set; run make test-integration")
-		os.Exit(1)
-	}
-	ctx := context.Background()
-	conn, err := pgx.Connect(ctx, dsn)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		os.Exit(1)
-	}
-	var name string
-	if err := conn.QueryRow(ctx, "SELECT current_database()").Scan(&name); err != nil || !strings.HasPrefix(name, "test") {
-		fmt.Fprintf(os.Stderr, "refusing to reset database %q: its name must start with \"test\" (%v)\n", name, err)
-		os.Exit(1)
-	}
-	if err := applyMigrations(ctx, conn); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		os.Exit(1)
-	}
-	testConn = conn
-	code := m.Run()
-	conn.Close(ctx)
-	os.Exit(code)
-}
-
-// applyMigrations runs the goose Up section of every migration, oldest first, on an empty schema.
-func applyMigrations(ctx context.Context, conn *pgx.Conn) error {
-	if _, err := conn.Exec(ctx, "DROP SCHEMA public CASCADE; CREATE SCHEMA public"); err != nil {
-		return err
-	}
-	files, err := filepath.Glob(filepath.Join("..", "database", "migrations", "*.sql"))
-	if err != nil {
-		return err
-	}
-	sort.Strings(files)
-	for _, f := range files {
-		b, err := os.ReadFile(f)
-		if err != nil {
-			return err
-		}
-		up, _, ok := strings.Cut(string(b), "-- +goose Down")
-		if !ok {
-			return fmt.Errorf("%s has no Down section", f)
-		}
-		if _, err := conn.PgConn().Exec(ctx, up).ReadAll(); err != nil {
-			return fmt.Errorf("%s: %w", f, err)
-		}
-	}
-	return nil
+	dbtest.Main(m, func(_ context.Context, conn *pgx.Conn) error {
+		testConn = conn
+		return nil
+	})
 }
 
 var tableNames = []string{"lesson", "kanji", "vocabulary", "grammar", "grammar_comparison", "grammar_mistake", "grammar_expression"}

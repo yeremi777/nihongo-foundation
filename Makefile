@@ -32,8 +32,10 @@ seed: db-env ## Load the data/<level>/*.json dataset into the .env database
 test: ## Run the unit tests
 	go test ./...
 
+# One package at a time: every package with integration tests rebuilds the
+# shared test database's schema before its tests run.
 test-integration: ## Run unit and integration tests against the throwaway Postgres (make test-db-up first)
-	TEST_DB_DSN="$(TEST_DB_DSN)" go test -tags integration -count=1 ./...
+	TEST_DB_DSN="$(TEST_DB_DSN)" go test -tags integration -count=1 -p 1 ./...
 
 test-db-up: ## Start a throwaway Postgres in Docker for integration tests, never the .env database
 	docker run -d --rm --name $(TEST_DB_CONTAINER) -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -p 127.0.0.1:$(TEST_DB_PORT):5432 postgres:17-alpine
@@ -44,6 +46,7 @@ test-db-down: ## Remove the throwaway Postgres
 
 vet: ## Report suspicious constructs
 	go vet ./...
+	go vet -tags integration ./...
 
 fmt: ## Format all Go files
 	gofmt -w .
