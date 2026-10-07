@@ -6,16 +6,17 @@ import (
 	"strconv"
 )
 
-// API is what the API server needs: its database, and where it listens and
-// is reached.
+// API is what the API server needs: its database, where it listens and is
+// reached, and its quiz provider.
 type API struct {
 	Database Database
 	Port     int
 	URL      string
+	AI       AI
 }
 
-// LoadAPI reads the DB_* and APP_* variables. DB_PASSWORD may be empty;
-// every other variable is required.
+// LoadAPI reads the DB_*, APP_*, and AI_* variables. DB_PASSWORD may be
+// empty; every other DB_* and APP_* variable is required.
 func LoadAPI(getenv func(string) string) (API, error) {
 	db, err := LoadDatabase(getenv)
 	if err != nil {
@@ -40,5 +41,9 @@ func LoadAPI(getenv func(string) string) (API, error) {
 	if p := u.Port(); p != "" && p != strconv.Itoa(port) {
 		return API{}, fmt.Errorf("APP_URL %q names port %s, but APP_PORT is %d", appURL, p, port)
 	}
-	return API{Database: db, Port: port, URL: appURL}, nil
+	ai, err := LoadAI(getenv)
+	if err != nil {
+		return API{}, err
+	}
+	return API{Database: db, Port: port, URL: appURL, AI: ai}, nil
 }
