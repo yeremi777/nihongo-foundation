@@ -136,7 +136,7 @@ make convert && make convert && git diff --exit-code -- data/                   
 grep -E '"part_of_speech": "[^"]*([A-Z]|／|suru|i-adjective|na-adj)' data/*/vocabulary.json; test $? -eq 1   # AC-6
 make migrate-up && make migrate-reset && make migrate-up                         # AC-7, run by the user
 make seed && make seed                                                           # AC-8, AC-9, run by the user
-make test-db-up && make test-integration && make test-db-down                   # AC-8, AC-9, AC-10 against a throwaway Postgres in Docker, never the .env database
+make test-integration                                                            # AC-8, AC-9, AC-10 on the local test_nihongo_foundation database, never the .env database
 DB_DSN="host=$DB_HOST port=$DB_PORT dbname=$DB_NAME user=$DB_USERNAME password=$DB_PASSWORD sslmode=$DB_SSLMODE"   # values from .env
 psql "$DB_DSN" -c "SELECT 'lesson', count(*) FROM lesson UNION ALL SELECT 'kanji', count(*) FROM kanji UNION ALL SELECT 'vocabulary', count(*) FROM vocabulary UNION ALL SELECT 'grammar', count(*) FROM grammar UNION ALL SELECT 'grammar_comparison', count(*) FROM grammar_comparison UNION ALL SELECT 'grammar_mistake', count(*) FROM grammar_mistake UNION ALL SELECT 'grammar_expression', count(*) FROM grammar_expression"   # AC-8
 psql "$DB_DSN" -c "SELECT count(*) FROM kanji k JOIN lesson l ON l.id = k.lesson_id WHERE l.section <> 'kanji' OR l.level <> k.level"   # AC-10 returns 0, likewise vocabulary and grammar
