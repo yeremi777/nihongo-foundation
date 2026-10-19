@@ -11,14 +11,6 @@ import (
 	"github.com/yeremi777/nihongo-foundation/internal/dataset"
 )
 
-// Each column list names the columns its dataset row type holds, so
-// pgx.RowToStructByName can scan them.
-const (
-	kanjiColumns      = "id, level, code, lesson_id, sequence, character, onyomi, kunyomi, examples, meaning_en, meaning_id, sources"
-	vocabularyColumns = "id, level, code, lesson_id, sequence, word, reading, part_of_speech, note, meaning_en, meaning_id, sources"
-	grammarColumns    = "id, level, code, lesson_id, sequence, curriculum_code, pattern, reading, formula, note, example, difficulty, meaning_en, meaning_id, sources"
-)
-
 // Repository reads the items of a quiz's scope.
 type Repository struct{ db database.Querier }
 
@@ -53,11 +45,11 @@ func (r Repository) Items(ctx context.Context, scope Scope) (Items, error) {
 		}
 		switch scope.Section {
 		case dataset.SectionKanji:
-			items.Kanji, err = itemsOf[dataset.Kanji](ctx, tx, "kanji", kanjiColumns, scope.Level, lessonIDs)
+			items.Kanji, err = itemsOf[dataset.Kanji](ctx, tx, "kanji", dataset.KanjiColumns, scope.Level, lessonIDs)
 		case dataset.SectionVocabulary:
-			items.Vocabulary, err = itemsOf[dataset.Vocabulary](ctx, tx, "vocabulary", vocabularyColumns, scope.Level, lessonIDs)
+			items.Vocabulary, err = itemsOf[dataset.Vocabulary](ctx, tx, "vocabulary", dataset.VocabularyColumns, scope.Level, lessonIDs)
 		case dataset.SectionGrammar:
-			items.Grammar, err = itemsOf[dataset.Grammar](ctx, tx, "grammar", grammarColumns, scope.Level, lessonIDs)
+			items.Grammar, err = itemsOf[dataset.Grammar](ctx, tx, "grammar", dataset.GrammarColumns, scope.Level, lessonIDs)
 		}
 		return err
 	})

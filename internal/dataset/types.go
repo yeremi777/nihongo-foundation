@@ -140,6 +140,15 @@ type GrammarExpression struct {
 	Example    *string `json:"example"`
 }
 
+// KanjiColumns, VocabularyColumns, and GrammarColumns name the columns of
+// each item table that its row type holds, so pgx.RowToStructByName can scan
+// them.
+const (
+	KanjiColumns      = "id, level, code, lesson_id, sequence, character, onyomi, kunyomi, examples, meaning_en, meaning_id, sources"
+	VocabularyColumns = "id, level, code, lesson_id, sequence, word, reading, part_of_speech, note, meaning_en, meaning_id, sources"
+	GrammarColumns    = "id, level, code, lesson_id, sequence, curriculum_code, pattern, reading, formula, note, example, difficulty, meaning_en, meaning_id, sources"
+)
+
 // Dataset is every row of one level.
 type Dataset struct {
 	Level              string

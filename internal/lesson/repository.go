@@ -15,9 +15,6 @@ import (
 // holds, so pgx.RowToStructByName can scan them.
 const (
 	lessonColumns     = "id, level, section, week, day, title, title_en, title_id, week_title, week_title_en, week_title_id"
-	kanjiColumns      = "id, level, code, lesson_id, sequence, character, onyomi, kunyomi, examples, meaning_en, meaning_id, sources"
-	vocabularyColumns = "id, level, code, lesson_id, sequence, word, reading, part_of_speech, note, meaning_en, meaning_id, sources"
-	grammarColumns    = "id, level, code, lesson_id, sequence, curriculum_code, pattern, reading, formula, note, example, difficulty, meaning_en, meaning_id, sources"
 	comparisonColumns = "id, lesson_id, sequence, pattern_a, pattern_b, difference, use_when, example"
 	mistakeColumns    = "id, lesson_id, sequence, point, lines, meaning_en, meaning_id"
 	expressionColumns = "id, lesson_id, sequence, expression, reading, meaning_en, meaning_id, note, example"
@@ -66,11 +63,11 @@ func (r Repository) Get(ctx context.Context, id string) (Detail, error) {
 		}
 		switch d.Lesson.Section {
 		case dataset.SectionKanji:
-			d.Kanji, err = rowsOf[dataset.Kanji](ctx, tx, "kanji", kanjiColumns, lessonID)
+			d.Kanji, err = rowsOf[dataset.Kanji](ctx, tx, "kanji", dataset.KanjiColumns, lessonID)
 		case dataset.SectionVocabulary:
-			d.Vocabulary, err = rowsOf[dataset.Vocabulary](ctx, tx, "vocabulary", vocabularyColumns, lessonID)
+			d.Vocabulary, err = rowsOf[dataset.Vocabulary](ctx, tx, "vocabulary", dataset.VocabularyColumns, lessonID)
 		case dataset.SectionGrammar:
-			if d.Grammar, err = rowsOf[dataset.Grammar](ctx, tx, "grammar", grammarColumns, lessonID); err != nil {
+			if d.Grammar, err = rowsOf[dataset.Grammar](ctx, tx, "grammar", dataset.GrammarColumns, lessonID); err != nil {
 				return err
 			}
 			if d.Comparisons, err = rowsOf[dataset.GrammarComparison](ctx, tx, "grammar_comparison", comparisonColumns, lessonID); err != nil {
