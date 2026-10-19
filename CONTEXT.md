@@ -24,6 +24,10 @@ _Avoid_: day, session, topic
 
 ### Items
 
+**Item**:
+A **Kanji**, a **Vocabulary item**, or a **Grammar point**.
+_Avoid_: entry, record
+
 **Kanji**:
 One character studied in a lesson, with its readings, meaning, and example words.
 
