@@ -14,9 +14,9 @@ var ErrNotFound = errors.New("item not found")
 // levels, sources, and difficulties are the values a Query accepts; levels
 // is in list order.
 var (
-	levels       = []string{"n5", "n4", "n3", "n2", "n1"}
+	levels       = dataset.Levels()
 	sources      = []dataset.Source{dataset.SourceSoumatome, dataset.SourceShinkanzen, dataset.SourceMinnaNoNihongo}
-	difficulties = []dataset.Difficulty{dataset.DifficultyEasy, dataset.DifficultyMedium, dataset.DifficultyHard}
+	difficulties = dataset.Difficulties()
 )
 
 // Query is one search of a section; a zero filter field matches every item.

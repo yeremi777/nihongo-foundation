@@ -44,8 +44,6 @@ var sourceLetters = map[string]map[string][]Source{
 	"n3": {"S": {SourceSoumatome}, "K": {SourceShinkanzen}, "B": {SourceSoumatome, SourceShinkanzen}},
 }
 
-var difficulties = []Difficulty{DifficultyEasy, DifficultyMedium, DifficultyHard}
-
 func parseTOC(level string, f File) (curriculumTOC, error) {
 	toc := curriculumTOC{
 		days:         map[Section]map[weekDay]tocDay{SectionKanji: {}, SectionVocabulary: {}},

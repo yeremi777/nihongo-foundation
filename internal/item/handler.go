@@ -20,6 +20,8 @@ const (
 	defaultSize = 20
 	maxSize     = 100
 	maxText     = 100
+
+	invalidLevel = "Level must be n5, n4, n3, n2, or n1."
 )
 
 type store[T any] interface {
@@ -53,7 +55,7 @@ func route[T any](mux httpx.Mux, s section[T], items store[T]) {
 	mux.HandleFunc("GET "+path+"/{level}/{code}", func(w http.ResponseWriter, r *http.Request) {
 		level := r.PathValue("level")
 		if !slices.Contains(levels, level) {
-			httpx.WriteError(w, http.StatusBadRequest, "invalid_level", "Level must be n5, n4, n3, n2, or n1.")
+			httpx.WriteError(w, http.StatusBadRequest, "invalid_level", invalidLevel)
 			return
 		}
 		code := r.PathValue("code")
@@ -82,7 +84,7 @@ func parseQuery(v url.Values, difficulty bool) (q Query, code, message string) {
 	}
 	switch {
 	case q.Level != "" && !slices.Contains(levels, q.Level):
-		return q, "invalid_level", "Level must be n5, n4, n3, n2, or n1."
+		return q, "invalid_level", invalidLevel
 	case !parseInt(v.Get("week"), &q.Week, 1, math.MaxInt) || q.Week != 0 && q.Level == "":
 		return q, "invalid_week", "Week must be a positive integer, given with level."
 	case q.Source != "" && !slices.Contains(sources, q.Source):

@@ -1,5 +1,18 @@
 package dataset
 
+import "slices"
+
+var (
+	levels       = []string{"n5", "n4", "n3", "n2", "n1"}
+	difficulties = []Difficulty{DifficultyEasy, DifficultyMedium, DifficultyHard}
+)
+
+// Levels returns the JLPT levels in list order, from n5.
+func Levels() []string { return slices.Clone(levels) }
+
+// Difficulties returns every grammar difficulty, from easy.
+func Difficulties() []Difficulty { return slices.Clone(difficulties) }
+
 // Section is one kind of study material.
 type Section string
 
