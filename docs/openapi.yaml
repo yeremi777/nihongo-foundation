@@ -12,8 +12,12 @@ tags:
     description: Service status.
   - name: lessons
     description: Lessons with their kanji, vocabulary, and grammar.
-  - name: items
-    description: Kanji, vocabulary, and grammar, searched or looked up by level and code.
+  - name: kanji
+    description: Kanji, searched or looked up by level and code.
+  - name: vocabulary
+    description: Vocabulary, searched or looked up by level and code.
+  - name: grammar
+    description: Grammar points, searched or looked up by level and code.
   - name: quizzes
     description: AI-written questions, never stored.
 
@@ -98,7 +102,7 @@ paths:
 
   /api/kanji:
     get:
-      tags: [items]
+      tags: [kanji]
       summary: Search kanji
       description: "Exact matches of `q` first, then by level from n5, week, day, and `sequence`."
       operationId: searchKanji
@@ -130,7 +134,7 @@ paths:
 
   /api/kanji/{level}/{code}:
     get:
-      tags: [items]
+      tags: [kanji]
       summary: Get a kanji
       operationId: getKanji
       parameters:
@@ -163,7 +167,7 @@ paths:
 
   /api/vocabulary:
     get:
-      tags: [items]
+      tags: [vocabulary]
       summary: Search vocabulary
       description: "Exact matches of `q` first, then by level from n5, week, day, and `sequence`."
       operationId: searchVocabulary
@@ -195,7 +199,7 @@ paths:
 
   /api/vocabulary/{level}/{code}:
     get:
-      tags: [items]
+      tags: [vocabulary]
       summary: Get a vocabulary item
       operationId: getVocabularyItem
       parameters:
@@ -228,7 +232,7 @@ paths:
 
   /api/grammar:
     get:
-      tags: [items]
+      tags: [grammar]
       summary: Search grammar
       description: "Exact matches of `q` first, then by level from n5, week, day, and `sequence`."
       operationId: searchGrammar
@@ -261,7 +265,7 @@ paths:
 
   /api/grammar/{level}/{code}:
     get:
-      tags: [items]
+      tags: [grammar]
       summary: Get a grammar point
       operationId: getGrammarPoint
       parameters:
