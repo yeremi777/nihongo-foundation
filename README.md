@@ -8,6 +8,7 @@ The service converts curated kanji, vocabulary, and grammar source lists into a 
 
 - Lesson list API with level and section filters
 - Lesson detail API with its kanji, vocabulary, or grammar points, plus comparison notes, mistake cards, and expressions for grammar lessons
+- Item search (`/api/kanji`, `/api/vocabulary`, `/api/grammar`) with level, week, source, and difficulty filters, a kana-folded `q`, and pages; lookup by level and code
 - AI quizzes (`POST /api/quizzes`): meaning, reading, and usage questions in English or Indonesian, each checked against its item and dropped when it fails a rule
 - AI providers in a fall-through chain (OpenRouter, OpenCode Zen), or an offline `mock`
 - Conversion (`make convert`) of the source lists into the committed JSON dataset, checked against each level's curriculum TOC
@@ -66,6 +67,7 @@ cmd/api              REST API binary: lessons, quizzes, and the docs page
 cmd/convert          converter binary: data/source/ -> data/<level>/*.json
 cmd/seed             seeder binary: data/<level>/*.json -> Postgres
 internal/lesson      lessons and their items: repository, handlers
+internal/item        items of each section: search, lookup by level and code
 internal/quiz        AI quizzes: targets, rules, providers and the fall-through chain, handler
 internal/dataset     parses the source lists and builds the dataset
 internal/seed        loads the dataset and writes it to the tables

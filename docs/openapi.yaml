@@ -12,6 +12,8 @@ tags:
     description: Service status.
   - name: lessons
     description: Lessons with their kanji, vocabulary, and grammar.
+  - name: items
+    description: Kanji, vocabulary, and grammar, searched or looked up by level and code.
   - name: quizzes
     description: AI-written questions, never stored.
 
@@ -94,6 +96,202 @@ paths:
         "500":
           $ref: "#/components/responses/InternalError"
 
+  /api/kanji:
+    get:
+      tags: [items]
+      summary: Search kanji
+      description: "Exact matches of `q` first, then by level from n5, week, day, and `sequence`."
+      operationId: searchKanji
+      parameters:
+        - name: q
+          in: query
+          description: "Matched against `character`, `onyomi`, `kunyomi`, `examples`, and meanings."
+          schema: { $ref: "#/components/schemas/SearchText" }
+          examples:
+            sen: { value: せん }
+        - $ref: "#/components/parameters/Level"
+        - $ref: "#/components/parameters/Week"
+        - $ref: "#/components/parameters/Source"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+      responses:
+        "200":
+          description: One page of matches; `items` is `[]` past the last.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/KanjiPage" }
+        "400":
+          description: "`invalid_level`, `invalid_week`, `invalid_source`, `invalid_query`, `invalid_page`, or `invalid_size`; the first that applies."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/kanji/{level}/{code}:
+    get:
+      tags: [items]
+      summary: Get a kanji
+      operationId: getKanji
+      parameters:
+        - $ref: "#/components/parameters/LevelPath"
+        - name: code
+          in: path
+          required: true
+          description: Unique within the level.
+          schema: { type: string }
+          examples:
+            n5: { value: k101-001 }
+      responses:
+        "200":
+          description: The kanji.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Kanji" }
+        "400":
+          description: "`invalid_level`."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "404":
+          description: "`item_not_found`: no such code in the level."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/vocabulary:
+    get:
+      tags: [items]
+      summary: Search vocabulary
+      description: "Exact matches of `q` first, then by level from n5, week, day, and `sequence`."
+      operationId: searchVocabulary
+      parameters:
+        - name: q
+          in: query
+          description: "Matched against `word`, `reading`, and meanings."
+          schema: { $ref: "#/components/schemas/SearchText" }
+          examples:
+            sen: { value: せん }
+        - $ref: "#/components/parameters/Level"
+        - $ref: "#/components/parameters/Week"
+        - $ref: "#/components/parameters/Source"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+      responses:
+        "200":
+          description: One page of matches; `items` is `[]` past the last.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/VocabularyPage" }
+        "400":
+          description: "`invalid_level`, `invalid_week`, `invalid_source`, `invalid_query`, `invalid_page`, or `invalid_size`; the first that applies."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/vocabulary/{level}/{code}:
+    get:
+      tags: [items]
+      summary: Get a vocabulary item
+      operationId: getVocabularyItem
+      parameters:
+        - $ref: "#/components/parameters/LevelPath"
+        - name: code
+          in: path
+          required: true
+          description: Unique within the level.
+          schema: { type: string }
+          examples:
+            n5: { value: v101-001 }
+      responses:
+        "200":
+          description: The vocabulary item.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/VocabularyItem" }
+        "400":
+          description: "`invalid_level`."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "404":
+          description: "`item_not_found`: no such code in the level."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/grammar:
+    get:
+      tags: [items]
+      summary: Search grammar
+      description: "Exact matches of `q` first, then by level from n5, week, day, and `sequence`."
+      operationId: searchGrammar
+      parameters:
+        - name: q
+          in: query
+          description: "Matched against `pattern`, `reading`, and meanings."
+          schema: { $ref: "#/components/schemas/SearchText" }
+          examples:
+            sen: { value: せん }
+        - $ref: "#/components/parameters/Level"
+        - $ref: "#/components/parameters/Week"
+        - $ref: "#/components/parameters/Source"
+        - $ref: "#/components/parameters/Difficulty"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+      responses:
+        "200":
+          description: One page of matches; `items` is `[]` past the last.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/GrammarPage" }
+        "400":
+          description: "`invalid_level`, `invalid_week`, `invalid_source`, `invalid_difficulty`, `invalid_query`, `invalid_page`, or `invalid_size`; the first that applies."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/grammar/{level}/{code}:
+    get:
+      tags: [items]
+      summary: Get a grammar point
+      operationId: getGrammarPoint
+      parameters:
+        - $ref: "#/components/parameters/LevelPath"
+        - name: code
+          in: path
+          required: true
+          description: Unique within the level.
+          schema: { type: string }
+          examples:
+            n5: { value: g101 }
+      responses:
+        "200":
+          description: The grammar point.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/GrammarPoint" }
+        "400":
+          description: "`invalid_level`."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "404":
+          description: "`item_not_found`: no such code in the level."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
   /api/quizzes:
     post:
       tags: [quizzes]
@@ -142,6 +340,43 @@ paths:
               schema: { $ref: "#/components/schemas/Error" }
 
 components:
+  parameters:
+    Level:
+      name: level
+      in: query
+      description: Only this level.
+      schema: { $ref: "#/components/schemas/Level" }
+    Week:
+      name: week
+      in: query
+      description: Only this week of `level`.
+      schema: { type: integer, minimum: 1 }
+    Source:
+      name: source
+      in: query
+      description: Only items from this textbook.
+      schema: { $ref: "#/components/schemas/Source" }
+    Difficulty:
+      name: difficulty
+      in: query
+      description: Only this difficulty.
+      schema: { $ref: "#/components/schemas/Difficulty" }
+    Page:
+      name: page
+      in: query
+      schema: { type: integer, minimum: 1, default: 1 }
+    Size:
+      name: size
+      in: query
+      schema: { type: integer, minimum: 1, maximum: 100, default: 20 }
+    LevelPath:
+      name: level
+      in: path
+      required: true
+      schema: { $ref: "#/components/schemas/Level" }
+      examples:
+        n5: { value: n5 }
+
   responses:
     InternalError:
       description: "`internal_error`. Cause logged, never returned."
@@ -160,6 +395,13 @@ components:
       type: string
       description: Textbook name.
       enum: [soumatome, shinkanzen, minna-no-nihongo]
+    Difficulty:
+      type: string
+      enum: [easy, medium, hard]
+    SearchText:
+      type: string
+      maxLength: 100
+      description: Substring; ASCII case and katakana versus hiragana are ignored.
     Sources:
       type: array
       minItems: 1
@@ -236,7 +478,7 @@ components:
         formula: { type: [string, "null"] }
         note: { type: [string, "null"] }
         example: { type: [string, "null"], description: Japanese sentence only. }
-        difficulty: { type: string, enum: [easy, medium, hard] }
+        difficulty: { $ref: "#/components/schemas/Difficulty" }
         meaning_en: { type: string }
         meaning_id: { type: string, description: Indonesian. }
         sources: { $ref: "#/components/schemas/Sources" }
@@ -333,6 +575,44 @@ components:
           type: array
           items: { $ref: "#/components/schemas/Expression" }
 
+    Page:
+      type: object
+      required: [page, size, total]
+      properties:
+        page: { type: integer, minimum: 1 }
+        size: { type: integer, minimum: 1, maximum: 100 }
+        total: { type: integer, minimum: 0, description: Matches across all pages. }
+
+    KanjiPage:
+      allOf:
+        - $ref: "#/components/schemas/Page"
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: { $ref: "#/components/schemas/Kanji" }
+
+    VocabularyPage:
+      allOf:
+        - $ref: "#/components/schemas/Page"
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: { $ref: "#/components/schemas/VocabularyItem" }
+
+    GrammarPage:
+      allOf:
+        - $ref: "#/components/schemas/Page"
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: { $ref: "#/components/schemas/GrammarPoint" }
+
     QuestionType:
       type: string
       description: "Per section: kanji `meaning`, `reading`; vocabulary `meaning`, `reading`, `usage`; grammar `meaning`, `usage`."
@@ -402,7 +682,14 @@ components:
                 - invalid_type
                 - invalid_count
                 - invalid_lesson
+                - invalid_week
+                - invalid_source
+                - invalid_difficulty
+                - invalid_query
+                - invalid_page
+                - invalid_size
                 - lesson_not_found
+                - item_not_found
                 - items_not_found
                 - not_found
                 - method_not_allowed

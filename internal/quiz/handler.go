@@ -27,7 +27,7 @@ const (
 // level and section.
 var ErrInvalidLesson = errors.New("lesson is not of the level and section")
 
-var levels = []string{"n5", "n4", "n3", "n2", "n1"}
+var levels = dataset.Levels()
 
 // Scope is the items a quiz draws on; no LessonIDs means the whole section.
 type Scope struct {

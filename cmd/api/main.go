@@ -18,6 +18,7 @@ import (
 	"github.com/yeremi777/nihongo-foundation/internal/config"
 	"github.com/yeremi777/nihongo-foundation/internal/database"
 	"github.com/yeremi777/nihongo-foundation/internal/httpx"
+	"github.com/yeremi777/nihongo-foundation/internal/item"
 	"github.com/yeremi777/nihongo-foundation/internal/lesson"
 	"github.com/yeremi777/nihongo-foundation/internal/quiz"
 )
@@ -39,6 +40,7 @@ func register(mux httpx.Mux, db database.Querier, spec []byte, generator quiz.Ge
 		httpx.WriteJSON(w, http.StatusOK, map[string]string{"status": "ok"})
 	})
 	lesson.NewHandler(lesson.NewRepository(db)).Register(mux)
+	item.Register(mux, db)
 	quiz.NewHandler(quiz.NewRepository(db), generator, aiTimeout).Register(mux)
 	httpx.Docs(mux, spec)
 }

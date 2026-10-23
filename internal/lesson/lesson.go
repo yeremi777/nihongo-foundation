@@ -15,7 +15,7 @@ var ErrNotFound = errors.New("lesson not found")
 
 // levels and sections are the values a Filter accepts, in list order.
 var (
-	levels   = []string{"n5", "n4", "n3", "n2", "n1"}
+	levels   = dataset.Levels()
 	sections = []dataset.Section{dataset.SectionKanji, dataset.SectionVocabulary, dataset.SectionGrammar}
 )
 
