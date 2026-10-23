@@ -10,6 +10,8 @@ security: []
 tags:
   - name: health
     description: Service status.
+  - name: levels
+    description: Levels with the size of their sections.
   - name: lessons
     description: Lessons with their kanji, vocabulary, and grammar.
   - name: kanji
@@ -37,6 +39,23 @@ paths:
                 required: [status]
                 properties:
                   status: { type: string, const: ok }
+
+  /api/levels:
+    get:
+      tags: [levels]
+      summary: List levels
+      description: Levels that have lessons, each with the size of its sections.
+      operationId: listLevels
+      responses:
+        "200":
+          description: The levels.
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: "#/components/schemas/LevelSummary" }
+        "500":
+          $ref: "#/components/responses/InternalError"
 
   /api/lessons:
     get:
@@ -415,6 +434,23 @@ components:
       type: string
       format: uuid
       description: Stable, opaque UUID.
+
+    LevelSummary:
+      type: object
+      required: [level, sections]
+      properties:
+        level: { $ref: "#/components/schemas/Level" }
+        sections:
+          type: array
+          items: { $ref: "#/components/schemas/SectionSummary" }
+    SectionSummary:
+      type: object
+      required: [section, weeks, lessons, items]
+      properties:
+        section: { $ref: "#/components/schemas/Section" }
+        weeks: { type: integer, minimum: 1 }
+        lessons: { type: integer, minimum: 1 }
+        items: { type: integer, minimum: 0, description: "Kanji, vocabulary items, or grammar points." }
 
     Lesson:
       type: object
