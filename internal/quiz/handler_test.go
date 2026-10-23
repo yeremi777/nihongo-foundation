@@ -83,10 +83,15 @@ var items = Items{
 
 func post(t *testing.T, h Handler, body string) *httptest.ResponseRecorder {
 	t.Helper()
+	return postTo(t, h, "/api/quizzes", body)
+}
+
+func postTo(t *testing.T, h Handler, path, body string) *httptest.ResponseRecorder {
+	t.Helper()
 	mux := http.NewServeMux()
 	h.Register(mux)
 	rec := httptest.NewRecorder()
-	mux.ServeHTTP(rec, httptest.NewRequest(http.MethodPost, "/api/quizzes", strings.NewReader(body)))
+	mux.ServeHTTP(rec, httptest.NewRequest(http.MethodPost, path, strings.NewReader(body)))
 	return rec
 }
 

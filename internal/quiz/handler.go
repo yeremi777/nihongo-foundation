@@ -58,9 +58,10 @@ func NewHandler(items store, generator Generator, timeout time.Duration) Handler
 	return Handler{items: items, generator: generator, timeout: timeout}
 }
 
-// Register adds the quiz route to mux.
+// Register adds the quiz routes to mux.
 func (h Handler) Register(mux httpx.Mux) {
 	mux.HandleFunc("POST /api/quizzes", h.create)
+	mux.HandleFunc("POST /api/quizzes/dataset", h.createFromDataset)
 }
 
 type request struct {
@@ -77,44 +78,12 @@ func (h Handler) create(w http.ResponseWriter, r *http.Request) {
 		httpx.WriteError(w, http.StatusServiceUnavailable, "quiz_unavailable", "Quiz provider is not configured.")
 		return
 	}
-	req, ok := decodeRequest(w, r)
+	req, types, count, ok := parseRequest(w, r, typesOf)
 	if !ok {
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_body", "Body must be a JSON object with known keys.")
 		return
 	}
-	types, known := typesOf[req.Section]
-	switch {
-	case !slices.Contains(levels, req.Level):
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_level", "Level must be n5, n4, n3, n2, or n1.")
-		return
-	case !known:
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_section", "Section must be kanji, vocabulary, or grammar.")
-		return
-	case req.Lang != LangEN && req.Lang != LangID:
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_lang", "Lang must be en or id.")
-		return
-	case slices.ContainsFunc(req.Types, func(t Type) bool { return !slices.Contains(types, t) }):
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_type", "Every type must be a question type of the section.")
-		return
-	case req.Count != nil && (*req.Count < 1 || *req.Count > maxCount):
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_count", "Count must be 1 to 10.")
-		return
-	}
-	if len(req.Types) > 0 {
-		types = req.Types
-	}
-	count := defaultCount
-	if req.Count != nil {
-		count = *req.Count
-	}
-
-	items, err := h.items.Items(r.Context(), Scope{Level: req.Level, Section: req.Section, LessonIDs: req.LessonIDs})
-	switch {
-	case errors.Is(err, ErrInvalidLesson):
-		httpx.WriteError(w, http.StatusBadRequest, "invalid_lesson", "Every lesson must be a lesson of the level and section.")
-		return
-	case err != nil:
-		httpx.InternalError(w, "quiz scope", err)
+	items, ok := h.scope(w, r, req)
+	if !ok {
 		return
 	}
 	chosen := sample(targets(req.Lang, items, types), count)
@@ -124,7 +93,7 @@ func (h Handler) create(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// The server's write timeout is shorter than a provider call.
-	err = http.NewResponseController(w).SetWriteDeadline(time.Now().Add(h.timeout + writeMargin))
+	err := http.NewResponseController(w).SetWriteDeadline(time.Now().Add(h.timeout + writeMargin))
 	if err != nil && !errors.Is(err, http.ErrNotSupported) {
 		httpx.InternalError(w, "quiz write deadline", err)
 		return
@@ -149,6 +118,77 @@ func (h Handler) create(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	httpx.WriteJSON(w, http.StatusOK, quiz)
+}
+
+func (h Handler) createFromDataset(w http.ResponseWriter, r *http.Request) {
+	req, types, count, ok := parseRequest(w, r, datasetTypesOf)
+	if !ok {
+		return
+	}
+	items, ok := h.scope(w, r, req)
+	if !ok {
+		return
+	}
+	chosen := sample(datasetTargets(req.Lang, items, types), count)
+	if len(chosen) == 0 {
+		httpx.WriteError(w, http.StatusNotFound, "items_not_found", "No item matches the request.")
+		return
+	}
+	pool := items
+	if len(req.LessonIDs) > 0 {
+		var err error
+		if pool, err = h.items.Items(r.Context(), Scope{Level: req.Level, Section: req.Section}); err != nil {
+			httpx.InternalError(w, "quiz pool", err)
+			return
+		}
+	}
+	httpx.WriteJSON(w, http.StatusOK, assemble(chosen, datasetDrafts(req.Section, pool, req.Lang, chosen)))
+}
+
+// parseRequest reads and validates the body, answering the first failure.
+func parseRequest(w http.ResponseWriter, r *http.Request, allowed map[dataset.Section][]Type) (req request, types []Type, count int, ok bool) {
+	req, ok = decodeRequest(w, r)
+	if !ok {
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_body", "Body must be a JSON object with known keys.")
+		return request{}, nil, 0, false
+	}
+	types, known := allowed[req.Section]
+	switch {
+	case !slices.Contains(levels, req.Level):
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_level", "Level must be n5, n4, n3, n2, or n1.")
+	case !known:
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_section", "Section must be kanji, vocabulary, or grammar.")
+	case req.Lang != LangEN && req.Lang != LangID:
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_lang", "Lang must be en or id.")
+	case slices.ContainsFunc(req.Types, func(t Type) bool { return !slices.Contains(types, t) }):
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_type", "Every type must be a question type of the section.")
+	case req.Count != nil && (*req.Count < 1 || *req.Count > maxCount):
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_count", "Count must be 1 to 10.")
+	default:
+		if len(req.Types) > 0 {
+			types = req.Types
+		}
+		count = defaultCount
+		if req.Count != nil {
+			count = *req.Count
+		}
+		return req, types, count, true
+	}
+	return request{}, nil, 0, false
+}
+
+// scope reads the items of the request's lessons.
+func (h Handler) scope(w http.ResponseWriter, r *http.Request, req request) (Items, bool) {
+	items, err := h.items.Items(r.Context(), Scope{Level: req.Level, Section: req.Section, LessonIDs: req.LessonIDs})
+	switch {
+	case errors.Is(err, ErrInvalidLesson):
+		httpx.WriteError(w, http.StatusBadRequest, "invalid_lesson", "Every lesson must be a lesson of the level and section.")
+	case err != nil:
+		httpx.InternalError(w, "quiz scope", err)
+	default:
+		return items, true
+	}
+	return Items{}, false
 }
 
 // decodeRequest reads the body as exactly one JSON object with known keys.
