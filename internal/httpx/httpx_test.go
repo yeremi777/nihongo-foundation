@@ -83,6 +83,11 @@ func TestDocs(t *testing.T) {
 			!strings.Contains(page.Body.String(), "url: '/docs/openapi.yaml'") {
 			t.Errorf("%s: got %d %q, want the docs page", target, page.Code, page.Header().Get("Content-Type"))
 		}
+		for _, size := range []string{"32x32", "16x16"} {
+			if !strings.Contains(page.Body.String(), `rel="icon" type="image/png" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/favicon-`+size+`.png" sizes="`+size+`"`) {
+				t.Errorf("%s: the page has no %s favicon link", target, size)
+			}
+		}
 	}
 
 	spec := serve(h, http.MethodGet, "/docs/openapi.yaml")
