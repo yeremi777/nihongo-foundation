@@ -73,15 +73,22 @@ The per-level table of contents that the source lists are checked against.
 ### Practice
 
 **Quiz**:
-A set of AI-generated **Questions** built from items, never stored.
+A set of **Questions** built from items, never stored; it is an **AI quiz** or a **Dataset quiz**.
 _Avoid_: analyzer
+
+**AI quiz**:
+A **Quiz** whose **Questions** an AI provider writes, each checked against its item.
+
+**Dataset quiz**:
+A **Quiz** whose **Questions** the server builds from items alone, with the distractors taken from other items of the same **Level** and **Section**.
+_Avoid_: offline quiz, static quiz
 
 **Question**:
 One multiple-choice prompt about one item, asked as one **Question type**, with four choices and an explanation.
 _Avoid_: quiz item
 
 **Question type**:
-What a **Question** asks of its item: its meaning, its reading, or its use in a sentence.
+What a **Question** asks of its item: its meaning, its reading, or its use in a sentence; a **Dataset quiz** never asks the last.
 
 ## Relationships
 
@@ -111,4 +118,5 @@ What a **Question** asks of its item: its meaning, its reading, or its use in a 
 - "Item ID" in the source lists is the **Code**. Resolved: **Code** is the term; the database also gives each item a UUID, which is not a domain term.
 - The TOC letter `B` means Soumatome with Minna no Nihongo in N5 and N4, but Soumatome with Shinkanzen in N3. Resolved: a **Source** is always a named textbook, never a letter.
 - "sub-item" was used for `g101-a`. Resolved: `g101-a` is a **Grammar point** in its own right; `g101` is its **Curriculum code**.
+- "source" was used for where a **Quiz** comes from. Resolved: **Source** is a textbook only; a quiz is an **AI quiz** or a **Dataset quiz**.
 - "AI analyzer" was used for the feature that generates practice from the dataset. Resolved: it is the **Quiz**; nothing in this project analyzes a learner's answers.

@@ -1,5 +1,4 @@
-// Package quiz builds quizzes: AI-written questions, each anchored to one
-// dataset item and checked against it.
+// Package quiz builds AI and dataset quizzes from dataset items.
 package quiz
 
 import (
@@ -89,8 +88,7 @@ func targets(lang Lang, items Items, types []Type) []Target {
 		}
 	}
 	for _, k := range items.Kanji {
-		facts := Facts{Level: k.Level, Character: k.Character, Onyomi: k.Onyomi, Kunyomi: k.Kunyomi, Examples: k.Examples,
-			Meaning: meaning(lang, k.MeaningEN, k.MeaningID)}
+		facts := kanjiFacts(lang, k)
 		add(Target{Code: k.Code, Type: TypeMeaning, Facts: facts, Prompt: k.Character, Answer: facts.Meaning})
 		if len(k.Examples) > 0 {
 			add(Target{Code: k.Code, Type: TypeReading, Facts: facts, Examples: k.Examples, Kana: true})
@@ -112,6 +110,30 @@ func targets(lang Lang, items Items, types []Type) []Target {
 			Example: deref(g.Example), Difficulty: string(g.Difficulty), Meaning: meaning(lang, g.MeaningEN, g.MeaningID)}
 		add(Target{Code: g.Code, Type: TypeMeaning, Facts: facts, Prompt: g.Pattern, Answer: facts.Meaning})
 		add(Target{Code: g.Code, Type: TypeUsage, Facts: facts, Blank: true})
+	}
+	return out
+}
+
+// kanjiFacts returns the facts of a kanji in lang.
+func kanjiFacts(lang Lang, k dataset.Kanji) Facts {
+	return Facts{Level: k.Level, Character: k.Character, Onyomi: k.Onyomi, Kunyomi: k.Kunyomi, Examples: k.Examples,
+		Meaning: meaning(lang, k.MeaningEN, k.MeaningID)}
+}
+
+// datasetTargets pairs items with the meaning and reading types.
+func datasetTargets(lang Lang, items Items, types []Type) []Target {
+	asked := slices.DeleteFunc(slices.Clone(types), func(t Type) bool { return t == TypeUsage })
+	out := slices.DeleteFunc(targets(lang, items, asked), func(t Target) bool {
+		return t.Type == TypeReading && t.Facts.Character != ""
+	})
+	if !slices.Contains(asked, TypeReading) {
+		return out
+	}
+	for _, k := range items.Kanji {
+		if readings := slices.Concat(k.Onyomi, k.Kunyomi); len(readings) > 0 {
+			out = append(out, Target{Code: k.Code, Type: TypeReading, Facts: kanjiFacts(lang, k), Prompt: k.Character,
+				Answer: readings[rand.IntN(len(readings))], Kana: true})
+		}
 	}
 	return out
 }

@@ -6,10 +6,12 @@ The service converts curated kanji, vocabulary, and grammar source lists into a 
 
 ## Features
 
+- Level list API (`/api/levels`) with the weeks, lessons, and items of each section
 - Lesson list API with level and section filters
 - Lesson detail API with its kanji, vocabulary, or grammar points, plus comparison notes, mistake cards, and expressions for grammar lessons
 - Item search (`/api/kanji`, `/api/vocabulary`, `/api/grammar`) with level, week, source, and difficulty filters, a kana-folded `q`, and pages; lookup by level and code
 - AI quizzes (`POST /api/quizzes`): meaning, reading, and usage questions in English or Indonesian, each checked against its item and dropped when it fails a rule
+- Dataset quizzes (`POST /api/quizzes/dataset`): meaning and reading questions built from the item rows, with distractors from other items of the level and section; no AI provider needed
 - AI providers in a fall-through chain (OpenRouter, OpenCode Zen), or an offline `mock`
 - Conversion (`make convert`) of the source lists into the committed JSON dataset, checked against each level's curriculum TOC
 - Seeding (`make seed`) that makes the tables match `data/` exactly, with deterministic UUIDv5 ids
@@ -63,12 +65,13 @@ To use a real model, set `AI_PROVIDERS` to `openrouter`, `opencode_zen`, or both
 ## Project Layout
 
 ```
-cmd/api              REST API binary: lessons, quizzes, and the docs page
+cmd/api              REST API binary: levels, lessons, items, quizzes, and the docs page
 cmd/convert          converter binary: data/source/ -> data/<level>/*.json
 cmd/seed             seeder binary: data/<level>/*.json -> Postgres
+internal/level       levels with the size of their sections
 internal/lesson      lessons and their items: repository, handlers
 internal/item        items of each section: search, lookup by level and code
-internal/quiz        AI quizzes: targets, rules, providers and the fall-through chain, handler
+internal/quiz        quizzes: targets, rules, dataset distractors, AI providers and the fall-through chain, handler
 internal/dataset     parses the source lists and builds the dataset
 internal/seed        loads the dataset and writes it to the tables
 internal/database    Postgres connections and goose migrations
