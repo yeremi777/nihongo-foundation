@@ -4,7 +4,7 @@ A model's question can be wrong, and the learner cannot tell. Every **Question**
 
 ## Considered options
 
-- **Repair, as jlpt-foundation did.** Rejected: about 1,100 lines for kanji alone rebuilt choices, swapped in dataset distractors, and fell back to hardcoded kana, so a broken model answer reached the learner looking like a good one.
+- **Repair of broken model output.** Rejected: it takes about 1,100 lines for kanji alone to rebuild choices, swap in dataset distractors, and fall back to hardcoded kana, so a broken model answer reaches the learner looking like a good one.
 - **The model writes every field and the server compares the answer to the row.** Rejected: a reworded meaning such as "ahead, before" for "previous, ahead, before" fails the comparison, so correct questions are dropped for wording the server already holds.
 - **The model writes every field and only its shape is checked.** Rejected: a wrong answer passes unnoticed.
 

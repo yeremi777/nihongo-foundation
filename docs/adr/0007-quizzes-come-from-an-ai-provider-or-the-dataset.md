@@ -6,7 +6,7 @@ A quiz is written by an AI provider at `POST /api/quizzes`, or built from the da
 
 - **A `source` field on `POST /api/quizzes`.** Rejected: the 503 check runs before the body is read, and one error table would cover two different failure sets.
 - **Fall back to a dataset quiz when the AI providers fail.** Rejected: a client could not tell which quiz it got, and the failure would be hidden.
-- **Meaning questions only, as in jlpt-foundation.** Rejected: reading is held in the row for vocabulary and kanji, so it can be asked and checked exactly.
+- **Meaning questions only.** Rejected: reading is held in the row for vocabulary and kanji, so it can be asked and checked exactly.
 
 ## Consequences
 
