@@ -86,6 +86,8 @@ const docsPage = `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui.css">
 <title>Nihongo Foundation - Swagger UI</title>
+<link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/favicon-16x16.png" sizes="16x16">
 <style>
 #swagger-ui .topbar .download-url-wrapper { display: none; }
 #swagger-ui .topbar .dark-mode-toggle { margin-left: auto; }
