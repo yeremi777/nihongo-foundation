@@ -9,6 +9,7 @@ import (
 	"github.com/jackc/pgx/v5"
 
 	"github.com/yeremi777/nihongo-foundation/internal/database"
+	"github.com/yeremi777/nihongo-foundation/internal/dataset"
 )
 
 // katakana and hiragana pair each katakana letter, ァ to ヶ, with its
@@ -101,4 +102,29 @@ func (r repository[T]) Get(ctx context.Context, level, code string) (T, error) {
 		return item, ErrNotFound
 	}
 	return item, err
+}
+
+// kanjiRepository reads the kanji rows of a kanji coverage.
+type kanjiRepository struct{ db database.Querier }
+
+// Kanji returns every level holding kanji, from n5, and the rows holding
+// characters, by level from n5 and then code; both are read in one snapshot.
+func (r kanjiRepository) Kanji(ctx context.Context, characters []string) (withKanji []string, rows []dataset.Kanji, err error) {
+	snapshot := pgx.TxOptions{IsoLevel: pgx.RepeatableRead, AccessMode: pgx.ReadOnly}
+	err = pgx.BeginTxFunc(ctx, r.db, snapshot, func(tx pgx.Tx) error {
+		found, err := tx.Query(ctx, "SELECT level FROM kanji GROUP BY level ORDER BY array_position($1::text[], level)", levels)
+		if err != nil {
+			return err
+		}
+		if withKanji, err = pgx.CollectRows(found, pgx.RowTo[string]); err != nil {
+			return err
+		}
+		found, err = tx.Query(ctx, "SELECT "+dataset.KanjiColumns+" FROM kanji WHERE character = ANY($2) ORDER BY array_position($1::text[], level), code", levels, characters)
+		if err != nil {
+			return err
+		}
+		rows, err = pgx.CollectRows(found, pgx.RowToStructByName[dataset.Kanji])
+		return err
+	})
+	return withKanji, rows, err
 }

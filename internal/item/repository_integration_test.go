@@ -302,3 +302,30 @@ func BenchmarkSearch(b *testing.B) {
 		})
 	}
 }
+
+func TestKanjiReturnsTheRowsHoldingTheCharactersFromN5AndTheLevelsWithKanji(t *testing.T) {
+	characters := []string{"全", "大", "先", "降", "鬱"}
+	wantRows := []dataset.Kanji{}
+	for _, k := range every(func(ds dataset.Dataset) []dataset.Kanji { return ds.Kanji }) {
+		if slices.Contains(characters, k.Character) {
+			wantRows = append(wantRows, k)
+		}
+	}
+	slices.SortStableFunc(wantRows, func(a, b dataset.Kanji) int {
+		return cmp.Or(cmp.Compare(slices.Index(levels, a.Level), slices.Index(levels, b.Level)), cmp.Compare(a.Code, b.Code))
+	})
+	gotLevels, gotRows, err := kanjiRepository{testConn}.Kanji(context.Background(), characters)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if want := []string{"n5", "n4", "n3"}; !slices.Equal(gotLevels, want) {
+		t.Errorf("levels = %v, want %v", gotLevels, want)
+	}
+	if !reflect.DeepEqual(gotRows, wantRows) {
+		t.Errorf("rows = %v\nwant %v", codes(gotRows, func(k dataset.Kanji) string { return k.Level + " " + k.Character }),
+			codes(wantRows, func(k dataset.Kanji) string { return k.Level + " " + k.Character }))
+	}
+	if len(wantRows) < 6 {
+		t.Errorf("want rows = %d; 全 and 大 must each be held by two levels", len(wantRows))
+	}
+}

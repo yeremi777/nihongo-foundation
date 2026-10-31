@@ -10,6 +10,7 @@ The service converts curated kanji, vocabulary, and grammar source lists into a 
 - Lesson list API with level and section filters
 - Lesson detail API with its kanji, vocabulary, or grammar points, plus comparison notes, mistake cards, and expressions for grammar lessons
 - Item search (`/api/kanji`, `/api/vocabulary`, `/api/grammar`) with level, week, source, and difficulty filters, a kana-folded `q`, and pages; lookup by level and code
+- Kanji coverage (`POST /api/kanji/coverage`): each kanji of a text with its item, and the share of the text's kanji known at each level
 - AI quizzes (`POST /api/quizzes`): meaning, reading, and usage questions in English or Indonesian, each checked against its item and dropped when it fails a rule
 - Dataset quizzes (`POST /api/quizzes/dataset`): meaning and reading questions built from the item rows, with distractors from other items of the level and section; no AI provider needed
 - AI providers in a fall-through chain (OpenRouter, OpenCode Zen), or an offline `mock`

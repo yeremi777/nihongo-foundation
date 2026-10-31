@@ -2,13 +2,16 @@ package item
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
+	"io"
 	"math"
 	"net/http"
 	"net/url"
 	"slices"
 	"strconv"
 	"strings"
+	"unicode"
 	"unicode/utf8"
 
 	"github.com/yeremi777/nihongo-foundation/internal/database"
@@ -21,6 +24,9 @@ const (
 	maxSize     = 100
 	maxText     = 100
 
+	maxBodyBytes    = 64 << 10
+	maxCoverageText = 10000
+
 	invalidLevel = "Level must be n5, n4, n3, n2, or n1."
 )
 
@@ -29,11 +35,13 @@ type store[T any] interface {
 	Get(ctx context.Context, level, code string) (T, error)
 }
 
-// Register adds the search and lookup routes of every section to mux.
+// Register adds the search and lookup routes of every section, and the kanji
+// coverage route, to mux.
 func Register(mux httpx.Mux, db database.Querier) {
 	route(mux, kanji, repository[dataset.Kanji]{db: db, section: kanji})
 	route(mux, vocabulary, repository[dataset.Vocabulary]{db: db, section: vocabulary})
 	route(mux, grammar, repository[dataset.Grammar]{db: db, section: grammar})
+	routeCoverage(mux, kanjiRepository{db: db})
 }
 
 // route adds the search and lookup routes of one section to mux.
@@ -73,6 +81,103 @@ func route[T any](mux httpx.Mux, s section[T], items store[T]) {
 			httpx.WriteJSON(w, http.StatusOK, item)
 		}
 	})
+}
+
+type kanjiStore interface {
+	Kanji(ctx context.Context, characters []string) (levels []string, rows []dataset.Kanji, err error)
+}
+
+// routeCoverage adds the kanji coverage route to mux.
+func routeCoverage(mux httpx.Mux, store kanjiStore) {
+	mux.HandleFunc("POST /api/kanji/coverage", func(w http.ResponseWriter, r *http.Request) {
+		text, ok := decodeText(w, r)
+		if !ok {
+			httpx.WriteError(w, http.StatusBadRequest, "invalid_body", "Body must be a JSON object with known keys.")
+			return
+		}
+		text = strings.TrimSpace(text)
+		if n := utf8.RuneCountInString(text); n == 0 || n > maxCoverageText {
+			httpx.WriteError(w, http.StatusBadRequest, "invalid_text", "Text must be 1 to 10000 characters.")
+			return
+		}
+		kanji := textKanji(text)
+		characters := make([]string, len(kanji))
+		for i, k := range kanji {
+			characters[i] = k.Character
+		}
+		levels, rows, err := store.Kanji(r.Context(), characters)
+		if err != nil {
+			httpx.InternalError(w, "kanji coverage", err)
+			return
+		}
+		httpx.WriteJSON(w, http.StatusOK, coverageOf(kanji, levels, rows))
+	})
+}
+
+// decodeText reads the body as exactly one JSON object holding only text.
+func decodeText(w http.ResponseWriter, r *http.Request) (string, bool) {
+	dec := json.NewDecoder(http.MaxBytesReader(w, r.Body, maxBodyBytes))
+	dec.DisallowUnknownFields()
+	var req *struct {
+		Text string `json:"text"`
+	}
+	if err := dec.Decode(&req); err != nil || req == nil {
+		return "", false
+	}
+	if err := dec.Decode(&struct{}{}); !errors.Is(err, io.EOF) {
+		return "", false
+	}
+	return req.Text, true
+}
+
+// textKanji returns the distinct kanji of text with their counts, in order of
+// first appearance; 々 and 〇 are not counted.
+func textKanji(text string) []TextKanji {
+	kanji := []TextKanji{}
+	index := map[rune]int{}
+	for _, r := range text {
+		if !unicode.Is(unicode.Han, r) || !unicode.Is(unicode.Lo, r) {
+			continue
+		}
+		i, seen := index[r]
+		if !seen {
+			i = len(kanji)
+			index[r] = i
+			kanji = append(kanji, TextKanji{Character: string(r)})
+		}
+		kanji[i].Count++
+	}
+	return kanji
+}
+
+// coverageOf gives each kanji the row of the lowest level holding it, and
+// counts the occurrences known at each level or below it. rows and levels are
+// from n5.
+func coverageOf(kanji []TextKanji, levels []string, rows []dataset.Kanji) Coverage {
+	held := map[string]dataset.Kanji{}
+	for _, k := range rows {
+		if _, ok := held[k.Character]; !ok {
+			held[k.Character] = k
+		}
+	}
+	c := Coverage{Kanji: kanji, Levels: make([]LevelCoverage, len(levels))}
+	knownAt := make([]int, len(levels))
+	for i, k := range kanji {
+		c.Total += k.Count
+		if row, ok := held[k.Character]; ok {
+			kanji[i].Item = &row
+			knownAt[slices.Index(levels, row.Level)] += k.Count
+		}
+	}
+	known := 0
+	for i, level := range levels {
+		known += knownAt[i]
+		c.Levels[i] = LevelCoverage{Level: level, Known: known, KnownPercent: 100}
+		if c.Total > 0 {
+			c.Levels[i].KnownPercent = known * 100 / c.Total
+		}
+	}
+	return c
 }
 
 // parseQuery reads a search from v, or the code and message of its first
