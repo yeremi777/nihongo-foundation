@@ -38,6 +38,29 @@ type Page[T any] struct {
 	Total int `json:"total"`
 }
 
+// TextKanji is one distinct kanji of a text, with its item; Item is nil when
+// no level holds it.
+type TextKanji struct {
+	Character string         `json:"character"`
+	Count     int            `json:"count"`
+	Item      *dataset.Kanji `json:"item"`
+}
+
+// LevelCoverage counts the occurrences of kanji in a text known at a level or
+// below it.
+type LevelCoverage struct {
+	Level        string `json:"level"`
+	Known        int    `json:"known"`
+	KnownPercent int    `json:"known_percent"`
+}
+
+// Coverage is the kanji coverage of a text.
+type Coverage struct {
+	Total  int             `json:"total"`
+	Levels []LevelCoverage `json:"levels"`
+	Kanji  []TextKanji     `json:"kanji"`
+}
+
 // section describes one item table: its row columns, the text and text[]
 // columns a search matches, and whether it is filtered by difficulty.
 type section[T any] struct {

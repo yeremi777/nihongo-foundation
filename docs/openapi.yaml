@@ -15,7 +15,7 @@ tags:
   - name: lessons
     description: Lessons with their kanji, vocabulary, and grammar.
   - name: kanji
-    description: Kanji, searched or looked up by level and code.
+    description: Kanji, searched, looked up by level and code, or found in a text.
   - name: vocabulary
     description: Vocabulary, searched or looked up by level and code.
   - name: grammar
@@ -178,6 +178,33 @@ paths:
               schema: { $ref: "#/components/schemas/Error" }
         "404":
           description: "`item_not_found`: no such code in the level."
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "500":
+          $ref: "#/components/responses/InternalError"
+
+  /api/kanji/coverage:
+    post:
+      tags: [kanji]
+      summary: Measure kanji coverage
+      description: Kanji of the text are matched to their items, and the share known at each level is given.
+      operationId: measureKanjiCoverage
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/KanjiCoverageRequest" }
+            examples:
+              sentence: { value: { text: 昨日、友だちと駅の近くで晩ごはんを食べました。 } }
+      responses:
+        "200":
+          description: The coverage.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/KanjiCoverage" }
+        "400":
+          description: "`invalid_body` or `invalid_text`; the first that applies."
           content:
             application/json:
               schema: { $ref: "#/components/schemas/Error" }
@@ -685,6 +712,46 @@ components:
               type: array
               items: { $ref: "#/components/schemas/GrammarPoint" }
 
+    KanjiCoverageRequest:
+      type: object
+      required: [text]
+      additionalProperties: false
+      properties:
+        text: { type: string, minLength: 1, maxLength: 10000, description: Length in characters, after surrounding whitespace is trimmed. }
+
+    KanjiCoverage:
+      type: object
+      required: [total, levels, kanji]
+      properties:
+        total: { type: integer, minimum: 0, description: Occurrences of kanji in the text. }
+        levels:
+          type: array
+          description: Every level holding kanji, from n5.
+          items: { $ref: "#/components/schemas/LevelCoverage" }
+        kanji:
+          type: array
+          description: Distinct kanji, in order of first appearance.
+          items: { $ref: "#/components/schemas/TextKanji" }
+    TextKanji:
+      type: object
+      required: [character, count, item]
+      properties:
+        character: { type: string, minLength: 1, maxLength: 1, examples: [日] }
+        count: { type: integer, minimum: 1, description: Occurrences in the text. }
+        item:
+          description: The kanji of the lowest level holding it; null when no level holds it.
+          oneOf:
+            - $ref: "#/components/schemas/Kanji"
+            - type: "null"
+    LevelCoverage:
+      type: object
+      description: Kanji studied by a learner who finished this level and every level below it.
+      required: [level, known, known_percent]
+      properties:
+        level: { $ref: "#/components/schemas/Level" }
+        known: { type: integer, minimum: 0, description: Occurrences of those kanji in the text. }
+        known_percent: { type: integer, minimum: 0, maximum: 100, description: "`known` as a share of `total`, rounded down; 100 when `total` is 0." }
+
     QuestionType:
       type: string
       description: "Per section: kanji `meaning`, `reading`; vocabulary `meaning`, `reading`, `usage`; grammar `meaning`, `usage`."
@@ -777,6 +844,7 @@ components:
                 - invalid_query
                 - invalid_page
                 - invalid_size
+                - invalid_text
                 - lesson_not_found
                 - item_not_found
                 - items_not_found

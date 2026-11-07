@@ -90,6 +90,12 @@ _Avoid_: quiz item
 **Question type**:
 What a **Question** asks of its item: its meaning, its reading, or its use in a sentence; a **Dataset quiz** never asks the last.
 
+### Texts
+
+**Kanji coverage**:
+The share of the kanji in a text that a learner who finished a **Level** has studied, counting the **Kanji** of that **Level** and every **Level** below it.
+_Avoid_: text coverage, readability
+
 ## Relationships
 
 - A **Level** has one or more **Weeks** in each **Section**; a **Week** has one or more **Lessons**
@@ -103,6 +109,7 @@ What a **Question** asks of its item: its meaning, its reading, or its use in a 
 - A **Source list** defines the items; the **Curriculum TOC** only checks them and fills what the list lacks
 - A **Quiz** draws on items of one **Level** and **Section**
 - A **Quiz** has one or more **Questions**; each **Question** is about exactly one item, and no two **Questions** in a **Quiz** share both item and **Question type**
+- A **Kanji coverage** counts every occurrence of a kanji in the text; a kanji that no **Level** holds is never covered, and one that several **Levels** hold counts from the lowest
 
 ## Example dialogue
 
@@ -120,3 +127,4 @@ What a **Question** asks of its item: its meaning, its reading, or its use in a 
 - "sub-item" was used for `g101-a`. Resolved: `g101-a` is a **Grammar point** in its own right; `g101` is its **Curriculum code**.
 - "source" was used for where a **Quiz** comes from. Resolved: **Source** is a textbook only; a quiz is an **AI quiz** or a **Dataset quiz**.
 - "AI analyzer" was used for the feature that generates practice from the dataset. Resolved: it is the **Quiz**; nothing in this project analyzes a learner's answers.
+- "text coverage" suggested the words of a text too. Resolved: only kanji are counted, so the term is **Kanji coverage**; the **Vocabulary items** are the course's words, not every word a text can hold.
